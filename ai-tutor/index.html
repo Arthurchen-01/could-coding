@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tutor — AP Practice Website</title>
+  <link rel="stylesheet" href="css/ai-tutor.css">
+</head>
+<body>
+
+<!-- Top Nav -->
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="../exam/index.html" class="brand">
+      <span class="brand-mark">AP</span>
+      <span class="brand-title">Practice Website</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../exam/index.html">Home</a>
+      <a href="../exam/index.html">Mock Exam</a>
+      <a href="../training/index.html">Targeted Practice</a>
+      <a href="../dashboard/index.html">Dashboard</a>
+      <a class="active" href="#">AI Tutor</a>
+    </nav>
+    <div class="user-avatar">
+      <span class="avatar-text">OC</span>
+    </div>
+  </div>
+</header>
+
+<!-- Tutor Page -->
+<main class="tutor-page">
+  
+  <!-- Mode Selection Panel -->
+  <section class="mode-panel" id="mode-panel">
+    <div class="mode-header">
+      <h1>🤖 AI Tutor Companion</h1>
+      <p class="mode-subtitle">选择你的复习节奏，让导师带你深入理解</p>
+    </div>
+
+    <div class="mode-grid">
+      <button class="mode-card" data-mode="speed">
+        <div class="mode-icon">⚡</div>
+        <div class="mode-label">极速回忆</div>
+        <div class="mode-time">10/20 分钟</div>
+        <div class="mode-desc">快问快答，超时自动给答案</div>
+      </button>
+
+      <button class="mode-card" data-mode="steady">
+        <div class="mode-icon">🧩</div>
+        <div class="mode-label">稳扎稳打</div>
+        <div class="mode-time">30 分钟</div>
+        <div class="mode-desc">覆盖核心考点，必须回答导师预设问题</div>
+      </button>
+
+      <button class="mode-card" data-mode="socratic">
+        <div class="mode-icon">🌌</div>
+        <div class="mode-label">无死角苏格拉底</div>
+        <div class="mode-time">不限时</div>
+        <div class="mode-desc">打破砂锅问到底，不讲透底层逻辑绝不放行</div>
+      </button>
+    </div>
+
+    <div class="mode-footer">
+      <button class="start-tutor-btn" id="start-tutor-btn" disabled>
+        选择模式后开始对话 →
+      </button>
+    </div>
+  </section>
+
+  <!-- Chat Interface -->
+  <section class="chat-interface" id="chat-interface" style="display:none;">
+    
+    <!-- Tutor Header -->
+    <div class="tutor-header">
+      <div class="tutor-avatar">
+        <div class="tutor-face">👩‍🏫</div>
+        <div class="tutor-emotion" id="tutor-emotion">😐 中立</div>
+      </div>
+      <div class="tutor-info">
+        <div class="tutor-name" id="tutor-name">明日香</div>
+        <div class="tutor-role">你的 AP 微积分导师</div>
+      </div>
+      <div class="deep-logic-score">
+        <div class="score-label">理解深度分</div>
+        <div class="score-value" id="deep-logic-score">0</div>
+        <div class="score-bar">
+          <div class="score-fill" id="score-fill" style="width: 0%"></div>
+        </div>
+      </div>
+      <button class="mode-switch-btn" id="mode-switch-btn">🔄 换模式</button>
+    </div>
+
+    <!-- Chat History -->
+    <div class="chat-history" id="chat-history">
+      <!-- Messages rendered by JS -->
+    </div>
+
+    <!-- Input Panel -->
+    <div class="input-panel">
+      <button class="input-btn" id="voice-btn" title="语音输入">
+        🎤
+      </button>
+      <input type="text" class="chat-input" id="chat-input" placeholder="输入你的回答...">
+      <button class="input-btn" id="image-btn" title="传图解答">
+        🖼️
+      </button>
+      <button class="send-btn" id="send-btn">
+        发送 →
+      </button>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- Mode Switch Modal -->
+<div class="modal-overlay" id="mode-switch-modal" style="display:none;">
+  <div class="modal">
+    <h2>切换复习模式</h2>
+    <div class="mode-mini-grid">
+      <button class="mode-mini-card" data-mode="speed">
+        <span class="mode-mini-icon">⚡</span>
+        <span>极速回忆</span>
+      </button>
+      <button class="mode-mini-card" data-mode="steady">
+        <span class="mode-mini-icon">🧩</span>
+        <span>稳扎稳打</span>
+      </button>
+      <button class="mode-mini-card" data-mode="socratic">
+        <span class="mode-mini-icon">🌌</span>
+        <span>苏格拉底</span>
+      </button>
+    </div>
+    <button class="modal-close" id="modal-close">取消</button>
+  </div>
+</div>
+
+<script src="js/ai-tutor.js"></script>
+</body>
+</html>
