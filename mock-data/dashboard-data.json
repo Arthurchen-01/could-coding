@@ -1,0 +1,177 @@
+{
+  "user": {
+    "name": "Arthur Chen",
+    "avatar": "OC",
+    "goal": "AP 2026 - 8门5分",
+    "bio": "自学 AP 考生"
+  },
+  "exams": [
+    {
+      "id": "calc-bc",
+      "name": "Calculus BC",
+      "examDate": "2026-05-06",
+      "predictedScore": 5,
+      "fiveProbability": 87,
+      "mcqScore": 43,
+      "mcqTotal": 45,
+      "frqScore": 54,
+      "frqTotal": 54,
+      "units": [
+        { "id": 1, "name": "Limits and Continuity", "mastery": 100, "crown": true },
+        { "id": 2, "name": "Differentiation", "mastery": 95, "crown": true },
+        { "id": 3, "name": "Applications of Differentiation", "mastery": 80, "crown": false },
+        { "id": 4, "name": "Integration", "mastery": 90, "crown": true },
+        { "id": 5, "name": "Applications of Integration", "mastery": 70, "crown": false },
+        { "id": 6, "name": "Differential Equations", "mastery": 65, "crown": false },
+        { "id": 7, "name": "Infinite Series", "mastery": 50, "crown": false },
+        { "id": 8, "name": "Parametric & Polar", "mastery": 40, "crown": false },
+        { "id": 9, "name": "Sequences & Series", "mastery": 30, "crown": false },
+        { "id": 10, "name": "Taylor Series", "mastery": 20, "crown": false }
+      ]
+    },
+    {
+      "id": "physics-c-mech",
+      "name": "Physics C Mechanics",
+      "examDate": "2026-05-12",
+      "predictedScore": 4,
+      "fiveProbability": 72,
+      "mcqScore": 28,
+      "mcqTotal": 35,
+      "frqScore": 30,
+      "frqTotal": 45,
+      "units": [
+        { "id": 1, "name": "Kinematics", "mastery": 90, "crown": true },
+        { "id": 2, "name": "Newton's Laws", "mastery": 85, "crown": true },
+        { "id": 3, "name": "Work & Energy", "mastery": 75, "crown": false },
+        { "id": 4, "name": "Linear Momentum", "mastery": 60, "crown": false },
+        { "id": 5, "name": "Circular Motion", "mastery": 55, "crown": false },
+        { "id": 6, "name": "Rotation", "mastery": 40, "crown": false },
+        { "id": 7, "name": "Oscillations & Gravity", "mastery": 30, "crown": false }
+      ]
+    },
+    {
+      "id": "physics-c-em",
+      "name": "Physics C E&M",
+      "examDate": "2026-05-12",
+      "predictedScore": 3,
+      "fiveProbability": 45,
+      "mcqScore": 20,
+      "mcqTotal": 35,
+      "frqScore": 22,
+      "frqTotal": 45,
+      "units": [
+        { "id": 1, "name": "Electric Fields", "mastery": 70, "crown": false },
+        { "id": 2, "name": "Electric Potential", "mastery": 55, "crown": false },
+        { "id": 3, "name": "Capacitance", "mastery": 40, "crown": false },
+        { "id": 4, "name": "Electric Circuits", "mastery": 30, "crown": false },
+        { "id": 5, "name": "Magnetic Fields", "mastery": 25, "crown": false },
+        { "id": 6, "name": "Induction", "mastery": 15, "crown": false },
+        { "id": 7, "name": "Maxwell's Equations", "mastery": 10, "crown": false }
+      ]
+    },
+    {
+      "id": "csa",
+      "name": "Computer Science A",
+      "examDate": "2026-05-05",
+      "predictedScore": 5,
+      "fiveProbability": 92,
+      "mcqScore": 38,
+      "mcqTotal": 40,
+      "frqScore": 27,
+      "frqTotal": 27,
+      "units": [
+        { "id": 1, "name": "Primitive Types", "mastery": 100, "crown": true },
+        { "id": 2, "name": "Using Objects", "mastery": 95, "crown": true },
+        { "id": 3, "name": "Control Flow", "mastery": 90, "crown": true },
+        { "id": 4, "name": "Iteration", "mastery": 85, "crown": false },
+        { "id": 5, "name": "Writing Classes", "mastery": 80, "crown": false },
+        { "id": 6, "name": "Arrays", "mastery": 75, "crown": false },
+        { "id": 7, "name": "ArrayList", "mastery": 70, "crown": false },
+        { "id": 8, "name": "2D Arrays", "mastery": 65, "crown": false },
+        { "id": 9, "name": "Inheritance", "mastery": 60, "crown": false },
+        { "id": 10, "name": "Recursion", "mastery": 55, "crown": false }
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "examDate": "2026-05-06",
+      "predictedScore": 4,
+      "fiveProbability": 68,
+      "mcqScore": 32,
+      "mcqTotal": 40,
+      "frqScore": 35,
+      "frqTotal": 50,
+      "units": [
+        { "id": 1, "name": "Exploring Data", "mastery": 80, "crown": false },
+        { "id": 2, "name": "Sampling & Experimentation", "mastery": 70, "crown": false },
+        { "id": 3, "name": "Probability", "mastery": 60, "crown": false },
+        { "id": 4, "name": "Statistical Inference", "mastery": 50, "crown": false },
+        { "id": 5, "name": "Regression", "mastery": 40, "crown": false },
+        { "id": 6, "name": "Confidence Intervals", "mastery": 35, "crown": false },
+        { "id": 7, "name": "Significance Tests", "mastery": 25, "crown": false },
+        { "id": 8, "name": "Chi-Square", "mastery": 20, "crown": false },
+        { "id": 9, "name": "AP Exam Prep", "mastery": 15, "crown": false }
+      ]
+    },
+    {
+      "id": "macroeconomics",
+      "name": "Macroeconomics",
+      "examDate": "2026-05-09",
+      "predictedScore": 4,
+      "fiveProbability": 65,
+      "mcqScore": 30,
+      "mcqTotal": 36,
+      "frqScore": 28,
+      "frqTotal": 34,
+      "units": [
+        { "id": 1, "name": "Basic Economic Concepts", "mastery": 85, "crown": true },
+        { "id": 2, "name": "Supply & Demand", "mastery": 75, "crown": false },
+        { "id": 3, "name": "National Income", "mastery": 65, "crown": false },
+        { "id": 4, "name": "Financial Sector", "mastery": 55, "crown": false },
+        { "id": 5, "name": "Stabilization Policies", "mastery": 45, "crown": false },
+        { "id": 6, "name": "International Trade", "mastery": 35, "crown": false }
+      ]
+    },
+    {
+      "id": "microeconomics",
+      "name": "Microeconomics",
+      "examDate": "2026-05-09",
+      "predictedScore": 4,
+      "fiveProbability": 62,
+      "mcqScore": 28,
+      "mcqTotal": 36,
+      "frqScore": 25,
+      "frqTotal": 34,
+      "units": [
+        { "id": 1, "name": "Basic Economic Concepts", "mastery": 90, "crown": true },
+        { "id": 2, "name": "Supply & Demand", "mastery": 80, "crown": false },
+        { "id": 3, "name": "Production & Costs", "mastery": 65, "crown": false },
+        { "id": 4, "name": "Market Structures", "mastery": 50, "crown": false },
+        { "id": 5, "name": "Resource Markets", "mastery": 35, "crown": false }
+      ]
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "examDate": "2026-05-11",
+      "predictedScore": 4,
+      "fiveProbability": 58,
+      "mcqScore": 85,
+      "mcqTotal": 100,
+      "frqScore": 4,
+      "frqTotal": 6,
+      "units": [
+        { "id": 1, "name": "Scientific Foundations", "mastery": 80, "crown": false },
+        { "id": 2, "name": "Biological Bases", "mastery": 70, "crown": false },
+        { "id": 3, "name": "Sensation & Perception", "mastery": 60, "crown": false },
+        { "id": 4, "name": "Learning", "mastery": 55, "crown": false },
+        { "id": 5, "name": "Cognitive Psychology", "mastery": 50, "crown": false },
+        { "id": 6, "name": "Developmental Psych", "mastery": 45, "crown": false },
+        { "id": 7, "name": "Motivation & Emotion", "mastery": 40, "crown": false },
+        { "id": 8, "name": "Personality", "mastery": 35, "crown": false },
+        { "id": 9, "name": "Clinical Psych", "mastery": 30, "crown": false }
+      ]
+    }
+  ]
+}

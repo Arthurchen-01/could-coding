@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — AP Practice Website</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+</head>
+<body>
+
+<!-- Top Nav -->
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark">AP</span>
+      <span class="brand-title">Practice Website</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Mock Exam</a>
+      <a href="#">Training</a>
+      <a class="active" href="#">Dashboard</a>
+    </nav>
+    <div class="user-avatar" id="user-avatar">
+      <span class="avatar-text">OC</span>
+    </div>
+  </div>
+</header>
+
+<!-- Dashboard -->
+<main class="dashboard">
+
+  <!-- Profile Panel -->
+  <section class="profile-panel">
+    <div class="profile-avatar">
+      <div class="avatar-circle">OC</div>
+    </div>
+    <div class="profile-info">
+      <h1 id="user-name">Arthur Chen</h1>
+      <p class="profile-bio" id="user-bio">自学 AP 考生</p>
+      <div class="profile-goal">
+        <span class="goal-label">目标：</span>
+        <span class="goal-text" id="user-goal">AP 2026 - 8门5分</span>
+      </div>
+    </div>
+    <div class="profile-stats">
+      <div class="stat">
+        <div class="stat-value" id="exam-count">8</div>
+        <div class="stat-label">AP 科目</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="avg-prob">67%</div>
+        <div class="stat-label">平均五分概率</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="days-left">39</div>
+        <div class="stat-label">距最近考试</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subject Cards Grid -->
+  <section class="subjects-grid" id="subjects-grid">
+    <!-- Rendered by JS -->
+  </section>
+
+  <!-- Unit Detail (Expanded) -->
+  <section class="unit-detail" id="unit-detail" style="display:none;">
+    <div class="unit-detail-header">
+      <h2 id="unit-detail-title">Calculus BC</h2>
+      <button class="close-btn" id="close-unit-btn">✕</button>
+    </div>
+    <div class="units-grid" id="units-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+</main>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
