@@ -1,0 +1,60 @@
+<!-- Settings Modal (可插入任意页面) -->
+<div class="settings-overlay" id="settings-overlay" style="display:none;">
+  <div class="settings-modal">
+    <div class="settings-header">
+      <h2>⚙️ 模型配置</h2>
+      <button class="settings-close" id="settings-close">✕</button>
+    </div>
+    
+    <div class="settings-body">
+      <!-- Base URL -->
+      <div class="settings-group">
+        <label>Base URL <span class="hint">（支持中转站代理）</span></label>
+        <input type="text" id="config-base-url" placeholder="https://api.openai.com/v1" 
+               spellcheck="false" autocomplete="off">
+        <div class="hint">留空使用默认：https://generativelanguage.googleapis.com/v1beta/models</div>
+      </div>
+      
+      <!-- API Key -->
+      <div class="settings-group">
+        <label>API Key <span class="hint">（密码隐藏）</span></label>
+        <div class="key-input-wrapper">
+          <input type="password" id="config-api-key" placeholder="sk-... 或 AIzaSy..." 
+                 spellcheck="false" autocomplete="off">
+          <button class="key-toggle" id="key-toggle" title="显示/隐藏">👁</button>
+        </div>
+      </div>
+      
+      <!-- Model ID -->
+      <div class="settings-group">
+        <label>Model ID</label>
+        <input type="text" id="config-model-id" placeholder="gpt-4o / claude-3-5-sonnet / gemini-pro">
+        <div class="hint">常用：gpt-4o, claude-3-5-sonnet-20240620, gemini-pro, deepseek-chat</div>
+      </div>
+      
+      <!-- System Prompt -->
+      <div class="settings-group">
+        <label>System Prompt <span class="hint">（AI 导师人格设定）</span></label>
+        <textarea id="config-system-prompt" rows="8" placeholder="输入 System Prompt..."></textarea>
+      </div>
+      
+      <!-- 快捷预设 -->
+      <div class="settings-group">
+        <label>快捷预设</label>
+        <div class="preset-buttons">
+          <button class="preset-btn" data-preset="gemini">🟢 Gemini</button>
+          <button class="preset-btn" data-preset="openai">🔵 OpenAI</button>
+          <button class="preset-btn" data-preset="claude">🟠 Claude</button>
+          <button class="preset-btn" data-preset="deepseek">🟣 DeepSeek</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="settings-footer">
+      <button class="settings-btn secondary" id="settings-reset">恢复默认</button>
+      <button class="settings-btn primary" id="settings-save">💾 保存配置</button>
+    </div>
+    
+    <div class="settings-status" id="settings-status"></div>
+  </div>
+</div>
