@@ -19,16 +19,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadExamData() {
   try {
-    const response = await fetch('../mock-data/ap-calculus-bc-sample.json');
-    if (!response.ok) throw new Error('Failed');
-    examData = await response.json();
+    // 使用数据服务层（自动降级）
+    examData = await fetchExamData('calc-bc', '2019');
+    
+    if (examData._source && examData._source !== 'real') {
+      console.log(`[Exam] Data source: ${examData._source}`);
+    }
     
     document.getElementById('exam-title').textContent = examData.subject || 'AP Practice';
     document.getElementById('exam-subtitle').textContent = 
       `${examData.section || 'Practice'} — ${examData.year || '2019'}`;
   } catch (e) {
     console.error('Failed to load:', e);
-    examData = getFallbackData();
+    examData = getBuiltinFallback('calc-bc');
   }
 }
 
