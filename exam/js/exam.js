@@ -3,76 +3,51 @@
 // ========== State ==========
 let examData = null;
 let currentIndex = 0;
-let answers = {};       // { questionId: "A" | "B" | "C" | "D" }
+let answers = {};       // { questionId: "A" } for MCQ, { "q6a": "text..." } for FRQ
 let flags = {};         // { questionId: true/false }
+let highlights = [];    // [{ text, range, questionId }]
 let timerInterval = null;
-let timeRemaining = 0;  // seconds
+let timeRemaining = 0;
 let timerEnabled = true;
+let highlightMode = false;
 
 // ========== Init ==========
 document.addEventListener('DOMContentLoaded', async () => {
-  // Load mock data
   await loadExamData();
-  
-  // Bind start screen events
   bindStartEvents();
 });
 
 async function loadExamData() {
   try {
-    // Try loading from mock data directory
     const response = await fetch('../mock-data/ap-calculus-bc-sample.json');
-    if (!response.ok) {
-      // Fallback: load from same directory
-      const fallback = await fetch('/mock-data/ap-calculus-bc-sample.json');
-      examData = await fallback.json();
-    } else {
-      examData = await response.json();
-    }
+    if (!response.ok) throw new Error('Failed');
+    examData = await response.json();
     
-    // Update start screen
     document.getElementById('exam-title').textContent = examData.subject || 'AP Practice';
     document.getElementById('exam-subtitle').textContent = 
       `${examData.section || 'Practice'} — ${examData.year || '2019'}`;
-    
   } catch (e) {
-    console.error('Failed to load exam data:', e);
-    // Use embedded fallback
+    console.error('Failed to load:', e);
     examData = getFallbackData();
   }
 }
 
 function getFallbackData() {
   return {
-    examId: 'fallback',
-    subject: 'AP Calculus BC',
-    year: 2019,
-    section: 'Section I',
-    part: 'A',
-    calculatorAllowed: false,
-    totalQuestions: 5,
-    timeLimitMinutes: 60,
-    questions: [
-      {
-        id: 1, type: 'mcq', sectionPart: 'A', calculatorAllowed: false,
-        question: 'If $f(x) = \\int_{0}^{x} (t^2 + 1)\\,dt$, then $f\'(2) =$',
-        options: [
-          { id: 'A', text: '3' },
-          { id: 'B', text: '5' },
-          { id: 'C', text: '$\\frac{8}{3}$' },
-          { id: 'D', text: '$2\\sqrt{5}$' }
-        ],
-        correctAnswer: 'B',
-        explanation: 'By FTC: $f\'(x) = x^2 + 1$, so $f\'(2) = 5$.',
-        topics: ['Fundamental Theorem of Calculus']
-      }
-    ]
+    examId: 'fallback', subject: 'AP Calculus BC', year: 2019,
+    section: 'Section I', part: 'A', calculatorAllowed: false,
+    totalQuestions: 1, timeLimitMinutes: 60,
+    questions: [{
+      id: 1, type: 'mcq', sectionPart: 'A', calculatorAllowed: false,
+      question: 'If $f(x) = \\int_{0}^{x} (t^2 + 1)\\,dt$, then $f\'(2) =$',
+      options: [{ id: 'A', text: '3' }, { id: 'B', text: '5' }],
+      correctAnswer: 'B', explanation: 'By FTC', topics: ['FTC']
+    }]
   };
 }
 
 // ========== Start Screen ==========
 function bindStartEvents() {
-  // Test type selection
   document.querySelectorAll('.start-option').forEach(opt => {
     opt.addEventListener('click', () => {
       document.querySelectorAll('.start-option').forEach(o => o.classList.remove('selected'));
@@ -80,14 +55,11 @@ function bindStartEvents() {
     });
   });
   
-  // Timer toggle
-  const timerToggle = document.getElementById('timer-toggle');
-  timerToggle.addEventListener('change', () => {
-    timerEnabled = timerToggle.checked;
+  document.getElementById('timer-toggle').addEventListener('change', (e) => {
+    timerEnabled = e.target.checked;
     document.getElementById('timer-label').textContent = timerEnabled ? 'On' : 'Off';
   });
   
-  // Start button
   document.getElementById('start-btn').addEventListener('click', startExam);
 }
 
@@ -97,27 +69,17 @@ function startExam() {
   document.getElementById('start-screen').style.display = 'none';
   document.getElementById('exam-screen').style.display = 'block';
   
-  // Set time
   timeRemaining = (examData.timeLimitMinutes || 60) * 60;
-  
-  // Update section label
   document.getElementById('section-label').textContent = examData.subject;
   document.getElementById('part-label').textContent = 
     `Section ${examData.section.split(' - ')[0]} · Part ${examData.part}`;
   
-  // Render navigator grid
   renderNavGrid();
-  
-  // Render first question
   renderQuestion(0);
   
-  // Start timer
-  if (timerEnabled) {
-    startTimer();
-  }
-  
-  // Bind navigation events
+  if (timerEnabled) startTimer();
   bindNavEvents();
+  bindHighlightEvents();
 }
 
 // ========== Timer ==========
@@ -126,11 +88,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timeRemaining--;
     updateTimerDisplay();
-    
-    if (timeRemaining <= 0) {
-      clearInterval(timerInterval);
-      alert('Time is up!');
-    }
+    if (timeRemaining <= 0) { clearInterval(timerInterval); alert('Time is up!'); }
   }, 1000);
 }
 
@@ -140,13 +98,7 @@ function updateTimerDisplay() {
   const display = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
   const el = document.getElementById('timer-display');
   el.textContent = display;
-  
-  // Urgent style when < 5 min
-  if (timeRemaining < 300) {
-    el.classList.add('urgent');
-  } else {
-    el.classList.remove('urgent');
-  }
+  el.classList.toggle('urgent', timeRemaining < 300);
 }
 
 // ========== Question Rendering ==========
@@ -156,77 +108,59 @@ function renderQuestion(index) {
   const q = examData.questions[index];
   currentIndex = index;
   
-  // Update question number
   document.getElementById('q-current').textContent = index + 1;
   document.getElementById('q-total').textContent = examData.questions.length;
   
-  // Update question text (render LaTeX)
-  const qText = document.getElementById('question-text');
-  qText.innerHTML = '';
-  
-  // Render LaTeX in question text
-  try {
-    renderLatex(q.question, qText);
-  } catch (e) {
-    qText.textContent = q.question;
+  // Render based on type
+  if (q.type === 'frq') {
+    renderFRQ(q);
+  } else {
+    renderMCQ(q);
   }
-  
-  // Render options
-  renderOptions(q);
   
   // Update flag button
-  const flagBtn = document.getElementById('flag-btn');
-  if (flags[q.id]) {
-    flagBtn.classList.add('active');
-    flagBtn.textContent = '⚑ Flagged';
-  } else {
-    flagBtn.classList.remove('active');
-    flagBtn.textContent = '⚑ Flag for Review';
-  }
+  updateFlagButton(q.id);
   
   // Update nav buttons
   document.getElementById('prev-btn').disabled = index === 0;
-  document.getElementById('next-btn').disabled = index === examData.questions.length - 1;
-  document.getElementById('next-btn').textContent = 
-    index === examData.questions.length - 1 ? 'Finish' : 'Next →';
+  const nextBtn = document.getElementById('next-btn');
+  nextBtn.disabled = index === examData.questions.length - 1;
+  nextBtn.textContent = index === examData.questions.length - 1 ? 'Finish' : 'Next →';
   
-  // Update nav grid
   updateNavGrid();
 }
 
-function renderOptions(question) {
+function renderMCQ(q) {
+  const qPanel = document.querySelector('.question-panel');
+  qPanel.style.display = 'block';
+  
+  // Hide FRQ layout
+  const frqLayout = document.getElementById('frq-layout');
+  if (frqLayout) frqLayout.style.display = 'none';
+  
+  // Show MCQ layout
+  qPanel.style.display = 'block';
+  
+  const qText = document.getElementById('question-text');
+  qText.innerHTML = '';
+  renderLatex(q.question, qText);
+  
+  // Render options
   const container = document.getElementById('options-container');
   container.innerHTML = '';
   
-  question.options.forEach(opt => {
+  q.options.forEach(opt => {
     const div = document.createElement('div');
     div.className = 'option';
-    if (answers[question.id] === opt.id) {
-      div.classList.add('selected');
-    }
+    if (answers[q.id] === opt.id) div.classList.add('selected');
     
-    div.innerHTML = `
-      <div class="option-letter">${opt.id}</div>
-      <div class="option-text"></div>
-    `;
+    div.innerHTML = `<div class="option-letter">${opt.id}</div><div class="option-text"></div>`;
+    renderLatex(opt.text, div.querySelector('.option-text'));
     
-    // Render LaTeX in option text
-    const optText = div.querySelector('.option-text');
-    try {
-      renderLatex(opt.text, optText);
-    } catch (e) {
-      optText.textContent = opt.text;
-    }
-    
-    // Click to select
     div.addEventListener('click', () => {
-      answers[question.id] = opt.id;
-      
-      // Update UI
+      answers[q.id] = opt.id;
       container.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
       div.classList.add('selected');
-      
-      // Update nav grid
       updateNavGrid();
     });
     
@@ -234,14 +168,118 @@ function renderOptions(question) {
   });
 }
 
+function renderFRQ(q) {
+  // Hide MCQ elements
+  const optionsContainer = document.getElementById('options-container');
+  optionsContainer.innerHTML = '';
+  
+  const qText = document.getElementById('question-text');
+  
+  // Create FRQ layout
+  let frqLayout = document.getElementById('frq-layout');
+  if (!frqLayout) {
+    frqLayout = document.createElement('div');
+    frqLayout.id = 'frq-layout';
+    frqLayout.className = 'frq-layout';
+    qText.parentElement.appendChild(frqLayout);
+  }
+  frqLayout.style.display = 'grid';
+  
+  // Build left side (question + parts)
+  let leftHTML = `<div class="frq-question">
+    <div class="frq-context" id="frq-context"></div>`;
+  
+  if (q.parts && q.parts.length > 0) {
+    leftHTML += `<div class="frq-parts">`;
+    q.parts.forEach(part => {
+      leftHTML += `
+        <div class="frq-part" id="frq-part-${part.id}">
+          <div class="frq-part-header">
+            <div class="frq-part-label">${part.id}</div>
+            <span class="frq-part-points">(${part.points} points)</span>
+          </div>
+          <div class="frq-part-question" id="frq-question-${part.id}"></div>
+        </div>`;
+    });
+    leftHTML += `</div>`;
+  }
+  leftHTML += `</div>`;
+  
+  // Build right side (answer area)
+  let rightHTML = `<div class="frq-answer">
+    <div class="frq-answer-label">Your Response</div>`;
+  
+  if (q.parts && q.parts.length > 0) {
+    q.parts.forEach(part => {
+      rightHTML += `
+        <div style="margin-bottom:20px">
+          <div class="frq-answer-label">Part (${part.id}) (${part.points} points)</div>
+          <textarea id="frq-answer-${part.id}" 
+                    data-part="${part.id}" 
+                    data-question-id="${q.id}"
+                    placeholder="Write your answer for part (${part.id}) here...">${answers[`${q.id}-${part.id}`] || ''}</textarea>
+        </div>`;
+    });
+  } else {
+    rightHTML += `<textarea id="frq-answer-main" 
+                    data-question-id="${q.id}"
+                    placeholder="Write your answer here...">${answers[q.id] || ''}</textarea>`;
+  }
+  rightHTML += `</div>`;
+  
+  frqLayout.innerHTML = leftHTML + rightHTML;
+  
+  // Render LaTeX in context
+  const contextEl = document.getElementById('frq-context');
+  if (q.context) {
+    renderLatex(q.context, contextEl);
+  } else {
+    contextEl.style.display = 'none';
+  }
+  
+  // Render LaTeX in question
+  const mainQ = document.getElementById('question-text');
+  mainQ.innerHTML = '';
+  renderLatex(q.question, mainQ);
+  
+  // Render LaTeX in each part
+  if (q.parts) {
+    q.parts.forEach(part => {
+      const partEl = document.getElementById(`frq-question-${part.id}`);
+      if (partEl) {
+        renderLatex(part.question, partEl);
+      }
+    });
+  }
+  
+  // Bind answer input
+  document.querySelectorAll('.frq-answer textarea').forEach(textarea => {
+    textarea.addEventListener('input', (e) => {
+      const part = e.target.dataset.part;
+      const qId = e.target.dataset.questionId;
+      if (part) {
+        answers[`${qId}-${part}`] = e.target.value;
+      } else {
+        answers[qId] = e.target.value;
+      }
+      updateNavGrid();
+    });
+  });
+  
+  // Hide MCQ question text (FRQ uses its own layout)
+  qText.style.display = 'none';
+  
+  // Show timer for FRQ too
+  updateTimerDisplay();
+}
+
 // ========== LaTeX Rendering ==========
 function renderLatex(text, element) {
-  // Split by $ for inline LaTeX
-  const parts = text.split(/(\$[^$]+\$)/g);
+  if (!text) return;
   
+  const parts = text.split(/(\$[^$]+\$)/g);
   parts.forEach(part => {
     if (part.startsWith('$') && part.endsWith('$')) {
-      // LaTeX formula
       const latex = part.slice(1, -1);
       try {
         const span = document.createElement('span');
@@ -254,7 +292,6 @@ function renderLatex(text, element) {
         element.appendChild(span);
       }
     } else {
-      // Plain text
       const span = document.createElement('span');
       span.textContent = part;
       element.appendChild(span);
@@ -266,7 +303,6 @@ function renderLatex(text, element) {
 function renderNavGrid() {
   const grid = document.getElementById('nav-grid');
   grid.innerHTML = '';
-  
   if (!examData) return;
   
   examData.questions.forEach((q, idx) => {
@@ -276,10 +312,12 @@ function renderNavGrid() {
     cell.dataset.index = idx;
     
     if (idx === currentIndex) cell.classList.add('current');
-    if (answers[q.id]) cell.classList.add('answered');
+    if (hasAnswer(q)) cell.classList.add('answered');
     if (flags[q.id]) cell.classList.add('flagged');
     
     cell.addEventListener('click', () => {
+      // Show MCQ question text when switching
+      document.getElementById('question-text').style.display = 'block';
       renderQuestion(idx);
     });
     
@@ -287,60 +325,129 @@ function renderNavGrid() {
   });
 }
 
+function hasAnswer(q) {
+  if (q.type === 'mcq') return !!answers[q.id];
+  if (q.type === 'frq' && q.parts) {
+    return q.parts.some(p => answers[`${q.id}-${p.id}`]?.length > 0);
+  }
+  return !!answers[q.id];
+}
+
 function updateNavGrid() {
   const cells = document.querySelectorAll('.nav-cell');
   cells.forEach((cell, idx) => {
     cell.classList.remove('current', 'answered', 'flagged');
-    
     const q = examData.questions[idx];
     if (idx === currentIndex) cell.classList.add('current');
-    if (answers[q.id]) cell.classList.add('answered');
+    if (hasAnswer(q)) cell.classList.add('answered');
     if (flags[q.id]) cell.classList.add('flagged');
   });
 }
 
-// ========== Navigation Events ==========
+// ========== Navigation ==========
 function bindNavEvents() {
-  // Previous button
   document.getElementById('prev-btn').addEventListener('click', () => {
     if (currentIndex > 0) {
+      document.getElementById('question-text').style.display = 'block';
       renderQuestion(currentIndex - 1);
     }
   });
   
-  // Next button
   document.getElementById('next-btn').addEventListener('click', () => {
     if (currentIndex < examData.questions.length - 1) {
+      document.getElementById('question-text').style.display = 'block';
       renderQuestion(currentIndex + 1);
     } else {
-      // Last question - show finish dialog
-      if (confirm('Are you sure you want to finish this section?')) {
+      if (confirm('Are you sure you want to finish?')) {
         clearInterval(timerInterval);
         showResults();
       }
     }
   });
   
-  // Flag button
   document.getElementById('flag-btn').addEventListener('click', () => {
     const q = examData.questions[currentIndex];
     flags[q.id] = !flags[q.id];
-    
-    const btn = document.getElementById('flag-btn');
-    if (flags[q.id]) {
-      btn.classList.add('active');
-      btn.textContent = '⚑ Flagged';
-    } else {
-      btn.classList.remove('active');
-      btn.textContent = '⚑ Flag for Review';
-    }
-    
+    updateFlagButton(q.id);
     updateNavGrid();
   });
   
-  // Directions button
   document.getElementById('directions-btn').addEventListener('click', () => {
     document.getElementById('directions-modal').classList.add('active');
+  });
+}
+
+function updateFlagButton(qId) {
+  const btn = document.getElementById('flag-btn');
+  if (flags[qId]) {
+    btn.classList.add('active');
+    btn.textContent = '⚑ Flagged';
+  } else {
+    btn.classList.remove('active');
+    btn.textContent = '⚑ Flag for Review';
+  }
+}
+
+// ========== Highlight Feature ==========
+function bindHighlightEvents() {
+  const highlightBtn = document.getElementById('highlight-btn');
+  
+  highlightBtn.addEventListener('click', () => {
+    highlightMode = !highlightMode;
+    highlightBtn.classList.toggle('active', highlightMode);
+    highlightBtn.textContent = highlightMode ? '✏ Highlighting' : '✏ Highlight';
+    
+    document.querySelector('.question-panel').classList.toggle('highlight-mode', highlightMode);
+    
+    const frqLayout = document.getElementById('frq-layout');
+    if (frqLayout) {
+      frqLayout.querySelector('.frq-question').classList.toggle('highlight-mode', highlightMode);
+    }
+  });
+  
+  // Listen for text selection
+  document.addEventListener('mouseup', () => {
+    if (!highlightMode) return;
+    
+    const selection = window.getSelection();
+    if (!selection || selection.rangeCount === 0) return;
+    
+    const range = selection.getRangeAt(0);
+    const selectedText = selection.toString().trim();
+    
+    if (!selectedText) return;
+    
+    // Don't highlight in textarea or input
+    if (range.startContainer.parentElement.closest('textarea, input')) return;
+    
+    // Apply highlight
+    try {
+      const span = document.createElement('span');
+      span.className = 'highlight-mark';
+      
+      // Check if selection is in a valid area
+      const container = range.commonAncestorContainer.parentElement;
+      if (container.closest('.question-text, .frq-context, .frq-part-question')) {
+        range.surroundContents(span);
+        
+        highlights.push({
+          text: selectedText,
+          questionIndex: currentIndex,
+          timestamp: Date.now()
+        });
+        
+        // Clear selection
+        selection.removeAllRanges();
+      }
+    } catch (e) {
+      // Selection spans multiple elements - fallback: wrap each child
+      const span = document.createElement('span');
+      span.className = 'highlight-mark';
+      span.textContent = selectedText;
+      range.deleteContents();
+      range.insertNode(span);
+      selection.removeAllRanges();
+    }
   });
 }
 
@@ -348,39 +455,23 @@ function bindNavEvents() {
 function showResults() {
   const total = examData.questions.length;
   let correct = 0;
+  let mcqCount = 0;
   
   examData.questions.forEach(q => {
-    if (answers[q.id] === q.correctAnswer) {
-      correct++;
+    if (q.type === 'mcq') {
+      mcqCount++;
+      if (answers[q.id] === q.correctAnswer) correct++;
     }
   });
   
-  const score = Math.round((correct / total) * 100);
+  const score = mcqCount > 0 ? Math.round((correct / mcqCount) * 100) : 0;
   
   alert(
     `🎉 Section Complete!\n\n` +
-    `Score: ${correct}/${total} (${score}%)\n` +
+    `MCQ Score: ${correct}/${mcqCount} (${score}%)\n` +
     `Time remaining: ${document.getElementById('timer-display').textContent}\n\n` +
-    `Correct answers will be shown next.`
+    `FRQ answers have been saved.`
   );
-  
-  // Show correct answers
-  document.querySelectorAll('.option').forEach(opt => {
-    opt.classList.remove('selected');
-  });
-  
-  examData.questions.forEach(q => {
-    if (answers[q.id] === q.correctAnswer) {
-      // Mark correct
-      const cells = document.querySelectorAll('.nav-cell');
-      cells.forEach((cell, idx) => {
-        if (examData.questions[idx].id === q.id) {
-          cell.style.background = '#dcfce7';
-          cell.style.borderColor = '#22c55e';
-        }
-      });
-    }
-  });
 }
 
 // ========== Utilities ==========
@@ -391,25 +482,25 @@ function closeModal(id) {
 // ========== Keyboard Shortcuts ==========
 document.addEventListener('keydown', (e) => {
   if (!examData) return;
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
   
-  // Arrow keys for navigation
   if (e.key === 'ArrowRight' && currentIndex < examData.questions.length - 1) {
+    document.getElementById('question-text').style.display = 'block';
     renderQuestion(currentIndex + 1);
   } else if (e.key === 'ArrowLeft' && currentIndex > 0) {
+    document.getElementById('question-text').style.display = 'block';
     renderQuestion(currentIndex - 1);
   }
   
-  // 1-4 keys for options
-  if (['1', '2', '3', '4'].includes(e.key)) {
+  if (['1', '2', '3', '4'].includes(e.key) && examData.questions[currentIndex].type === 'mcq') {
     const idx = parseInt(e.key) - 1;
     const q = examData.questions[currentIndex];
     if (q && q.options[idx]) {
       answers[q.id] = q.options[idx].id;
-      renderQuestion(currentIndex);  // Re-render
+      renderQuestion(currentIndex);
     }
   }
   
-  // F for flag
   if (e.key === 'f' || e.key === 'F') {
     document.getElementById('flag-btn').click();
   }

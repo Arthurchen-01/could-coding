@@ -5,7 +5,7 @@
   "section": "Section I - Multiple Choice",
   "part": "A",
   "calculatorAllowed": false,
-  "totalQuestions": 30,
+  "totalQuestions": 7,
   "timeLimitMinutes": 60,
   "questions": [
     {
@@ -87,6 +87,84 @@
       "correctAnswer": "D",
       "explanation": "This is the Taylor series for $e^x$, which converges for all real $x$. The ratio test gives $\\lim_{n\\to\\infty} \\frac{|x|}{n+1} = 0$ for all $x$.",
       "topics": ["Power Series", "Taylor Series"]
+    },
+    {
+      "id": 6,
+      "type": "frq",
+      "sectionPart": "B",
+      "calculatorAllowed": true,
+      "totalPoints": 9,
+      "question": "Let $R$ be the region bounded by the graphs of $y = \\sqrt{x}$ and $y = \\frac{x}{3}$, as shown in the figure.",
+      "context": "The graphs intersect at the origin and at $(9, 3)$. The region $R$ is the area between these two curves from $x = 0$ to $x = 9$. The square root curve is above the line $y = \\frac{x}{3}$ in this interval.",
+      "parts": [
+        {
+          "id": "a",
+          "points": 2,
+          "question": "Find the area of $R$.",
+          "solution": "Area = $\\int_0^9 \\left(\\sqrt{x} - \\frac{x}{3}\\right) dx = \\left[\\frac{2}{3}x^{3/2} - \\frac{x^2}{6}\\right]_0^9 = \\frac{2}{3}(27) - \\frac{81}{6} = 18 - \\frac{27}{2} = \\frac{9}{2}$"
+        },
+        {
+          "id": "b",
+          "points": 3,
+          "question": "Write, but do not evaluate, an integral expression that gives the volume of the solid generated when $R$ is revolved about the horizontal line $y = 4$.",
+          "solution": "Using the washer method: $V = \\pi \\int_0^9 \\left[\\left(4 - \\frac{x}{3}\\right)^2 - \\left(4 - \\sqrt{x}\\right)^2\\right] dx$"
+        },
+        {
+          "id": "c",
+          "points": 4,
+          "question": "Find the volume of the solid generated when $R$ is revolved about the vertical line $x = 9$.",
+          "solution": "Using the shell method: $V = 2\\pi \\int_0^9 (9 - x)\\left(\\sqrt{x} - \\frac{x}{3}\\right) dx$\n\n$= 2\\pi \\int_0^9 \\left(9\\sqrt{x} - \\frac{x^{3/2}}{3} - 3x + \\frac{x^2}{3}\\right) dx$\n\n$= 2\\pi \\left[6x^{3/2} - \\frac{2x^{5/2}}{15} - \\frac{3x^2}{2} + \\frac{x^3}{9}\\right]_0^9 = 2\\pi(162 - \\frac{486}{5} - \\frac{243}{2} + 81)$"
+        }
+      ],
+      "scoringGuide": {
+        "totalPoints": 9,
+        "cutoffs": {
+          "5": "9",
+          "4": "7",
+          "3": "5",
+          "2": "3"
+        }
+      },
+      "topics": ["Area Between Curves", "Volumes of Revolution", "Washer Method", "Shell Method"]
+    },
+    {
+      "id": 7,
+      "type": "frq",
+      "sectionPart": "B",
+      "calculatorAllowed": true,
+      "totalPoints": 9,
+      "question": "A particle moves along the $x$-axis. The velocity of the particle at time $t$ is given by $v(t) = \\sin(t^2)$ for $0 \\leq t \\leq 3$. The particle is at position $x = 2$ at time $t = 0$.",
+      "context": "",
+      "parts": [
+        {
+          "id": "a",
+          "points": 2,
+          "question": "Find the acceleration of the particle at time $t = 2$.",
+          "solution": "$a(t) = v'(t) = 2t\\cos(t^2)$\n\n$a(2) = 4\\cos(4) \\approx -2.615$"
+        },
+        {
+          "id": "b",
+          "points": 3,
+          "question": "Find the position of the particle at time $t = 3$.",
+          "solution": "$x(3) = x(0) + \\int_0^3 v(t)\\,dt = 2 + \\int_0^3 \\sin(t^2)\\,dt \\approx 2 + 0.773 = 2.773$\n\n(Using numerical integration: the integral of $\\sin(t^2)$ from 0 to 3 is approximately 0.773)"
+        },
+        {
+          "id": "c",
+          "points": 4,
+          "question": "During what intervals of time, $0 \\leq t \\leq 3$, is the particle moving to the right? Justify your answer.",
+          "solution": "The particle moves to the right when $v(t) > 0$, i.e., $\\sin(t^2) > 0$.\n\nThis occurs when $0 < t^2 < \\pi$ or $2\\pi < t^2 < 3\\pi$, etc.\n\nOn $[0, 3]$: $t \\in (0, \\sqrt{\\pi}) \\cup (\\sqrt{2\\pi}, 3]$.\n\n$\\sqrt{\\pi} \\approx 1.77$ and $\\sqrt{2\\pi} \\approx 2.51$.\n\nSo the particle moves right on $(0, 1.77)$ and $(2.51, 3)$."
+        }
+      ],
+      "scoringGuide": {
+        "totalPoints": 9,
+        "cutoffs": {
+          "5": "9",
+          "4": "7",
+          "3": "5",
+          "2": "3"
+        }
+      },
+      "topics": ["Particle Motion", "Velocity and Acceleration", "Position", "Fresnel Integrals"]
     }
   ]
 }

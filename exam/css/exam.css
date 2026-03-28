@@ -377,6 +377,115 @@ body {
 .modal-btn.primary { background: var(--accent); color: #fff; }
 .modal-btn.secondary { background: #f3f4f6; color: var(--ink); }
 
+/* ========== FRQ Split Screen ========== */
+.frq-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: calc(100vh - 60px);
+}
+
+.frq-question {
+  padding: 32px;
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+  border-right: 1px solid var(--line);
+}
+
+.frq-answer {
+  padding: 32px;
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+}
+
+.frq-context {
+  background: #f9fafb;
+  border-left: 3px solid var(--blue);
+  padding: 16px;
+  margin: 16px 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+  border-radius: 0 8px 8px 0;
+}
+
+.frq-parts {
+  margin-top: 24px;
+}
+
+.frq-part {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.frq-part:last-child { border-bottom: none; }
+
+.frq-part-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.frq-part-label {
+  background: var(--blue);
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.frq-part-points {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.frq-answer textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 16px;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+  transition: border-color 0.2s;
+}
+
+.frq-answer textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+.frq-answer-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* ========== Highlight ========== */
+.highlight-mode .question-text,
+.highlight-mode .frq-context {
+  user-select: text;
+  cursor: text;
+}
+
+::selection {
+  background: rgba(255, 212, 0, 0.4);
+}
+
+.highlight-mark {
+  background: rgba(255, 212, 0, 0.5);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
 /* ========== Start Screen ========== */
 .start-screen {
   min-height: 100vh;
