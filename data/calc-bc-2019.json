@@ -1,0 +1,1734 @@
+{
+  "examId": "calc-bc-2019",
+  "subject": "AP Calculus BC",
+  "examName": "Calculus BC 2019 国际卷",
+  "year": "2019",
+  "totalQuestions": 68,
+  "mcqCount": 45,
+  "frqCount": 23,
+  "correctCount": 32,
+  "accuracy": 47.1,
+  "units": [
+    {
+      "name": "Unit 6: Differential Equations",
+      "total": 7,
+      "answered": 7,
+      "correct": 5,
+      "accuracy": 71.4
+    },
+    {
+      "name": "Unit 9: Sequences & Series",
+      "total": 6,
+      "answered": 6,
+      "correct": 4,
+      "accuracy": 66.7
+    },
+    {
+      "name": "Unit 7: Infinite Series",
+      "total": 7,
+      "answered": 7,
+      "correct": 4,
+      "accuracy": 57.1
+    },
+    {
+      "name": "Unit 10: Taylor Series",
+      "total": 6,
+      "answered": 6,
+      "correct": 3,
+      "accuracy": 50.0
+    },
+    {
+      "name": "Unit 1: Limits",
+      "total": 7,
+      "answered": 7,
+      "correct": 3,
+      "accuracy": 42.9
+    },
+    {
+      "name": "Unit 2: Derivatives",
+      "total": 7,
+      "answered": 7,
+      "correct": 3,
+      "accuracy": 42.9
+    },
+    {
+      "name": "Unit 5: Applications of Integration",
+      "total": 7,
+      "answered": 7,
+      "correct": 3,
+      "accuracy": 42.9
+    },
+    {
+      "name": "Unit 8: Parametric & Polar",
+      "total": 7,
+      "answered": 7,
+      "correct": 3,
+      "accuracy": 42.9
+    },
+    {
+      "name": "Unit 3: Applications of Derivatives",
+      "total": 7,
+      "answered": 7,
+      "correct": 2,
+      "accuracy": 28.6
+    },
+    {
+      "name": "Unit 4: Integration",
+      "total": 7,
+      "answered": 7,
+      "correct": 2,
+      "accuracy": 28.6
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "sort": 1,
+      "title": "Derivative of composite function with Chain rule",
+      "type": "mcq",
+      "questionText": "If&nbsp;      f   (   x   )   =      cos    2      (     3  x  −  5    )      , then&nbsp;        f   ′       (   x   )     =      ",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 cos  (  3 x − 5  )"
+        },
+        {
+          "id": "B",
+          "text": "−3  sin 2  (  3x−5 )"
+        },
+        {
+          "id": "C",
+          "text": "−2sin(  3x−5 )cos(  3x−5 )"
+        },
+        {
+          "id": "D",
+          "text": "−6sin(  3x−5 )cos(  3x−5 )"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 2,
+      "sort": 2,
+      "title": "Integration using power rule",
+      "type": "mcq",
+      "questionText": "           ∫       1     t    t              d  t  =     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0",
+      "options": [
+        {
+          "id": "A",
+          "text": "−2 t  −1/2   +C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaamiDa8aadaahaaWcbeqaa8qacqGHsislcaaIXaGaai4laiaaikdaaaGccqGHRaWkcaWGdbaaaa@3DCD@"
+        },
+        {
+          "id": "B",
+          "text": "− 3 2   t  −5/2   +C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaG4maaWdaeaapeGaaGOmaaaacaWG0bWdamaaCaaaleqabaWdbiabgkHiTiaaiwdacaGGVaGaaGOmaaaakiabgUcaRiaadoeaaaa@3EDC@"
+        },
+        {
+          "id": "C",
+          "text": "− 2 5   t  −5/2   +C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaGOmaaWdaeaapeGaaGynaaaacaWG0bWdamaaCaaaleqabaWdbiabgkHiTiaaiwdacaGGVaGaaGOmaaaakiabgUcaRiaadoeaaaa@3EDE@"
+        },
+        {
+          "id": "D",
+          "text": "2 t  1/2   ln t+C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIYaGaamiDa8aadaahaaWcbeqaa8qacaaIXaGaai4laiaaikdaaaGcciGGSbGaaiOBa8aacaaMe8+dbiaadshacqGHRaWkcaWGdbaaaa@407C@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 3,
+      "sort": 3,
+      "title": "Polynomial quotient rule",
+      "type": "mcq",
+      "questionText": "If&nbsp;        f     (   x   )     =       5   −   x         x   3     +   2         MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYb",
+      "options": [
+        {
+          "id": "A",
+          "text": "− 4  x 3  + 15  x 2  − 2      (   x 3  + 2  )   2     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacqGHsislcaaI0aGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHsislcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@4996@"
+        },
+        {
+          "id": "B",
+          "text": "− 2  x 3  + 15  x 2  + 2      (   x 3  + 2  )   2     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacqGHsislcaaIYaGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHRaWkcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@4989@"
+        },
+        {
+          "id": "C",
+          "text": "2  x 3  − 15  x 2  − 2      (   x 3  + 2  )   2     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacaaIYaGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaeyOeI0IaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHsislcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@48B2@"
+        },
+        {
+          "id": "D",
+          "text": "4  x 3  − 15  x 2  + 2      (   x 3  + 2  )   2     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacaaI0aGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaeyOeI0IaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHRaWkcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@48A9@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 4,
+      "sort": 4,
+      "title": "Acceleration of a vector function",
+      "type": "mcq",
+      "questionText": " The position of a particle moving in the  xy -plane is given by the vector&nbsp;〈        4     t   3     ,   &nbsp;   y   (   2   t   )     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbv",
+      "options": [
+        {
+          "id": "A",
+          "text": "〈   3 , &nbsp; 2  y ′     ′  ( 1 )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIZaGaaiilaiaacckacaaIYaGaamyEa8aadaahaaWcbeqaa8qacqaHYaIOaaGcpaWaaWbaaSqabeaapeGaeqOmGikaaOGaaiikaiaaigdacaGGPaaaaa@401B@  〉"
+        },
+        {
+          "id": "B",
+          "text": "〈   6 , &nbsp; 4  y ′     ′  ( 1 )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI2aGaaiilaiaacckacaaI0aGaamyEa8aadaahaaWcbeqaa8qacqaHYaIOaaGcpaWaaWbaaSqabeaapeGaeqOmGikaaOGaaiikaiaaigdacaGGPaaaaa@4020@  〉"
+        },
+        {
+          "id": "C",
+          "text": "〈   12 , &nbsp; 2  y ′     ′  ( 1 )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIXaGaaGOmaiaacYcacaGGGcGaaGOmaiaadMhapaWaaWbaaSqabeaapeGaeqOmGikaaOWdamaaCaaaleqabaWdbiabekdiIcaakiaacIcacaaIXaGaaiykaaaa@40D5@  〉"
+        },
+        {
+          "id": "D",
+          "text": "〈   12 , &nbsp; 4  y ′     ′  ( 1 )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIXaGaaGOmaiaacYcacaGGGcGaaGinaiaadMhapaWaaWbaaSqabeaapeGaeqOmGikaaOWdamaaCaaaleqabaWdbiabekdiIcaakiaacIcacaaIXaGaaiykaaaa@40D7@  〉"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 5,
+      "sort": 5,
+      "title": "Value of a convergent geometric series",
+      "type": "mcq",
+      "questionText": "To what number does the series&nbsp;            ∑     k  =  0     ∞            (         −  e     π       )      k           MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnh",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "−e   π+e    MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaeyOeI0IaamyzaaWdaeaapeGaeqiWdaNaey4kaSIaamyzaaaaaaa@3BC2@"
+        },
+        {
+          "id": "C",
+          "text": "π  π + e    MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaeqiWdahapaqaa8qacqaHapaCcqGHRaWkcaWGLbaaaaaa@3BA8@"
+        },
+        {
+          "id": "D",
+          "text": "The series does not converge."
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 6,
+      "sort": 6,
+      "title": "Average value of a function on an interval",
+      "type": "mcq",
+      "questionText": "    The graph of  y = f(x)  is shown above. Which of the following is true? ",
+      "options": [
+        {
+          "id": "A",
+          "text": "lim   h → 0     f  (  a + h  )  − f  ( a )   h   &nbsp;exists."
+        },
+        {
+          "id": "B",
+          "text": "lim   x →  a +    f  ( x )  ≠   lim   x →  a −    f  ( x )"
+        },
+        {
+          "id": "C",
+          "text": "lim  x→a  f( x )≠f( a )"
+        },
+        {
+          "id": "D",
+          "text": "lim  x→a  f( x ) &nbsp;does not exist."
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 7,
+      "sort": 7,
+      "title": "Additivity of definite integrals",
+      "type": "mcq",
+      "questionText": "If&nbsp;              ∫   4     −   10       g         (   x   )     d   x   =   −   3     MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDY",
+      "options": [
+        {
+          "id": "A",
+          "text": "− 8  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacqGHsislcaaI4aaaaa@3AAA@"
+        },
+        {
+          "id": "B",
+          "text": "− 2  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacqGHsislcaqGYaaaaa@3A9D@"
+        },
+        {
+          "id": "C",
+          "text": "2 MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacaqGYaaaaa@39B0@"
+        },
+        {
+          "id": "D",
+          "text": "8 MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacaqG4aaaaa@39B6@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 8,
+      "sort": 8,
+      "title": "Definite integral for length of a parametric curve",
+      "type": "mcq",
+      "questionText": "The length of the curve  y  = sin(3 x ) from  x  = 0 to&nbsp;        x   =     π   6       MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDY",
+      "options": [
+        {
+          "id": "A",
+          "text": "∫  0  π / 6   ( 1 + 9   cos  2  ( 3 x ) ) d x  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOGaaiikaiaaigdacqGHRaWkcaaI5aGaci4yaiaac+gacaGGZbWdamaaCaaaleqabaWdbiaaikdaaaGccaGGOaGaaG4maiaadIhacaGGPaGaaiykaiaadsgacaWG4baaaa@496D@"
+        },
+        {
+          "id": "B",
+          "text": "∫  0  π / 6     1 +   sin  2  ( 3 x )   d x  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOWaaOaaa8aabaWdbiaaigdacqGHRaWkciGGZbGaaiyAaiaac6gapaWaaWbaaSqabeaapeGaaGOmaaaakiaacIcacaaIZaGaamiEaiaacMcaaSqabaGccaWGKbGaamiEaaaa@479A@"
+        },
+        {
+          "id": "C",
+          "text": "∫  0  π / 6     1 + 3 cos ( 3 x )   d x  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOWaaOaaa8aabaWdbiaaigdacqGHRaWkcaaIZaGaci4yaiaac+gacaGGZbGaaiikaiaaiodacaWG4bGaaiykaaWcbeaakiaadsgacaWG4baaaa@4740@"
+        },
+        {
+          "id": "D",
+          "text": "∫  0  π / 6     1 + 9   cos  2  ( 3 x )   d x  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOWaaOaaa8aabaWdbiaaigdacqGHRaWkcaaI5aGaci4yaiaac+gacaGGZbWdamaaCaaaleqabaWdbiaaikdaaaGccaGGOaGaaG4maiaadIhacaGGPaaaleqaaOGaamizaiaadIhaaaa@4858@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    },
+    {
+      "id": 9,
+      "sort": 9,
+      "title": "Slope of a tangent line at a specific point",
+      "type": "mcq",
+      "questionText": "The slope of the line tangent to the graph of  y = xe x   at  x =  ln 2 is",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 ln 2"
+        },
+        {
+          "id": "B",
+          "text": "2 ln 2 + 2"
+        },
+        {
+          "id": "C",
+          "text": "e2(ln 2) + e2"
+        },
+        {
+          "id": "D",
+          "text": "2+  2ln2  e   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIYaGaey4kaSYaaSaaa8aabaWdbiaaikdaciGGSbGaaiOBaiaaikdaa8aabaWdbiaadwgaaaaaaa@3C46@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 9: Sequences & Series",
+      "analysis": null
+    },
+    {
+      "id": 10,
+      "sort": 10,
+      "title": "Value of a definite integral using substitution",
+      "type": "mcq",
+      "questionText": "Let  y = f(x)  be the solution to the differential equation&nbsp;          d   y       d   x            = x − y  with initial condition  f(2) = 8 . What is the approximation for  f(3)  obtained by usi",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "5 2"
+        },
+        {
+          "id": "C",
+          "text": "15  4"
+        },
+        {
+          "id": "D",
+          "text": "61  4"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 10: Taylor Series",
+      "analysis": null
+    },
+    {
+      "id": 11,
+      "sort": 11,
+      "title": "Slope of an implicit function at a point",
+      "type": "mcq",
+      "questionText": "If  x 2  + xy − 3y = 3 , then at the point (2, 1),&nbsp;            d  y      d  x      =    MathType@MTEF@5@5@+= feaagKart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn hiov2DGi1BTfMBaeXatLxBI9gBaerbd",
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "7 3   MathType@MTEF@5@5@+= feaagKart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr 4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9 vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=x fr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8 qadaWcaaWdaeaapeGaaG4naaWdaeaapeGaaG4maaaaaaa@37E2@"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 12,
+      "sort": 12,
+      "title": "Integration using partial fractions",
+      "type": "mcq",
+      "questionText": "            ∫     ​         3   x   +   1         x   2     −   4   x   +   3       d   x   =     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBae",
+      "options": [
+        {
+          "id": "A",
+          "text": "−2ln|x−3|+5ln|x−1|+C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaciiBaiaac6gacaGG8bGaamiEaiabgkHiTiaaiodacaGG8bGaey4kaSIaaGynaiGacYgacaGGUbGaaiiFaiaadIhacqGHsislcaaIXaGaaiiFaiabgUcaRiaadoeaaaa@481C@"
+        },
+        {
+          "id": "B",
+          "text": "1 5  ln|x−3|− 1 2  ln|x−1|+C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGynaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaG4maiaacYhacqGHsisldaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaGymaiaacYhacqGHRaWkcaWGdbaaaa@494C@"
+        },
+        {
+          "id": "C",
+          "text": "1 2  ln|x−3|− 1 2  ln|x−1|+C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaG4maiaacYhacqGHsisldaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaGymaiaacYhacqGHRaWkcaWGdbaaaa@4949@"
+        },
+        {
+          "id": "D",
+          "text": "5ln|x−3|−2ln|x−1|+C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI1aGaciiBaiaac6gacaGG8bGaamiEaiabgkHiTiaaiodacaGG8bGaeyOeI0IaaGOmaiGacYgacaGGUbGaaiiFaiaadIhacqGHsislcaaIXaGaaiiFaiabgUcaRiaadoeaaaa@473A@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 13,
+      "sort": 13,
+      "title": "Match a slope field from a differential equation",
+      "type": "mcq",
+      "questionText": "Which of the following is a slope field for the differential equation&nbsp;            d  y       d  x       =    x   2     +    y   2       MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbv",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 14,
+      "sort": 14,
+      "title": "Derivative of a polynomial by definition",
+      "type": "mcq",
+      "questionText": " If  f (x) = 3x 2  + 2x, then  f '(x) = ",
+      "options": [
+        {
+          "id": "A",
+          "text": "lim   h→0     (  3 x 2  +2x+h  )−(  3 x 2  +2x  )  h   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWGObGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4maiaadIhapaWaaWbaaSqabeaapeGaaGOmaaaakiabgUcaRiaaikdacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@4F0E@"
+        },
+        {
+          "id": "B",
+          "text": "lim   x→0     (  3 x 2  +2x+h  )−(  3 x 2  +2x  )  h   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4maiaadIhapaWaaWbaaSqabeaapeGaaGOmaaaakiabgUcaRiaaikdacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@4F1E@"
+        },
+        {
+          "id": "C",
+          "text": "lim   h→0     (  3  (  x+h  )  2  +2(  x+h  )  )−(  3 x 2  +2x  )  h   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWGObGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4mamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@542D@"
+        },
+        {
+          "id": "D",
+          "text": "lim   x→0     (  3  (  x+h  )  2  +2(  x+h  )  )−(  3 x 2  +2x  )  h   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4mamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@543D@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 15,
+      "sort": 15,
+      "title": "Determine limits from graphical functions",
+      "type": "mcq",
+      "questionText": "    The graphs of the functions  f  and  g  are shown in the figures above. Which of the following statements is false? ",
+      "options": [
+        {
+          "id": "A",
+          "text": "lim   x→1   f( x )=0  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGymaaWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iaaicdaaaa@425A@"
+        },
+        {
+          "id": "B",
+          "text": "lim   x→2   g( x )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGOmaaWdaeqaaOWdbiaadEgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaaaa@409C@  &nbsp;does not exist."
+        },
+        {
+          "id": "C",
+          "text": "lim   x→1   (  f( x )g(  x+1  )  )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGymaaWdaeqaaOWdbmaabmaapaqaa8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacaWGNbWaaeWaa8aabaWdbiaadIhacqGHRaWkcaaIXaaacaGLOaGaayzkaaaacaGLOaGaayzkaaaaaa@4770@  &nbsp;does not exist."
+        },
+        {
+          "id": "D",
+          "text": "lim   x→1   (  f(  x+1  )g( x )  )  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGymaaWdaeqaaOWdbmaabmaapaqaa8qacaWGMbWaaeWaa8aabaWdbiaadIhacqGHRaWkcaaIXaaacaGLOaGaayzkaaGaam4zamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaaacaGLOaGaayzkaaaaaa@4770@  &nbsp;exists."
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 16,
+      "sort": 16,
+      "title": "Interval of convergence of a power series",
+      "type": "mcq",
+      "questionText": "Which of the following is the interval of convergence for the series&nbsp;            ∑     n  =  0     ∞                (     x  +  2     )      n           2   n               MathType@MTEF@5@5@+=fe",
+      "options": [
+        {
+          "id": "A",
+          "text": "-4 &lt; x &lt; 0"
+        },
+        {
+          "id": "B",
+          "text": "−4≤x&lt;0  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaI0aGaeyizImQaamiEaiabgYda8iaaicdaaaa@3C2F@"
+        },
+        {
+          "id": "C",
+          "text": "-2 &lt; x &lt; 0"
+        },
+        {
+          "id": "D",
+          "text": "−2≤x&lt;2  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaeyizImQaamiEaiabgYda8iaaikdaaaa@3C2F@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 17,
+      "sort": 17,
+      "title": "Value of a definite integral using substitution",
+      "type": "mcq",
+      "questionText": "&nbsp;              ∫   0   5               5  −  x     5                 MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtub",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 3   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGOmaaWdaeaapeGaaG4maaaaaaa@37DB@"
+        },
+        {
+          "id": "B",
+          "text": "10  3   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGymaiaaicdaa8aabaWdbiaaiodaaaaaaa@3894@"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "50 5   3   MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGynaiaaicdadaGcaaWdaeaapeGaaGynaaWcbeaaaOWdaeaapeGaaG4maaaaaaa@399B@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 18,
+      "sort": 18,
+      "title": "Comparison of limits of various functions",
+      "type": "mcq",
+      "questionText": " Which of the following limits are equal to −1 ? \n\n \n\t \n\t &nbsp;          lim      x  →    0   −              |   x   |     x         \n\t \n\t \n\t &nbsp;          lim      x  →  3            x   2     −  ",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "I and III only"
+        },
+        {
+          "id": "C",
+          "text": "II and III only"
+        },
+        {
+          "id": "D",
+          "text": "I, II, and III only"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    },
+    {
+      "id": 19,
+      "sort": 19,
+      "title": "Tangent line approximation of value of a function",
+      "type": "mcq",
+      "questionText": "Let f be the function given by  f(x)  = 2 cos x + 1. What is the approximation for  f(1.5)  found by using the line tangent to the graph of  f  at&nbsp;        x  =    π   2       MathType@MTEF@5@5@+=",
+      "options": [
+        {
+          "id": "A",
+          "text": "-2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "π−2  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqaHapaCcqGHsislcaaIYaaaaa@397A@"
+        },
+        {
+          "id": "D",
+          "text": "4−π  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI0aGaeyOeI0IaeqiWdahaaa@397C@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 9: Sequences & Series",
+      "analysis": null
+    },
+    {
+      "id": 20,
+      "sort": 20,
+      "title": "Tangent line equation of a parametric function",
+      "type": "mcq",
+      "questionText": "A particle moves in the  xy -plane so that its position for  t ≥ 0  is given by the parametric equations  x = ln (t + 1)  and  y = kt 2   , where  k  is a positive constant. The line tangent to the pa",
+      "options": [
+        {
+          "id": "A",
+          "text": "1  192"
+        },
+        {
+          "id": "B",
+          "text": "1 3"
+        },
+        {
+          "id": "C",
+          "text": "4 3"
+        },
+        {
+          "id": "D",
+          "text": "16  3"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 10: Taylor Series",
+      "analysis": null
+    },
+    {
+      "id": 21,
+      "sort": 21,
+      "title": "Average value using trapezoidal approximation",
+      "type": "mcq",
+      "questionText": "   \n\n The table above gives the level of a person’s cholesterol at different times during a 10-week treatment period. What is the average level over this 10-week period obtained by using a trapezoidal",
+      "options": [
+        {
+          "id": "A",
+          "text": "188"
+        },
+        {
+          "id": "B",
+          "text": "193"
+        },
+        {
+          "id": "C",
+          "text": "195"
+        },
+        {
+          "id": "D",
+          "text": "198"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 22,
+      "sort": 22,
+      "title": "Anitderivative using integration by parts",
+      "type": "mcq",
+      "questionText": "&nbsp;           ∫       x   2               e     −  3  x  /  4          d  x  =     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYb",
+      "options": [
+        {
+          "id": "A",
+          "text": "−  3x  4   e  −3x/4   + 3 4   e  −3x/4   +C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaG4maiaadIhaa8aabaWdbiaaisdaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaey4kaSYaaSaaa8aabaWdbiaaiodaa8aabaWdbiaaisdaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaey4kaSIaam4qaaaa@48CC@"
+        },
+        {
+          "id": "B",
+          "text": "−   2 x  3   e  − 3 x / 4   −  8 9   e  − 3 x / 4   + C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaGOmaiaadIhaa8aabaWdbiaaiodaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaeyOeI0YaaSaaa8aabaWdbiaaiIdaa8aabaWdbiaaiMdaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaey4kaSIaam4qaaaa@48DF@"
+        },
+        {
+          "id": "C",
+          "text": "− x 2   e  −3x/4   + 3 8   e  −3x/4   +C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaamiEaaWdaeaapeGaaGOmaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHRaWkdaWcaaWdaeaapeGaaG4maaWdaeaapeGaaGioaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHRaWkcaWGdbaaaa@4811@"
+        },
+        {
+          "id": "D",
+          "text": "x 2   e  −3x/4   − 1 2   e  −3x/4   +C  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaamiEaaWdaeaapeGaaGOmaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHsisldaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHRaWkcaWGdbaaaa@4727@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 23,
+      "sort": 23,
+      "title": "Expression for the  derivative of a power series",
+      "type": "mcq",
+      "questionText": "&nbsp;If&nbsp;      f   (   x   )   =      ∑     n  =  1    ∞             x     2  n          n  !            , then&nbsp;        f   ′       (   x   )     =      ",
+      "options": [
+        {
+          "id": "A",
+          "text": "x 3   3  +    x 5    5 ⋅ 2 !   +    x 7    7 ⋅ 3 !   +    x 9    9 ⋅ 4 !   + ⋯ +    x   (  2 n + 1  )       (  2 n + 1  )  n !   + ⋯"
+        },
+        {
+          "id": "B",
+          "text": "x+  3 x 3    2!  +  5 x 5    3!  +  7 x 7    4!  +⋯+  (  2n−1 ) x  (  2n−1 )    n!  +⋯"
+        },
+        {
+          "id": "C",
+          "text": "2+2 x 2  + x 4  +   x 6   3  +⋯+  2 x  2(  n−1 )    (  n−1 )!  +⋯"
+        },
+        {
+          "id": "D",
+          "text": "2 x + 2  x 3  +  x 5  +    x 7   3  + ⋯ +   2 n  x   (  2 n − 1  )      n !   + ⋯"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 24,
+      "sort": 24,
+      "title": "Average value of a function on an interval",
+      "type": "mcq",
+      "questionText": "If the average value of a continuous function f on the interval [−2, 4 ] is 12, what is&nbsp;            ∫     −  2    4           f   (   x   )     8              dx?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "72"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 25,
+      "sort": 25,
+      "title": "Radius of convergence of a Maclaurin series",
+      "type": "mcq",
+      "questionText": "What is the radius of convergence of the Maclaurin series for&nbsp;          2   x       1   +     x   2            ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "infinite"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 26,
+      "sort": 26,
+      "title": "Interval that solves the Mean Value Theorem",
+      "type": "mcq",
+      "questionText": "Let  f  be the function with&nbsp;        f     (   0   )     =     1       π   2           MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wD",
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "One"
+        },
+        {
+          "id": "C",
+          "text": "Two"
+        },
+        {
+          "id": "D",
+          "text": "More than two"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 27,
+      "sort": 27,
+      "title": "Logistic growth differential equation in cafeteria",
+      "type": "mcq",
+      "questionText": "The number of students in a cafeteria is modeled by the function P that satisfies the logistic differential equation&nbsp;            d  P       d  t       =    1     2000       P   (     200  −  P   ",
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "100"
+        },
+        {
+          "id": "D",
+          "text": "200"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 28,
+      "sort": 28,
+      "title": "Find related rate of the edge of a cube",
+      "type": "mcq",
+      "questionText": " A cube with edges of length  x  centimeters has volume  V(x) = x 3    cubic centimeters. The volume is increasing at a constant rate of 40 cubic centimeters per minute. At the instant when  x = 2 , w",
+      "options": [
+        {
+          "id": "A",
+          "text": "10/3"
+        },
+        {
+          "id": "B",
+          "text": "40  3"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    },
+    {
+      "id": 29,
+      "sort": 29,
+      "title": "Taylor series expansion of exponential functions",
+      "type": "mcq",
+      "questionText": "Which of the following is a power series expansion of&nbsp;            e   x     +     e     −   x         2        ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1+   x 2    2!  +   x 4    4!  +   x 6    6!  +⋯+   x  2n    (  2n )!  +⋯"
+        },
+        {
+          "id": "B",
+          "text": "1 −    x 2    2 !   +    x 4    4 !   −    x 6    6 !   + ⋯ +    (  − 1  )   n     x  2 n      (  2 n  )  !   + ⋯"
+        },
+        {
+          "id": "C",
+          "text": "x +    x 3    3 !   +    x 5    5 !   +    x 7    7 !   + ⋯ +    x  2 n + 1      (  2 n + 1  )  !   + ⋯"
+        },
+        {
+          "id": "D",
+          "text": "x −    x 3    3 !   +    x 5    5 !   −    x 7    7 !   + ⋯ +    (  − 1  )   n     x  2 n + 1      (  2 n + 1  )  !   + ⋯"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 9: Sequences & Series",
+      "analysis": null
+    },
+    {
+      "id": 30,
+      "sort": 30,
+      "title": "Convergence of series using Limit Comparison Test",
+      "type": "mcq",
+      "questionText": "Which of the following statements about the series&nbsp;            ∑     n  =  1     ∞         1       2   n     −  n             MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2Caerbu",
+      "options": [
+        {
+          "id": "A",
+          "text": "The series diverges by the nth term test."
+        },
+        {
+          "id": "B",
+          "text": "The series diverges by limit comparison to the harmonic series&nbsp;     ∑  n=1  ∞    1 n     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaSaaa8aabaWdbiaaigdaa8aabaWdbiaad6gaaaaal8aabaWdbiaad6gacqGH9aqpcaaIXaaapaqaa8qacqGHEisPa0GaeyyeIuoaaaa@3ED4@  ."
+        },
+        {
+          "id": "C",
+          "text": "The series converges by the nth term test"
+        },
+        {
+          "id": "D",
+          "text": "The series converges by limit comparison to the geometric series&nbsp;     ∑  n=1  ∞    1   2 n       MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaSaaa8aabaWdbiaaigdaa8aabaWdbiaaikdapaWaaWbaaSqabeaapeGaamOBaaaaaaaapaqaa8qacaWGUbGaeyypa0JaaGymaaWdaeaapeGaeyOhIukaniabggHiLdaaaa@3FD1@  ."
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 10: Taylor Series",
+      "analysis": null
+    },
+    {
+      "id": 31,
+      "sort": 31,
+      "title": "Justification of a relative minimum",
+      "type": "mcq",
+      "questionText": " Let  f  be a twice-differentiable function for all real numbers  x . Which of the following additional properties guarantees that  f  has a relative minimum at  x = c  ?  ",
+      "options": [
+        {
+          "id": "A",
+          "text": "f'(c) = 0"
+        },
+        {
+          "id": "B",
+          "text": "f'(c) = 0 and f''(c) &lt; 0"
+        },
+        {
+          "id": "C",
+          "text": "f'(c) = 0 and f''(c) &gt; 0"
+        },
+        {
+          "id": "D",
+          "text": "f'(x) &gt; 0 for x &lt; c and f'(x) &lt; 0 for x &gt; c"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 32,
+      "sort": 32,
+      "title": "Find specific value using definite integral",
+      "type": "mcq",
+      "questionText": "Let  H(x)  be an antiderivative of&nbsp;              x   3     +  sin  x         x   2     +  2         MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLx",
+      "options": [
+        {
+          "id": "A",
+          "text": "−9.008"
+        },
+        {
+          "id": "B",
+          "text": "−5.867"
+        },
+        {
+          "id": "C",
+          "text": "4.626"
+        },
+        {
+          "id": "D",
+          "text": "12.150"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 33,
+      "sort": 33,
+      "title": "Horizontal and vertical asymptotes of a function",
+      "type": "mcq",
+      "questionText": " The continuous function  f  is positive and has domain  x &gt; 0 . If the asymptotes of the graph of  f  are  x = 0  and  y = 2 , which of the following statements must be true?  ",
+      "options": [
+        {
+          "id": "A",
+          "text": "lim   x →  0 +    f  ( x )  = ∞  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIWaWdamaaCaaameqabaWdbiabgUcaRaaaaSWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iabg6HiLcaa@4751@  &nbsp;and&nbsp;     lim   x → 2   f  ( x )  = ∞  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIYaaapaqabaGcpeGaamOzamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaeyypa0JaeyOhIukaaa@4619@"
+        },
+        {
+          "id": "B",
+          "text": "lim   x →  0 +    f  ( x )  = 2  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIWaWdamaaCaaameqabaWdbiabgUcaRaaaaSWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iaaikdaaaa@469C@  &nbsp;and&nbsp;     lim   x → ∞   f  ( x )  = 0  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaIWaaaaa@4617@"
+        },
+        {
+          "id": "C",
+          "text": "lim   x →  0 +    f  ( x )  = ∞  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIWaWdamaaCaaameqabaWdbiabgUcaRaaaaSWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iabg6HiLcaa@4751@  &nbsp;and&nbsp;     lim   x → ∞   f  ( x )  = 2  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaIYaaaaa@4619@"
+        },
+        {
+          "id": "D",
+          "text": "lim   x → 2   f  ( x )  = ∞  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIYaaapaqabaGcpeGaamOzamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaeyypa0JaeyOhIukaaa@4619@  &nbsp;and&nbsp;     lim   x → ∞   f  ( x )  = 2  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaIYaaaaa@4619@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 34,
+      "sort": 34,
+      "title": "Find maximum value from a derivative graph",
+      "type": "mcq",
+      "questionText": "   \n\n The graph of a function  f , consisting of three line segments, is shown above. The function  f  is defined on the closed interval [0, 6] . Let  g(x) = &nbsp;              ∫   2   x     f       ",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 35,
+      "sort": 35,
+      "title": "Speed of a parametric function at a specific time",
+      "type": "mcq",
+      "questionText": "The position of an object moving along a path in the xy-plane is given by the parametric equations&nbsp;        x   (   t   )   =  5  sin   (     π  t     )      MathType@MTEF@5@5@+=feaagCart1ev2aaatC",
+      "options": [
+        {
+          "id": "A",
+          "text": "3.422"
+        },
+        {
+          "id": "B",
+          "text": "11.708"
+        },
+        {
+          "id": "C",
+          "text": "15.580"
+        },
+        {
+          "id": "D",
+          "text": "16.209"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 36,
+      "sort": 36,
+      "title": "Find the derivative graph from a function graph",
+      "type": "mcq",
+      "questionText": "   \n\n The graph of the function  f  is shown above for&nbsp;        −   2   ≤   x   ≤   2     MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 37,
+      "sort": 37,
+      "title": "Minimum value of a function given its derivative",
+      "type": "mcq",
+      "questionText": "The derivative of the function  f  is given by&nbsp;          f   ′      (   x   )   =    e     −  x       cos   (       x   2       )      MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvy",
+      "options": [
+        {
+          "id": "A",
+          "text": "f(-1)"
+        },
+        {
+          "id": "B",
+          "text": "f(-0.762)"
+        },
+        {
+          "id": "C",
+          "text": "f(1)"
+        },
+        {
+          "id": "D",
+          "text": "There is no minimum value of f(x) for    −1≤x≤1  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIXaGaeyizImQaamiEaiabgsMiJkaaigdaaaa@3CDE@  ."
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 38,
+      "sort": 38,
+      "title": "Volume of a solid with a known cross-section",
+      "type": "mcq",
+      "questionText": "   \n\n The base of a solid is the region bounded by a portion of the graph of&nbsp;        y  =  sin   (       π   2     x     )      MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2Caer",
+      "options": [
+        {
+          "id": "A",
+          "text": "∫ 0 2  3  sin(   π 2  x  )dx  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGcciGGZbGaaiyAaiaac6gadaqadaWdaeaapeWaaSaaa8aabaWdbiabec8aWbWdaeaapeGaaGOmaaaacaWG4baacaGLOaGaayzkaaGaamizaiaadIhaaaa@4501@"
+        },
+        {
+          "id": "B",
+          "text": "∫ 0 2  3    sin  2  (   π 2  x  )dx  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGcciGGZbGaaiyAaiaac6gapaWaaWbaaSqabeaapeGaaGOmaaaakmaabmaapaqaa8qadaWcaaWdaeaapeGaeqiWdahapaqaa8qacaaIYaaaaiaadIhaaiaawIcacaGLPaaacaWGKbGaamiEaaaa@4613@"
+        },
+        {
+          "id": "C",
+          "text": "∫ 0 2  3  πsin(   π 2  x  )dx  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGccqaHapaCciGGZbGaaiyAaiaac6gadaqadaWdaeaapeWaaSaaa8aabaWdbiabec8aWbWdaeaapeGaaGOmaaaacaWG4baacaGLOaGaayzkaaGaamizaiaadIhaaaa@46BE@"
+        },
+        {
+          "id": "D",
+          "text": "∫ 0 2  3  π  sin  2  (   π 2  x  )dx  MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGccqaHapaCciGGZbGaaiyAaiaac6gapaWaaWbaaSqabeaapeGaaGOmaaaakmaabmaapaqaa8qadaWcaaWdaeaapeGaeqiWdahapaqaa8qacaaIYaaaaiaadIhaaiaawIcacaGLPaaacaWGKbGaamiEaaaa@47D0@"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    },
+    {
+      "id": 39,
+      "sort": 39,
+      "title": "Value of an improper integral",
+      "type": "mcq",
+      "questionText": "If  g  is a twice-differentiable function, where  g(1) = 0.5  and&nbsp;            lim       x   →   ∞       g     (   x   )     =   4     MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyN",
+      "options": [
+        {
+          "id": "A",
+          "text": "-3.5"
+        },
+        {
+          "id": "B",
+          "text": "3.5"
+        },
+        {
+          "id": "C",
+          "text": "4.5"
+        },
+        {
+          "id": "D",
+          "text": "nonexistent"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 9: Sequences & Series",
+      "analysis": null
+    },
+    {
+      "id": 40,
+      "sort": 40,
+      "title": "Value of definite integral from derivative graph",
+      "type": "mcq",
+      "questionText": "   \n\n The graph of the function f is shown above. If  g  is the function defined by&nbsp;      g     (   x   )     =         ∫   2   x     f         (   t   )     d   t      ,&nbsp;what is the value o",
+      "options": [
+        {
+          "id": "A",
+          "text": "25 4"
+        },
+        {
+          "id": "B",
+          "text": "5 4"
+        },
+        {
+          "id": "C",
+          "text": "− 5 2"
+        },
+        {
+          "id": "D",
+          "text": "−  25 2"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "B",
+      "userCorrect": false,
+      "unit": "Unit 10: Taylor Series",
+      "analysis": null
+    },
+    {
+      "id": 41,
+      "sort": 41,
+      "title": "Inflection points from several second derivatives",
+      "type": "mcq",
+      "questionText": "           f   ′           ′     (   x   )   =   x       (   x   −   1   )     2         (   x   +   2   )     3       MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DG",
+      "options": [
+        {
+          "id": "A",
+          "text": "g only"
+        },
+        {
+          "id": "B",
+          "text": "h only"
+        },
+        {
+          "id": "C",
+          "text": "f and g only"
+        },
+        {
+          "id": "D",
+          "text": "f, g, and h"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 42,
+      "sort": 42,
+      "title": "Find position vector from velocity vector",
+      "type": "mcq",
+      "questionText": "The velocity vector of a particle moving in the xy-plane has components given by&nbsp;          d   x       d   t       =   sin     (       t   2       )        &nbsp;and&nbsp;          d   y       d ",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.410"
+        },
+        {
+          "id": "B",
+          "text": "0.590"
+        },
+        {
+          "id": "C",
+          "text": "0.851"
+        },
+        {
+          "id": "D",
+          "text": "1.410"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 43,
+      "sort": 43,
+      "title": "Match derivative values to function behavior",
+      "type": "mcq",
+      "questionText": " The function  f  is increasing on the interval [1, 3] and nowhere else. The first derivative of  f, f',  is continuous for all real numbers. Which of the following could be a table of values for  f'(",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "D",
+      "userCorrect": false,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 44,
+      "sort": 44,
+      "title": "Area of the region bounded by two polar curves",
+      "type": "mcq",
+      "questionText": "   \n\n Let  S  be the region in the first quadrant bounded above by the graph of the polar curve  r = cos      θ     and bounded below by the graph of the polar curve  r =  2    θ    , as shown in the ",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.232"
+        },
+        {
+          "id": "B",
+          "text": "0.243"
+        },
+        {
+          "id": "C",
+          "text": "0.271"
+        },
+        {
+          "id": "D",
+          "text": "0.384"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "C",
+      "userCorrect": false,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 45,
+      "sort": 45,
+      "title": "Find interval for alternating series error bound",
+      "type": "mcq",
+      "questionText": "If the infinite series&nbsp;      S  =      ∑     n  =  1    ∞            (     −  1    )       n  +  1           2   n        &nbsp;is approxiately by&nbsp;        P   k     =       ∑     n   =   1  ",
+      "options": [
+        {
+          "id": "A",
+          "text": "64"
+        },
+        {
+          "id": "B",
+          "text": "66"
+        },
+        {
+          "id": "C",
+          "text": "68"
+        },
+        {
+          "id": "D",
+          "text": "70"
+        }
+      ],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 46,
+      "sort": 46,
+      "title": "Position vector: analyze speed, distance, motion",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 47,
+      "sort": 46,
+      "title": "Position vector: analyze speed, distance, motion",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 48,
+      "sort": 46,
+      "title": "Position vector: analyze speed, distance, motion",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    },
+    {
+      "id": 49,
+      "sort": 46,
+      "title": "Position vector: analyze speed, distance, motion",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 9: Sequences & Series",
+      "analysis": null
+    },
+    {
+      "id": 50,
+      "sort": 47,
+      "title": "Modeling water in two tanks: accum and opt.",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 10: Taylor Series",
+      "analysis": null
+    },
+    {
+      "id": 51,
+      "sort": 47,
+      "title": "Modeling water in two tanks: accum and opt.",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 52,
+      "sort": 47,
+      "title": "Modeling water in two tanks: accum and opt.",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 53,
+      "sort": 47,
+      "title": "Modeling water in two tanks: accum and opt.",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 54,
+      "sort": 48,
+      "title": "Approx., eval., apply deriv. of accum. fct",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 55,
+      "sort": 48,
+      "title": "Approx., eval., apply deriv. of accum. fct",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 56,
+      "sort": 48,
+      "title": "Approx., eval., apply deriv. of accum. fct",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 57,
+      "sort": 48,
+      "title": "Approx., eval., apply deriv. of accum. fct",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 58,
+      "sort": 49,
+      "title": "Approx., eval., def. integral; L'Hosp.: Tabular",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    },
+    {
+      "id": 59,
+      "sort": 49,
+      "title": "Approx., eval., def. integral; L'Hosp.: Tabular",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 9: Sequences & Series",
+      "analysis": null
+    },
+    {
+      "id": 60,
+      "sort": 49,
+      "title": "Approx., eval., def. integral; L'Hosp.: Tabular",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 10: Taylor Series",
+      "analysis": null
+    },
+    {
+      "id": 61,
+      "sort": 49,
+      "title": "Approx., eval., def. integral; L'Hosp.: Tabular",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 1: Limits",
+      "analysis": null
+    },
+    {
+      "id": 62,
+      "sort": 50,
+      "title": "Diff eq: diff, opt, Taylor Polynomial, Lagrange",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 2: Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 63,
+      "sort": 50,
+      "title": "Diff eq: diff, opt, Taylor Polynomial, Lagrange",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 3: Applications of Derivatives",
+      "analysis": null
+    },
+    {
+      "id": 64,
+      "sort": 50,
+      "title": "Diff eq: diff, opt, Taylor Polynomial, Lagrange",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 4: Integration",
+      "analysis": null
+    },
+    {
+      "id": 65,
+      "sort": 50,
+      "title": "Diff eq: diff, opt, Taylor Polynomial, Lagrange",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 5: Applications of Integration",
+      "analysis": null
+    },
+    {
+      "id": 66,
+      "sort": 51,
+      "title": "Impr. Int., integral test, abs./cond. Convergence",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 6: Differential Equations",
+      "analysis": null
+    },
+    {
+      "id": 67,
+      "sort": 51,
+      "title": "Impr. Int., integral test, abs./cond. Convergence",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 7: Infinite Series",
+      "analysis": null
+    },
+    {
+      "id": 68,
+      "sort": 51,
+      "title": "Impr. Int., integral test, abs./cond. Convergence",
+      "type": "frq",
+      "questionText": "None",
+      "options": [],
+      "correctAnswer": "A",
+      "userAnswer": "A",
+      "userCorrect": true,
+      "unit": "Unit 8: Parametric & Polar",
+      "analysis": null
+    }
+  ]
+}
