@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Hub — AP Practice Website</title>
+  <link rel="stylesheet" href="css/study-hub.css">
+  <link rel="stylesheet" href="../components/settings-modal.css">
+</head>
+<body>
+
+<!-- Top Nav -->
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="../exam/index.html" class="brand">
+      <span class="brand-mark">AP</span>
+      <span class="brand-title">Practice Website</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../exam/index.html">Mock</a>
+      <a href="../training/index.html">Training</a>
+      <a href="../dashboard/v2/index.html">Dashboard</a>
+      <a class="active" href="#">Study Hub</a>
+      <a href="../ai-tutor/index.html">AI Tutor</a>
+    </nav>
+    <div style="display:flex; gap:12px; align-items:center;">
+      <button class="settings-trigger" onclick="openSettings()" title="模型配置">⚙️</button>
+      <div class="user-avatar"><span class="avatar-text">OC</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- Study Hub -->
+<main class="study-hub">
+  
+  <!-- Left: Learning Material -->
+  <section class="material-panel">
+    <div class="material-header">
+      <h2>📚 学习材料</h2>
+      <div class="material-status" id="material-status">未加载</div>
+    </div>
+    
+    <!-- Upload Area -->
+    <div class="upload-area" id="upload-area">
+      <div class="upload-icon">📄</div>
+      <div class="upload-text">
+        <strong>拖拽或点击上传</strong>
+        <span>支持图片 (PNG/JPG) 和 PDF</span>
+      </div>
+      <input type="file" id="file-input" accept="image/*,.pdf" style="display:none">
+    </div>
+    
+    <!-- Preview Area -->
+    <div class="preview-area" id="preview-area" style="display:none;">
+      <img id="preview-image" class="preview-image" src="" alt="学习材料">
+      <div class="preview-controls">
+        <button class="preview-btn" id="zoom-in">🔍+</button>
+        <button class="preview-btn" id="zoom-out">🔍-</button>
+        <button class="preview-btn" id="clear-material">🗑️ 清除</button>
+      </div>
+    </div>
+    
+    <!-- Context Indicator -->
+    <div class="context-indicator" id="context-indicator" style="display:none;">
+      <span class="context-dot"></span>
+      <span class="context-text">AI 已阅读此材料</span>
+    </div>
+  </section>
+
+  <!-- Right: AI Chat -->
+  <section class="chat-panel">
+    <div class="chat-header">
+      <div class="tutor-avatar">
+        <div class="tutor-face">👩‍🏫</div>
+        <div class="tutor-emotion" id="tutor-emotion">😐 中立</div>
+      </div>
+      <div class="tutor-info">
+        <div class="tutor-name">明日香</div>
+        <div class="tutor-role">你的伴读导师</div>
+      </div>
+      <div class="deep-logic-score">
+        <div class="score-label">理解深度</div>
+        <div class="score-value" id="deep-logic-score">0</div>
+      </div>
+    </div>
+
+    <!-- Chat History -->
+    <div class="chat-history" id="chat-history">
+      <div class="system-welcome">
+        <p>👋 欢迎来到多模态伴读学习舱！</p>
+        <p>上传学习材料后，我可以帮你：</p>
+        <ul>
+          <li>👁️ 静默阅读材料内容</li>
+          <li>💬 回答你对材料的疑问</li>
+          <li>🎯 根据材料出题考你</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-bar">
+      <button class="action-btn silent-read" id="silent-read-btn" disabled>
+        👀 让导师看这页
+      </button>
+      <button class="action-btn test-me" id="test-me-btn" disabled>
+        🎯 考考我
+      </button>
+    </div>
+
+    <!-- Input -->
+    <div class="input-panel">
+      <input type="text" class="chat-input" id="chat-input" placeholder="输入你的问题..." disabled>
+      <button class="send-btn" id="send-btn" disabled>发送 →</button>
+    </div>
+  </section>
+
+</main>
+
+<!-- Settings Modal -->
+<div class="settings-overlay" id="settings-overlay" style="display:none;">
+  <div class="settings-modal">
+    <div class="settings-header">
+      <h2>⚙️ 模型配置</h2>
+      <button class="settings-close" id="settings-close">✕</button>
+    </div>
+    <div class="settings-body">
+      <div class="settings-group">
+        <label>Base URL</label>
+        <input type="text" id="config-base-url" placeholder="https://api.openai.com/v1" spellcheck="false">
+      </div>
+      <div class="settings-group">
+        <label>API Key</label>
+        <div class="key-input-wrapper">
+          <input type="password" id="config-api-key" placeholder="sk-..." spellcheck="false">
+          <button class="key-toggle" id="key-toggle">👁</button>
+        </div>
+      </div>
+      <div class="settings-group">
+        <label>Model ID</label>
+        <input type="text" id="config-model-id" placeholder="gpt-4o / claude-3-5-sonnet / gemini-pro">
+      </div>
+      <div class="settings-group">
+        <label>System Prompt</label>
+        <textarea id="config-system-prompt" rows="4"></textarea>
+      </div>
+      <div class="settings-group">
+        <label>快捷预设</label>
+        <div class="preset-buttons">
+          <button class="preset-btn" data-preset="gemini">🟢 Gemini</button>
+          <button class="preset-btn" data-preset="openai">🔵 OpenAI</button>
+          <button class="preset-btn" data-preset="claude">🟠 Claude</button>
+          <button class="preset-btn" data-preset="deepseek">🟣 DeepSeek</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-footer">
+      <button class="settings-btn secondary" id="settings-reset">恢复默认</button>
+      <button class="settings-btn primary" id="settings-save">💾 保存</button>
+    </div>
+    <div class="settings-status" id="settings-status"></div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="../js/api-config.js"></script>
+<script src="../components/settings-modal.js"></script>
+<script src="js/study-hub.js"></script>
+</body>
+</html>
