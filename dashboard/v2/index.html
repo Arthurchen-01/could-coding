@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard 2.0 — AP Practice Website</title>
+  <link rel="stylesheet" href="css/dashboard2.css">
+</head>
+<body>
+
+<!-- Top Nav -->
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="../exam/index.html" class="brand">
+      <span class="brand-mark">AP</span>
+      <span class="brand-title">Practice Website</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../exam/index.html">Home</a>
+      <a href="../exam/index.html">Mock Exam</a>
+      <a href="../training/index.html">Training</a>
+      <a class="active" href="#">Dashboard</a>
+      <a href="../ai-tutor/index.html">AI Tutor</a>
+    </nav>
+    <div class="user-avatar"><span class="avatar-text">OC</span></div>
+  </div>
+</header>
+
+<main class="dashboard2">
+  
+  <!-- AI Toggle -->
+  <div class="ai-toggle-bar">
+    <label class="ai-switch">
+      <input type="checkbox" id="ai-mode-toggle" checked>
+      <span class="ai-slider"></span>
+    </label>
+    <span class="ai-label">🤖 AI 建议模式</span>
+    <span class="ai-hint">开启后，点击题目可获得明日香式分析</span>
+  </div>
+
+  <!-- Exam Selector -->
+  <section class="exam-selector">
+    <h2>选择考试数据</h2>
+    <div class="exam-dropdown">
+      <select id="exam-select">
+        <option value="">加载中...</option>
+      </select>
+      <button id="load-exam-btn">加载</button>
+    </div>
+  </section>
+
+  <!-- Exam Overview -->
+  <section class="exam-overview" id="exam-overview" style="display:none;">
+    <div class="overview-stats">
+      <div class="stat-card">
+        <div class="stat-value" id="total-questions">0</div>
+        <div class="stat-label">总题数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="accuracy">0%</div>
+        <div class="stat-label">正确率</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="wrong-count">0</div>
+        <div class="stat-label">错题数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="answer-rate">0%</div>
+        <div class="stat-label">完成率</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unit Accuracy Bars -->
+  <section class="unit-accuracy" id="unit-accuracy" style="display:none;">
+    <h2>📊 Unit 准确率进度条</h2>
+    <div class="unit-bars" id="unit-bars">
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+  <!-- Wrong Answer List -->
+  <section class="wrong-list" id="wrong-list" style="display:none;">
+    <h2>❌ 错题详细列表</h2>
+    <table class="wrong-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>题目名</th>
+          <th>正确答案</th>
+          <th>你的答案</th>
+          <th>所属 Unit</th>
+          <th>AI Analysis</th>
+        </tr>
+      </thead>
+      <tbody id="wrong-tbody">
+        <!-- Rendered by JS -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- AI Analysis Panel -->
+  <div class="ai-panel" id="ai-panel" style="display:none;">
+    <div class="ai-panel-header">
+      <h3>🤖 AI Analysis</h3>
+      <button id="close-ai-panel">✕</button>
+    </div>
+    <div class="ai-panel-content" id="ai-panel-content">
+      <div class="ai-loading">明日香正在分析中...</div>
+    </div>
+  </div>
+
+</main>
+
+<script src="../js/data-service.js"></script>
+<script src="../ai-tutor/js/llm-bridge.js"></script>
+<script src="js/dashboard2.js"></script>
+</body>
+</html>
