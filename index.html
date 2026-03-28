@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP Practice Website</title>
+  <link rel="stylesheet" href="components/global-nav.css">
+  <link rel="stylesheet" href="components/settings-modal.css">
+</head>
+<body>
+
+<!-- Global Navigation -->
+<div id="global-nav-container"></div>
+
+<!-- Hero Section -->
+<main class="page-main shell" style="max-width:1200px; margin:0 auto; padding:40px 24px;">
+  
+  <section class="hero" style="text-align:center; padding:60px 0 40px;">
+    <h1 style="font-size:3rem; line-height:1.1; margin-bottom:8px;">
+      <span style="color:#de8a4c; font-weight:800;">AP</span>
+      <span> for the </span>
+      <span style="color:#3b82f6; font-weight:800;">future generation</span>
+    </h1>
+    <p style="color:#6b7280; font-size:1.1rem; margin-bottom:40px;">
+      自用 AP 练习站 · 八科齐发 · 五分冲刺
+    </p>
+  </section>
+
+  <!-- Quick Entry Grid -->
+  <section style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); gap:20px; margin-bottom:40px;">
+    
+    <!-- 模考 -->
+    <a href="exam/index.html" class="home-card" style="text-decoration:none; color:inherit;">
+      <div style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:0.2s; cursor:pointer; border:2px solid transparent;">
+        <div style="font-size:2.5rem; margin-bottom:12px;">📝</div>
+        <h2 style="font-size:1.3rem; margin-bottom:8px;">套题模考</h2>
+        <p style="color:#6b7280; font-size:0.9rem; line-height:1.5;">Bluebook 1:1 复刻<br>MCQ + FRQ + 高亮 + 计时器</p>
+      </div>
+    </a>
+
+    <!-- Dashboard -->
+    <a href="dashboard/v2/index.html" class="home-card" style="text-decoration:none; color:inherit;">
+      <div style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:0.2s; cursor:pointer; border:2px solid transparent;">
+        <div style="font-size:2.5rem; margin-bottom:12px;">📊</div>
+        <h2 style="font-size:1.3rem; margin-bottom:8px;">Dashboard</h2>
+        <p style="color:#6b7280; font-size:0.9rem; line-height:1.5;">八科数据面板<br>Unit 准确率 + 错题列表 + AI 分析</p>
+      </div>
+    </a>
+
+    <!-- 专项训练 -->
+    <a href="training/index.html" class="home-card" style="text-decoration:none; color:inherit;">
+      <div style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:0.2s; cursor:pointer; border:2px solid transparent;">
+        <div style="font-size:2.5rem; margin-bottom:12px;">🔥</div>
+        <h2 style="font-size:1.3rem; margin-bottom:8px;">专项训练</h2>
+        <p style="color:#6b7280; font-size:0.9rem; line-height:1.5;">漏斗式筛选器<br>科目 → 题型 → 策略 → 开始</p>
+      </div>
+    </a>
+
+    <!-- Study Hub -->
+    <a href="study-hub/index.html" class="home-card" style="text-decoration:none; color:inherit;">
+      <div style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:0.2s; cursor:pointer; border:2px solid transparent;">
+        <div style="font-size:2.5rem; margin-bottom:12px;">🧠</div>
+        <h2 style="font-size:1.3rem; margin-bottom:8px;">多模态伴读</h2>
+        <p style="color:#6b7280; font-size:0.9rem; line-height:1.5;">上传图片 → AI 阅读<br>苏格拉底式伴读学习舱</p>
+      </div>
+    </a>
+
+    <!-- AI 导师 -->
+    <a href="ai-tutor/index.html" class="home-card" style="text-decoration:none; color:inherit;">
+      <div style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:0.2s; cursor:pointer; border:2px solid transparent;">
+        <div style="font-size:2.5rem; margin-bottom:12px;">🤖</div>
+        <h2 style="font-size:1.3rem; margin-bottom:8px;">AI 导师</h2>
+        <p style="color:#6b7280; font-size:0.9rem; line-height:1.5;">明日香聊天窗口<br>极速/稳扎稳打/苏格拉底模式</p>
+      </div>
+    </a>
+
+    <!-- Settings -->
+    <div onclick="openSettings()" class="home-card" style="cursor:pointer;">
+      <div style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:0.2s; border:2px solid transparent;">
+        <div style="font-size:2.5rem; margin-bottom:12px;">⚙️</div>
+        <h2 style="font-size:1.3rem; margin-bottom:8px;">模型配置</h2>
+        <p style="color:#6b7280; font-size:0.9rem; line-height:1.5;">API Key / Model ID<br>支持任意多模态大模型</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Stats -->
+  <section style="background:#fff; border-radius:20px; padding:32px; box-shadow:0 4px 20px rgba(0,0,0,0.04); margin-bottom:40px;">
+    <h2 style="font-size:1.2rem; margin-bottom:20px;">📈 今日数据</h2>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px; text-align:center;">
+      <div>
+        <div style="font-size:2rem; font-weight:800; color:#1a1a2e;">8</div>
+        <div style="font-size:0.85rem; color:#6b7280;">AP 科目</div>
+      </div>
+      <div>
+        <div style="font-size:2rem; font-weight:800; color:#de8a4c;">500+</div>
+        <div style="font-size:0.85rem; color:#6b7280;">已加载题目</div>
+      </div>
+      <div>
+        <div style="font-size:2rem; font-weight:800; color:#3b82f6;">6</div>
+        <div style="font-size:0.85rem; color:#6b7280;">功能模块</div>
+      </div>
+      <div>
+        <div style="font-size:2rem; font-weight:800; color:#22c55e;">40+</div>
+        <div style="font-size:0.85rem; color:#6b7280;">距 AP 考试天数</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer style="text-align:center; padding:24px; color:#6b7280; font-size:0.85rem; border-top:1px solid #e5e7eb;">
+  AP Practice Website · Built with ❤️ · 2026
+</footer>
+
+<!-- Settings Modal -->
+<div class="settings-overlay" id="settings-overlay" style="display:none;">
+  <div class="settings-modal">
+    <div class="settings-header">
+      <h2>⚙️ 模型配置</h2>
+      <button class="settings-close" id="settings-close">✕</button>
+    </div>
+    <div class="settings-body">
+      <div class="settings-group">
+        <label>Base URL</label>
+        <input type="text" id="config-base-url" placeholder="https://api.openai.com/v1" spellcheck="false">
+      </div>
+      <div class="settings-group">
+        <label>API Key</label>
+        <div class="key-input-wrapper">
+          <input type="password" id="config-api-key" placeholder="sk-..." spellcheck="false">
+          <button class="key-toggle" id="key-toggle">👁</button>
+        </div>
+      </div>
+      <div class="settings-group">
+        <label>Model ID</label>
+        <input type="text" id="config-model-id" placeholder="gpt-4o / gemini-pro">
+      </div>
+      <div class="settings-group">
+        <label>System Prompt</label>
+        <textarea id="config-system-prompt" rows="4"></textarea>
+      </div>
+      <div class="settings-group">
+        <label>快捷预设</label>
+        <div class="preset-buttons">
+          <button class="preset-btn" data-preset="gemini">🟢 Gemini</button>
+          <button class="preset-btn" data-preset="openai">🔵 OpenAI</button>
+          <button class="preset-btn" data-preset="claude">🟠 Claude</button>
+          <button class="preset-btn" data-preset="deepseek">🟣 DeepSeek</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-footer">
+      <button class="settings-btn secondary" id="settings-reset">恢复默认</button>
+      <button class="settings-btn primary" id="settings-save">💾 保存</button>
+    </div>
+    <div class="settings-status" id="settings-status"></div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/api-config.js"></script>
+<script src="components/global-nav.js"></script>
+<script src="components/settings-modal.js"></script>
+
+<!-- Card Hover Effects -->
+<style>
+  .home-card div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    border-color: #3b82f6;
+  }
+</style>
+
+</body>
+</html>
