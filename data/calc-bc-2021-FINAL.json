@@ -1,0 +1,2429 @@
+{
+  "code": 200,
+  "msg": "success",
+  "enMsg": "success",
+  "data": {
+    "id": "1902622412253270016",
+    "examName": "AP 微积分BC 2021年国际卷",
+    "subjectName": "微积分BC",
+    "totalQuestion": 69,
+    "limitTime": 12300,
+    "schemaVersion": "2.0.0",
+    "examCode": "微积分bc-2019-international-1902622412253270016",
+    "year": 2021,
+    "region": "international",
+    "paperType": "template",
+    "sourceType": "raw-json-cleaned",
+    "sourceFile": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\01_raw\\json\\（模板）微积分BC__AP 微积分BC 2019年国际卷__1902622412253270016.json",
+    "sourcePages": [],
+    "examVersion": "2019-intl-template",
+    "locale": "en-US",
+    "renderVersion": "exam-render-v2",
+    "questionList": [
+      {
+        "questionId": 4539,
+        "sort": 1,
+        "questionNum": "1",
+        "questionTitle": "Processes - Fundamental Theorem of Calculus",
+        "questionType": 0,
+        "choiceQuestionContent": "<p class=\"stem_paragraph\">...</p>",
+        "optionList": [
+          {
+            "optionSign": "A",
+            "optionContent": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+            "isExclude": 0
+          },
+          {
+            "optionSign": "B",
+            "optionContent": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+            "isExclude": 0
+          }
+        ],
+        "subjectiveQuestionList": null,
+        "schemaVersion": "2.0.0",
+        "sectionId": "25",
+        "sectionName": "1",
+        "partId": "31",
+        "partName": "1",
+        "moduleId": "section-25-part-31",
+        "moduleName": "Section 1 / Part 1",
+        "displayOrder": 1,
+        "reviewPageGroup": "section-25-part-31",
+        "calculatorPolicy": "forbidden",
+        "timePolicy": {
+          "limitTimeSec": 3600,
+          "recommendedPaceSec": 3600
+        },
+        "renderType": "mcq",
+        "rawHtml": "<p class=\"stem_paragraph\">...</p>",
+        "plainText": "the integral from 1 to 2 of 4x cubed minus x dx equals",
+        "hasStimulus": false,
+        "hasTable": false,
+        "hasImage": false,
+        "hasCode": false,
+        "mathMode": "mathml",
+        "contentBlocks": [
+          {
+            "type": "math",
+            "html": "<p class=\"stem_paragraph\">...</p>",
+            "text": "the integral from 1 to 2 of 4x cubed minus x dx equals",
+            "math": "<p class=\"stem_paragraph\">...</p>",
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "stimulusBlocks": [],
+        "stemBlocks": [
+          {
+            "type": "math",
+            "html": "<p class=\"stem_paragraph\">...</p>",
+            "text": "the integral from 1 to 2 of 4x cubed minus x dx equals",
+            "math": "<p class=\"stem_paragraph\">...</p>",
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "optionBlocks": [
+          [
+            {
+              "type": "math",
+              "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "text": "27/2",
+              "math": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "assetRef": null,
+              "order": 0
+            }
+          ],
+          [
+            {
+              "type": "math",
+              "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "text": "27",
+              "math": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "assetRef": null,
+              "order": 100
+            }
+          ]
+        ],
+        "assets": {
+          "images": [],
+          "figures": [],
+          "tables": [],
+          "codeSnippets": [],
+          "audio": [],
+          "attachments": []
+        },
+        "userState": {
+          "selectedOptions": [],
+          "typedAnswer": null,
+          "uploadedFiles": [],
+          "isFlagged": false,
+          "isAnswered": false,
+          "visited": true,
+          "lastVisitedAt": null,
+          "timeSpentSec": 0,
+          "draftSavedAt": null
+        },
+        "reviewState": {
+          "needsReview": false,
+          "confidenceLevel": null
+        },
+        "answerKey": null,
+        "answerKeyDisplay": null,
+        "rubric": null,
+        "rubricPoints": [],
+        "officialScoringGuide": null,
+        "analysisBlocks": [],
+        "commonMistakes": [],
+        "aiHints": [],
+        "difficulty": null,
+        "estimatedPoints": 1,
+        "maxScore": 1,
+        "subparts": [],
+        "scoringPoints": [],
+        "sampleResponses": [],
+        "graderNotes": [],
+        "unitId": null,
+        "unitName": null,
+        "topicId": null,
+        "topicName": null,
+        "skillIds": [],
+        "knowledgeTags": [],
+        "unitTags": [],
+        "skillTags": [],
+        "questionIntent": null,
+        "trainingMode": "mcq-practice",
+        "cognitiveLevel": null,
+        "examWeight": null,
+        "sourceTrace": {
+          "pdfFile": "C:\\Users\\25472\\Desktop\\暂不学的ap\\AP calculus\\真题合集\\2019Intl（模板）.pdf",
+          "pageStart": null,
+          "pageEnd": null,
+          "bbox": null,
+          "ocrMethod": null,
+          "parseMethod": "legacy-json-migration",
+          "confidence": null,
+          "manualVerified": false,
+          "verifiedBy": null,
+          "verifiedAt": null
+        }
+      },
+      {
+        "questionId": 5094,
+        "sort": 51,
+        "questionNum": "6",
+        "questionTitle": "Series - Abs and Cond Conv-Alt Series Error Bound",
+        "questionType": 2,
+        "choiceQuestionContent": null,
+        "subjectiveQuestionList": [
+          {
+            "questionSpecialSort": "a",
+            "questionContent": "<div class=\"item_part\" id=\"a\"><p class=\"stem_paragraph\">(a) For p = 3 and x = 8, does the series converge absolutely, converge conditionally, or diverge?</p></div>",
+            "questionAnswer": ""
+          },
+          {
+            "questionSpecialSort": "b",
+            "questionContent": "<div class=\"item_part\" id=\"b\"><p class=\"stem_paragraph\">(b) For p = 1 and x = 8, does the series converge absolutely, converge conditionally, or diverge?</p></div>",
+            "questionAnswer": ""
+          }
+        ],
+        "schemaVersion": "2.0.0",
+        "sectionId": "26",
+        "sectionName": "2",
+        "partId": "34",
+        "partName": "4",
+        "moduleId": "section-26-part-34",
+        "moduleName": "Section 2 / Part 4",
+        "displayOrder": 51,
+        "reviewPageGroup": "section-26-part-34",
+        "calculatorPolicy": "forbidden",
+        "timePolicy": {
+          "limitTimeSec": 3600,
+          "recommendedPaceSec": 3600
+        },
+        "renderType": "frq",
+        "rawHtml": "<div class=\"item_part\" id=\"a\">...</div><div class=\"item_part\" id=\"b\">...</div>",
+        "plainText": "(a) For p = 3 and x = 8... (b) For p = 1 and x = 8...",
+        "hasStimulus": true,
+        "hasTable": false,
+        "hasImage": false,
+        "hasCode": false,
+        "mathMode": "mathml",
+        "contentBlocks": [
+          {
+            "type": "subquestion",
+            "html": "<div class=\"stimulus_reference\">...</div>",
+            "text": "Consider the series ...",
+            "math": null,
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "stimulusBlocks": [
+          {
+            "type": "subquestion",
+            "html": "<div class=\"stimulus_reference\">...</div>",
+            "text": "Consider the series ...",
+            "math": null,
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "stemBlocks": [
+          {
+            "type": "subquestion",
+            "html": "<div class=\"item_part\" id=\"a\">...</div>",
+            "text": "(a) For p = 3 and x = 8...",
+            "math": null,
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "optionBlocks": [],
+        "assets": {
+          "images": [],
+          "figures": [],
+          "tables": [],
+          "codeSnippets": [],
+          "audio": [],
+          "attachments": []
+        },
+        "userState": {
+          "selectedOptions": [],
+          "typedAnswer": null,
+          "uploadedFiles": [],
+          "isFlagged": false,
+          "isAnswered": false,
+          "visited": false,
+          "lastVisitedAt": null,
+          "timeSpentSec": 0,
+          "draftSavedAt": null
+        },
+        "reviewState": {
+          "needsReview": false,
+          "confidenceLevel": null
+        },
+        "answerKey": null,
+        "answerKeyDisplay": null,
+        "rubric": null,
+        "rubricPoints": [],
+        "officialScoringGuide": null,
+        "analysisBlocks": [],
+        "commonMistakes": [],
+        "aiHints": [],
+        "difficulty": null,
+        "estimatedPoints": null,
+        "maxScore": null,
+        "subparts": [
+          {
+            "subpartId": "a",
+            "subpartLabel": "a",
+            "rawHtml": "<div class=\"item_part\" id=\"a\"><p class=\"stem_paragraph\">(a) For p = 3 and x = 8...</p></div>",
+            "plainText": "(a) For p = 3 and x = 8...",
+            "contentBlocks": [
+              {
+                "type": "subquestion",
+                "html": "<div class=\"item_part\" id=\"a\"><p class=\"stem_paragraph\">(a) For p = 3 and x = 8...</p></div>",
+                "text": "(a) For p = 3 and x = 8...",
+                "math": null,
+                "assetRef": null,
+                "order": 0
+              }
+            ],
+            "answerKey": null,
+            "rubricPoints": [],
+            "scoringPoints": [],
+            "sampleResponses": [],
+            "graderNotes": []
+          }
+        ],
+        "scoringPoints": [],
+        "sampleResponses": [],
+        "graderNotes": [],
+        "unitId": null,
+        "unitName": null,
+        "topicId": null,
+        "topicName": null,
+        "skillIds": [],
+        "knowledgeTags": [],
+        "unitTags": [],
+        "skillTags": [],
+        "questionIntent": null,
+        "trainingMode": "frq-practice",
+        "cognitiveLevel": null,
+        "examWeight": null,
+        "sourceTrace": {
+          "pdfFile": "C:\\Users\\25472\\Desktop\\暂不学的ap\\AP calculus\\真题合集\\2019Intl（模板）.pdf",
+          "pageStart": null,
+          "pageEnd": null,
+          "bbox": null,
+          "ocrMethod": null,
+          "parseMethod": "legacy-json-migration",
+          "confidence": null,
+          "manualVerified": false,
+          "verifiedBy": null,
+          "verifiedAt": null
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "sort": 1,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Fundamental Theorem of Calculus",
+        "question": "\\int_{ 1 }^{ 3} ( 4 \\cdot x ^{3}, - 6 x, + 5, ), \\,dx, =",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "66"
+          },
+          {
+            "id": "B",
+            "text": "92"
+          },
+          {
+            "id": "C",
+            "text": "96"
+          },
+          {
+            "id": "D",
+            "text": "282"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 2,
+        "sort": 2,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Derivative Rules",
+        "question": "f f(x), =, b \\cdot x ^{2}, + 3 b x, + b ^{2}, +, \\frac{ 1 }{ x ^{2}} b f'(x) f(x)",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "2 b x, + 3 b, - \\frac{ 2 }{ x"
+          },
+          {
+            "id": "B",
+            "text": "2 b x, + 3 b, - \\frac{ 2 }{ x ^{3}}"
+          },
+          {
+            "id": "C",
+            "text": "2 b x, + 3 b, + b ^{2}, - \\frac{ 2 }{ x ^{3}}"
+          },
+          {
+            "id": "D",
+            "text": "x ^{2}, + 3 x, + 2 b"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 3,
+        "sort": 3,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Product Rule",
+        "question": "f'(x), =, x ^{2} g'(x), =, 3 \\cdot e^{x} h(x), =, f(x), \\cdot, g(x) h'(x)",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "3 \\cdot x ^{2}, \\cdot e^{x}"
+          },
+          {
+            "id": "B",
+            "text": "x ^{3}, \\cdot e^{x}, +, 3 \\cdot x ^{2}, \\cdot e^{x}"
+          },
+          {
+            "id": "C",
+            "text": "x ^{3}, \\cdot e^{x}, + x ^{2}, \\cdot e^{x}"
+          },
+          {
+            "id": "D",
+            "text": "3 \\cdot x ^{2}, \\cdot e^{x}, + 6 x \\cdot e^{x}"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 4,
+        "sort": 4,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Fundemental Theorm of Calculus",
+        "question": "f f(x), =, 4 +, \\int_{ 1 }^{ x} \\frac{ with }^{ and }^{ + t}, \\,dt f x = 1",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "y = 4"
+          },
+          {
+            "id": "B",
+            "text": "y - 4 =, one half \\cdot, ( x - 1, )"
+          },
+          {
+            "id": "C",
+            "text": "y - 4 =, one fourth \\cdot, ( x - 1, )"
+          },
+          {
+            "id": "D",
+            "text": "y - 4 =, \\frac{ 9 }{ 2}, \\cdot, ( x - 1, )"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 5,
+        "sort": 5,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Eulers Method",
+        "question": "y =, f(x) the derivative of y, with respect }^{ x, = x \\cdot, ( y + 1, ) f of 2 = 1 f of 3 x = 2 0.5",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "negative 1"
+          },
+          {
+            "id": "B",
+            "text": "5"
+          },
+          {
+            "id": "C",
+            "text": "8"
+          },
+          {
+            "id": "D",
+            "text": "20"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 6,
+        "sort": 6,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Area of Region - Functions of x",
+        "question": "y =, 2^{x} y = 4 y",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "8 -, \\frac{ with }^{r 3, and }^{r the natural log of 2}"
+          },
+          {
+            "id": "B",
+            "text": "\\frac{ with }^{r 3, and }^{r the natural log of 2}"
+          },
+          {
+            "id": "C",
+            "text": "\\frac{ 22 }{ 3"
+          },
+          {
+            "id": "D",
+            "text": "\\frac{ with }^{5, and }^{r the natural log of 2}"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 7,
+        "sort": 7,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Polar Area",
+        "question": "R r =, the square root of, 6 \\cdot, the sine of, ( 3 \\cdot theta, ), end root R",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "2"
+          },
+          {
+            "id": "C",
+            "text": "4"
+          },
+          {
+            "id": "D",
+            "text": "6"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 8,
+        "sort": 8,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Linear Partial Fractions",
+        "question": "the indefinite integral of, \\frac{ with }^{, and }^{r x \\cdot, ( x + 1, )}, \\,dx, =",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "the natural log of, the absolute value of x, end absolute value, +, the natural log of, the absolute value of, x + 1, end absolute value, + C"
+          },
+          {
+            "id": "B",
+            "text": "the natural log of, the absolute value of x, end absolute value, -, the natural log of, the absolute value of, x + 1, end absolute value, + C"
+          },
+          {
+            "id": "C",
+            "text": "the natural log of, the absolute value of, x + 1, end absolute value, -, the natural log of, the absolute value of x, end absolute value, + C"
+          },
+          {
+            "id": "D",
+            "text": "2 \\cdot the natural log of, the absolute value of x, end absolute value, -, the natural log of, the absolute value of, x + 1, end absolute value, + C"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 9,
+        "sort": 9,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Absolute-Conditional Convergence",
+        "question": "the sum, from n = 1 }^{ infinity, of \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r the cube root of n} the sum, from n = 1 }^{ infinity, of \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r n ^{3}}",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "Both series converge absolutely."
+          },
+          {
+            "id": "B",
+            "text": "Both series converge conditionally."
+          },
+          {
+            "id": "C",
+            "text": "the sum, from n = 1 }^{ infinity, of \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r the cube root of n} the sum, from n = 1 }^{ infinity, of \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r n ^{3}}"
+          },
+          {
+            "id": "D",
+            "text": "the sum, from n = 1 }^{ infinity, of \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r the cube root of n} the sum, from n = 1 }^{ infinity, of \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r n ^{3}}"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 10,
+        "sort": 10,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Parametric Particle Motion",
+        "question": "x y t is greater than 0 x of t, =, 2 \\cdot the natural log of t y of t, =, \\frac{ with }^{r 4, and }^{r t + 1} t = 1",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "the square root of 2"
+          },
+          {
+            "id": "C",
+            "text": "2"
+          },
+          {
+            "id": "D",
+            "text": "the square root of 5"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 11,
+        "sort": 11,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Integration by Parts",
+        "question": "f the indefinite integral of, e raised }^{ the negative x }, \\cdot, f(x), \\,dx, =, the negative of e raised }^{ the negative x }, \\cdot, f(x), +, the indefinite integral of, 2 x \\cdot, e raised }^{ the negative x }, \\,dx f(x)",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "2 x"
+          },
+          {
+            "id": "B",
+            "text": "x ^{2}"
+          },
+          {
+            "id": "C",
+            "text": "the negative of e raised }^{ the negative x }"
+          },
+          {
+            "id": "D",
+            "text": "e raised }^{ the negative x }"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 12,
+        "sort": 12,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Integration by Substitution",
+        "question": "f g g'(x), = f(x) \\int_{ 6 }^{ 10} f of, ( one half x, ), \\,dx g",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "one half \\cdot g of 5, -, one half \\cdot g of 3"
+          },
+          {
+            "id": "B",
+            "text": "one half \\cdot g of 10, -, one half \\cdot g of 6"
+          },
+          {
+            "id": "C",
+            "text": "2 \\cdot g of 5, -, 2 \\cdot g of 3"
+          },
+          {
+            "id": "D",
+            "text": "2 \\cdot g of 10, -, 2 \\cdot g of 6"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 13,
+        "sort": 13,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Squeeze Theorem",
+        "question": "f g f(x), =, \\frac{ with }^{r x ^{2} - 25, and }^{r x ^{2} - 29} g(x), =, \\frac{ with }^{r x + 5, and }^{r 2 x + 4} h f(x), is less than or equal }^{, h(x), is less than or equal }^{, g(x) 1 less than or equal }^{ x, less than or equal }^{ 5 the limit as x approaches 3} h(x)",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "one half"
+          },
+          {
+            "id": "B",
+            "text": "four fifths"
+          },
+          {
+            "id": "C",
+            "text": "1"
+          },
+          {
+            "id": "D",
+            "text": "The limit cannot be determined from the given information."
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 14,
+        "sort": 14,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Related Rates",
+        "question": "2.5 18",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "5 pi square inches per minute"
+          },
+          {
+            "id": "B",
+            "text": "36 pi square inches per minute"
+          },
+          {
+            "id": "C",
+            "text": "45 pi square inches per minute"
+          },
+          {
+            "id": "D",
+            "text": "90 pi square inches per minute"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 15,
+        "sort": 15,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Maclaurin Series",
+        "question": "x +, x ^{3}, + \\frac{ with }^{r x raised }^{ the fifth }, and }^{r 2 fac}^{rial}, + \\frac{ with }^{r x }^{ the seventh }, and }^{r 3 fac}^{rial}, + dot dot dot, + \\frac{ with }^{r x raised }^{ the 2 n + 1 }, and }^{r n fac}^{rial}, + dot dot dot",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "sine x"
+          },
+          {
+            "id": "B",
+            "text": "the sine of negative x"
+          },
+          {
+            "id": "C",
+            "text": "x \\cdot, e raised^{x}^{2} }"
+          },
+          {
+            "id": "D",
+            "text": "x \\cdot, cosine x"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 16,
+        "sort": 16,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Logistic Models with Diff Eq",
+        "question": "t y of t 7,500",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "the derivative of y, with respect }^{ t, =, k \\cdot, ( 7,500 - y, )"
+          },
+          {
+            "id": "B",
+            "text": "the derivative of y, with respect }^{ t, =, k \\cdot, ( 15,000 - y, )"
+          },
+          {
+            "id": "C",
+            "text": "the derivative of y, with respect }^{ t, =, k y \\cdot, ( 7,500 - y, )"
+          },
+          {
+            "id": "D",
+            "text": "the derivative of y, with respect }^{ t, =, k y \\cdot, ( 15,000 - y, )"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 17,
+        "sort": 17,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Alternating Series Error Bound",
+        "question": "the sum, from n = 0 }^{ infinity} \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r 2 n + 1}, = 1 - one third, + one fifth, - dot dot dot",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "one third is less than, the sum, from n = 0 }^{ infinity} \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r 2 n + 1}, which is less than two thirds"
+          },
+          {
+            "id": "B",
+            "text": "two thirds is less than, the sum, from n = 0 }^{ infinity} \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r 2 n + 1}, which is less than 1"
+          },
+          {
+            "id": "C",
+            "text": "1 is less than, the sum, from n = 0 }^{ infinity} \\frac{ with }^{r, ( negative 1, )}^{ the n }, and }^{r 2 n + 1}"
+          },
+          {
+            "id": "D",
+            "text": "The series diverges."
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 18,
+        "sort": 18,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Chain Rule",
+        "question": "f g(x), =, f of,( x ^{2}, )",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "g prime of negative 1, is less than 0"
+          },
+          {
+            "id": "B",
+            "text": "g prime of negative 1, is greater than 0"
+          },
+          {
+            "id": "C",
+            "text": "g prime of 1, is less than 0"
+          },
+          {
+            "id": "D",
+            "text": "g prime of 1 = 0"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 19,
+        "sort": 19,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Interval of Convergence",
+        "question": "x the sum, from n = 1 }^{ infinity, of ( negative 1, ), raised }^{ the n + 1 }, \\cdot, \\frac{ with }^{r x raised }^{ the 2 n }, and }^{r n",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "negative 1 is less than x, is less than 1"
+          },
+          {
+            "id": "B",
+            "text": "negative 1 is less than x, is less than or equal }^{ 1"
+          },
+          {
+            "id": "C",
+            "text": "negative 1 is less than or equal }^{ x, is less than or equal }^{ 1"
+          },
+          {
+            "id": "D",
+            "text": "negative infinity is less than x, is less than infinity"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 20,
+        "sort": 20,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Functions-Concavity",
+        "question": "f f(x), = x ^{2}, \\cdot the natural log(x) x greater than 0 f",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "0 comma e raised }^{ the negative three halves }"
+          },
+          {
+            "id": "B",
+            "text": "0 comma e raised }^{ the negative one half }"
+          },
+          {
+            "id": "C",
+            "text": "e raised }^{ the negative three halves } comma infinity"
+          },
+          {
+            "id": "D",
+            "text": "e raised }^{ the negative one half } comma infinity"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 21,
+        "sort": 21,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Geometric Series",
+        "question": "the cosine of b =, one third b the sum, from n = 0 }^{ infinity} ( the sine ^{2} of b, )}^{ the n }, =",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "one ninth"
+          },
+          {
+            "id": "B",
+            "text": "eight ninths"
+          },
+          {
+            "id": "C",
+            "text": "nine eighths"
+          },
+          {
+            "id": "D",
+            "text": "9"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 22,
+        "sort": 22,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Solution to Diff Equations",
+        "question": "the derivative of y, with respect }^{ x, = ( x - 1, ), \\cdot y ^{2} with coordinates 1 comma 1",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": ""
+          },
+          {
+            "id": "B",
+            "text": ""
+          },
+          {
+            "id": "C",
+            "text": ""
+          },
+          {
+            "id": "D",
+            "text": ""
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 23,
+        "sort": 23,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Improper Integral",
+        "question": "\\int_{ 10 }^{ infinity} \\frac{ with }^{000, and }^{r x ^{2}}, \\,dx",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "one third"
+          },
+          {
+            "id": "B",
+            "text": "2"
+          },
+          {
+            "id": "C",
+            "text": "100"
+          },
+          {
+            "id": "D",
+            "text": "divergent"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 24,
+        "sort": 24,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - L Hospitals Rule",
+        "question": "the limit as x approaches 0} \\frac{ with }^{r, \\int_{ 0 }^{ x} the sine of, ( 3 \\cdot t ^{2}, ), \\,dt, and }^{r 4 \\cdot x ^{3}}",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "negative one fourth"
+          },
+          {
+            "id": "B",
+            "text": "0"
+          },
+          {
+            "id": "C",
+            "text": "one fourth"
+          },
+          {
+            "id": "D",
+            "text": "nonexistent"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 25,
+        "sort": 25,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Local Linear Approximation",
+        "question": "f f of 2 = 3 f prime of 2, = one half f x = 2 f f of 1.8",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "2.5"
+          },
+          {
+            "id": "B",
+            "text": "2.8"
+          },
+          {
+            "id": "C",
+            "text": "2.9"
+          },
+          {
+            "id": "D",
+            "text": "3.1"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 26,
+        "sort": 26,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Convergence Tests",
+        "question": "the sum, from n = 1 }^{ infinity} \\frac{ with }^{0 }^{ the n }, and }^{r n fac}^{rial} the sum, from n = 1 }^{ infinity} e raised }^{ the negative n } the sum, from n = 1 }^{ infinity} \\frac{ with }^{r 2 }^{ the n }, and }^{r n \\cdot, ( n + 1, )}",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "I only"
+          },
+          {
+            "id": "B",
+            "text": "II only"
+          },
+          {
+            "id": "C",
+            "text": "I and II only"
+          },
+          {
+            "id": "D",
+            "text": "I, II, and III"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 27,
+        "sort": 27,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Second Derivative of Parametric Eqs",
+        "question": "x =, t }^{ the fourth }, - 1 y =, 4 t + 1 the second derivative of y, with respect }^{ x t",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "0"
+          },
+          {
+            "id": "B",
+            "text": "the negative of \\frac{ 3 }{ t }^{ the fourth }}"
+          },
+          {
+            "id": "C",
+            "text": "the negative of \\frac{ 3 }{ 4 \\cdot t }^{ the fifth }}"
+          },
+          {
+            "id": "D",
+            "text": "the negative of \\frac{ 3 }{ 4 \\cdot t }^{ the seventh }}"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 28,
+        "sort": 28,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Average Rate of Change",
+        "question": "The figure shows a two row table with five columns of data. The heading for row 1 is “x.” The heading for row 2 is “f(x).” The data in the table are as follows. Column 1. x is 0. f(x) is negative 8. Column 2. x is 2. f(x) is negative 2. Column 3. x is 6. f(x) is 0. Column 4. x is 12. f(x) is 2. Column 5. x is 20. f(x) is negative 18. f f",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "open bracket, 0 comma 2, close bracket"
+          },
+          {
+            "id": "B",
+            "text": "open bracket, 2 comma 6, close bracket"
+          },
+          {
+            "id": "C",
+            "text": "open bracket, 6 comma 12, close bracket"
+          },
+          {
+            "id": "D",
+            "text": "open bracket, 12 comma 20, close bracket"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 29,
+        "sort": 29,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Particle Motion - Displacement",
+        "question": "0 less than or equal }^{ t, less than or equal }^{ 4 A B C D x y t = 0 x x = 0 t = 4",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": ""
+          },
+          {
+            "id": "B",
+            "text": ""
+          },
+          {
+            "id": "C",
+            "text": ""
+          },
+          {
+            "id": "D",
+            "text": ""
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 30,
+        "sort": 30,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Jusitification - Definition of Definite Integral",
+        "question": "the sum from k = 1 }^{ n} the natural log of, ( 2 + \\frac{ 5 }{ n}, \\cdot k, ), \\cdot \\frac{ 5 }{ n n",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "\\int_{ 2 }^{ 7} the natural log(x), \\,dx"
+          },
+          {
+            "id": "B",
+            "text": "\\int_{ 2 }^{ 7} the natural log of ( 2 + x, ), \\,dx"
+          },
+          {
+            "id": "C",
+            "text": "\\int_{ 0 }^{ 5} the natural log of ( 2 + 5 x, ), \\,dx"
+          },
+          {
+            "id": "D",
+            "text": "\\int_{ 2 }^{ 7} the natural log of ( 2 + 5 x, ), \\,dx"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 31,
+        "sort": 31,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Behavior of Accumulation Func",
+        "question": "f g(x), =, \\int_{ negative 5 }^{ x} f of t, \\,dt g open bracket, negative 5 comma 6, close bracket",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "One"
+          },
+          {
+            "id": "B",
+            "text": "Three"
+          },
+          {
+            "id": "C",
+            "text": "Four"
+          },
+          {
+            "id": "D",
+            "text": "Five"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 32,
+        "sort": 32,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Points of Inflection",
+        "question": "f f'(x), =, x \\cdot, e raised }^{ the sine x } f negative 3 less than x, less than 6",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "One"
+          },
+          {
+            "id": "B",
+            "text": "Two"
+          },
+          {
+            "id": "C",
+            "text": "Three"
+          },
+          {
+            "id": "D",
+            "text": "Four"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 33,
+        "sort": 33,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Accumulation",
+        "question": "r of t =, 12 +, 9 \\cdot the sine of ( 0.5 t, - 1.6, ) t 6 3 t = 3 9 t = 9",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "3"
+          },
+          {
+            "id": "B",
+            "text": "76"
+          },
+          {
+            "id": "C",
+            "text": "107"
+          },
+          {
+            "id": "D",
+            "text": "125"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 34,
+        "sort": 34,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Arc Length - Parametric Equations",
+        "question": "x of t, =,1 +, 2 \\cdot cosine t y of t, = 3 \\cdot sine t 0 less than or equal }^{ t, less than or equal }^{ 2 pi",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "6.283"
+          },
+          {
+            "id": "B",
+            "text": "15.865"
+          },
+          {
+            "id": "C",
+            "text": "16.574"
+          },
+          {
+            "id": "D",
+            "text": "40.841"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 35,
+        "sort": 35,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Graphs of Functions-Derivatives",
+        "question": "The figure shows a 3-row table. The heading for row 1 is “x.” The heading for row 2 is “f'(x).” The heading for row 3 is “f double prime of x.” There are 6 columns of data in the table. The data in the table are as follows. Column 1. x is 0. f'(x) is 0. f double prime of x is negative. Column 2. 0 is less than x, which is less than 2. f'(x) is negative. f double prime of x is negative. Column 3. x is 2. f'(x) does not exist. f double prime of x does not exist. Column 4. 2 is less than x, which is less than 4. f'(x) is positive. f double prime of x is negative. Column 5. x is 4. f'(x) does not exist. f double prime of x does not exist. Column 6. 4 is less than x, which is less than 8. f'(x) is negative. f double prime of x is positive. f f",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": ""
+          },
+          {
+            "id": "B",
+            "text": ""
+          },
+          {
+            "id": "C",
+            "text": ""
+          },
+          {
+            "id": "D",
+            "text": ""
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 36,
+        "sort": 36,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Interpret Meaning of Derivative",
+        "question": "100 F kilometers per hour F prime of 50, is greater than F prime of 80",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "50 kilometers per hour 80 kilometers per hour"
+          },
+          {
+            "id": "B",
+            "text": "50 80"
+          },
+          {
+            "id": "C",
+            "text": "50 kilometers per hour 80 kilometers per hour"
+          },
+          {
+            "id": "D",
+            "text": "50 kilometers per hour 80 kilometers per hour"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 37,
+        "sort": 37,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - Intermediate Value Theorem",
+        "question": "The figure shows a two row table with three columns of data. The heading for row 1 is “x.” The heading for row 2 is “g(x).” The data in the table are as follows. Column 1. x is 2. g(x) is negative 2. Column 2. x is 3. g(x) is 1. Column 3. x is 4. g(x) is negative 4. g",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "g open bracket, 2 comma 4, close bracket negative 4"
+          },
+          {
+            "id": "B",
+            "text": "g'(x) = negative 1 open bracket, 2 comma 4, close bracket"
+          },
+          {
+            "id": "C",
+            "text": "g'(x) = 0 open bracket, 2 comma 4, close bracket"
+          },
+          {
+            "id": "D",
+            "text": "g(x) = 0 open bracket, 2 comma 4, close bracket"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 38,
+        "sort": 38,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Properties of Definite Integrals",
+        "question": "f f(x) =, f of negative x x \\int_{ negative 2 }^{ 0} f(x), \\,dx, = 4 \\int_{ 1 }^{ 2} f(x), \\,dx, = 1 \\int_{ 0 }^{ 1} f(x), \\,dx",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "negative 5"
+          },
+          {
+            "id": "B",
+            "text": "2"
+          },
+          {
+            "id": "C",
+            "text": "3"
+          },
+          {
+            "id": "D",
+            "text": "5"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 39,
+        "sort": 39,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Average Value of a Function",
+        "question": "f \\frac{ with }^{, and }^{r b - a}, \\cdot \\int_{ a}^{ b} f(x), \\,dx, = f of c c a, is less than c, which is less than b y = f(x)",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "I only"
+          },
+          {
+            "id": "B",
+            "text": "II only"
+          },
+          {
+            "id": "C",
+            "text": "I and III only"
+          },
+          {
+            "id": "D",
+            "text": "II and III only"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 40,
+        "sort": 40,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Planar Motion",
+        "question": "t greater than or equal }^{ 0 x y open angled bracket, t }^{ the fifth }, comma, ( 1 + the square root of t, ), ^{2}, close angled bracket t = 1 4 comma 3 t = 1 t = 2",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "11.603"
+          },
+          {
+            "id": "B",
+            "text": "12.129"
+          },
+          {
+            "id": "C",
+            "text": "28.142"
+          },
+          {
+            "id": "D",
+            "text": "76.011"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 41,
+        "sort": 41,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Volume - Disc Method around y-Axis",
+        "question": "R y y = 2 y =, 2 \\cdot the cube root of x R y",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "0.500"
+          },
+          {
+            "id": "B",
+            "text": "0.898"
+          },
+          {
+            "id": "C",
+            "text": "1.571"
+          },
+          {
+            "id": "D",
+            "text": "23.937"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 42,
+        "sort": 42,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Derivative of Inverse Function",
+        "question": "The figure shows a 3 column table. The heading for column 1 is “x.” The heading for column 2 is “f(x).” The heading for column 3 is “f'(x).” There are 3 rows of data in the table. The data are as follows. Row 1. x is 1. f(x) is 2. f'(x) is 3. Row 2. x is 2. f(x) is 3. f'(x) is 4. Row 3. x is 3. f(x) is 5. f'(x) is 2. f f f prime f inverse, prime, of 3",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "one fourth"
+          },
+          {
+            "id": "B",
+            "text": "one half"
+          },
+          {
+            "id": "C",
+            "text": "1"
+          },
+          {
+            "id": "D",
+            "text": "2"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 43,
+        "sort": 43,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Justification - nth-Term Test",
+        "question": "the sum, from n = 1 }^{ infinity} a, sub n, = 5 a, sub n is greater than 0 n",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "the limit as n approaches infinity} a, sub n, = 0"
+          },
+          {
+            "id": "B",
+            "text": "the limit as n approaches infinity} a, sub n, = 5"
+          },
+          {
+            "id": "C",
+            "text": "the limit as n approaches infinity, of the absolute value of, \\frac{ with }^{r a, sub n + 1, end sub, and }^{r a, sub n}, end absolute value, = 0"
+          },
+          {
+            "id": "D",
+            "text": "the limit as n approaches infinity, of the absolute value of, \\frac{ with }^{r a, sub n + 1, end sub, and }^{r a, sub n}, end absolute value, = 1"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 44,
+        "sort": 44,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Processes - Related Rates",
+        "question": "y =, \\frac{ with }^{5, and }^{r x ^{2}, + 1.3^{x}} x greater than 0 x 3 y 2 y",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "negative 0.466"
+          },
+          {
+            "id": "B",
+            "text": "negative 0.787"
+          },
+          {
+            "id": "C",
+            "text": "negative 1.397"
+          },
+          {
+            "id": "D",
+            "text": "negative 4.190"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 45,
+        "sort": 45,
+        "type": "mcq",
+        "questionType": 0,
+        "title": "Representations - Taylor Polynomial",
+        "question": "f P sub 3, of x f x = 0 P sub 3, of x",
+        "correctAnswer": null,
+        "options": [
+          {
+            "id": "A",
+            "text": "P sub 3, triple prime, of 0, = f triple prime of 0"
+          },
+          {
+            "id": "B",
+            "text": "P sub 3, triple prime, of 0, =, \\frac{ with }^{r f triple prime of 0, and }^{r 3 fac}^{rial}"
+          },
+          {
+            "id": "C",
+            "text": "P sub 3, of x \\frac{ x ^{2}}{ 2"
+          },
+          {
+            "id": "D",
+            "text": "P sub 3, of x \\frac{ with }^{r x ^{3}, and }^{r 3 fac}^{rial}"
+          }
+        ],
+        "parts": [],
+        "analysis": ""
+      },
+      {
+        "id": 46,
+        "sort": 46,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Modeling - Riemann Sum-Rates",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 47,
+        "sort": 46,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Modeling - Riemann Sum-Rates",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 48,
+        "sort": 46,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Modeling - Riemann Sum-Rates",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 49,
+        "sort": 46,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Modeling - Riemann Sum-Rates",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 50,
+        "sort": 47,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Parametric Motion with Context",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 51,
+        "sort": 47,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Parametric Motion with Context",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 52,
+        "sort": 47,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Parametric Motion with Context",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 53,
+        "sort": 47,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Parametric Motion with Context",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 54,
+        "sort": 48,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Analysis of Function Defined by an Integral",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 55,
+        "sort": 48,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Analysis of Function Defined by an Integral",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 56,
+        "sort": 48,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Analysis of Function Defined by an Integral",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 57,
+        "sort": 48,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Analysis of Function Defined by an Integral",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 58,
+        "sort": 49,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Differential Equation with Slope Field",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 59,
+        "sort": 49,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Differential Equation with Slope Field",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 60,
+        "sort": 49,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Differential Equation with Slope Field",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 61,
+        "sort": 49,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Differential Equation with Slope Field",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 62,
+        "sort": 50,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Graphical Analysis - L Hospital-Partial Frac-Perim",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 63,
+        "sort": 50,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Graphical Analysis - L Hospital-Partial Frac-Perim",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 64,
+        "sort": 50,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Graphical Analysis - L Hospital-Partial Frac-Perim",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 65,
+        "sort": 50,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Graphical Analysis - L Hospital-Partial Frac-Perim",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 66,
+        "sort": 51,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Series - Interval of Convergence-ASEB",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 67,
+        "sort": 51,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Series - Interval of Convergence-ASEB",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 68,
+        "sort": 51,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Series - Interval of Convergence-ASEB",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      },
+      {
+        "id": 69,
+        "sort": 51,
+        "type": "frq",
+        "questionType": 2,
+        "title": "Series - Interval of Convergence-ASEB",
+        "question": "",
+        "correctAnswer": null,
+        "options": [],
+        "parts": [
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          },
+          {
+            "id": "",
+            "points": 3,
+            "question": ""
+          }
+        ],
+        "analysis": ""
+      }
+    ]
+  }
+}
