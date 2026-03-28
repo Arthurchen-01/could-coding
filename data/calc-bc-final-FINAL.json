@@ -1,0 +1,315 @@
+{
+  "examId": "ap-calculus-bc-2019-intl",
+  "subject": "AP Calculus BC",
+  "examName": "Calculus BC 2017 国际卷",
+  "year": "2017",
+  "section": "Section I - Multiple Choice",
+  "part": "A",
+  "calculatorAllowed": false,
+  "totalQuestions": 10,
+  "mcqCount": 10,
+  "frqCount": 0,
+  "timeLimitMinutes": 60,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "If f( x )= cos 2 ( 3x−5 ) , then f ' ( x ) =",
+      "unit": "Limits and Continuity",
+      "topics": [
+        "Limits and Continuity"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "6 cos ( 3 x − 5 )"
+        },
+        {
+          "id": "B",
+          "text": "−3 sin 2 ( 3x−5 )"
+        },
+        {
+          "id": "C",
+          "text": "−2sin( 3x−5 )cos( 3x−5 )"
+        },
+        {
+          "id": "D",
+          "text": "−6sin( 3x−5 )cos( 3x−5 )"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "\\int 1 t t dt=",
+      "unit": "Differentiation",
+      "topics": [
+        "Differentiation"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "−2 t −1/2 +C"
+        },
+        {
+          "id": "B",
+          "text": "− 3 2 t −5/2 +C"
+        },
+        {
+          "id": "C",
+          "text": "− 2 5 t −5/2 +C"
+        },
+        {
+          "id": "D",
+          "text": "2 t 1/2 ln t+C"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "If f ( x ) = 5 − x x 3 + 2 , then f ' ( x ) =",
+      "unit": "Applications of Differentiation",
+      "topics": [
+        "Applications of Differentiation"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "− 4 x 3 + 15 x 2 − 2 ( x 3 + 2 ) 2"
+        },
+        {
+          "id": "B",
+          "text": "− 2 x 3 + 15 x 2 + 2 ( x 3 + 2 ) 2"
+        },
+        {
+          "id": "C",
+          "text": "2 x 3 − 15 x 2 − 2 ( x 3 + 2 ) 2"
+        },
+        {
+          "id": "D",
+          "text": "4 x 3 − 15 x 2 + 2 ( x 3 + 2 ) 2"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "The position of a particle moving in the xy-plane is given by the vector 〈 4 t 3 , y ( 2 t ) 〉, where y is a twice-differentiable function of t. At time t = 1 2 , what is the acceleration vector of the particle?",
+      "unit": "Integration",
+      "topics": [
+        "Integration"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "〈 3 , 2 y ' ' ( 1 ) B@ 〉"
+        },
+        {
+          "id": "B",
+          "text": "〈 6 , 4 y ' ' ( 1 ) 〉"
+        },
+        {
+          "id": "C",
+          "text": "〈 12 , 2 y ' ' ( 1 ) 〉"
+        },
+        {
+          "id": "D",
+          "text": "〈 12 , 4 y ' ' ( 1 ) 〉"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "To what number does the series \\sum k=0 \\infty ( −e \\pi ) k F@ converge?",
+      "unit": "Applications of Integration",
+      "topics": [
+        "Applications of Integration"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "−e \\pi +e"
+        },
+        {
+          "id": "C",
+          "text": "\\pi \\pi + e"
+        },
+        {
+          "id": "D",
+          "text": "The series does not converge."
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "The graph of y = f(x) is shown above. Which of the following is true?",
+      "unit": "Differential Equations",
+      "topics": [
+        "Differential Equations"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "lim h → 0 f ( a + h ) − f ( a ) h exists."
+        },
+        {
+          "id": "B",
+          "text": "lim x → a + f ( x ) ≠ lim x → a − f ( x )"
+        },
+        {
+          "id": "C",
+          "text": "lim x→a f( x )≠f( a )"
+        },
+        {
+          "id": "D",
+          "text": "lim x→a f( x ) does not exist."
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "If \\int 4 − 10 g ( x ) d x = − 3 and \\int 4 6 g ( x ) d x = 5 , then \\int − 10 6 g ( x ) d x = B@",
+      "unit": "Infinite Series",
+      "topics": [
+        "Infinite Series"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "− 8"
+        },
+        {
+          "id": "B",
+          "text": "− 2"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "The length of the curve y = sin(3x) from x = 0 to x = \\pi 6 is given by",
+      "unit": "Parametric Equations",
+      "topics": [
+        "Parametric Equations"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "\\int 0 \\pi / 6 ( 1 + 9 cos 2 ( 3 x ) ) d x D@"
+        },
+        {
+          "id": "B",
+          "text": "\\int 0 \\pi / 6 1 + sin 2 ( 3 x ) d x A@"
+        },
+        {
+          "id": "C",
+          "text": "\\int 0 \\pi / 6 1 + 3 cos ( 3 x ) d x"
+        },
+        {
+          "id": "D",
+          "text": "\\int 0 \\pi / 6 1 + 9 cos 2 ( 3 x ) d x"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "The slope of the line tangent to the graph of y = xex at x = ln 2 is",
+      "unit": "Polar Coordinates",
+      "topics": [
+        "Polar Coordinates"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "2 ln 2"
+        },
+        {
+          "id": "B",
+          "text": "2 ln 2 + 2"
+        },
+        {
+          "id": "C",
+          "text": "e2(ln 2) + e2"
+        },
+        {
+          "id": "D",
+          "text": "2+ 2ln2 e"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "sectionPart": "A",
+      "calculatorAllowed": 0,
+      "question": "Let y = f(x) be the solution to the differential equation d y d x = x − y with initial condition f(2) = 8. What is the approximation for f(3) obtained by using Euler’s method with two steps of equal length, starting at x = 2 ?",
+      "unit": "Vector Functions",
+      "topics": [
+        "Vector Functions"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "5 2"
+        },
+        {
+          "id": "C",
+          "text": "15 4"
+        },
+        {
+          "id": "D",
+          "text": "61 4"
+        }
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
