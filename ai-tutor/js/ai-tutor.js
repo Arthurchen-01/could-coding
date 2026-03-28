@@ -119,9 +119,9 @@ function bindChatEvents() {
   const input = document.getElementById('chat-input');
   const sendBtn = document.getElementById('send-btn');
 
-  sendBtn.addEventListener('click', sendMessage);
+  sendBtn.addEventListener('click', handleUserSend);
   input.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') sendMessage();
+    if (e.key === 'Enter') handleUserSend();
   });
 
   // Voice and image placeholders
