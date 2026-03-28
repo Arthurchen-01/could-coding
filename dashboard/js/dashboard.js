@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadDashboardData() {
   try {
-    const response = await fetch('../mock-data/dashboard-data.json');
-    dashboardData = await response.json();
+    // 使用数据服务层
+    dashboardData = await fetchDashboardData();
   } catch (e) {
     console.error('Failed to load:', e);
-    dashboardData = getFallbackData();
+    dashboardData = getBuiltinDashboardFallback();
   }
 }
 
