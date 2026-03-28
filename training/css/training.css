@@ -1,0 +1,463 @@
+/* Targeted Practice - CSS */
+
+:root {
+  --bg: #f5f6fa;
+  --panel: #ffffff;
+  --ink: #1a1a2e;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --accent: #de8a4c;
+  --accent-strong: #bf6d34;
+  --blue: #3b82f6;
+  --green: #22c55e;
+  --red: #ef4444;
+  --yellow: #f59e0b;
+  --purple: #8b5cf6;
+  --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+/* ========== Top Nav ========== */
+.topnav {
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topnav-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.brand-mark {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.nav-links a:hover { color: var(--ink); }
+.nav-links a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+/* ========== Training ========== */
+.training {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.training-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.training-header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.training-subtitle {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* ========== Progress Steps ========== */
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 40px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.4;
+  transition: all 0.3s;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.completed {
+  opacity: 1;
+}
+
+.step-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.step.active .step-num {
+  background: var(--accent);
+  color: #fff;
+}
+
+.step.completed .step-num {
+  background: var(--green);
+  color: #fff;
+}
+
+.step.completed .step-num::after {
+  content: '✓';
+}
+
+.step.completed .step-num {
+  font-size: 0;
+}
+
+.step-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.step.active .step-label {
+  color: var(--ink);
+}
+
+.step-line {
+  width: 40px;
+  height: 2px;
+  background: var(--line);
+  margin: 0 12px;
+}
+
+/* ========== Step Panel ========== */
+.step-panel {
+  background: var(--panel);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  margin-bottom: 24px;
+  animation: fadeIn 0.3s ease;
+}
+
+.step-panel.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.step-panel h2 {
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* ========== Subject Grid ========== */
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.subject-card {
+  padding: 16px;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.subject-card:hover {
+  border-color: var(--blue);
+  background: #eff6ff;
+}
+
+.subject-card.selected {
+  border-color: var(--accent);
+  background: #fff7ed;
+}
+
+.subject-card .card-name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.subject-card .card-date {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ========== Type Grid ========== */
+.type-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.type-btn {
+  padding: 32px 24px;
+  border: 2px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.type-btn:hover {
+  border-color: var(--blue);
+  background: #eff6ff;
+  transform: translateY(-2px);
+}
+
+.type-btn.selected {
+  border-color: var(--accent);
+  background: #fff7ed;
+}
+
+.type-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.type-label {
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.type-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.type-hint {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ========== Strategy Grid ========== */
+.strategy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.strategy-btn {
+  padding: 28px 20px;
+  border: 2px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.strategy-btn:hover {
+  border-color: var(--blue);
+  background: #eff6ff;
+  transform: translateY(-2px);
+}
+
+.strategy-btn.selected {
+  border-color: var(--accent);
+  background: #fff7ed;
+}
+
+.strategy-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.strategy-label {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.strategy-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.strategy-source {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ========== Summary ========== */
+.summary-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.summary-item:last-child { border-bottom: none; }
+
+.summary-label {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.summary-value {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.start-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 12px;
+}
+
+.start-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(222, 138, 76, 0.3);
+}
+
+.back-btn {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #f3f4f6;
+}
+
+/* ========== Navigation ========== */
+.step-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.nav-btn {
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+.nav-btn.prev {
+  background: #f3f4f6;
+  color: var(--ink);
+}
+
+.nav-btn.next {
+  background: var(--accent);
+  color: #fff;
+}
+
+.nav-btn:hover { transform: translateY(-1px); opacity: 0.9; }
+.nav-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+/* ========== Responsive ========== */
+@media (max-width: 640px) {
+  .type-grid, .strategy-grid { grid-template-columns: 1fr; }
+  .subject-grid { grid-template-columns: 1fr 1fr; }
+  .steps { flex-wrap: wrap; justify-content: center; gap: 8px; }
+  .step-line { width: 20px; }
+}

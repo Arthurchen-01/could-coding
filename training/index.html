@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Targeted Practice — AP Practice Website</title>
+  <link rel="stylesheet" href="css/training.css">
+</head>
+<body>
+
+<!-- Top Nav -->
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="../exam/index.html" class="brand">
+      <span class="brand-mark">AP</span>
+      <span class="brand-title">Practice Website</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../exam/index.html">Home</a>
+      <a href="../exam/index.html">Mock Exam</a>
+      <a class="active" href="#">Targeted Practice</a>
+      <a href="../dashboard/index.html">Dashboard</a>
+    </nav>
+    <div class="user-avatar">
+      <span class="avatar-text">OC</span>
+    </div>
+  </div>
+</header>
+
+<!-- Training Flow -->
+<main class="training">
+  <div class="training-header">
+    <h1>🎯 Targeted Practice</h1>
+    <p class="training-subtitle">选择科目 → 选择题型 → 选择策略 → 开始训练</p>
+  </div>
+
+  <!-- Progress Steps -->
+  <div class="steps">
+    <div class="step active" data-step="1">
+      <div class="step-num">1</div>
+      <div class="step-label">Subject</div>
+    </div>
+    <div class="step-line"></div>
+    <div class="step" data-step="2">
+      <div class="step-num">2</div>
+      <div class="step-label">Type</div>
+    </div>
+    <div class="step-line"></div>
+    <div class="step" data-step="3">
+      <div class="step-num">3</div>
+      <div class="step-label">Strategy</div>
+    </div>
+    <div class="step-line"></div>
+    <div class="step" data-step="4">
+      <div class="step-num">4</div>
+      <div class="step-label">Start</div>
+    </div>
+  </div>
+
+  <!-- Step 1: Subject Selection -->
+  <section class="step-panel" id="step-1">
+    <h2>Step 1: Choose Subject</h2>
+    <div class="subject-grid" id="subject-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+  <!-- Step 2: Question Type -->
+  <section class="step-panel hidden" id="step-2">
+    <h2>Step 2: Choose Question Type</h2>
+    <div class="type-grid">
+      <button class="type-btn" data-type="mcq">
+        <div class="type-icon">📝</div>
+        <div class="type-label">MCQ</div>
+        <div class="type-desc">Multiple Choice Questions</div>
+        <div class="type-hint">广覆盖，练知识点</div>
+      </button>
+      <button class="type-btn" data-type="frq">
+        <div class="type-icon">✍️</div>
+        <div class="type-label">FRQ</div>
+        <div class="type-desc">Free Response Questions</div>
+        <div class="type-hint">深度综合，练推导</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- Step 3: Strategy -->
+  <section class="step-panel hidden" id="step-3">
+    <h2>Step 3: Choose Strategy</h2>
+    <div class="strategy-grid">
+      <button class="strategy-btn" data-strategy="basic">
+        <div class="strategy-icon">🎯</div>
+        <div class="strategy-label">基础知识点巩固</div>
+        <div class="strategy-desc">侧重单点知识，难度适中</div>
+        <div class="strategy-source">📚 调用教辅基础题库</div>
+      </button>
+      <button class="strategy-btn" data-strategy="advanced">
+        <div class="strategy-icon">🔥</div>
+        <div class="strategy-label">深度综合实战</div>
+        <div class="strategy-desc">侧重底层逻辑与推导，考点交叉</div>
+        <div class="strategy-source">🏛️ 调用历年真题地狱难度</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- Step 4: Summary & Start -->
+  <section class="step-panel hidden" id="step-4">
+    <h2>Step 4: Confirm & Start</h2>
+    <div class="summary-card">
+      <div class="summary-item">
+        <span class="summary-label">Subject:</span>
+        <span class="summary-value" id="summary-subject">—</span>
+      </div>
+      <div class="summary-item">
+        <span class="summary-label">Type:</span>
+        <span class="summary-value" id="summary-type">—</span>
+      </div>
+      <div class="summary-item">
+        <span class="summary-label">Strategy:</span>
+        <span class="summary-value" id="summary-strategy">—</span>
+      </div>
+      <div class="summary-item">
+        <span class="summary-label">Questions:</span>
+        <span class="summary-value" id="summary-questions">5</span>
+      </div>
+    </div>
+    <button class="start-btn" id="start-btn">
+      🚀 Start Practice
+    </button>
+    <button class="back-btn" id="restart-btn">
+      ↩ Start Over
+    </button>
+  </section>
+
+  <!-- Navigation -->
+  <div class="step-nav">
+    <button class="nav-btn prev" id="prev-btn" disabled>← Back</button>
+    <button class="nav-btn next" id="next-btn">Next →</button>
+  </div>
+</main>
+
+<script src="js/training.js"></script>
+</body>
+</html>
