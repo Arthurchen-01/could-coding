@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Tutor — AP Practice Website</title>
+  <link rel="stylesheet" href="../components/global-nav.css">
   <link rel="stylesheet" href="css/ai-tutor.css">
+  <link rel="stylesheet" href="../components/global-nav.css">
+  <link rel="stylesheet" href="../components/settings-modal.css">
 </head>
 <body>
 
@@ -18,12 +21,13 @@
     <nav class="nav-links">
       <a href="../exam/index.html">Home</a>
       <a href="../exam/index.html">Mock Exam</a>
-      <a href="../training/index.html">Targeted Practice</a>
-      <a href="../dashboard/index.html">Dashboard</a>
+      <a href="../training/index.html">Training</a>
+      <a href="../dashboard/v2/index.html">Dashboard</a>
       <a class="active" href="#">AI Tutor</a>
     </nav>
-    <div class="user-avatar">
-      <span class="avatar-text">OC</span>
+    <div style="display:flex; gap:12px; align-items:center;">
+      <button class="settings-trigger" onclick="openSettings()" title="模型配置">⚙️</button>
+      <div class="user-avatar"><span class="avatar-text">OC</span></div>
     </div>
   </div>
 </header>
@@ -45,14 +49,12 @@
         <div class="mode-time">10/20 分钟</div>
         <div class="mode-desc">快问快答，超时自动给答案</div>
       </button>
-
       <button class="mode-card" data-mode="steady">
         <div class="mode-icon">🧩</div>
         <div class="mode-label">稳扎稳打</div>
         <div class="mode-time">30 分钟</div>
         <div class="mode-desc">覆盖核心考点，必须回答导师预设问题</div>
       </button>
-
       <button class="mode-card" data-mode="socratic">
         <div class="mode-icon">🌌</div>
         <div class="mode-label">无死角苏格拉底</div>
@@ -62,16 +64,13 @@
     </div>
 
     <div class="mode-footer">
-      <button class="start-tutor-btn" id="start-tutor-btn" disabled>
-        选择模式后开始对话 →
-      </button>
+      <button class="start-tutor-btn" id="start-tutor-btn" disabled>选择模式后开始对话 →</button>
     </div>
   </section>
 
   <!-- Chat Interface -->
   <section class="chat-interface" id="chat-interface" style="display:none;">
     
-    <!-- Tutor Header -->
     <div class="tutor-header">
       <div class="tutor-avatar">
         <div class="tutor-face">👩‍🏫</div>
@@ -84,59 +83,73 @@
       <div class="deep-logic-score">
         <div class="score-label">理解深度分</div>
         <div class="score-value" id="deep-logic-score">0</div>
-        <div class="score-bar">
-          <div class="score-fill" id="score-fill" style="width: 0%"></div>
-        </div>
+        <div class="score-bar"><div class="score-fill" id="score-fill" style="width:0%"></div></div>
       </div>
-      <button class="mode-switch-btn" id="mode-switch-btn">🔄 换模式</button>
+      <button class="settings-trigger" onclick="openSettings()" title="模型配置">⚙️</button>
     </div>
 
-    <!-- Chat History -->
-    <div class="chat-history" id="chat-history">
-      <!-- Messages rendered by JS -->
-    </div>
+    <div class="chat-history" id="chat-history"></div>
 
-    <!-- Input Panel -->
     <div class="input-panel">
-      <button class="input-btn" id="voice-btn" title="语音输入">
-        🎤
-      </button>
+      <button class="input-btn" id="voice-btn" title="语音输入">🎤</button>
       <input type="text" class="chat-input" id="chat-input" placeholder="输入你的回答...">
-      <button class="input-btn" id="image-btn" title="传图解答">
-        🖼️
-      </button>
-      <button class="send-btn" id="send-btn">
-        发送 →
-      </button>
+      <button class="input-btn" id="image-btn" title="传图解答">🖼️</button>
+      <button class="send-btn" id="send-btn">发送 →</button>
     </div>
-
   </section>
-
 </main>
 
-<!-- Mode Switch Modal -->
-<div class="modal-overlay" id="mode-switch-modal" style="display:none;">
-  <div class="modal">
-    <h2>切换复习模式</h2>
-    <div class="mode-mini-grid">
-      <button class="mode-mini-card" data-mode="speed">
-        <span class="mode-mini-icon">⚡</span>
-        <span>极速回忆</span>
-      </button>
-      <button class="mode-mini-card" data-mode="steady">
-        <span class="mode-mini-icon">🧩</span>
-        <span>稳扎稳打</span>
-      </button>
-      <button class="mode-mini-card" data-mode="socratic">
-        <span class="mode-mini-icon">🌌</span>
-        <span>苏格拉底</span>
-      </button>
+<!-- Settings Modal -->
+<div class="settings-overlay" id="settings-overlay" style="display:none;">
+  <div class="settings-modal">
+    <div class="settings-header">
+      <h2>⚙️ 模型配置</h2>
+      <button class="settings-close" id="settings-close">✕</button>
     </div>
-    <button class="modal-close" id="modal-close">取消</button>
+    <div class="settings-body">
+      <div class="settings-group">
+        <label>Base URL <span class="hint">（支持中转站代理）</span></label>
+        <input type="text" id="config-base-url" placeholder="https://api.openai.com/v1" spellcheck="false">
+      </div>
+      <div class="settings-group">
+        <label>API Key <span class="hint">（密码隐藏）</span></label>
+        <div class="key-input-wrapper">
+          <input type="password" id="config-api-key" placeholder="sk-... 或 AIzaSy..." spellcheck="false">
+          <button class="key-toggle" id="key-toggle">👁</button>
+        </div>
+      </div>
+      <div class="settings-group">
+        <label>Model ID</label>
+        <input type="text" id="config-model-id" placeholder="gpt-4o / claude-3-5-sonnet / gemini-pro">
+        <div class="hint">常用：gpt-4o, claude-3-5-sonnet-20240620, gemini-pro, deepseek-chat</div>
+      </div>
+      <div class="settings-group">
+        <label>System Prompt <span class="hint">（AI 导师人格）</span></label>
+        <textarea id="config-system-prompt" rows="6"></textarea>
+      </div>
+      <div class="settings-group">
+        <label>快捷预设</label>
+        <div class="preset-buttons">
+          <button class="preset-btn" data-preset="gemini">🟢 Gemini</button>
+          <button class="preset-btn" data-preset="openai">🔵 OpenAI</button>
+          <button class="preset-btn" data-preset="claude">🟠 Claude</button>
+          <button class="preset-btn" data-preset="deepseek">🟣 DeepSeek</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-footer">
+      <button class="settings-btn secondary" id="settings-reset">恢复默认</button>
+      <button class="settings-btn primary" id="settings-save">💾 保存配置</button>
+    </div>
+    <div class="settings-status" id="settings-status"></div>
   </div>
 </div>
 
+<!-- Scripts -->
+<script src="../js/api-config.js"></script>
+<script src="../components/settings-modal.js"></script>
 <script src="js/llm-bridge.js"></script>
 <script src="js/ai-tutor.js"></script>
+<script src="../components/global-nav.js"></script>
 </body>
 </html>
