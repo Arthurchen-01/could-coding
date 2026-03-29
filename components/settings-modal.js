@@ -73,6 +73,7 @@ function loadConfigToUI() {
   document.getElementById('config-model-id').value = config.modelId || '';
   document.getElementById('config-vision-model-id').value = config.visionModelId || '';
   document.getElementById('config-stt-model-id').value = config.sttModelId || '';
+  document.getElementById('config-lang').value = config.lang || 'en-US';
   document.getElementById('config-system-prompt').value = config.systemPrompt || '';
 }
 
@@ -83,6 +84,7 @@ function saveConfigFromUI() {
     modelId: document.getElementById('config-model-id').value.trim(),
     visionModelId: document.getElementById('config-vision-model-id').value.trim(),
     sttModelId: document.getElementById('config-stt-model-id').value.trim(),
+    lang: document.getElementById('config-lang').value,
     systemPrompt: document.getElementById('config-system-prompt').value.trim()
   };
   
