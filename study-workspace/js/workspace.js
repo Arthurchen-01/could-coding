@@ -273,7 +273,7 @@
     }
 
     // Fallback: use fetch directly if API config exists
-    const config = JSON.parse(localStorage.getItem('api-config') || '{}');
+    const config = JSON.parse(localStorage.getItem('ap-tutor-api-config') || '{}');
     if (config.apiKey && config.baseUrl) {
       const response = await fetch(config.baseUrl + '/chat/completions', {
         method: 'POST',
@@ -350,7 +350,7 @@
     recognition.continuous = false;
     recognition.interimResults = true;
     // Read language from settings config
-    const speechConfig = JSON.parse(localStorage.getItem('api-config') || '{}');
+    const speechConfig = JSON.parse(localStorage.getItem('ap-tutor-api-config') || '{}');
     recognition.lang = speechConfig.lang || 'zh-CN';
 
     recognition.onstart = () => {
@@ -462,3 +462,6 @@
   // ── Start ──
   init();
 })();
+/**
+ * workspace.js — Main controller for Study Workspace
+ * Ties together: PDFReader, Resizer, Sile
