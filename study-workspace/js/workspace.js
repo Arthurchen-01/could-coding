@@ -1,6 +1,6 @@
 /**
  * workspace.js — Main controller for Study Workspace
- * Ties together: PDFReader, Resizer, SilentReader, QuestionLogger
+ * Ties together: PDFReader, Resizer, SilentReader, QuestionLogger, SpeechAdapter
  */
 (function () {
   'use strict';
@@ -295,55 +295,139 @@
   }
 
   // ── Voice Input ──
-  let recognition = null;
+  // Uses SpeechAdapter: Web Speech API (primary) → Provider ASR (fallback)
+  let activeVoiceCapture = null;
+  let voiceTimer = null;
+  let voiceSeconds = 0;
 
   function toggleVoiceInput() {
-    if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
-      addSystemMessage('Voice input is not supported in this browser.');
+    if (activeVoiceCapture) {
+      stopVoiceCapture();
+      return;
+    }
+
+    const config = JSON.parse(localStorage.getItem('api-config') || '{}');
+    const useProvider = !!config.sttModelId; // if STT model configured, use provider ASR
+
+    // Check browser support if not forcing provider
+    if (!useProvider && !('SpeechRecognition' in window) && !('webkitSpeechRecognition' in window)) {
+      addSystemMessage('🎤 Web Speech API not supported. Set a STT model in Settings to use cloud ASR.');
       btnVoice.style.display = 'none';
       return;
     }
 
-    if (recognition) {
-      recognition.stop();
-      recognition = null;
-      btnVoice.classList.remove('listening');
+    startVoiceCapture(useProvider);
+  }
+
+  function startVoiceCapture(useProvider) {
+    btnVoice.classList.add('listening');
+    chatInput.placeholder = 'Listening... (tap mic to stop)';
+
+    // Visual timer
+    voiceSeconds = 0;
+    updateVoiceTimer();
+
+    if (useProvider) {
+      // Provider ASR via MediaRecorder + Whisper
+      startProviderASR();
+    } else {
+      // Web Speech API (browser-native)
+      startWebSpeech();
+    }
+  }
+
+  function startWebSpeech() {
+    const adapter = new SpeechAdapter({
+      lang: 'en-US',
+      onResult: (text, isFinal) => {
+        chatInput.value = text;
+        if (isFinal) {
+          stopVoiceCapture();
+        }
+      },
+      onError: (err) => {
+        addSystemMessage(`🎤 Speech error: ${err}`);
+        stopVoiceCapture();
+      },
+    });
+
+    if (!adapter.supported) {
+      addSystemMessage('🎤 Web Speech API not available in this browser.');
+      stopVoiceCapture();
       return;
     }
 
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    recognition = new SpeechRecognition();
-    recognition.continuous = false;
-    recognition.interimResults = true;
-    recognition.lang = 'en-US';
-
-    recognition.onstart = () => {
-      btnVoice.classList.add('listening');
-      chatInput.placeholder = 'Listening...';
+    activeVoiceCapture = {
+      stop: () => adapter.stop(),
+      type: 'webspeech',
     };
+    adapter.start();
+  }
 
-    recognition.onresult = (event) => {
-      let transcript = '';
-      for (let i = 0; i < event.results.length; i++) {
-        transcript += event.results[i][0].transcript;
+  async function startProviderASR() {
+    const chunks = [];
+    let stream, recorder;
+
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+
+      recorder.ondataavailable = e => {
+        if (e.data.size) chunks.push(e.data);
+      };
+
+      recorder.start(100);
+
+      activeVoiceCapture = {
+        stop: async () => {
+          return new Promise(resolve => {
+            recorder.onstop = async () => {
+              stream.getTracks().forEach(t => t.stop());
+              clearInterval(voiceTimer);
+              if (chunks.length === 0) { resolve(''); return; }
+
+              const blob = new Blob(chunks, { type: 'audio/webm' });
+              try {
+                const text = await SpeechAdapter.transcribeViaProvider(blob);
+                chatInput.value = text;
+                resolve(text);
+              } catch (err) {
+                addSystemMessage(`🎤 ASR error: ${err.message}`);
+                resolve('');
+              }
+            };
+            recorder.stop();
+          });
+        },
+        type: 'provider',
+      };
+    } catch (err) {
+      addSystemMessage(`🎤 Microphone access denied: ${err.message}`);
+      stopVoiceCapture();
+    }
+  }
+
+  async function stopVoiceCapture() {
+    clearInterval(voiceTimer);
+    btnVoice.classList.remove('listening');
+    chatInput.placeholder = 'Ask about this page...';
+
+    if (activeVoiceCapture) {
+      await activeVoiceCapture.stop();
+      activeVoiceCapture = null;
+    }
+  }
+
+  function updateVoiceTimer() {
+    clearInterval(voiceTimer);
+    voiceTimer = setInterval(() => {
+      voiceSeconds++;
+      // Auto-stop at 30 seconds
+      if (voiceSeconds >= 30) {
+        stopVoiceCapture();
+        addSystemMessage('🎤 Auto-stopped at 30s. Send your question or tap mic again.');
       }
-      chatInput.value = transcript;
-    };
-
-    recognition.onerror = (event) => {
-      console.error('Speech recognition error:', event.error);
-      btnVoice.classList.remove('listening');
-      chatInput.placeholder = 'Ask about this page...';
-      recognition = null;
-    };
-
-    recognition.onend = () => {
-      btnVoice.classList.remove('listening');
-      chatInput.placeholder = 'Ask about this page...';
-      recognition = null;
-    };
-
-    recognition.start();
+    }, 1000);
   }
 
   // ── Persona ──
