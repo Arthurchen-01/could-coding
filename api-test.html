@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Sniper Test</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'SF Mono',Consolas,'PingFang SC',monospace;background:#0d1117;color:#c9d1d9;padding:24px;max-width:900px;margin:0 auto}
+    h1{font-size:1.2rem;color:#58a6ff;margin-bottom:4px}
+    .sub{font-size:0.8rem;color:#8b949e;margin-bottom:20px}
+    .row{display:flex;gap:12px;margin-bottom:16px}
+    textarea{flex:1;background:#161b22;border:1px solid #30363d;border-radius:8px;color:#c9d1d9;padding:12px;font-family:inherit;font-size:0.9rem;resize:vertical;min-height:60px;outline:none}
+    textarea:focus{border-color:#58a6ff}
+    button{background:#238636;color:#fff;border:none;border-radius:8px;padding:12px 24px;font-weight:700;font-size:0.9rem;cursor:pointer;transition:0.2s;white-space:nowrap}
+    button:hover{background:#2ea043}
+    button:disabled{opacity:0.5;cursor:wait}
+    .config{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 16px;margin-bottom:16px;font-size:0.8rem;line-height:1.8}
+    .config span{color:#58a6ff}
+    .config .label{color:#8b949e}
+    pre{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;font-size:0.8rem;line-height:1.6;overflow-x:auto;max-height:60vh;overflow-y:auto;white-space:pre-wrap;word-break:break-all}
+    .tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:0.7rem;font-weight:700;margin-left:8px}
+    .tag-ok{background:#238636;color:#fff}
+    .tag-err{background:#da3633;color:#fff}
+    .tag-cors{background:#d29922;color:#000}
+    .timestamp{color:#484f58;font-size:0.7rem}
+    #status{margin-bottom:12px;font-size:0.85rem;min-height:24px}
+  </style>
+</head>
+<body>
+
+<h1>🎯 API Sniper Test</h1>
+<div class="sub">独立调试针 · 暴力错误捕获 · 零静默失败</div>
+
+<!-- 当前配置 -->
+<div class="config" id="configDisplay"></div>
+
+<!-- 输入 -->
+<div class="row">
+  <textarea id="prompt" placeholder="输入测试问题，例如：hello, what model are you?">hello, what model are you? reply in one sentence.</textarea>
+  <button id="btnSend" onclick="fire()">🚀 发送</button>
+</div>
+
+<!-- 状态 -->
+<div id="status"></div>
+
+<!-- 日志 -->
+<pre id="log">等待发送...</pre>
+
+<script>
+// ============================================================
+// 硬编码测试参数
+// ============================================================
+const CONFIG = {
+  baseUrl: 'https://openrouter.ai/api/v1',
+  apiKey:  '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',
+  model:   'xiaomi/mimo-v2-pro'
+};
+
+const ENDPOINT = CONFIG.baseUrl + '/chat/completions';
+
+// 显示配置
+document.getElementById('configDisplay').innerHTML = `
+  <span class="label">Endpoint:</span> <span>${ENDPOINT}</span><br>
+  <span class="label">Model:</span>    <span>${CONFIG.model}</span><br>
+  <span class="label">Auth:</span>     <span>Bearer ${CONFIG.apiKey.slice(0,12)}...${CONFIG.apiKey.slice(-6)}</span>
+`;
+
+// ============================================================
+// 核心：暴力级错误捕获
+// ============================================================
+async function fire() {
+  const btn   = document.getElementById('btnSend');
+  const log   = document.getElementById('log');
+  const stat  = document.getElementById('status');
+  const prompt = document.getElementById('prompt').value.trim();
+
+  if (!prompt) return;
+
+  btn.disabled = true;
+  btn.textContent = '⏳ 请求中...';
+  log.textContent = '';
+  stat.innerHTML = '⏳ 发送请求...';
+
+  const payload = {
+    model: CONFIG.model,
+    messages: [
+      { role: 'user', content: prompt }
+    ],
+    max_tokens: 256,
+    temperature: 0.7
+  };
+
+  const fetchOpts = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${CONFIG.apiKey}`,
+      // OpenRouter 推荐的额外 headers
+      'HTTP-Referer': location.origin,
+      'X-Title': 'AP-Sniper-Test'
+    },
+    body: JSON.stringify(payload)
+  };
+
+  // 打印请求详情
+  const lines = [];
+  lines.push(`[${ts()}] ▶ REQUEST`);
+  lines.push(`  URL:    ${ENDPOINT}`);
+  lines.push(`  Method: POST`);
+  lines.push(`  Headers:`);
+  lines.push(`    Content-Type:  application/json`);
+  lines.push(`    Authorization: Bearer ${CONFIG.apiKey.slice(0,12)}...${CONFIG.apiKey.slice(-6)}`);
+  lines.push(`    HTTP-Referer:  ${location.origin}`);
+  lines.push(`    X-Title:       AP-Sniper-Test`);
+  lines.push(`  Body:`);
+  lines.push(JSON.stringify(payload, null, 2));
+  lines.push('');
+  log.textContent = lines.join('\n');
+
+  try {
+    const t0 = performance.now();
+    const res = await fetch(ENDPOINT, fetchOpts);
+    const elapsed = Math.round(performance.now() - t0);
+
+    // ─── 打印响应头 ───
+    lines.push(`[${ts()}] ◀ RESPONSE  (${elapsed}ms)`);
+    lines.push(`  Status: ${res.status} ${res.statusText}`);
+    lines.push(`  Headers:`);
+    res.headers.forEach((v, k) => {
+      lines.push(`    ${k}: ${v}`);
+    });
+    lines.push('');
+
+    // ─── 读取 body ───
+    const rawText = await res.text();
+    lines.push(`  Raw Body (${rawText.length} chars):`);
+    lines.push(`  ${rawText}`);
+    lines.push('');
+
+    // ─── 尝试 JSON 解析 ───
+    let json = null;
+    try {
+      json = JSON.parse(rawText);
+      lines.push(`  Parsed JSON:`);
+      lines.push(JSON.stringify(json, null, 2));
+    } catch (pe) {
+      lines.push(`  ⚠ JSON parse failed: ${pe.message}`);
+    }
+    lines.push('');
+
+    // ─── 判定结果 ───
+    if (!res.ok) {
+      // HTTP 错误
+      const errMsg = json?.error?.message || json?.message || rawText.slice(0, 200);
+      lines.push(`❌ HTTP ERROR ${res.status}: ${errMsg}`);
+      stat.innerHTML = `<span class="tag tag-err">${res.status} ERROR</span> ${escapeHtml(errMsg)}`;
+    } else if (json?.choices?.[0]?.message?.content) {
+      // 成功
+      const content = json.choices[0].message.content;
+      lines.push(`✅ SUCCESS — AI reply:`);
+      lines.push(content);
+      stat.innerHTML = `<span class="tag tag-ok">200 OK</span> 模型回复已输出`;
+    } else if (json?.error) {
+      // API 业务错误
+      const errMsg = json.error.message || JSON.stringify(json.error);
+      lines.push(`❌ API ERROR: ${errMsg}`);
+      stat.innerHTML = `<span class="tag tag-err">API ERROR</span> ${escapeHtml(errMsg)}`;
+    } else {
+      // 格式异常
+      lines.push(`⚠ UNEXPECTED FORMAT — 无 choices.content`);
+      stat.innerHTML = `<span class="tag tag-err">FORMAT</span> 响应格式异常`;
+    }
+
+  } catch (err) {
+    // ─── 网络层错误（CORS / DNS / 超时等）───
+    lines.push('');
+    lines.push(`[${ts()}] 💥 NETWORK ERROR`);
+    lines.push(`  Type:    ${err.name}`);
+    lines.push(`  Message: ${err.message}`);
+
+    if (err.message.includes('Failed to fetch') || err.message.includes('NetworkError')) {
+      lines.push('');
+      lines.push(`  🔍 诊断: 很可能是 CORS 跨域错误。`);
+      lines.push(`  原因: 浏览器从 file:// 或本地域直接请求 openrouter.ai，`);
+      lines.push(`        服务端未返回 Access-Control-Allow-Origin 头。`);
+      lines.push('');
+      lines.push(`  💡 解决方案:`);
+      lines.push(`    1. 用本地服务器打开 (npx serve / python -m http.server)`);
+      lines.push(`    2. 或者在 GitHub Pages 上测试（已部署的线上地址）`);
+      lines.push(`    3. 或者用后端代理转发请求`);
+      stat.innerHTML = `<span class="tag tag-cors">NETWORK</span> ${escapeHtml(err.message)}`;
+    } else {
+      stat.innerHTML = `<span class="tag tag-err">ERROR</span> ${escapeHtml(err.message)}`;
+    }
+
+    // 打印完整 stack
+    if (err.stack) {
+      lines.push('');
+      lines.push(`  Stack:`);
+      lines.push(err.stack);
+    }
+  }
+
+  lines.push('');
+  lines.push(`${'─'.repeat(60)}`);
+  log.textContent = lines.join('\n');
+
+  btn.disabled = false;
+  btn.textContent = '🚀 发送';
+}
+
+// ============================================================
+// Helpers
+// ============================================================
+function ts() {
+  const d = new Date();
+  return d.toTimeString().slice(0,8) + '.' + String(d.getMilliseconds()).padStart(3,'0');
+}
+
+function escapeHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// 快捷键 Ctrl+Enter
+document.getElementById('prompt').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) fire();
+});
+</script>
+
+</body>
+</html>
