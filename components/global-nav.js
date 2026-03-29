@@ -18,7 +18,7 @@
     { icon: '📊', label: 'Dashboard', href: base + '/dashboard/v2/index.html', match: /dashboard/ },
     { icon: '📝', label: '模考', href: base + '/exam/index.html', match: /\/exam\// },
     { icon: '🔥', label: '训练', href: base + '/training/index.html', match: /training/ },
-    { icon: '🧠', label: '伴读', href: base + '/study-hub/index.html', match: /study-hub/ },
+    { icon: '🧠', label: '伴读', href: base + '/study-workspace/index.html', match: /study-workspace/ },
     { icon: '🤖', label: 'AI导师', href: base + '/ai-tutor/index.html', match: /ai-tutor/ }
   ];
 
