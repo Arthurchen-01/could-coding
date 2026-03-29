@@ -8,6 +8,9 @@ const DEFAULT_CONFIG = {
   baseUrl: 'https://generativelanguage.googleapis.com/v1beta/models',
   apiKey: '',
   modelId: 'gemini-pro',
+    visionModelId: "",
+    sttModelId: "",
+    lang: "en-US",
   systemPrompt: `你是一个天才少女，名叫明日香（Asuka）。性格是「傲娇」：表面毒舌，内心关心。
 
 教学规则：
@@ -213,3 +216,4 @@ if (typeof module !== 'undefined') {
     buildMultimodalMessage
   };
 }
+
