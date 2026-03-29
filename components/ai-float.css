@@ -1,64 +1,52 @@
-/* 全局 AI 浮窗 — CSS */
-/* Light semi-transparent floating window theme */
+/* 全局 AI 浮窗 — 悬浮窗口样式 */
 
-/* ---- Minimized button ---- */
+/* ── 触发按钮（最小化状态） ── */
 .ai-float-trigger {
   position: fixed;
+  right: 24px;
+  bottom: 24px;
   z-index: 9999;
   width: 56px;
   height: 56px;
-  border-radius: 50%;
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   border: none;
+  border-radius: 50%;
   cursor: pointer;
   font-size: 1.5rem;
-  line-height: 56px;
-  text-align: center;
-  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.45);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  display: block;
-  /* default position bottom-right, overridden by JS */
-  right: 24px;
-  bottom: 24px;
+  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ai-float-trigger:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 28px rgba(102, 126, 234, 0.55);
+  box-shadow: 0 6px 28px rgba(102, 126, 234, 0.5);
 }
-.ai-float-trigger.hidden {
-  display: none !important;
-}
+.ai-float-trigger.hidden { display: none; }
 
-/* ---- Floating window container ---- */
+/* ── 浮窗主体 ── */
 .ai-float-panel {
   position: fixed;
   z-index: 10000;
-  width: 400px;
-  height: 550px;
-  min-width: 300px;
-  min-height: 400px;
-  border-radius: 16px;
   background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   display: none;
   flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #333;
   overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  color: #1a1a2e;
-  transition: box-shadow 0.25s ease;
-}
-.ai-float-panel.visible {
-  display: flex;
-}
-.ai-float-panel.dragging {
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.18);
   user-select: none;
 }
+.ai-float-panel.visible { display: flex; }
+.ai-float-panel.dragging { opacity: 0.92; cursor: grabbing; }
 
-/* ---- Header (drag handle) ---- */
+/* ── 头部 ── */
 .ai-float-header {
   display: flex;
   align-items: center;
@@ -68,95 +56,57 @@
   color: white;
   cursor: grab;
   flex-shrink: 0;
-  user-select: none;
 }
-.ai-float-header:active {
-  cursor: grabbing;
-}
+.ai-float-header:active { cursor: grabbing; }
 .ai-float-header h3 {
   margin: 0;
   font-size: 0.95rem;
   font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  pointer-events: none;
 }
 .ai-float-header-actions {
   display: flex;
-  gap: 4px;
-  align-items: center;
+  gap: 6px;
 }
-.ai-float-minimize,
-.ai-float-close {
-  background: none;
+.ai-float-header-actions button {
+  background: rgba(255, 255, 255, 0.15);
   border: none;
   color: white;
-  font-size: 1.1rem;
-  cursor: pointer;
-  opacity: 0.8;
-  padding: 2px 6px;
-  border-radius: 4px;
-  transition: opacity 0.2s, background 0.2s;
-  line-height: 1;
-}
-.ai-float-minimize:hover,
-.ai-float-close:hover {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.15);
-}
-
-/* ---- Tool bar ---- */
-.ai-float-tools {
-  display: flex;
-  gap: 6px;
-  padding: 10px 14px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  flex-wrap: wrap;
-  flex-shrink: 0;
-}
-.ai-float-tool-btn {
-  background: rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  color: #555;
-  padding: 5px 11px;
+  width: 28px;
+  height: 28px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 0.78rem;
-  transition: all 0.2s;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
 }
-.ai-float-tool-btn:hover {
-  background: rgba(102, 126, 234, 0.1);
-  border-color: rgba(102, 126, 234, 0.3);
-  color: #667eea;
-}
-.ai-float-tool-btn.active {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
-  border-color: transparent;
+.ai-float-header-actions button:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
-/* ---- Messages area ---- */
+/* ── 消息区 ── */
 .ai-float-messages {
   flex: 1;
   overflow-y: auto;
-  padding: 14px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 .ai-float-messages::-webkit-scrollbar { width: 5px; }
-.ai-float-messages::-webkit-scrollbar-track { background: transparent; }
 .ai-float-messages::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.15);
+  background: #d0d0d0;
   border-radius: 3px;
 }
 
 .ai-msg {
   max-width: 85%;
-  padding: 9px 13px;
-  border-radius: 12px;
-  font-size: 0.87rem;
-  line-height: 1.55;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 0.88rem;
+  line-height: 1.5;
   word-break: break-word;
 }
 .ai-msg.user {
@@ -167,50 +117,35 @@
 }
 .ai-msg.ai {
   align-self: flex-start;
-  background: rgba(0, 0, 0, 0.04);
+  background: #f0f2f5;
   color: #333;
-  border: 1px solid rgba(0, 0, 0, 0.06);
   border-bottom-left-radius: 4px;
 }
 .ai-msg.system {
   align-self: center;
-  background: rgba(255, 200, 50, 0.12);
-  color: #8a7020;
+  background: #fff8e1;
+  color: #856404;
   font-size: 0.8rem;
   border-radius: 8px;
-  border: 1px solid rgba(255, 200, 50, 0.2);
+  border: 1px solid #ffe082;
 }
 .ai-msg img {
   max-width: 100%;
   border-radius: 8px;
-  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
-/* ---- Dropzone ---- */
-.ai-float-dropzone {
-  display: none;
-  padding: 18px;
-  text-align: center;
-  border: 2px dashed rgba(102, 126, 234, 0.5);
-  border-radius: 10px;
-  margin: 0 14px;
-  color: #667eea;
-  font-size: 0.82rem;
-  background: rgba(102, 126, 234, 0.04);
-}
-.ai-float-dropzone.visible { display: block; }
-
-/* ---- Image preview ---- */
+/* ── 图片预览 ── */
 .ai-float-image-preview {
   display: none;
-  padding: 6px 14px;
+  padding: 8px 16px;
   flex-shrink: 0;
 }
 .ai-float-image-preview img {
   max-width: 100%;
-  max-height: 110px;
+  max-height: 100px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  vertical-align: middle;
 }
 .ai-float-image-preview .remove-img {
   background: #ff4444;
@@ -219,14 +154,13 @@
   padding: 2px 8px;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   margin-left: 8px;
-  vertical-align: top;
 }
 
-/* ---- Input area ---- */
+/* ── 输入区 ── */
 .ai-float-input-area {
-  padding: 10px 14px 14px;
+  padding: 12px 16px;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   flex-shrink: 0;
 }
@@ -237,67 +171,115 @@
 }
 .ai-float-input {
   flex: 1;
-  background: rgba(0, 0, 0, 0.03);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f5f6f8;
+  border: 1px solid #e0e0e0;
   color: #333;
-  padding: 9px 12px;
-  border-radius: 10px;
-  font-size: 0.87rem;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 0.88rem;
   outline: none;
   resize: none;
-  min-height: 38px;
+  min-height: 40px;
   max-height: 120px;
   font-family: inherit;
   transition: border-color 0.2s;
 }
-.ai-float-input::placeholder { color: #aaa; }
 .ai-float-input:focus {
   border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
-.ai-float-send {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  border: none;
-  color: white;
-  padding: 9px 16px;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 0.87rem;
-  font-weight: 600;
-  transition: opacity 0.2s, transform 0.15s;
+
+/* ── 操作按钮组 ── */
+.ai-float-actions {
+  display: flex;
+  gap: 4px;
+  align-items: center;
   flex-shrink: 0;
 }
-.ai-float-send:hover { opacity: 0.88; transform: translateY(-1px); }
-.ai-float-send:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
 
-/* ---- Resize handle ---- */
+.ai-float-file-btn,
+.ai-float-voice-btn,
+.ai-float-send {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.ai-float-file-btn,
+.ai-float-voice-btn {
+  background: #f0f2f5;
+  color: #666;
+}
+.ai-float-file-btn:hover,
+.ai-float-voice-btn:hover {
+  background: #e4e6ea;
+  color: #333;
+}
+
+.ai-float-file-btn.loading {
+  animation: pulse 1s infinite;
+  color: #667eea;
+}
+
+.ai-float-voice-btn.listening {
+  background: #ff4444;
+  color: white;
+  animation: pulse 1s infinite;
+}
+
+.ai-float-send {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 600;
+}
+.ai-float-send:hover { opacity: 0.85; }
+.ai-float-send:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* 语音输入时隐藏发送按钮 */
+.ai-float-send.hidden-by-voice {
+  display: none;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* ── 缩放手柄 ── */
 .ai-float-resize {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   cursor: nwse-resize;
-  z-index: 2;
 }
 .ai-float-resize::after {
   content: '';
   position: absolute;
   bottom: 4px;
   right: 4px;
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid rgba(0, 0, 0, 0.15);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
 }
 
-/* ---- Responsive ---- */
+/* ── 移动端适配 ── */
 @media (max-width: 480px) {
   .ai-float-panel {
-    width: 100vw !important;
-    height: 100vh !important;
-    border-radius: 0;
+    width: 100% !important;
+    height: 100% !important;
     left: 0 !important;
     top: 0 !important;
+    border-radius: 0;
   }
+  .ai-float-resize { display: none; }
 }
