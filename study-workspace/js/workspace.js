@@ -315,7 +315,9 @@
     recognition = new SpeechRecognition();
     recognition.continuous = false;
     recognition.interimResults = true;
-    recognition.lang = 'en-US';
+    // Read language from settings config
+    const speechConfig = JSON.parse(localStorage.getItem('api-config') || '{}');
+    recognition.lang = speechConfig.lang || 'en-US';
 
     recognition.onstart = () => {
       btnVoice.classList.add('listening');
