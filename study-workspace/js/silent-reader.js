@@ -1,23 +1,38 @@
 /**
  * silent-reader.js — Silent page recognition with visual model
+ * Uses html2canvas to capture PDF page → base64 → vision model → cache
  */
 class SilentReader {
   constructor(pdfReader) {
     this.pdfReader = pdfReader;
-    this.cache = new Map(); // pageNum -> { timestamp, summary, keyConcepts }
+    this.cache = new Map();
     this.isReading = false;
   }
 
   /**
-   * Capture current PDF view as data URL
+   * Capture current PDF canvas view as base64 data URL
+   * Strategy: html2canvas on the canvas element, fallback to canvas.toDataURL
    */
   async captureCurrentView() {
-    const blob = await this.pdfReader.getCurrentPageBlob();
-    return new Promise((resolve) => {
-      const reader = new FileReader();
-      reader.onloadend = () => resolve(reader.result);
-      reader.readAsDataURL(blob);
-    });
+    const canvas = this.pdfReader.canvas;
+    if (!canvas) throw new Error('No PDF canvas found');
+
+    // Try html2canvas first (captures better quality)
+    if (typeof html2canvas !== 'undefined') {
+      try {
+        const rendered = await html2canvas(canvas, {
+          scale: 1,
+          useCORS: true,
+          logging: false
+        });
+        return rendered.toDataURL('image/png', 0.9);
+      } catch (e) {
+        console.warn('html2canvas failed, falling back to toDataURL:', e);
+      }
+    }
+
+    // Fallback: direct canvas toDataURL
+    return canvas.toDataURL('image/png', 0.9);
   }
 
   /**
@@ -45,36 +60,32 @@ class SilentReader {
     try {
       const imageData = await this.captureCurrentView();
 
-      // Build multimodal message for vision model
-      const message = {
-        role: 'user',
-        content: [
-          {
-            type: 'text',
-            text: 'Analyze this page of educational material. Provide: 1) Main topic/concept 2) Key concepts listed 3) Important formulas or terms 4) Brief summary in plain language. Respond in JSON format: {"topic": "", "keyConcepts": [], "summary": ""}'
-          },
-          {
-            type: 'image_url',
-            image_url: {
-              url: imageData
-            }
-          }
-        ]
-      };
+      // Build vision request
+      const visionPrompt = `Analyze this educational material page. Respond ONLY with valid JSON:
+{
+  "topic": "main topic of this page",
+  "keyConcepts": ["concept1", "concept2", "concept3"],
+  "summary": "brief plain-language summary"
+}`;
 
-      // Call the AI proxy to get vision response
-      let result;
-      if (typeof buildMultimodalMessage === 'function') {
-        result = await buildMultimodalMessage([imageData], 'Analyze this page');
-      } else if (typeof sendToAI === 'function') {
-        result = await sendToAI(message);
-      } else {
-        // Fallback: store raw image data
-        result = { topic: 'Page ' + pageNum, summary: 'Vision model not configured', keyConcepts: [] };
+      // Call vision model via existing API infrastructure
+      const result = await this.callVisionModel(imageData, visionPrompt);
+
+      // Parse result
+      let parsed;
+      try {
+        // Try to extract JSON from response
+        const jsonMatch = result.match(/\{[\s\S]*\}/);
+        parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : JSON.parse(result);
+      } catch (parseErr) {
+        // If parsing fails, create a text-based entry
+        parsed = {
+          topic: 'Page ' + pageNum,
+          keyConcepts: [],
+          summary: result.substring(0, 500)
+        };
       }
 
-      // Parse and cache result
-      const parsed = typeof result === 'string' ? JSON.parse(result) : result;
       const cacheEntry = {
         timestamp: Date.now(),
         topic: parsed.topic || 'Page ' + pageNum,
@@ -88,18 +99,64 @@ class SilentReader {
 
     } catch (err) {
       console.error('SilentReader error:', err);
-      // Cache a fallback entry
       const fallback = {
         timestamp: Date.now(),
         topic: 'Page ' + pageNum,
         keyConcepts: [],
-        summary: 'Unable to read this page. Please try again.'
+        summary: 'Unable to read this page. Check your API key in Settings.'
       };
       this.cache.set(pageNum, fallback);
       return fallback;
     } finally {
       this.isReading = false;
     }
+  }
+
+  /**
+   * Call vision model with image data
+   * Supports: OpenAI (gpt-4o), Gemini (gemini-2.0-flash), Claude (vision)
+   */
+  async callVisionModel(imageDataUrl, prompt) {
+    const config = JSON.parse(localStorage.getItem('api-config') || '{}');
+    const baseUrl = config.baseUrl || 'https://api.openai.com/v1';
+    const apiKey = config.apiKey || '';
+    const modelId = config.modelId || 'gpt-4o';
+
+    if (!apiKey) {
+      throw new Error('API key not configured. Please set up in Settings.');
+    }
+
+    // Build messages with image
+    const messages = [{
+      role: 'user',
+      content: [
+        { type: 'text', text: prompt },
+        { type: 'image_url', image_url: { url: imageDataUrl } }
+      ]
+    }];
+
+    // Call API
+    const response = await fetch(baseUrl + '/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + apiKey
+      },
+      body: JSON.stringify({
+        model: modelId,
+        messages: messages,
+        max_tokens: 1000,
+        temperature: 0.3
+      })
+    });
+
+    if (!response.ok) {
+      const errData = await response.json().catch(() => ({}));
+      throw new Error(errData.error?.message || `API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    return data.choices[0].message.content;
   }
 
   /**
