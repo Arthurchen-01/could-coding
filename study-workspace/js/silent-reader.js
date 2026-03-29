@@ -120,10 +120,17 @@ class SilentReader {
     const config = JSON.parse(localStorage.getItem('api-config') || '{}');
     const baseUrl = config.baseUrl || 'https://api.openai.com/v1';
     const apiKey = config.apiKey || '';
-    const modelId = config.modelId || 'gpt-4o';
+    // Use visionModelId if set, otherwise fall back to modelId
+    const modelId = config.visionModelId || config.modelId || 'gpt-4o';
 
     if (!apiKey) {
       throw new Error('API key not configured. Please set up in Settings.');
+    }
+
+    // Ensure image data is in correct format for vision API
+    let imageUrl = imageDataUrl;
+    if (!imageUrl.startsWith('data:')) {
+      imageUrl = 'data:image/png;base64,' + imageUrl;
     }
 
     // Build messages with image
@@ -131,7 +138,7 @@ class SilentReader {
       role: 'user',
       content: [
         { type: 'text', text: prompt },
-        { type: 'image_url', image_url: { url: imageDataUrl } }
+        { type: 'image_url', image_url: { url: imageUrl } }
       ]
     }];
 
