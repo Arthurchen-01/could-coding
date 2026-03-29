@@ -20,11 +20,15 @@
   const fileInput = $('file-input');
   const uploadBox = uploadZone.querySelector('.upload-box');
 
-  const pdfCanvas = $('pdf-canvas');
+  const pdfViewer = $('pdf-viewer');
   const pageCurrent = $('page-current');
   const pageTotal = $('page-total');
   const btnPrev = $('btn-prev');
   const btnNext = $('btn-next');
+  const btnZoomIn = $('btn-zoom-in');
+  const btnZoomOut = $('btn-zoom-out');
+  const zoomLevel = $('zoom-level');
+  const pageJump = $('page-jump');
 
   const leftPanel = $('left-panel');
   const rightPanel = $('right-panel');
@@ -43,8 +47,8 @@
 
   // ── Init ──
   async function init() {
-    // Initialize PDF reader
-    pdfReader = new PDFReader(pdfCanvas);
+    // Initialize PDF reader with container element
+    pdfReader = new PDFReader({ container: pdfViewer });
 
     // Initialize resizer
     resizer = new Resizer(workspace, leftPanel, rightPanel, resizerEl);
@@ -106,6 +110,28 @@
       updatePageInfo();
     });
 
+    // Zoom controls
+    btnZoomIn.addEventListener('click', () => {
+      pdfReader.zoomIn();
+      updateZoomDisplay();
+    });
+    btnZoomOut.addEventListener('click', () => {
+      pdfReader.zoomOut();
+      updateZoomDisplay();
+    });
+
+    // Page jump
+    pageJump.addEventListener('keydown', async (e) => {
+      if (e.key === 'Enter') {
+        const targetPage = parseInt(pageJump.value);
+        if (targetPage >= 1 && targetPage <= pdfReader.getTotalPages()) {
+          await pdfReader.scrollToPage(targetPage);
+          updatePageInfo();
+        }
+        pageJump.value = '';
+      }
+    });
+
     // Keyboard shortcuts
     document.addEventListener('keydown', e => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
@@ -161,6 +187,7 @@
       const pages = await pdfReader.loadFile(url);
       pageTotal.textContent = pages;
       updatePageInfo();
+      updateZoomDisplay();
       uploadZone.classList.add('hidden');
       workspace.classList.remove('hidden');
       toolbar.classList.remove('hidden');
@@ -176,6 +203,13 @@
     pageTotal.textContent = pdfReader.getTotalPages();
     btnPrev.disabled = pdfReader.getCurrentPageNum() <= 1;
     btnNext.disabled = pdfReader.getCurrentPageNum() >= pdfReader.getTotalPages();
+    updateZoomDisplay();
+  }
+
+  // ── Zoom Display ──
+  function updateZoomDisplay() {
+    const viewport = pdfReader.getViewport ? pdfReader.getViewport() : { scale: 1.5 };
+    zoomLevel.textContent = viewport.scale.toFixed(1) + 'x';
   }
 
   // ── Chat ──
