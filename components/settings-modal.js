@@ -73,7 +73,9 @@ function loadConfigToUI() {
   document.getElementById('config-model-id').value = config.modelId || '';
   document.getElementById('config-vision-model-id').value = config.visionModelId || '';
   document.getElementById('config-stt-model-id').value = config.sttModelId || '';
-  document.getElementById('config-lang').value = config.lang || 'en-US';
+  document.getElementById('config-lang').value = config.lang || 'zh-CN';
+  document.getElementById('config-tts-provider').value = config.ttsProvider || 'browser';
+  document.getElementById('config-tts-url').value = config.ttsUrl || '';
   document.getElementById('config-system-prompt').value = config.systemPrompt || '';
 }
 
@@ -85,6 +87,8 @@ function saveConfigFromUI() {
     visionModelId: document.getElementById('config-vision-model-id').value.trim(),
     sttModelId: document.getElementById('config-stt-model-id').value.trim(),
     lang: document.getElementById('config-lang').value,
+    ttsProvider: document.getElementById('config-tts-provider').value,
+    ttsUrl: document.getElementById('config-tts-url').value.trim(),
     systemPrompt: document.getElementById('config-system-prompt').value.trim()
   };
   
