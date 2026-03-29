@@ -399,7 +399,7 @@
     recognition.interimResults = true;
 
     const config = JSON.parse(localStorage.getItem(CONFIG_KEY) || '{}');
-    recognition.lang = config.lang || 'en-US';
+    recognition.lang = config.lang || 'zh-CN';
 
     recognition.onstart = () => {
       isVoiceActive = true;
