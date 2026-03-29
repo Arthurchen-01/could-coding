@@ -1,0 +1,10 @@
+name = "ap-ai-proxy"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+# 部署后得到 https://ap-ai-proxy.<你的subdomain>.workers.dev
+# 
+# 设置密钥（在终端执行）：
+# wrangler secret put OPENAI_API_KEY
+# wrangler secret put GEMINI_API_KEY
+# wrangler secret put ANTHROPIC_API_KEY
