@@ -150,10 +150,24 @@
         <label>语音语言</label>
         <select id="config-lang">
           <option value="en-US">English (US)</option>
-          <option value="zh-CN">中文</option>
+          <option value="zh-CN" selected>中文</option>
           <option value="ja-JP">日本語</option>
           <option value="ko-KR">한국어</option>
         </select>
+      </div>
+      <div class="settings-group">
+        <label>TTS 语音合成</label>
+        <select id="config-tts-provider">
+          <option value="browser">🌐 浏览器内置</option>
+          <option value="openai">🔵 OpenAI TTS</option>
+          <option value="custom">⚙️ 自定义 API</option>
+        </select>
+      </div>
+      <div class="settings-group">
+        <label>TTS API URL</label>
+        <input type="text" id="config-tts-url" placeholder="https://api.openai.com/v1/audio/speech (自定义时填写)">
+        <small>选"浏览器内置"则不需要填写。OpenAI TTS 会自动用上面的 API Key。</small>
+        
       </div>
       <div class="settings-group">
         <label>System Prompt</label>
