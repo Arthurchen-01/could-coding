@@ -11,27 +11,62 @@ let timeRemaining = 0;
 let timerEnabled = true;
 let highlightMode = false;
 
+// ========== Exam Catalog ==========
+const EXAM_CATALOG = [
+  { id: 'calc-bc', year: '2019', name: 'Calculus BC', label: '微积分BC — 2019' },
+  { id: 'physics-c-em', year: '2025', name: 'Physics C: E&M', label: '物理C电磁 — 2025样题' },
+  { id: 'physics-c-mech', year: '2025', name: 'Physics C: Mechanics', label: '物理C力学 — 2025样题' },
+  { id: 'statistics', year: '2021', name: 'Statistics', label: '统计 — 2021国际卷' },
+  { id: 'macroeconomics', year: '2023', name: 'Macroeconomics', label: '宏观经济 — 2023' },
+  { id: 'microeconomics', year: '2021', name: 'Microeconomics', label: '微观经济 — 2021' },
+  { id: 'psychology', year: '2025', name: 'Psychology', label: '心理学 — 2025样题' },
+  { id: 'csa', year: '2020', name: 'Computer Science A', label: '计算机A — 2020' },
+];
+
 // ========== Init ==========
 document.addEventListener('DOMContentLoaded', async () => {
+  populateExamSelector();
   await loadExamData();
   bindStartEvents();
 });
 
-async function loadExamData() {
+function populateExamSelector() {
+  const sel = document.getElementById('exam-selector');
+  if (!sel) return;
+  sel.innerHTML = '';
+  EXAM_CATALOG.forEach((ex, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = ex.label;
+    sel.appendChild(opt);
+  });
+  sel.addEventListener('change', async () => {
+    const idx = parseInt(sel.value);
+    if (!isNaN(idx)) {
+      const ex = EXAM_CATALOG[idx];
+      await loadExamData(ex.id, ex.year, ex.name);
+    }
+  });
+}
+
+async function loadExamData(subjectId, year, displayName) {
+  subjectId = subjectId || 'calc-bc';
+  year = year || '2019';
+  displayName = displayName || 'Calculus BC';
   try {
     // 使用数据服务层（自动降级）
-    examData = await fetchExamData('calc-bc', '2019');
+    examData = await fetchExamData(subjectId, year);
     
     if (examData._source && examData._source !== 'real') {
       console.log(`[Exam] Data source: ${examData._source}`);
     }
     
-    document.getElementById('exam-title').textContent = examData.subject || 'AP Practice';
+    document.getElementById('exam-title').textContent = examData.examName || `AP ${displayName}`;
     document.getElementById('exam-subtitle').textContent = 
-      `${examData.section || 'Practice'} — ${examData.year || '2019'}`;
+      `${examData.totalQuestions || '?'} 题 — ${examData.year || year}`;
   } catch (e) {
     console.error('Failed to load:', e);
-    examData = getBuiltinFallback('calc-bc');
+    examData = getBuiltinFallback(subjectId);
   }
 }
 
