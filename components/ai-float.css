@@ -283,3 +283,19 @@
   }
   .ai-float-resize { display: none; }
 }
+
+/* ── TTS 按钮 ── */
+.ai-float-tts-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  opacity: 0.4;
+  transition: opacity 0.2s;
+  position: absolute;
+  right: 8px;
+  bottom: 6px;
+  padding: 2px;
+}
+.ai-float-tts-btn:hover { opacity: 1; }
+.ai-msg.ai { position: relative; }
