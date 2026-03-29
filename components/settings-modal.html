@@ -12,7 +12,6 @@
         <label>Base URL <span class="hint">（支持中转站代理）</span></label>
         <input type="text" id="config-base-url" placeholder="https://api.openai.com/v1" 
                spellcheck="false" autocomplete="off">
-        <div class="hint">留空使用默认：https://generativelanguage.googleapis.com/v1beta/models</div>
       </div>
       
       <!-- API Key -->
@@ -27,9 +26,33 @@
       
       <!-- Model ID -->
       <div class="settings-group">
-        <label>Model ID</label>
+        <label>Model ID <span class="hint">（文本模型）</span></label>
         <input type="text" id="config-model-id" placeholder="gpt-4o / claude-3-5-sonnet / gemini-pro">
-        <div class="hint">常用：gpt-4o, claude-3-5-sonnet-20240620, gemini-pro, deepseek-chat</div>
+      </div>
+      
+      <!-- Vision Model ID -->
+      <div class="settings-group">
+        <label>视觉模型 ID <span class="hint">（Vision，支持图片识别）</span></label>
+        <input type="text" id="config-vision-model-id" placeholder="gpt-4o（留空则使用上方模型）">
+        <div class="hint">支持视觉的模型：gpt-4o, claude-3-5-sonnet, gemini-2.0-flash</div>
+      </div>
+      
+      <!-- STT Model ID -->
+      <div class="settings-group">
+        <label>语音识别模型 ID <span class="hint">（STT，用于 Whisper）</span></label>
+        <input type="text" id="config-stt-model-id" placeholder="whisper-1">
+        <div class="hint">留空则使用浏览器内置语音识别（无需 API Key）</div>
+      </div>
+      
+      <!-- Language -->
+      <div class="settings-group">
+        <label>语音语言</label>
+        <select id="config-lang">
+          <option value="en-US">🇺🇸 English</option>
+          <option value="zh-CN">🇨🇳 中文</option>
+          <option value="ja">🇯🇵 日本語</option>
+          <option value="ko">🇰🇷 한국어</option>
+        </select>
       </div>
       
       <!-- System Prompt -->
