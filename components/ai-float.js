@@ -510,3 +510,73 @@
 
   console.log('[AI Float] 浮窗已加载。Ctrl+J 切换。');
 })();
+
+  // ── TTS 语音播放 ──
+  async function speakText(text) {
+    const config = JSON.parse(localStorage.getItem(CONFIG_KEY) || '{}');
+    const provider = config.ttsProvider || 'browser';
+
+    if (provider === 'browser') {
+      // Browser built-in TTS
+      if (!('speechSynthesis' in window)) {
+        addMessage('system', '⚠️ 当前浏览器不支持语音合成');
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = config.lang || 'zh-CN';
+      utter.rate = 1;
+      window.speechSynthesis.speak(utter);
+      return;
+    }
+
+    // OpenAI or Custom TTS
+    const apiKey = config.apiKey || '';
+    const ttsUrl = config.ttsUrl || 'https://api.openai.com/v1/audio/speech';
+
+    if (!apiKey) {
+      addMessage('system', '⚠️ TTS 需要 API Key。请在设置中配置，或切换为"浏览器内置"。');
+      return;
+    }
+
+    try {
+      const resp = await fetch(ttsUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer ' + apiKey,
+        },
+        body: JSON.stringify({
+          model: 'tts-1',
+          input: text.substring(0, 4096),
+          voice: 'nova',
+        }),
+      });
+
+      if (!resp.ok) {
+        const err = await resp.json().catch(() => ({}));
+        throw new Error(err.error?.message || `TTS API 错误: ${resp.status}`);
+      }
+
+      const blob = await resp.blob();
+      const audio = new Audio(URL.createObjectURL(blob));
+      audio.play();
+    } catch (e) {
+      addMessage('system', `❌ TTS 失败: ${e.message}\n👉 检查 API Key 或切换为"浏览器内置"。`);
+    }
+  }
+
+  // Add speaker button to AI messages
+  const origAddMessage = addMessage;
+  addMessage = function(role, content, image) {
+    const div = origAddMessage(role, content, image);
+    if (role === 'ai' && content && content !== '思考中...') {
+      const btn = document.createElement('button');
+      btn.className = 'ai-float-tts-btn';
+      btn.textContent = '🔊';
+      btn.title = '朗读';
+      btn.addEventListener('click', () => speakText(content));
+      div.appendChild(btn);
+    }
+    return div;
+  };
