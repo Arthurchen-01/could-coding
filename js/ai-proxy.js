@@ -1,13 +1,8 @@
-/* AI API 代理配置 — 通过 Cloudflare Workers 中转，API key 不暴露 */
+/* AI API 代理 — 支持 Cloudflare Worker 代理 或 直连 OpenAI-compatible API */
 
 const AI_PROXY = {
-  // ⚠️ 部署后改成你的 Worker URL
-  url: 'https://ap-ai-proxy.your-subdomain.workers.dev',
-
-  // 当前使用的 provider
-  provider: 'gemini', // 'openai' | 'gemini' | 'anthropic'
-
-  // 模型配置（前端只指定模型名，key 在 Worker 端）
+  url: '',
+  provider: 'openai',
   models: {
     openai: 'gpt-4o',
     gemini: 'gemini-2.0-flash',
@@ -16,45 +11,78 @@ const AI_PROXY = {
 };
 
 /**
- * 通过代理发送 AI 请求
- * @param {Array} messages - [{role: 'user'|'system', content: '...'}]
- * @param {string} [imageBase64] - 可选，base64 图片
- * @returns {Promise<string>} AI 回复文本
+ * 从 localStorage 加载用户配置
+ */
+function loadUserConfig() {
+  try {
+    const cfg = JSON.parse(localStorage.getItem('api-config') || '{}');
+    if (cfg.baseUrl) {
+      AI_PROXY.url = cfg.baseUrl;
+      AI_PROXY.models.openai = cfg.modelId || 'gpt-4o';
+    }
+    return cfg;
+  } catch { return {}; }
+}
+
+/**
+ * 通过代理或直连发送 AI 请求
  */
 async function callAI(messages, imageBase64 = null) {
-  const { url, provider, models } = AI_PROXY;
+  const cfg = loadUserConfig();
+  let baseUrl = cfg.baseUrl || AI_PROXY.url;
+  let apiKey = cfg.apiKey || '';
+  let modelId = cfg.modelId || 'gpt-4o';
 
-  if (!url || url.includes('your-subdomain')) {
-    throw new Error('⚠️ 请先配置 AI 代理地址：编辑 js/ai-proxy.js 中的 AI_PROXY.url');
+  if (!baseUrl) {
+    throw new Error('⚠️ 请先配置 API：打开设置填写 Base URL 和 API Key');
+  }
+
+  // 确保 baseUrl 末尾有 /chat/completions
+  if (!baseUrl.includes('/chat/completions')) {
+    baseUrl = baseUrl.replace(/\/+$/, '') + '/chat/completions';
   }
 
   const body = {
-    messages,
-    model: models[provider],
+    model: modelId,
+    messages: messages,
     max_tokens: 2048,
     temperature: 0.7,
   };
 
+  // 如果有图片，转换为 OpenAI vision 格式
   if (imageBase64) {
-    body.image = imageBase64;
+    const lastMsg = messages[messages.length - 1];
+    if (lastMsg.role === 'user') {
+      lastMsg.content = [
+        { type: 'text', text: lastMsg.content },
+        {
+          type: 'image_url',
+          image_url: {
+            url: imageBase64.startsWith('data:') ? imageBase64 : 'data:image/png;base64,' + imageBase64,
+          },
+        },
+      ];
+    }
   }
 
-  const res = await fetch(url, {
+  const headers = { 'Content-Type': 'application/json' };
+  if (apiKey) {
+    headers['Authorization'] = 'Bearer ' + apiKey;
+  }
+
+  const res = await fetch(baseUrl, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Provider': provider,
-    },
+    headers: headers,
     body: JSON.stringify(body),
   });
 
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));
-    throw new Error(err.error || `API 请求失败: ${res.status}`);
+    throw new Error(err.error?.message || `API 请求失败 (${res.status}): ${res.statusText}`);
   }
 
   const data = await res.json();
-  return data.content || '';
+  return data.choices?.[0]?.message?.content || '';
 }
 
 /**
@@ -62,9 +90,7 @@ async function callAI(messages, imageBase64 = null) {
  */
 async function askAI(question, systemPrompt = '') {
   const messages = [];
-  if (systemPrompt) {
-    messages.push({ role: 'system', content: systemPrompt });
-  }
+  if (systemPrompt) messages.push({ role: 'system', content: systemPrompt });
   messages.push({ role: 'user', content: question });
   return callAI(messages);
 }
@@ -74,9 +100,7 @@ async function askAI(question, systemPrompt = '') {
  */
 async function askAIWithImage(question, imageBase64, systemPrompt = '') {
   const messages = [];
-  if (systemPrompt) {
-    messages.push({ role: 'system', content: systemPrompt });
-  }
+  if (systemPrompt) messages.push({ role: 'system', content: systemPrompt });
   messages.push({ role: 'user', content: question });
   return callAI(messages, imageBase64);
 }
