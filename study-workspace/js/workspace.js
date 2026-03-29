@@ -351,7 +351,7 @@
     recognition.interimResults = true;
     // Read language from settings config
     const speechConfig = JSON.parse(localStorage.getItem('api-config') || '{}');
-    recognition.lang = speechConfig.lang || 'en-US';
+    recognition.lang = speechConfig.lang || 'zh-CN';
 
     recognition.onstart = () => {
       btnVoice.classList.add('listening');
