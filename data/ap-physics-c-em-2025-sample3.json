@@ -1,0 +1,1213 @@
+{
+  "examId": "physics-c-em-2025-sample3",
+  "subject": "physics-c-em",
+  "examName": "AP 物理C电磁 2025年样题3",
+  "year": "2025-sample3",
+  "totalQuestions": 58,
+  "mcqCount": 58,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which of the following statements is always true for a Gaussian surface through which the total electric flux is zero?",
+      "title": "Gauss law - what must be true when flux is zero",
+      "options": [
+        {
+          "id": "A",
+          "text": "There are no charged objects inside the surface."
+        },
+        {
+          "id": "B",
+          "text": "The net charge enclosed by the surface is zero, but charged objects could still be inside the surface."
+        },
+        {
+          "id": "C",
+          "text": "The electric field is zero everywhere on the surface."
+        },
+        {
+          "id": "D",
+          "text": "At every location on the surface, the electric field is either zero, perpendicular to the surface, or parallel to the surface."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "A solid conducting sphere has a net negative charge − Q . Which of the following correctly indicates how the excess charge is distributed, and provides a valid justification?",
+      "title": "Conductors - how is sphere charge -Q distributed",
+      "options": [
+        {
+          "id": "A",
+          "text": "The excess charge is distributed on the surface of the sphere, because negatively charged particles’ mutual repulsion causes them to move to the surface."
+        },
+        {
+          "id": "B",
+          "text": "The excess charge is distributed on the surface of the sphere, because the positively charged particles move freely toward the sphere’s interior."
+        },
+        {
+          "id": "C",
+          "text": "The net charge is distributed uniformly throughout the sphere, because negatively charged particles move randomly through the sphere, resulting in an equal distribution, on average, of the charge."
+        },
+        {
+          "id": "D",
+          "text": "The net charge is distributed uniformly throughout the sphere, because negatively charged particles added to the sphere will arrange themselves in the configuration with the highest degree of symmetry."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Two conducting plates hold equal and opposite charges that create a uniform electric field of magnitude E = 100 N / C directed to the right, as shown. Points A and B are 0.0050 m apart. A proton is released from rest at Point A . [图: The figure shows two conducting plates oriented vertically. The plate on the left is positively charged, and the plate on the right is negatively charged. A uniform electric field directed to the right between the plates has a magnitude of E equals 100 newtons per coulomb. Two points labeled A and B are in the electric field and are 0.0050 meter apart, with point A closer to the positively charged left plate and point B closer to the negatively charged right plate.] What is the kinetic energy of the proton when it reaches Point B ?",
+      "title": "Energy conservation - proton in 100 N-per-C field",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "8.0 × 10 − 20 J"
+        },
+        {
+          "id": "C",
+          "text": "1.6 × 10 − 17 J"
+        },
+        {
+          "id": "D",
+          "text": "3.2 × 10 − 15 J"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Two long, straight parallel wires X and Y are separated by a distance d and carry current I and 2 I , as shown. The force on Wire X has magnitude F . [图: The figure shows two horizontal wires labeled Wire X and Wire Y. The wires are parallel, and wire X is a distance d above wire Y. Wire X carries current I to the right. Wire Y carries current 2 I to the right.] If the current in each wire is both doubled and reversed in direction, which of the following is true of the magnitude and direction of the new force on Wire X ? Magnitude Direction A 2 F Reversed B 2 F Unchanged C 4 F Reversed D 4 F Unchanged",
+      "title": "B force on wires - currents doubled and reversed",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "The electric field along the x -axis varies with position x according to the equation E → ( x ) = a ( 3 x 2 − x ) i ^ , where a is a positive constant. Taking the electric potential to be zero at x = 0 , which expression is equal to the electric potential as a function of x ?",
+      "title": "Electric potential E is quadratic function of x",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 a x − a"
+        },
+        {
+          "id": "B",
+          "text": "− 6 a x + a"
+        },
+        {
+          "id": "C",
+          "text": "a x 3 − a x 2 2"
+        },
+        {
+          "id": "D",
+          "text": "− a x 3 + a x 2 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "A rectangular conducting loop is moving to the right at a constant speed as it enters a region of uniform magnetic field that is directed out of the plane of the figure, as shown. The top, right, bottom, and left segments of the loop are labeled Q , R , S , and T , respectively. [图: The figure shows a rectangular loop moving to the right into a uniform magnetic field that is directed out of the page. The top, right, bottom, and left segments of the loop are labeled Q, R, S, and T, respectively. Right segment R is entirely inside the magnetic field while left segment T is entirely outside the magnetic field. Top and bottom segments Q and S are each approximately half inside and half outside the magnetic field.] Which of the following correctly indicates the direction of the net magnetic force on the loop and provides a valid justification?",
+      "title": "Electromagnetism - force on loop entering B field",
+      "options": [
+        {
+          "id": "A",
+          "text": "To the left, because a leftward force is exerted on Segment R , no force is exerted on Segment T , and the forces exerted on Segment Q and Segment S are equal and opposite"
+        },
+        {
+          "id": "B",
+          "text": "To the left, because a leftward force is exerted on both Segment Q and Segment S , and no forces are exerted on Segment R and Segment T"
+        },
+        {
+          "id": "C",
+          "text": "No direction, because the velocity of the loop is constant and therefore no magnetic forces are exerted on any of the loop segments"
+        },
+        {
+          "id": "D",
+          "text": "No direction, because the forces exerted on opposite segments are equal and opposite and therefore the net force on the loop is zero"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "At time t = 0 , a small particle with an initial velocity v 0 in the + x -direction enters the region between two charged capacitor plates, as shown. The particle has positive charge + Q p and mass M p , and the electric field between the plates is directed in the + y -direction with a magnitude E c . The particle passes through the region between the plates without contacting the plates. [图: The figure shows a charged particle moving horizontally to the right at velocity v sub 0 into a region between two horizontal plates. A pair of axes indicates that the positive y-direction is upward and the positive x direction is to the right.] If gravitational forces and capacitor edge effects are negligible, what is the particle’s speed as a function of time t during the time it is within the region between the plates?",
+      "title": "Capacitors - speed vs t of particle between plates",
+      "options": [
+        {
+          "id": "A",
+          "text": "v 0 + ( E c Q p M p ) t"
+        },
+        {
+          "id": "B",
+          "text": "v 0 + 1 2 ( E c Q p M p ) t 2"
+        },
+        {
+          "id": "C",
+          "text": "v 0 2 + ( E c Q p t M p ) 2"
+        },
+        {
+          "id": "D",
+          "text": "v 0 2 + ( 1 2 E c Q p t 2 M p ) 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Figures 1 , 2 , and 3 show three identical point charges with negative charge − Q in different arrangements. The distances between neighboring point charges, in terms of the distance d , are indicated. [图: Three figures, labeled Figure 1, Figure 2, and Figure 3, show different arrangements of identical point charges, each of charge negative Q. Figure 1 shows the three point charges arranged as vertices of a right triangle with two legs each of length d and a hypotenuse of length square root of 2, end root, d. Figure 2 shows the three point charges arranged as vertices of an equilateral triangle with side lengths d. Figure 3 shows the three point charges arranged in a horizontal line with a distance d from one point charge to the next.] Which of the following correctly compares the electric potential energies U 1 , U 2 , and U 3 of the configurations in figures 1 , 2 , and 3 , respectively?",
+      "title": "Electric PE - highest EPE of 3 charge systems",
+      "options": [
+        {
+          "id": "A",
+          "text": "U 1 = U 2 = U 3"
+        },
+        {
+          "id": "B",
+          "text": "U 2 > U 1 > U 3"
+        },
+        {
+          "id": "C",
+          "text": "U 3 > U 1 > U 2"
+        },
+        {
+          "id": "D",
+          "text": "( U 2 = U 3 ) > U 1"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "A solid conducting sphere has a radius of 0.060 m , as shown. The electric field at a distance of 0.090 m from the center of the sphere is 2.0 × 10 5 N / C toward the sphere. [图: The figure shows a solid conducting sphere with a radius of 0.060 meter. An upward pointing arrow drawn from a point 0.090 meter beneath the center of the sphere indicates an electric field of 2.0 times 10 to the 5 power newtons per coulomb toward the sphere.] If the electric field is due only to the excess charge of the sphere, what is the magnitude of the excess charge that is on the surface of the sphere?",
+      "title": "E field - conducting sphere charge from given E",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "2.0 × 10 − 8 C"
+        },
+        {
+          "id": "C",
+          "text": "8.0 × 10 − 8 C"
+        },
+        {
+          "id": "D",
+          "text": "1.8 × 10 − 7 C"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "A region of space near the origin in an x y z -coordinate system has a uniform magnetic field B → in the + z -direction, as shown. A square loop lies in the x y -plane and is centered at the origin. [图: The figure shows a square loop in a magnetic field and a square loop. A set of axes indicates that the positive x direction is to the right, the positive y direction is upward, and the positive z direction is out of the page. The magnetic field has magnitude B in the positive z direction. The square loop lies in the x y plane with its center at the origin.] Which of the following changes will increase the magnitude of the magnetic flux through the loop?",
+      "title": "Magnetism - how to increase flux through square",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rotating the square about the z -axis by 45 degrees."
+        },
+        {
+          "id": "B",
+          "text": "Rotating the square about the x -axis by 45 degrees."
+        },
+        {
+          "id": "C",
+          "text": "Increasing the magnitude of the magnetic field."
+        },
+        {
+          "id": "D",
+          "text": "Rotating the magnetic field so that the field is in the positive + y -direction."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Two nonconducting spheres have different radii R and R 2 , but the same mass M and the same uniform charge density ρ . The sphere of radius R 2 is directly above but not touching the larger sphere, and its weight is balanced by the electrostatic force exerted by the larger sphere. What is the distance between the sphere’s centers?",
+      "title": "Coulombs law - sphere weight equals electric force",
+      "options": [
+        {
+          "id": "A",
+          "text": "ρ R 2 π ε 0 M g"
+        },
+        {
+          "id": "B",
+          "text": "4 ρ R 2 π ε 0 M g"
+        },
+        {
+          "id": "C",
+          "text": "ρ R 3 3 π 2 ε 0 M g"
+        },
+        {
+          "id": "D",
+          "text": "8 ρ R 3 3 π 2 ε 0 M g"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Two small spheres, one with negative charge - Q and one with positive charge + Q , are fixed in place at the corners of an equilateral triangle and Point 1 is at the third corner. Point 2 is midway between the spheres as shown. [图: The figure shows dashed lines connecting two charged spheres, labeled positive Q and negative Q, and two points, labeled Point 1 and Point 2. The two charged spheres and Point 1 are arranged as vertices of an equilateral triangle. The two charged spheres form a vertical segment with negative Q above positive Q, and point 2 is midway between the spheres. A horizontal segment connects point 1 to point 2.] The electric potential energy of the two-sphere system shown in the figure is U ELEC , and the work done by external forces to move the two spheres from infinitely far away to the locations shown in the figure is W EXT . Which of the following correctly identifies the signs of U ELEC and W EXT ? U ELEC W EXT A Negative Negative B Negative Positive C Positive Negative D Positive Positive",
+      "title": "2-sphere potential set - signs of U-elec and W-ext",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Two small spheres, one with negative charge - Q and one with positive charge + Q , are fixed in place at the corners of an equilateral triangle and Point 1 is at the third corner. Point 2 is midway between the spheres as shown. [图: The figure shows dashed lines connecting two charged spheres, labeled positive Q and negative Q, and two points, labeled Point 1 and Point 2. The two charged spheres and Point 1 are arranged as vertices of an equilateral triangle. The two charged spheres form a vertical segment with negative Q above positive Q, and point 2 is midway between the spheres. A horizontal segment connects point 1 to point 2.] Which of the following correctly compares the relationship between the electric potentials V 1 and V 2 at points 1 and 2 , respectively?",
+      "title": "2-sphere potential set - compare V at I and II",
+      "options": [
+        {
+          "id": "A",
+          "text": "V 1 = V 2 = 0"
+        },
+        {
+          "id": "B",
+          "text": "( V 1 = V 2 ) > 0"
+        },
+        {
+          "id": "C",
+          "text": "V 1 < V 2"
+        },
+        {
+          "id": "D",
+          "text": "V 1 > V 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "A conducting rod of resistance R is in electrical contact with a U -shaped rail of width L and negligible resistance. The rod is pulled to the right at a constant speed v . A magnetic field B → is directed into the page, as shown. The electric power dissipated by the rod is P . [图: The figure shows a top view of a conducting rod on a U shaped rail in a magnetic field. The U shaped rail consists of two parallel segments that are a distance L apart and are connected to each other by a perpendicular segment at one end. The conducting rod is perpendicular to the two parallel segments of the U shaped rail and is moving at velocity vector v to the right away from the rails closed end and toward its open end. The magnetic field has magnitude B directed into the page.] What would the power dissipated by the rod be if the velocity of the rod were doubled?",
+      "title": "EM induction - rod on rails with speed doubled",
+      "options": [
+        {
+          "id": "A",
+          "text": "P 4"
+        },
+        {
+          "id": "B",
+          "text": "P 2"
+        },
+        {
+          "id": "C",
+          "text": "2 P"
+        },
+        {
+          "id": "D",
+          "text": "4 P"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Two small stationary objects with unknown nonzero charges are isolated from all other charges. The electric field strength is zero at the midpoint of the line joining the two objects. Which of the following statements about the charges of the objects must be true?",
+      "title": "E field - E is zero midway between 2 point charges",
+      "options": [
+        {
+          "id": "A",
+          "text": "The charges are equal in magnitude but opposite in sign."
+        },
+        {
+          "id": "B",
+          "text": "The charges are equal in magnitude and have the same sign."
+        },
+        {
+          "id": "C",
+          "text": "The charges are not necessarily equal in magnitude but have opposite signs."
+        },
+        {
+          "id": "D",
+          "text": "The charges are not necessarily equal in magnitude but have the same sign."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Three capacitors are connected in series, as shown in Figure 1 . The capacitors are identical except that capacitor X has air between its plates, whereas capacitors Y and Z each have a dielectric slab of dielectric constant κ > 1 between their plates. [图: Two figures labeled Figure 1 and Figure 2 show circuit diagrams. Each circuit has one battery and three capacitors, labeled X, Y, and Z, connected in series. Figure 1 shows capacitor X with air between its plates while capacitors Y and Z each have a slab between their plates. The circuit in figure 2 is almost the same as the circuit in figure 1 with the only difference being that the slab is removed from capacitor Z so that it has nothing but air between its plates.] If the dielectric slab is removed from capacitor Z , as shown in Figure 2 , which of the following describes what will happen to Δ V X , Δ V Y , and Δ V Z , the potential difference across capacitors X , Y , and Z , respectively? Potential difference across X Potential difference across Y Potential difference across Z A Increases Increases Decreases B Increases Decreases Increases C Decreases Increases Decreases D Decreases Decreases Increases",
+      "title": "Capacitors - 3 capacitors with slab removed from Z",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "The figure shows three long wires perpendicular to the plane of the figure and equidistant from each other. Two of the wires carry current into the plane, and the third carries current out of the plane. All three currents are equal in magnitude. [图: The figure shows three wires that are parallel to each other and are perpendicular to the plane of the page and form an equilateral triangle. The lower two wires form a horizontal segment with the wire on the left carrying current out of the plane and the wire on the right carrying current into the plane. The upper wire is labeled A and carries current into the plane.] What is the direction of the net magnetic force on Wire A due to the other two wires?",
+      "title": "B force on wires - wire A and 2 other wires",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toward the bottom of the figure"
+        },
+        {
+          "id": "B",
+          "text": "Toward the top of the figure"
+        },
+        {
+          "id": "C",
+          "text": "Toward the left"
+        },
+        {
+          "id": "D",
+          "text": "Toward the right"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "The figure shows a circuit with a battery of emf Ɛ , a resistor of resistance R , an inductor of inductance L , and an initially open switch. The switch is closed, and it takes a time Δ t for the current in the circuit to reach approximately 63 % of its maximum value. [图: The figure shows a rectangular circuit diagram with a battery, an open switch, a resistor, and an inductor. The left vertical branch has a battery with e m f script uppercase E. From left to right, the top horizontal branch has an open switch labeled S, followed by a resistor with resistance R. The right vertical branch has an inductor with inductance L.] If the inductor is replaced with another inductor of inductance 2 L and the scenario is repeated, how long after closing the switch will the current reach approximately 63 % of its maximum value?",
+      "title": "LR circuits - time constant with 2x inductance",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 Δ t"
+        },
+        {
+          "id": "B",
+          "text": "2 Δ t"
+        },
+        {
+          "id": "C",
+          "text": "Δ t 2"
+        },
+        {
+          "id": "D",
+          "text": "Δ t 4"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Three resistors are connected to an ideal battery with an emf Ɛ , as shown. Two of the resistors have resistances of R 0 and 2 R 0 , as indicated in the diagram. The third resistor has unknown resistance X . The current in two of the branches is indicated. [图: The figure shows a rectangular circuit diagram with a battery and three resistors. The circuit has three horizontal branches and three vertical branches. One inner horizontal branch connects the left and right vertical branches of the circuit, and one inner vertical branch connects the inner and bottom horizontal branches. The top horizontal branch has a battery with e m f script uppercase E. The inner horizontal branch carries current I sub 0 from right to left and has a resistor of resistance 2 R sub 0 to the left of the inner vertical branch. The inner vertical branch has a resistor of resistance R sub 0. The bottom horizontal branch carries current 2 I sub 0 from right to left and has a resistor of resistance X to the right of the inner vertical branch.] What is the value of the unknown resistance X ?",
+      "title": "Kirchhoff junction - find value of resistor X",
+      "options": [
+        {
+          "id": "A",
+          "text": "R 0 4"
+        },
+        {
+          "id": "B",
+          "text": "R 0 2"
+        },
+        {
+          "id": "C",
+          "text": "R 0"
+        },
+        {
+          "id": "D",
+          "text": "5 R 0"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Three isolated arrangements of charged spheres are shown. The charges of the spheres and the distances between the spheres are indicated. Assume the electric potential energy is zero when the spheres are an infinite distance apart, and that the radii of the spheres are small compared to the distance between them. [图: The figure shows pairs of charged spheres in three arrangements labeled Arrangement A, Arrangement B, and Arrangement C. Arrangement A shows a sphere of charge positive Q at a distance R to the left of a sphere of charge negative Q. Arrangement B shows a sphere of charge positive Q at a distance R to the left of a sphere of charge positive Q. Arrangement C shows a sphere of charge positive Q at a distance 2 R to the left of a sphere of charge positive Q. A note states that the figure is not drawn to scale.] Which of the following provides a correct ratio U A : U B : U C for the electric potential energies of arrangements A , B , and C , respectively?",
+      "title": "Electric PE - compare 3 two-sphere arrangements",
+      "options": [
+        {
+          "id": "A",
+          "text": "− 2 : 2 : 1"
+        },
+        {
+          "id": "B",
+          "text": "2 : 2 : 1"
+        },
+        {
+          "id": "C",
+          "text": "− 4 : 4 : 1"
+        },
+        {
+          "id": "D",
+          "text": "4 : 4 : 1"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "A nonconducting rod of length 2 D lies along the x -axis of an x y -coordinate plane with its center located at the origin, as shown. The left half of the rod has uniform negative linear charge density − λ and the right half of the rod has uniform positive linear charge density + λ . [图: The figure shows a rod and a point P in the x y coordinate plane. The rod lies along the x axis with its center at the origin, its left end at position x equals negative uppercase D, and its right end at position x equals positive uppercase D. The left half of the rod has a negative charge, and the right half of the rod has a positive charge. Point P lies on the x axis at position x equals lowercase d, which is to the right of the right end of the rod.] Which integral expression could be solved to determine the x -component of the electric field at Point P , which is on the x -axis at position x = d ?",
+      "title": "E field of distribution - rod half pos half neg",
+      "options": [
+        {
+          "id": "A",
+          "text": "− k λ ∫ 0 D d x ( d − x ) 2 + k λ ∫ − D 0 d x ( d − x ) 2"
+        },
+        {
+          "id": "B",
+          "text": "k λ ∫ 0 D d x ( d − x ) 2 − k λ ∫ − D 0 d x ( d − x ) 2"
+        },
+        {
+          "id": "C",
+          "text": "k λ ∫ − D D d x ( d − x ) 2"
+        },
+        {
+          "id": "D",
+          "text": "2 k λ ∫ 0 D d x ( d − x ) 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "An inductor with inductance 4.0 mH , a resistor with resistance 6.0 kΩ , and a resistor with resistance 12 kΩ are connected to a battery with emf 6.0 V and an initially open switch, as shown. The switch is then closed. [图: The figure shows a rectangular circuit diagram with a battery, an inductor, an open switch, and two resistors. The circuit has three vertical branches and two horizontal branches. The left vertical branch has a battery with e m f 6.0 volts. The middle vertical branch has a resistor with resistance 6.0 kilo ohms. The right vertical branch has a resistor with resistance 12 kilo ohms. The top horizontal branch has an inductor with inductance 4.0 milli Henries between the left and middle vertical branches. The bottom horizontal branch has an open switch between the left and middle vertical branches.] What is the current in the battery a long time after the switch has been closed?",
+      "title": "LR circuits - steady state current for L and 2 Rs",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "0.33 mA"
+        },
+        {
+          "id": "C",
+          "text": "1.0 mA"
+        },
+        {
+          "id": "D",
+          "text": "1.5 mA"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "A negatively charged rod is brought close to, but does not touch, an isolated, neutral conducting sphere, as shown. A grounded conducting wire is touched to the right side of the sphere and then removed. Finally, the rod is pulled away from the sphere. [图: The figure shows a negatively charged rod to the left of a neutral conducting sphere that is on a stand. A wire connected to ground is to the right of the sphere, but is not touching the sphere.] Which of the following correctly indicates whether the final charge on the sphere is positive or negative, and provides a valid justification?",
+      "title": "Charging process - rod sphere wire and ground",
+      "options": [
+        {
+          "id": "A",
+          "text": "Positive, because negative charge carriers have moved from the sphere to ground."
+        },
+        {
+          "id": "B",
+          "text": "Positive, because positive charge carriers have moved from ground to the sphere."
+        },
+        {
+          "id": "C",
+          "text": "Negative, because negative charge carriers have moved from ground to the sphere."
+        },
+        {
+          "id": "D",
+          "text": "Negative, because positive charge carriers have moved from the sphere to ground."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Two concentric circular wire loops carry equal currents I in opposite directions, as shown. The inner loop has a radius a and carries a counterclockwise current. The outer loop has a radius b and carries a clockwise current. [图: The figure shows two concentric circular wire loops. The inner wire loop has a radius of a and carries a current of I counterclockwise. The outer wire loop has a radius of b and carries a current of I clockwise.] What is the magnitude of the magnetic field at the center of the loops?",
+      "title": "B field of wires - two concentric loops",
+      "options": [
+        {
+          "id": "A",
+          "text": "μ 0 I 2 ( 1 a − 1 b )"
+        },
+        {
+          "id": "B",
+          "text": "μ 0 I 2 ( 1 a + 1 b )"
+        },
+        {
+          "id": "C",
+          "text": "μ 0 I 2 π ( 1 a − 1 b )"
+        },
+        {
+          "id": "D",
+          "text": "μ 0 I 2 π ( 1 a + 1 b )"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "A proton with a velocity of 8.0 × 10 5 m / s enters a region with a uniform magnetic field that is perpendicular to the proton’s initial velocity. After entering the field, the proton follows a circular path with a radius of 0.040 m . What is the magnitude of the magnetic field?",
+      "title": "Magnetism radius of proton path",
+      "options": [
+        {
+          "id": "A",
+          "text": "3.3 × 10 − 20 T"
+        },
+        {
+          "id": "B",
+          "text": "2.1 × 10 − 1 T"
+        },
+        {
+          "id": "C",
+          "text": "1.7 × 10 5 T"
+        },
+        {
+          "id": "D",
+          "text": "1.3 × 10 26 T"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "A resistor of resistance R and an uncharged capacitor of capacitance C are connected in a circuit with a nonideal battery that has emf Ɛ and internal resistance r . The circuit also contains switch S and an ideal voltmeter, as shown. The reading of the voltmeter is noted with the switch in the open position, and the switch is then closed. [图: The figure shows a rectangular circuit diagram with a voltmeter, a battery, two resistors, a capacitor, and an open switch. The circuit has three vertical branches and two horizontal branches. The left vertical branch has a voltmeter. From bottom to top, the inner vertical branch has a battery with e m f script uppercase E and a resistor with resistance lowercase r. The battery and the resistor with resistance lowercase r are enclosed in a dashed rectangle. The right vertical branch has a resistor with resistance uppercase R. The bottom horizontal branch has a capacitor with capacitance C between the inner vertical branch and the right vertical branch. The top horizontal branch has an open switch labeled S between the inner vertical branch and the right vertical branch.] How does the voltmeter reading immediately after the switch is closed compare to the reading before the switch is closed?",
+      "title": "Nonideal battery - voltmeter reading in RC circuit",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is higher."
+        },
+        {
+          "id": "B",
+          "text": "It is lower."
+        },
+        {
+          "id": "C",
+          "text": "It is the same and is zero."
+        },
+        {
+          "id": "D",
+          "text": "It is the same and is not zero."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Three identical capacitors with capacitance C are arranged as shown. [图: The figure shows a rectangular portion of a circuit diagram with three capacitors. The top horizontal branch has two capacitors, each with C capacitance. The bottom horizontal branch has a capacitor with C capacitance. A point labeled A is on the left vertical branch. A wire extends from point A to the left. A point labeled B is on the right vertical branch. A wire extends from point B to the right.] What is the equivalent capacitance between points A and B ?",
+      "title": "Capacitors - 3 caps equivalent series-parallel",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 3 C"
+        },
+        {
+          "id": "B",
+          "text": "2 3 C"
+        },
+        {
+          "id": "C",
+          "text": "3 2 C"
+        },
+        {
+          "id": "D",
+          "text": "3 C"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "A capacitor is initially uncharged when the switch is at position B in the circuit shown in the diagram. The switch is then moved to position A . [图: The figure shows a rectangular circuit diagram with a battery, a resistor, a capacitor, and a switch. The circuit has three vertical branches and two horizontal branches. The left vertical branch has a battery with e m f 30 volts. The right vertical branch has a capacitor with capacitance 40 microfarads, and the right vertical branch is slightly shorter than the left vertical branch. The inner vertical branch is slightly shorter than the right vertical branch, and it moves upward from the bottom horizontal branch and terminates in a point labeled B. The top horizontal branch has a gap. One horizontal segment moves to the right from the top of the left vertical branch and terminates in a point labeled A, which is a short distance directly above point B at the top of the inner vertical branch. The other horizontal segment moves to the left from the top of the right vertical branch, goes through a resistor of resistance 5.0 kilo ohms, and ends at the pivot point of a switch. The moving end of the switch can connect to either position A on the top horizontal branch or to position B on the inner vertical branch. The switch is shown in position B.] What is the energy stored by the capacitor when the current in the circuit is 2.0 mA ?",
+      "title": "Capacitors - 40 micro-F capacitor energy at 2 mA",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.8 mJ"
+        },
+        {
+          "id": "B",
+          "text": "1.2 mJ"
+        },
+        {
+          "id": "C",
+          "text": "8.0 mJ"
+        },
+        {
+          "id": "D",
+          "text": "18 mJ"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "A student is given a diagram of equally spaced equipotential lines along with the values of the potentials for a region of space. Which of the following indicates whether it is possible for the student to create an electric field vector map in the same region of space and provides a valid justification?",
+      "title": "Electric potential can one get E from map of V",
+      "options": [
+        {
+          "id": "A",
+          "text": "No, because electric field lines and equipotential lines are independent representations."
+        },
+        {
+          "id": "B",
+          "text": "No, because the zero point for electric potential is not known it is not possible to uniquely determine the electric field."
+        },
+        {
+          "id": "C",
+          "text": "Yes, because the electric field is everywhere directed at a right angle to an isoline, with a magnitude that is inversely proportional to the spacing between adjacent isolines."
+        },
+        {
+          "id": "D",
+          "text": "Yes, because the electric field everywhere points along an isoline, with a magnitude that is directly related to the value of the potential on the isoline."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "The current I in a wire is given as a function of time t by the equation I ( t ) = A t 3 + B , where A and B are constants. Which expression is equal to the amount of charge that passes through a cross-sectional area of the wire from time t 1 to t 2 ?",
+      "title": "Electric current charge through wire",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 A ( t 2 2 − t 1 2 )"
+        },
+        {
+          "id": "B",
+          "text": "A ( t 2 3 − t 1 3 ) + B"
+        },
+        {
+          "id": "C",
+          "text": "A ( t 2 − t 1 ) 4 4 + B ( t 2 − t 1 )"
+        },
+        {
+          "id": "D",
+          "text": "A ( t 2 4 − t 1 4 ) 4 + B ( t 2 − t 1 )"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "A charged sphere of radius R has uniform charge density ρ . The total charge of the sphere is Q tot . How much charge would be enclosed by a Gaussian surface of radius R 2 centered on the center of the sphere?",
+      "title": "Gauss s law enclosed charge half radius",
+      "options": [
+        {
+          "id": "A",
+          "text": "Q tot 2"
+        },
+        {
+          "id": "B",
+          "text": "Q tot 4"
+        },
+        {
+          "id": "C",
+          "text": "Q tot 8"
+        },
+        {
+          "id": "D",
+          "text": "Q tot 16"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "A point charge q is located at the origin of a coordinate system, as shown. Above the point charge are two surfaces, one curved and one flat. The curved surface has area A 1 = 0.40 m 2 and is a portion of a sphere of radius R that is centered at the origin. The flat surface is a circle of area A 2 = 0.30 m 2 . The two surfaces share the same circular border. The electric field at all points on the curved surface has magnitude E 1 = 2.0 N / C and is directed away from the point charge. The electric field at the center of the flat surface has magnitude E 2 = 8.0 N / C and is also directed away from the point charge. [图: The figure shows a perspective view of a point charge q that is at the origin of a x y z coordinate system. Dashed lines represent a sphere of radius R that is centered at the origin, and solid lines represent two surfaces contained by the sphere. One surface is curved and is a portion of the sphere above the origin, and it has an area labeled A, sub 1. The other surface is flat and is the base of the curved surface, and it has an area labeled A, sub 2. Three arrows drawn outward from the curved surface are each labeled E sub 1 and are all directed away from the point charge at the origin. An arrow drawn upward from the center of the flat circular surface along the y axis is labeled E sub 2.] What is the electric flux through the flat surface of area A 2 ?",
+      "title": "Electric flux curved and flat surfaces A1 and A2",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.60 N · m 2 / C"
+        },
+        {
+          "id": "B",
+          "text": "0.80 N · m 2 / C"
+        },
+        {
+          "id": "C",
+          "text": "1.5 N · m 2 / C"
+        },
+        {
+          "id": "D",
+          "text": "2.4 N · m 2 / C"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "The circuit shown consists of a battery of emf Ɛ , a switch, a capacitor of capacitance C , and three identical resistors each of resistance R . The switch is initially open, and the capacitor is uncharged. The switch is then closed. [图: The figure shows a rectangular circuit diagram with a battery, three resistors, a capacitor, and a switch. The circuit has three vertical branches and two horizontal branches. From top to bottom, the left vertical branch has an open switch and a battery with e m f script uppercase E. The inner vertical branch has a capacitor with capacitance C. The right vertical branch has a resistor with resistance R. The top horizontal branch has a resistor with resistance R between the left and inner vertical branches. The bottom horizontal branch has a resistor with resistance R between the left and inner vertical branches.] What is the current in the battery when the circuit has reached a steady state after the switch is closed?",
+      "title": "RC circuits - 3 resistors and 1 capacitor current",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "Ɛ 3 R"
+        },
+        {
+          "id": "C",
+          "text": "Ɛ 2 R"
+        },
+        {
+          "id": "D",
+          "text": "3 Ɛ R"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Three thin, conducting slabs in the x z -plane have uniform current densities directed in the − z -direction, as shown. The magnitude J of the current density and the thickness of each slab are indicated, as is the distance to a point labeled P from the middle of each slab. The widths of all three sheets along the x -axis are much greater than the distance to point P . [图: The figure shows three thin conducting slabs of varying sizes labeled slab 1, slab 2, and slab 3. The x y z coordinate system is shown for reference, and all three slabs are in the x z plane. Slab 1 is 0.50 millimeter thick and has a current density of J equals 20 amps per square meter. A point P is 10 millimeters from the center of slab 1. Slab 2 is 1.5 millimeters thick and has a current density of J equals 10 amps per square meter. A point P is 10 millimeters from the center of slab 2. Slab 3 is 1.0 millimeter thick and has a current density of J equals 30 amps per square meter. A point P is 20 millimeters from the center of slab 3. A note states that the figure is not drawn to scale.] Which of the following correctly compares the magnitude of the magnetic fields B 1 , B 2 , and B 3 , at point P near slabs 1 , 2 , and 3 , respectively?",
+      "title": "Magnetism compare B field for current slabs",
+      "options": [
+        {
+          "id": "A",
+          "text": "( B 1 = B 2 ) > B 3"
+        },
+        {
+          "id": "B",
+          "text": "( B 2 = B 3 ) > B 1"
+        },
+        {
+          "id": "C",
+          "text": "B 3 > B 1 > B 2"
+        },
+        {
+          "id": "D",
+          "text": "B 3 > B 2 > B 1"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "A cubic Gaussian surface with one corner located at the origin of a coordinate system has sides of length 0.1 m each extending along the + x , + y , and + z axes, as shown. This cube is in a region with a uniform electric field E described by the equation E = ( − 100 N/C ) i ∧ + ( − 50 N/C ) j ∧ + ( 200 N/C ) k ∧ . [图: The figure shows a cubic Gaussian surface with one corner at the origin of the x y z coordinate system. The edge length of the cube is 0.02 meter. A face with one corner on the positive x axis is shaded and is labeled as the right face of the cube.] What is the magnitude of the electric flux through the right (shaded) face of the Gaussian surface?",
+      "title": "Electric flux net flux through Gaussian cube",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "0.5 N/(m 2 · C)"
+        },
+        {
+          "id": "C",
+          "text": "1.0 N/ (m 2 · C)"
+        },
+        {
+          "id": "D",
+          "text": "2.5 N/ (m 2 · C)"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "A variable voltage source is connected to an inductor of inductance L . The potential difference V of the source as a function of time t is given by the equation V ( t ) = β t 2 , where β is a positive constant. The current in the inductor at t = 0 is zero. What is the magnitude of the current in the inductor as a function of time?",
+      "title": "Inductance - current when V is beta t-squared",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "2 β L t"
+        },
+        {
+          "id": "C",
+          "text": "β L t 2"
+        },
+        {
+          "id": "D",
+          "text": "β 3 L t 3"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "A circuit consists of a single loop with a charged capacitor, an inductor, and an initially open switch. The switch is then closed. Which statement best describes the behavior of the circuit after the switch is closed?",
+      "title": "LC circuits - what happens after switch is closed",
+      "options": [
+        {
+          "id": "A",
+          "text": "The inductor prevents the movement of charge carriers, so the capacitor remains charged."
+        },
+        {
+          "id": "B",
+          "text": "The current in the inductor starts at a nonzero value and decreases at a constant rate."
+        },
+        {
+          "id": "C",
+          "text": "The inductor current increases from zero and asymptotically approaches a constant maximum value."
+        },
+        {
+          "id": "D",
+          "text": "The amount of net charge on each capacitor plate oscillates between a maximum amount of positive charge and a maximum amount of negative charge of equal magnitude."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Six identical resistors, each with resistance 2.0 Ω , are connected to a 12 V battery, as shown. [图: The figure shows a rectangular circuit diagram with a battery and six resistors. The circuit has three vertical branches, two horizontal branches, and one diagonal branch. The inner vertical branch is midway between the left and right vertical branches, creating two rectangles. The diagonal branch is in the small rectangle on the right and goes from upper left to lower right vertex. The six resistors are labeled R sub 1 through R sub 6. Resistor R sub 1 is on the bottom horizontal branch to the left of the inner vertical branch. Resistor R sub 2 is on the inner vertical branch. Resistor R sub 3 is on the top horizontal branch to the right of the inner vertical branch. Resistor R sub 4 is on the right vertical branch. Resistor R sub 5 is on the diagonal branch. Resistor R sub 6 is on the bottom horizontal branch to the right of the inner vertical branch.] What is the current in the battery?",
+      "title": "Equivalent resistance - six 2-ohm resistors",
+      "options": [
+        {
+          "id": "A",
+          "text": "1.0 A"
+        },
+        {
+          "id": "B",
+          "text": "3.7 A"
+        },
+        {
+          "id": "C",
+          "text": "4.0 A"
+        },
+        {
+          "id": "D",
+          "text": "36 A"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Two identical resistors, R 1 and R 2 , each have resistance R . The resistors are connected in series with a battery. The potential difference across R 1 is Δ V 1 . R 2 is then replaced by different resistor with resistance 2 R . What is the potential difference across resistor R 1 after R 2 is replaced?",
+      "title": "Circuits replace resistor",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 3 Δ V 1"
+        },
+        {
+          "id": "B",
+          "text": "1 2 Δ V 1"
+        },
+        {
+          "id": "C",
+          "text": "2 3 Δ V 1"
+        },
+        {
+          "id": "D",
+          "text": "Δ V 1"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "At time t 1 , the potential difference across a resistor in a circuit is Δ V 1 and the current in the resistor is I 1 . At a later time t 2 , the potential difference across the resistor is Δ V 2 and the current in the resistor is I 2 . Which expression is equal to the resistance of the resistor?",
+      "title": "Ohms law - find R from capacitor discharge data",
+      "options": [
+        {
+          "id": "A",
+          "text": "Δ V 1 − Δ V 2 I 1 − I 2"
+        },
+        {
+          "id": "B",
+          "text": "Δ V 1 I 1 − Δ V 2 I 2"
+        },
+        {
+          "id": "C",
+          "text": "I 1 − I 2 Δ V 1 − Δ V 2"
+        },
+        {
+          "id": "D",
+          "text": "I 1 Δ V 1 − I 2 Δ V 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Metal Bar on Rails mathematical reasoning",
+      "title": "Metal Bar on Rails mathematical reasoning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Metal Bar on Rails mathematical reasoning",
+      "title": "Metal Bar on Rails mathematical reasoning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Metal Bar on Rails mathematical reasoning",
+      "title": "Metal Bar on Rails mathematical reasoning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Metal Bar on Rails mathematical reasoning",
+      "title": "Metal Bar on Rails mathematical reasoning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Three charged particles TBR",
+      "title": "Three charged particles TBR",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Three charged particles TBR",
+      "title": "Three charged particles TBR",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Three charged particles TBR",
+      "title": "Three charged particles TBR",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Three charged particles TBR",
+      "title": "Three charged particles TBR",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Resistor experiments",
+      "title": "Resistor experiments",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Comparing magnetic fields of solenoids QQT",
+      "title": "Comparing magnetic fields of solenoids QQT",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Comparing magnetic fields of solenoids QQT",
+      "title": "Comparing magnetic fields of solenoids QQT",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Comparing magnetic fields of solenoids QQT",
+      "title": "Comparing magnetic fields of solenoids QQT",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}

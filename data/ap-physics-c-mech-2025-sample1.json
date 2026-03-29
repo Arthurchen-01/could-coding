@@ -1,0 +1,1204 @@
+{
+  "examId": "physics-c-mech-2025-sample1",
+  "subject": "physics-c-mech",
+  "examName": "AP 物理C力学 2025年样题1",
+  "year": "2025-sample1",
+  "totalQuestions": 57,
+  "mcqCount": 57,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of a curve in the fourth quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled “x, in meters,” and the numbers 0.05 and 0.10, are indicated. The vertical axis is labeled “F sub x, in newtons.” The curve begins at the origin, moves downward and to the right, reaches its lowest point at an x position of 0.05 meter, and then moves upward and to the right and ends on the horizontal axis at an x position of 0.10 meter.] A conservative net force F x is exerted on an object within a system. The force varies as a function of the position x of the object, as shown in the graph. There are no net external forces exerted on the system. Which of the following correctly describes the potential energy U sys of the system as the object moves from 0 m to 0.10 m ?",
+      "title": "Potential energy - F-x graph",
+      "options": [
+        {
+          "id": "A",
+          "text": "U sys increases only."
+        },
+        {
+          "id": "B",
+          "text": "U sys decreases only."
+        },
+        {
+          "id": "C",
+          "text": "U sys decreases and then increases."
+        },
+        {
+          "id": "D",
+          "text": "U sys does not change."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "[图: The figure shows a diagram of a block in 4 positions as it moves across a horizontal surface in the positive x direction. The 4 positions are labeled from t equals 0 to t equals 1.5 seconds in 0.5 second intervals. The distance traveled by the block increases by approximately double from one interval to the next.] A constant force is exerted on a block, causing the block to move across a horizontal surface in the positive x -direction. There is nonnegligible friction between the block and the horizontal surface. The diagram shows the position of the block at 0.5 s time intervals. Which of the following provides a velocity-time graph that could correspond to the diagram and provides correct reasoning? Velocity-Time Graph Reasoning A [图: The figure shows a graph of a line in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins at the origin, moves up and to the right, and ends in the upper right part of the plane approximately equidistant from both axes.] The distance traveled by the block during each half-second interval increases, so the velocity of the block must increase. B [图: The figure shows a graph of a line in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins at the origin, moves up and to the right, and ends in the upper right part of the plane approximately equidistant from both axes.] The block is traveling in the positive x -direction, so the velocity graph must have a positive slope. C [图: The figure shows a graph of a curve in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The curve begins at the origin and moves up and to the right, steeply at first and then more gradually. The curve ends in the upper right part of the plane approximately equidistant from both axes.] The force of friction exerted on the block causes the acceleration of the block to decrease. D [图: The figure shows a graph of a curve in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The curve begins at the origin and moves up and to the right, steeply at first and then more gradually. The curve ends in the upper right part of the plane approximately equidistant from both axes.] The block reaches a constant speed.",
+      "title": "1D kinematics - v-t graph from motion diagram",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "[图: The figure shows a graph of a line labeled A and a pair of line segments labeled B in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled “time, in seconds,” and the numbers 1 through 4, in increments of 1, are indicated. The vertical axis is labeled “omega, in radians per second,” and the numbers 1 through 5, in increments of 1, are indicated. Line A begins at the origin and moves up and to the right, ending at the point 4 comma 4. The first segment of Line B also begins at the origin, and it moves up and to the right, ending at the point 1 comma 2. The second line segment begins where the first one ends, moves horizontally to the right, intersects line A at the coordinates 2 comma 2, and ends at the point 4 comma 2.] Two disks, A and B , rotate for 4 seconds. Each of their angular velocities, ω , are measured over time and graphed in the figure. Which of the following correctly compares the angular displacements Δ θ A and Δ θ B of disks A and B , respectively, during the period shown, and provides a correct reasoning?",
+      "title": "Rotational kinematics - angle from omega-t",
+      "options": [
+        {
+          "id": "A",
+          "text": "Δ θ A = Δ θ B because Disk A has a greater angular velocity at the end of the time interval shown."
+        },
+        {
+          "id": "B",
+          "text": "Δ θ A = Δ θ B because neither curve has a decreasing slope."
+        },
+        {
+          "id": "C",
+          "text": "Δ θ A ≠ Δ θ B because Disk B stops rotating after 1 second."
+        },
+        {
+          "id": "D",
+          "text": "Δ θ A ≠ Δ θ B because the area under Disk A ’s curve is greater than the area under Disk B ’s curve."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "[图: The figure shows two blocks labeled X and Y on a horizontal surface that are connected by a string. Block Y is to the right of block X, and a force of 12 newtons is exerted on the right side of block Y.] Block X of mass 3.0 kg and Block Y of mass 5.0 kg are connected by a string and are on a level horizontal surface. There is negligible friction between the blocks and the surface. A force F = 12 N is exerted on Block Y , as shown. What is the tension in the string connecting the two blocks?",
+      "title": "Newtons laws - tension in string between blocks",
+      "options": [
+        {
+          "id": "A",
+          "text": "1.5 N"
+        },
+        {
+          "id": "B",
+          "text": "3.0 N"
+        },
+        {
+          "id": "C",
+          "text": "4.5 N"
+        },
+        {
+          "id": "D",
+          "text": "7.5 N"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "[图: The figure shows a diagram of 2 students, labeled 1 and 2, and a cart on a horizontal surface. Student 1 is standing on the cart and holding a stone in one hand while student 2 is standing at rest on the ground nearby. A coordinate system is shown with the positive x direction pointing horizontally to the right and the positive y direction pointing vertically upward. An arrow indicates that the cart is moving at a constant speed v in the positive x direction.] Student 1 is standing on a cart holding a small stone, while Student 2 is standing at rest on the ground, as shown. The cart is moving at a constant speed v in the + x -direction, as indicated by the coordinate system. Student 1 drops the stone just as they pass Student 2 . Which of the following best represents the path of the falling stone observed by Student 1 and the path of the falling stone observed by Student 2 ? Path Observed by Student 1 Path Observed by Student 2 A [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.] [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.] B [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.] [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow curves downward and to the left from the upper right part of the plane toward the origin.] C [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.] [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow curves downward and to the right from the upper left part of the plane toward the right end of the x axis.] D [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow curves downward and to the left from the upper right part of the plane toward the origin.] [图: The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.]",
+      "title": "Relative motion - path of stone dropped from cart",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "[图: The figure shows a pendulum which consists of a rod of mass m attached to a block of mass 2 m. The rod is attached to the ceiling by a pivot, and makes an angle of theta with the vertical. The distance from the pivot to the center of the block is l.] A physical pendulum is constructed of a small block of mass 2 m attached to the end of a uniform rod of length ℓ and mass m . The rotational inertia of the rod about its end is 1 3 m ℓ 2 . The rod is pulled back a small angle θ and released at time t = 0 , as shown. The rod is vertical at time t v . Which of the following is a correct expression for t v ?",
+      "title": "Pendulum - time for swinging pendulum",
+      "options": [
+        {
+          "id": "A",
+          "text": "t v = π 2 2 ℓ 15 g"
+        },
+        {
+          "id": "B",
+          "text": "t v = π 2 14 ℓ 15 g"
+        },
+        {
+          "id": "C",
+          "text": "t v = π 2 ℓ g"
+        },
+        {
+          "id": "D",
+          "text": "t v = π 2 14 ℓ 5 g"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "[图: The figure shows a pendulum which consists of a rod of mass m attached to a block of mass 2 m. The rod is attached to the ceiling by a pivot, and makes an angle of theta with the vertical. The distance from the pivot to the center of the block is l.] A physical pendulum is constructed of a small block of mass 2 m attached to the end of a uniform rod of length ℓ and mass m . The rotational inertia of the rod about its end is 1 3 m ℓ 2 . The rod is pulled back a small angle θ and released at time t = 0 , as shown. The rod is vertical at time t v . Which of the following correctly justifies why the motion can be called simple harmonic motion?",
+      "title": "Pendulum - torque on swinging pendulum",
+      "options": [
+        {
+          "id": "A",
+          "text": "The torque is directly proportional to the sine of the angle that the pendulum makes with the vertical, regardless of how large the angle is."
+        },
+        {
+          "id": "B",
+          "text": "The pendulum is released at a small angle, so the torque is directly proportional to the angle that the pendulum makes with the vertical."
+        },
+        {
+          "id": "C",
+          "text": "The torque is directly proportional to how far the end of the pendulum is from its equilibrium position, regardless of how far from equilibrium it is."
+        },
+        {
+          "id": "D",
+          "text": "The torque is directly proportional to the length of the pendulum."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "[图: The figure shows a sphere of mass m attached to the right end of a rigid rod of length l, which is oriented horizontally. The rod is free to rotate about a pivot at its left end.] A small sphere of mass m is attached at the right end of a rigid rod of length ℓ . The mass of the rod is negligible compared to m . The rod is free to rotate about a pivot at its left end, as shown. The rod-sphere system has rotational inertia I about the pivot. By what factor should the length of the rod be increased to increase the rotational inertia of the rod-sphere system to 2 I ?",
+      "title": "Rotational inertia - mass and rod",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 2"
+        },
+        {
+          "id": "B",
+          "text": "1 2"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "[图: The figure shows three spheres labeled X, Y, and Z in a row from left to right. Spheres X and Y each have a mass of m and Sphere Y is a distance r to the right of Sphere X. Sphere Z has a mass of 2 m and is a distance 2 r to the right of Sphere Y.] Spheres X , Y , and Z have the masses and locations indicated in the figure. What is the magnitude of the net gravitational force on Sphere X due to the other two spheres?",
+      "title": "Gravitation - force between spheres",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 G m 2 9 r 2"
+        },
+        {
+          "id": "B",
+          "text": "G m 2 r 2"
+        },
+        {
+          "id": "C",
+          "text": "11 G m 2 9 r 2"
+        },
+        {
+          "id": "D",
+          "text": "3 G m 2 2 r 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "[图: The figure shows two stones labeled A and B. The stones are at the same height above the ground with stone B a short distance to the right of stone A. At the moment shown, Stone A is moving down and Stone B is moving to the right.] Two stones are thrown from the same height and with the same initial speed. Stone A is thrown vertically downward, and Stone B is thrown horizontally, as shown. If the stones are thrown at the same time and air resistance is negligible, which of the following is true?",
+      "title": "Mechanical energy - throwing stones",
+      "options": [
+        {
+          "id": "A",
+          "text": "The two stones reach the ground at the same time with the same speed."
+        },
+        {
+          "id": "B",
+          "text": "The two stones reach the ground at the same time but with different speeds."
+        },
+        {
+          "id": "C",
+          "text": "Stone A reaches the ground first, but the two stones have the same speed just before they hit the ground."
+        },
+        {
+          "id": "D",
+          "text": "Stone A reaches the ground first and has greater speed just before hitting the ground."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "[图: The figure shows 4 satellites, labeled A through D, in circular orbits about 2 planets, labeled X and Y. Satellite A orbits a distance R from the center of Planet X. Satellites B and C each orbit a distance 2 R from the center of Planet X, and they are on opposite sides of the planet. Satellite D orbits a distance 2 R from the center of the Planet Y.] Four satellites A , B , C , and D have circular orbits about Planets X and Y , as shown. Planet Y has twice the mass of Planet X . Satellite A has mass m and orbits a distance R from the center of Planet X . Satellites B and C have masses m and 2 m , respectively, and orbit a distance 2 R from the center of Planet X . Satellite D has mass m and orbits Planet Y in a distance 2 R from the center of the Planet X . Which of the following correctly ranks the orbital periods T A , T B , T C , and T D of satellites A , B , C , and D , respectively, from least to greatest?",
+      "title": "Gravitation - compare satellites periods",
+      "options": [
+        {
+          "id": "A",
+          "text": "T A < T D < ( T B = T C )"
+        },
+        {
+          "id": "B",
+          "text": "T A < ( T B = T C = T D )"
+        },
+        {
+          "id": "C",
+          "text": "T D < T A < ( T B = T C )"
+        },
+        {
+          "id": "D",
+          "text": "T D < T A < T B < T C"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "[图: The figure shows 2 carts labeled A and B on a horizontal track. Cart A has a mass of 2 m and is moving at speed v to the right toward cart B, which has a mass of m and is at rest.] Cart A of mass 2 m is moving with constant speed v to the right on a horizontal track. Cart B of mass m is initially at rest, as shown. The carts collide elastically. Which of the following best describes the motion of the carts immediately after the collision?",
+      "title": "Collisions - elastic between two carts",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cart A is moving to the left and Cart B is moving to the right."
+        },
+        {
+          "id": "B",
+          "text": "Cart A is stationary and Cart B is moving to the right."
+        },
+        {
+          "id": "C",
+          "text": "Both carts are moving to the right at the same speed."
+        },
+        {
+          "id": "D",
+          "text": "Both carts are moving to the right, but they travel at different speeds."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "[图: The figure shows a spring that is attached to a wall on its left end and is attached to a block of mass m on its right end. The block is on a horizontal surface and is moving to the right with speed v equals v sub 0. Points x equals 0, x equals x sub 0, and x equals 2 times x sub 0 are evenly spaced on the horizontal surface. At the moment shown, the block is at the point x equals x sub 0. The point x equals 0 is labeled “Equilibrium.”] A block of mass m is attached to one end of a spring with the other end of the spring attached to a wall. The block slides with negligible friction on a horizontal surface, as shown. When the block is at position x = x 0 , the block has speed v = v 0 and the total energy of the block-spring system is E 0 . When the block reaches position x = 2 x 0 , the block momentarily comes to rest. Which of the following correctly represents the total energy of the block-spring system when the block reaches position x = 2 x 0 ?",
+      "title": "Oscillations - total energy of mass on spring",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "E 0"
+        },
+        {
+          "id": "C",
+          "text": "2 E 0"
+        },
+        {
+          "id": "D",
+          "text": "4 E 0"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "An object is moving along the y -axis. The object’s position as a function of time is given by y = α t 3 − β t + ϕ , where α = 1 m/s 3 , β = 4 m/s , and ϕ = 5 m . What is the acceleration of the object at time t = 3.0 s ?",
+      "title": "1D kinematics - acceleration from position",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 m/s 2"
+        },
+        {
+          "id": "B",
+          "text": "18 m/s 2"
+        },
+        {
+          "id": "C",
+          "text": "20 m/s 2"
+        },
+        {
+          "id": "D",
+          "text": "23 m/s 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "[图: The figure shows a spring that is fixed to a wall at its right end and has a bumper on its left end. The positive x-direction is to the right, and the bumper is shown at position x equals 0.] A nonideal spring is fixed to a wall. A small bumper on the end of the spring is initially at position x = 0 when the spring is at its equilibrium length, as shown. When the spring is compressed a distance x from equilibrium, the elastic potential energy U s of the spring in joules is given by U s = 3 x 3 − 4 x 2 + 2 x . What is the spring force F s as a function of x ?",
+      "title": "Potential energy - conical spring",
+      "options": [
+        {
+          "id": "A",
+          "text": "F s = 9 x 2 − 8 x + 2"
+        },
+        {
+          "id": "B",
+          "text": "F s = − 9 x 2 + 8 x − 2"
+        },
+        {
+          "id": "C",
+          "text": "F s = 3 4 x 4 − 4 3 x 3 + x 2"
+        },
+        {
+          "id": "D",
+          "text": "F s = − 3 4 x 4 + 4 3 x 3 − x 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "[图: The figure shows a spherical asteroid with radius R. A narrow hole is drilled from the top of the asteroid to the center of the asteroid. An object is shown in the hole at a distance of, the fraction R over 3, from the center of the asteroid.] A narrow hole is drilled from the surface of a spherical asteroid to its center. The asteroid has a mass M and radius R . A small object is dropped into the hole. What is the acceleration of the object when it reaches a distance R 3 from the center of the asteroid?",
+      "title": "Gravitation - hole drilled in an asteroid",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 9 G M R 2"
+        },
+        {
+          "id": "B",
+          "text": "1 3 G M R 2"
+        },
+        {
+          "id": "C",
+          "text": "3 G M R 2"
+        },
+        {
+          "id": "D",
+          "text": "9 G M R 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "[图: The figure shows a sphere at the top of a ramp.] A sphere is held at rest at the top of a ramp, as shown. The sphere is released and rolls without slipping down the ramp. The gravitational potential energy of the sphere-Earth system is zero at the bottom of the ramp. Which of the following is true of the sphere when it reaches the bottom of the ramp?",
+      "title": "Rolling - energies at top and bottom of ramp",
+      "options": [
+        {
+          "id": "A",
+          "text": "The sphere’s rotational kinetic energy equals the initial potential energy of the sphere-Earth system."
+        },
+        {
+          "id": "B",
+          "text": "The sphere’s translational kinetic energy equals the initial potential energy of the sphere-Earth system."
+        },
+        {
+          "id": "C",
+          "text": "The sphere’s translational kinetic energy and rotational kinetic energy are equal."
+        },
+        {
+          "id": "D",
+          "text": "The sum of the sphere’s translational kinetic energy and rotational kinetic energy equals the initial potential energy of the sphere-Earth system."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "[图: The figure shows a board suspended horizontally by two vertical strings attached to the ceiling. String A is attached the left end of the board, and string B is attached to the right end of the board. The board has length L and mass M. A block of mass 2 M is on the board to the right of center at a distance x from the left end of the board.] A board of length L and mass M is horizontally suspended from strings A and B which are attached to the left and right ends of the board, respectively. A small block of mass 2 M is attached to the board a distance x from the left end of the board, as shown. At time t = 0 , String B is cut. What is the angular acceleration of the board immediately after t = 0 ? The rotational inertia of the board rotating about its edge is 1 3 M L 2 .",
+      "title": "Rotational dynamics - mass on falling board",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 2 g L"
+        },
+        {
+          "id": "B",
+          "text": "g ( L + 2 x ) 1 3 L 2 + 2 x 2"
+        },
+        {
+          "id": "C",
+          "text": "g ( 1 2 L + x ) 1 3 L 2 + x 2"
+        },
+        {
+          "id": "D",
+          "text": "g ( 1 2 L + 2 x ) 1 3 L 2 + 2 x 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Two small blocks A and B have masses m and 2 m , respectively. Both blocks are released from the same location and slide down an incline with negligible friction. Both blocks travel a vertical distance Δ h before smoothly transitioning to a horizontal surface. The coefficients of kinetic friction between the horizontal surface and blocks A and B are μ A and μ B , respectively, where 2 μ A = μ B . Block A travels a distance D before coming to rest on the horizontal surface. What is the distance Block B travels along the horizontal surface before coming to rest?",
+      "title": "Stopping distance - blocks on an incline",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 4 D"
+        },
+        {
+          "id": "B",
+          "text": "1 2 D"
+        },
+        {
+          "id": "C",
+          "text": "2 D"
+        },
+        {
+          "id": "D",
+          "text": "4 D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "The work done on an object is described by the equation W = 3 t 2 + 5 t − 1 , where W is in joules and t is in seconds. What is the power delivered to the object at t = 2.0 s ?",
+      "title": "Power - work as a function of time",
+      "options": [
+        {
+          "id": "A",
+          "text": "10.5 W"
+        },
+        {
+          "id": "B",
+          "text": "16.0 W"
+        },
+        {
+          "id": "C",
+          "text": "17.0 W"
+        },
+        {
+          "id": "D",
+          "text": "21.0 W"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Two cars A and B are driven on a section of road that has a circular curve. When both cars are driven through the curve at their maximum speeds before they slip on the road, the centripetal acceleration of Car B is twice that of Car A . The maximum speed Car A can drive through the curve without slipping is 10 m/s . Which of the following is closest to the maximum speed Car B can drive through the curve without slipping?",
+      "title": "Circular motion - maximum speed in curve",
+      "options": [
+        {
+          "id": "A",
+          "text": "7.0 m/s"
+        },
+        {
+          "id": "B",
+          "text": "10 m/s"
+        },
+        {
+          "id": "C",
+          "text": "14 m/s"
+        },
+        {
+          "id": "D",
+          "text": "20 m/s"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "[图: The figure shows a box of mass m on a horizontal surface. A rope pulls on the upper right corner of the box with a force F sub rope at an angle of theta above the horizontal.] A box of mass m is pulled across a horizontal surface by a rope. The rope exerts a variable force F rope directed at an angle θ from the horizontal that is described by the function F rope = cos ( β x ) , where β is a positive constant. The box is pulled from position x = 0 to x = D , where F rope < m g . Which of the following is the work done on the box by the rope as it is pulled from x = 0 to x = D ?",
+      "title": "Energy change - variable force",
+      "options": [
+        {
+          "id": "A",
+          "text": "D cos ( β D )"
+        },
+        {
+          "id": "B",
+          "text": "D cos ( β D ) cos θ"
+        },
+        {
+          "id": "C",
+          "text": "β sin ( β D ) cos θ"
+        },
+        {
+          "id": "D",
+          "text": "1 β sin ( β D ) cos θ"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "[图: The figure shows a horizontal spring attached to a wall on one end and to a block on the other end. The block is on a horizontal surface, oscillating with amplitude A.] A block on a horizontal surface is attached to one end of a horizontal spring. The other end of the spring is attached to a wall. The block oscillates with amplitude A and period T , as shown. There is negligible friction between the block and surface. At time t = 0 the net force on the block is zero. Which of the following is an expression for the speed of the block at time t = T 6 ?",
+      "title": "Oscillations - speed of block on spring",
+      "options": [
+        {
+          "id": "A",
+          "text": "v = π A T"
+        },
+        {
+          "id": "B",
+          "text": "v = 3 3 A T"
+        },
+        {
+          "id": "C",
+          "text": "v = π 3 A T"
+        },
+        {
+          "id": "D",
+          "text": "v = 2 π 2 A 3 T"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "[图: The figure shows a block suspended by a string that passes over a pulley and is attached to a spring that is attached to the floor. The block has a mass of m equals 2.0 kilograms. The spring has a spring constant of k equals 100 newtons per meter.] A 2.0 kg block is attached to a string that passes over a pulley and is attached to an ideal spring of spring constant k = 100 N/m , as shown. The pulley and string have negligible mass, and there is negligible friction in the pulley. The block is held in place with the spring at its original unstretched length and then released from rest. Which of the following is approximately equal to the amplitude of the resulting motion?",
+      "title": "Equilibrium - block-spring-pulley amplitude",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.02 m"
+        },
+        {
+          "id": "B",
+          "text": "0.10 m"
+        },
+        {
+          "id": "C",
+          "text": "0.20 m"
+        },
+        {
+          "id": "D",
+          "text": "0.40 m"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "[图: The figure shows a wedge of mass uppercase M that is balanced about its geometric center with a small cylinder of mass lowercase m attached to its narrow end. The distance from the center of the wedge to each end is one half L.] A wedge of mass M is balanced about its center with a small cylinder of mass m attached to its narrowest end, as shown. The linear mass per length of the wedge can be modeled by an equation of the form: λ = b x 2 , where b is a constant with appropriate units and x is the distance from the narrowest end. What is the ratio M m of the masses of the two objects?",
+      "title": "Center of mass - pyramidal wedge and cylinder",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "While a satellite orbits the Earth at a constant distance of one Earth radius R above Earth’s surface, the total energy of the satellite-Earth system is E R . When the satellite is moved to a circular orbit a distance 3 R above Earth’s surface, the satellite-Earth system has a total energy E 3 R . Which of the following correctly relates E 3 R to E R ?",
+      "title": "Gravitational energy - satellite in two o",
+      "options": [
+        {
+          "id": "A",
+          "text": "E 3 R = 1 3 E R"
+        },
+        {
+          "id": "B",
+          "text": "E 3 R = 1 2 E R"
+        },
+        {
+          "id": "C",
+          "text": "E 3 R = 2 E R"
+        },
+        {
+          "id": "D",
+          "text": "E 3 R = 3 E R"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "[图: Figure 1 and Figure 2 each show carts A and B on a horizontal surface. A horizontal spring is attached to the left side of Cart B. Figure 1 shows Cart B at rest while Cart A moves to the right toward Cart B. Figure 2 shows the result of a collision as the carts move away from each other after impact and the spring on cart B is extended.] Two identical carts A and B are on a horizontal surface with negligible friction. Cart A approaches Cart B , which is initially at rest. Attached to Cart B is a spring that is initially compressed, as shown in Figure 1 . At the instant Cart A collides with Cart B , the spring is released, and the carts move away from each other, as shown in Figure 2 . Which of the following correctly compares the kinetic energy and the momentum of the two-cart-spring system after the collision to those quantities before the collision? Kinetic Energy Magnitude of Momentum A Increases Decreases B Increases Stays the same C Stays the same Increases D Stays the same Stays the same",
+      "title": "Collisions - changes in K and p",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "[图: The figure shows the top view of a motor that is attached to a turntable by a belt. The motor rotates counterclockwise.] A motor is attached to a turntable by a belt, as shown in the Top View figure. When the motor is turned on, the angular displacement of the turntable is modeled by the equation θ ( t ) = 6 t 3 2 − 2 t + 2 π , where θ is in radians and t is in seconds. What is the angular velocity ω of the turntable as a function of time?",
+      "title": "Rotational kinematics - angular vel of turntable",
+      "options": [
+        {
+          "id": "A",
+          "text": "ω ( t ) = 12 5 t 5 2 − t 2 + 2 π t"
+        },
+        {
+          "id": "B",
+          "text": "ω ( t ) = 9 t 1 2 − 2"
+        },
+        {
+          "id": "C",
+          "text": "ω ( t ) = 6 t 1 2 − 2"
+        },
+        {
+          "id": "D",
+          "text": "ω ( t ) = 9 2 t − 1 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "A ball is launched from the top of a 30 m tall hill with a speed 25 m/s directed at an angle 40 ° above the horizontal and lands on the ground below. Which of the following is approximately equal to the speed of the ball at the top of its path?",
+      "title": "Projectile - speed of ball at top of path",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "16 m/s"
+        },
+        {
+          "id": "C",
+          "text": "19 m/s"
+        },
+        {
+          "id": "D",
+          "text": "25 m/s"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "A 1500 kg car pushes a 4000 kg truck. The car and truck are accelerating at 2.0 m/s 2 . Assuming that the frictional force on the truck is negligible, what is the magnitude of the force exerted by the truck on the car?",
+      "title": "Newtons laws - force on car from truck",
+      "options": [
+        {
+          "id": "A",
+          "text": "3000 N"
+        },
+        {
+          "id": "B",
+          "text": "5000 N"
+        },
+        {
+          "id": "C",
+          "text": "8000 N"
+        },
+        {
+          "id": "D",
+          "text": "11 , 000 N"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "The work required to accelerate an object from 10 m/s to 20 m/s is W A . The work required to accelerate the object from 20 m/s to 30 m/s is W B . Which of the following correctly compares W A to W B ?",
+      "title": "Work - accelerating an object",
+      "options": [
+        {
+          "id": "A",
+          "text": "W A < W B"
+        },
+        {
+          "id": "B",
+          "text": "W A = W B"
+        },
+        {
+          "id": "C",
+          "text": "W A > W B"
+        },
+        {
+          "id": "D",
+          "text": "The mass of the object must be known to compare the relative magnitudes of W A and W B ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "A 2 kg object is released from rest from a height of 3 m above Earth’s surface. How much kinetic energy does the object have when it reaches a height of 1 m ?",
+      "title": "Energy - kinetic energy after falling",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 J"
+        },
+        {
+          "id": "B",
+          "text": "40 J"
+        },
+        {
+          "id": "C",
+          "text": "60 J"
+        },
+        {
+          "id": "D",
+          "text": "80 J"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "[图: The figure shows the top view of a rod. The bottom of the rod is fixed to a torsion spring, and the torsion spring is fixed to a horizontal table. A vertical line is indicated as the equilibrium position of the rod, and the rod is shown slightly to the left of its equilibrium position at an angle of theta from the vertical.] A torsion spring is fixed to the end of a rod of rotational inertia I R . The torsion spring is fixed to a horizontal table with negligible friction, as shown in the Top View. When the rod is displaced an angle θ from equilibrium, the torsion spring exerts a restoring torque of magnitude τ = 2 κ θ 2 , where κ is a positive constant with appropriate units. After being displaced by an angle θ 0 , the rod is released and rotates through its equilibrium position with angular speed ω 0 . Which of the following is a correct expression for ω 0 ?",
+      "title": "Rotational work - torsional spring rotates rod",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "2 κ θ 0 3 3 I R"
+        },
+        {
+          "id": "C",
+          "text": "2 κ θ 0 3 I R"
+        },
+        {
+          "id": "D",
+          "text": "2 κ θ 0 3 3 I R"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "[图: The figure shows two pucks labeled A and B and their paths before and after they collide. The positive x direction is horizontally to the right and the positive y direction is vertically upward. Before the collision, puck A moves upward and to the right through the plane while puck B moves upward and to the left through the plane at speed v sub B. After the collision, the two pucks move together upward through the plane in the positive y direction. The paths of the individual pucks before the collision and the path of the two-puck system after the collision form three angles of 120 degrees each at the point of collision.] Two pucks A and B have masses m and 3 m , respectively. The initial speed of Puck B is v B . The pucks move toward each other in the x y -plane, collide, stick together, and then move in the + y -direction. There is zero net external force on the two-puck system. The paths and directions of the pucks before and after the collision are shown in the diagram. Which of the following expressions best represents the speed of the two pucks after the collision?",
+      "title": "2D collision - kinetic energy",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 2 v B"
+        },
+        {
+          "id": "B",
+          "text": "3 4 v B"
+        },
+        {
+          "id": "C",
+          "text": "v B"
+        },
+        {
+          "id": "D",
+          "text": "3 2 v B"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "[图: The figure shows two pucks labeled A and B and their paths before and after they collide. The positive x direction is horizontally to the right and the positive y direction is vertically upward. Before the collision, puck A moves upward and to the right through the plane while puck B moves upward and to the left through the plane at speed v sub B. After the collision, the two pucks move together upward through the plane in the positive y direction. The paths of the individual pucks before the collision and the path of the two-puck system after the collision form three angles of 120 degrees each at the point of collision.] Two pucks A and B have masses m and 3 m , respectively. The initial speed of Puck B is v B . The pucks move toward each other in the x y -plane, collide, stick together, and then move in the + y -direction. There is zero net external force on the two-puck system. The paths and directions of the pucks before and after the collision are shown in the diagram. The collision is repeated, but Puck A is replaced with Puck C , which has half the mass and twice the speed of Puck A in the original collision. Pucks B and C stick together after the collision. Which of the following best describes how the direction of pucks B and C compares with the direction of pucks A and B after the original collision, and provides an appropriate justification? Direction of Pucks B and C after Collision Justification A Same direction as Pucks A and B The initial momentum of Puck C is the same as the initial momentum of Puck A B Same direction as Pucks A and B Both collisions are inelastic. C Different direction than Pucks A and B The speed of Puck C is greater than the speed of Puck A D Different direction than Pucks A and B The total mass of the two-puck systems is different in each collision.",
+      "title": "2D collision - x-component of momentum",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "The magnitude of the momentum of an object as a function of time, in seconds, is given by p = ( 4 kg ⋅ m/s 3 ) t 2 . The magnitudes of the net force exerted on the object at times t 1 and t 2 = 2 t 1 are F 1 and F 2 , respectively. Which of the following correctly compares F 2 and F 1 ?",
+      "title": "Momentum - ratio of forces",
+      "options": [
+        {
+          "id": "A",
+          "text": "F 2 = 2 F 1"
+        },
+        {
+          "id": "B",
+          "text": "F 2 = 4 F 1"
+        },
+        {
+          "id": "C",
+          "text": "F 2 = 8 F 1"
+        },
+        {
+          "id": "D",
+          "text": "F 2 = 16 F 1"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of two line segments in the first and fourth quadrants of a coordinate plane. The horizontal axis is labeled “t” and the value t sub p is indicated near the end of the axis. The values negative v sub 0 and v sub 0 are indicated at the bottom and top of the vertical axis, respectively. The first line segment is labeled “Car A” and it begins on the vertical axis at v sub 0, and moves steadily downward and to the right until it ends on the horizontal axis at t sub p. The second line segment is labeled “Carb B” and it begins on the vertical axis at negative v sub 0, and moves steadily upward and to the right until it ends on the horizontal axis at t sub p.] Cars A and B are moving in opposite directions along a straight road. At time t = t p the cars pass each other. The velocities v of the cars are given as functions of time are shown in the graph. Which of the following graphs represents the distance d between the cars as a function of time?",
+      "title": "2D Motion - Acceleration in 2 directions",
+      "options": [
+        {
+          "id": "A",
+          "text": "[图: The figure shows the graph of a curve in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The curve begins near the top of the vertical axis and moves steeply downward and to the right at first. As it approaches the horizontal axis, the curve begins to level out and is nearly horizontal as it ends on the horizontal axis at t sub p.]"
+        },
+        {
+          "id": "B",
+          "text": "[图: The figure shows the graph of a curve in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The curve begins near the top of the vertical axis and moves nearly horizontally to the right, but slightly downward at first. As it approaches the horizontal axis, the curve begins to move more steeply downward until it ends on the horizontal axis at t sub p.]"
+        },
+        {
+          "id": "C",
+          "text": "[图: The figure shows the graph of a line segment in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The line segment begins near the top of the vertical axis and moves steadily downward and to the right until it ends on the horizontal axis at t sub p.]"
+        },
+        {
+          "id": "D",
+          "text": "[图: The figure shows the graph of a line segment in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The line begins at the origin and moves horizontally to the right along the horizontal axis until it ends at t sub p.]"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "[图: The figure shows an object with mass m moving in the first and second quadrants of a coordinate plane with the origin labeled O. The horizontal axis is labeled “x, in meters,” and there are six evenly spaced tick marks on the axis such that there are three tick marks to the left of the vertical axis, and three tick marks to the right of the vertical axis the last tick mark is labeled 3.0 meters. The vertical axis is labeled “y, in meters,” and there are 3 evenly spaced tick marks on the axis. The object is shown at coordinates negative 3 meters comma 4 meters and is moving at speed v horizontally in the positive x direction along the line y equals 4.0 meters.] An object of mass m = 2.0 kg is moving in the x y -plane at a constant speed v = 0.80 m/s in the + x -direction along the line y = 4.0 m . When the object is at the location ( 3 . 0 m , 4 . 0 m ) , what is the magnitude of its angular momentum with respect to the origin?",
+      "title": "Angular momentum - moving along x-direction",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "4.8 kg ⋅ m 2 / s"
+        },
+        {
+          "id": "C",
+          "text": "6.4 kg ⋅ m 2 / s"
+        },
+        {
+          "id": "D",
+          "text": "8.0 kg ⋅ m 2 / s"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "[图: The figure shows two scenarios, labeled 1 and 2, of a block of mass m moving at speed v sub 0 on an incline. Scenario 1 shows the block traveling down the incline. Scenario 2 shows the block traveling up the incline.] A block on an incline is initially at rest. There is nonnegligible friction between the block and the incline. In Scenario 1 , the block is given a brief push at time t = 0 , and begins to slide down the incline with speed v 0 . In Scenario 2 , the block is placed at the same initial position, is given a brief push at time t = 0 , and begins to slide up the incline with initial speed v 0 , as shown. The direction down the ramp corresponds to positive velocity. Which of the following pairs of velocity-time graphs could correctly represent the motion of the block in Scenario 1 and Scenario 2 ? Scenario 1 :Block Travels Down Incline Scenario 2 :Block Travels Up Incline A [图: The figure shows the graph of a line in the first quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis 2 and a half units above the horizontal axis. It extends horizontally to the right and ends at the end of the horizontal axis.] [图: The figure shows the graph of a line in the fourth quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It extends horizontally to the right and ends at the end of the horizontal axis.] B [图: The figure shows the graph of a line in the first quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis 2 and a half units above the horizontal axis. It extends horizontally to the right and ends at the end of the horizontal axis.] [图: The figure shows the graph of a line in the fourth quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It moves up and to the right, ending at the end of the horizontal axis, approximately 1 unit below the horizontal axis.] C [图: The figure shows a velocity-time graph in a gridded plane for Scenario 1. The horizontal axis is labeled t, and the vertical axis is labeled v. A line is graphed approximately from coordinates 0 comma 2.5 to coordinates 8 comma 0.8.] [图: The figure shows the graph of a line in the fourth quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It moves up and to the right, ending at the end of the horizontal axis, approximately 1 unit below the horizontal axis.] D [图: The figure shows the graph of a line in the first quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units above the horizontal axis. It moves down and to the right, ending at the end of the horizontal axis, approximately 1 unit above the horizontal axis.] [图: The figure shows the graph of a line in the first and fourth quadrants of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It moves up and to the right, intersecting the horizontal axis at 4 units, and ends at the end of the horizontal axis 2 and a half units above the horizontal axis]",
+      "title": "Newtons laws - force_acceleration on incline",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "A linear graph of the acceleration of an object as a function of time has a slope S . The area bounded by the line and the time axis from t = 0 to t = t 1 is A . The velocity of the object at t = 0 is v 0 . Which of the following expressions represent the velocity v 1 of the object at time t 1 ?",
+      "title": "1D kinematics - velocity from a-t graph",
+      "options": [
+        {
+          "id": "A",
+          "text": "v 0 + A"
+        },
+        {
+          "id": "B",
+          "text": "v 0 + A t 1"
+        },
+        {
+          "id": "C",
+          "text": "S v 0"
+        },
+        {
+          "id": "D",
+          "text": "v 0 + S t 1"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Wheel pressing into rotating disk",
+      "title": "Wheel pressing into rotating disk",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Wheel pressing into rotating disk",
+      "title": "Wheel pressing into rotating disk",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Wheel pressing into rotating disk",
+      "title": "Wheel pressing into rotating disk",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Blocks Collide on a Spring",
+      "title": "Blocks Collide on a Spring",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Blocks Collide on a Spring",
+      "title": "Blocks Collide on a Spring",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Blocks Collide on a Spring",
+      "title": "Blocks Collide on a Spring",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Blocks Collide on a Spring",
+      "title": "Blocks Collide on a Spring",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Nonlinear Spring Labs",
+      "title": "Nonlinear Spring Labs",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Energy Dissipated - Chain Motor Table",
+      "title": "Energy Dissipated - Chain Motor Table",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Energy Dissipated - Chain Motor Table",
+      "title": "Energy Dissipated - Chain Motor Table",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Energy Dissipated - Chain Motor Table",
+      "title": "Energy Dissipated - Chain Motor Table",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}

@@ -1,0 +1,1838 @@
+{
+  "examId": "macroeconomics-2023",
+  "subject": "macroeconomics",
+  "examName": "AP 宏观经济 2023年国际卷",
+  "year": "2023",
+  "totalQuestions": 63,
+  "mcqCount": 63,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which statement best describes the law of demand?",
+      "title": "Law of demand described",
+      "options": [
+        {
+          "id": "A",
+          "text": "When price increases, demand decreases."
+        },
+        {
+          "id": "B",
+          "text": "When price increases, demand increases."
+        },
+        {
+          "id": "C",
+          "text": "Price and quantity demanded are inversely related."
+        },
+        {
+          "id": "D",
+          "text": "Price and quantity demanded are directly related."
+        },
+        {
+          "id": "E",
+          "text": "The demand curve is always upward sloping."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "GDP is an imperfect measure of a nation’s economic performance because it does not account for which of the following?",
+      "title": "Why GDP is imperfect measure",
+      "options": [
+        {
+          "id": "A",
+          "text": "Purchases made by the nation’s government"
+        },
+        {
+          "id": "B",
+          "text": "Purchases of domestically produced goods by international consumers"
+        },
+        {
+          "id": "C",
+          "text": "Purchases of internationally produced goods by domestic consumers"
+        },
+        {
+          "id": "D",
+          "text": "Goods produced at home for personal consumption"
+        },
+        {
+          "id": "E",
+          "text": "Personal consumption expenditures on durable goods"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "How will an increase in government spending with no crowding out affect real output and the price level in the short run? Real Output Price Level A Decrease Increase B Increase Decrease C Increase Increase D No change Increase E No change No change",
+      "title": "Government spending effect on output and PL",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "If a banking system has ample reserves, which of the following is an action taken by the central bank that would cause a decrease in the cyclical rate of unemployment in the short run?",
+      "title": "Ample reserves expansionary policy",
+      "options": [
+        {
+          "id": "A",
+          "text": "An increase in the required reserve ratio"
+        },
+        {
+          "id": "B",
+          "text": "An increase in the policy rate"
+        },
+        {
+          "id": "C",
+          "text": "An increase in the discount rate"
+        },
+        {
+          "id": "D",
+          "text": "A decrease in interest on reserves"
+        },
+        {
+          "id": "E",
+          "text": "A decrease in personal income tax rates"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "When the government invests in education and physical capital, which of the following will happen in the long run?",
+      "title": "Increased education and physical capital",
+      "options": [
+        {
+          "id": "A",
+          "text": "Real output per worker will decrease."
+        },
+        {
+          "id": "B",
+          "text": "There will be upward movement along the aggregate production function."
+        },
+        {
+          "id": "C",
+          "text": "There will be downward movement along the aggregate production function."
+        },
+        {
+          "id": "D",
+          "text": "The aggregate production function will shift upward."
+        },
+        {
+          "id": "E",
+          "text": "The aggregate production function will shift downward."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which account includes both net exports and net unilateral transfers?",
+      "title": "Current account components",
+      "options": [
+        {
+          "id": "A",
+          "text": "The money market account"
+        },
+        {
+          "id": "B",
+          "text": "The trade balance account"
+        },
+        {
+          "id": "C",
+          "text": "The capital and financial account"
+        },
+        {
+          "id": "D",
+          "text": "The foreign investment account"
+        },
+        {
+          "id": "E",
+          "text": "The current account"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Assume that a country has limited reserves in its banking system. Which of the following would lead to inflation in the long run according to the quantity theory of money?",
+      "title": "Limited reserves inflation",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sustained purchases of government bonds by the central bank"
+        },
+        {
+          "id": "B",
+          "text": "Commercial banks holding more reserves"
+        },
+        {
+          "id": "C",
+          "text": "Consumers spending more money as their confidence grows"
+        },
+        {
+          "id": "D",
+          "text": "An increase in the federal budget surplus"
+        },
+        {
+          "id": "E",
+          "text": "Business taxes decreasing and firms spending more money on capital improvements"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "If France has a comparative advantage in the production of grapes, and Italy has an absolute advantage in the production of olives, which of the following statements must be true?",
+      "title": "France Italy olives grapes opportunity cost",
+      "options": [
+        {
+          "id": "A",
+          "text": "France and Italy will not benefit from trading with each other."
+        },
+        {
+          "id": "B",
+          "text": "France can produce more olives than Italy can."
+        },
+        {
+          "id": "C",
+          "text": "France can produce more grapes than Italy can."
+        },
+        {
+          "id": "D",
+          "text": "France has a lower opportunity cost in producing grapes than Italy does."
+        },
+        {
+          "id": "E",
+          "text": "France has a higher opportunity cost in producing grapes than Italy does."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "If the number of people that are employed is 140 million, the number of people that are unemployed is 20 million, and the civilian, noninstitutional population aged 16 and over is 200 million, then the labor force participation rate is",
+      "title": "Labor force participation rate calculation",
+      "options": [
+        {
+          "id": "A",
+          "text": "10.0%"
+        },
+        {
+          "id": "B",
+          "text": "12.5%"
+        },
+        {
+          "id": "C",
+          "text": "60.0%"
+        },
+        {
+          "id": "D",
+          "text": "70.0%"
+        },
+        {
+          "id": "E",
+          "text": "80.0%"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Assuming the marginal propensity to consume is less than 1, which of the following describes why the magnitude of the tax multiplier is smaller than the magnitude of the expenditure multiplier?",
+      "title": "Magnitude of multipliers",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changes in income taxes initially affect both household consumption and household savings."
+        },
+        {
+          "id": "B",
+          "text": "Changes in income taxes initially affect household savings only."
+        },
+        {
+          "id": "C",
+          "text": "Changes in income taxes initially affect net investment instead of consumption."
+        },
+        {
+          "id": "D",
+          "text": "Changes in income taxes initially affect exports only."
+        },
+        {
+          "id": "E",
+          "text": "Changes in income taxes initially affect firms only."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which of the following best represents an investment in human capital?",
+      "title": "Human capital example",
+      "options": [
+        {
+          "id": "A",
+          "text": "A clothing manufacturer purchases automated machinery."
+        },
+        {
+          "id": "B",
+          "text": "An automobile manufacturer hires an engineer who specializes in maintaining modern robotic assembly machines."
+        },
+        {
+          "id": "C",
+          "text": "A bank pays the tuition for one of its managers to pursue a degree in business administration."
+        },
+        {
+          "id": "D",
+          "text": "A paper mill offers a bonus to an employee who develops a more efficient way to incentivize workers to work more night shifts."
+        },
+        {
+          "id": "E",
+          "text": "A manufacturing firm builds a new assembly line."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "If the inflation rate increases, what will happen to the real interest rate on existing loans with fixed nominal interest rates?",
+      "title": "Inflation and fixed rate loans",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will increase."
+        },
+        {
+          "id": "B",
+          "text": "It will decrease."
+        },
+        {
+          "id": "C",
+          "text": "It will stay the same."
+        },
+        {
+          "id": "D",
+          "text": "It will be greater than the nominal interest rate."
+        },
+        {
+          "id": "E",
+          "text": "It will equal the unexpected inflation rate minus the expected inflation rate."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Assume that a nation’s capital and financial account is in balance. If the nation’s central bank implements contractionary monetary policy, which of the following will occur solely as a result of the change in the nation’s interest rates?",
+      "title": "Interest rates and balance of payment",
+      "options": [
+        {
+          "id": "A",
+          "text": "There will be an increase in financial capital outflows."
+        },
+        {
+          "id": "B",
+          "text": "The balance of payments will be greater than zero."
+        },
+        {
+          "id": "C",
+          "text": "Both the current account and the capital and financial account will move into deficit."
+        },
+        {
+          "id": "D",
+          "text": "International investors will buy less of the nation’s financial assets."
+        },
+        {
+          "id": "E",
+          "text": "The capital and financial account will move into surplus."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which of the following could have caused the national debt to change from $12 trillion to $15 trillion?",
+      "title": "Reason for increase in national debt",
+      "options": [
+        {
+          "id": "A",
+          "text": "A household debt increase of $3 trillion"
+        },
+        {
+          "id": "B",
+          "text": "A government budget deficit of $3 trillion"
+        },
+        {
+          "id": "C",
+          "text": "A government budget surplus of $3 trillion"
+        },
+        {
+          "id": "D",
+          "text": "A decrease of $3 trillion in financial capital inflows"
+        },
+        {
+          "id": "E",
+          "text": "An increase of $3 trillion in business debt"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "What is definitely true in the short run about the economy if real output begins to increase again after months of decline?",
+      "title": "Output increasing and business cycle",
+      "options": [
+        {
+          "id": "A",
+          "text": "The economy is falling into recession."
+        },
+        {
+          "id": "B",
+          "text": "The economy is exiting a business cycle trough."
+        },
+        {
+          "id": "C",
+          "text": "The price level is decreasing."
+        },
+        {
+          "id": "D",
+          "text": "The unemployment rate is increasing."
+        },
+        {
+          "id": "E",
+          "text": "The purchasing power of nominal wages is increasing."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of two curves in a coordinate plane. The horizontal axis is labeled “Unemployment Rate, in percent.” The vertical axis is labeled “Inflation Rate, in percent.” No numbers are indicated on either axis. The curves in the graph are labeled L R P C sub 1 and L R P C sub 2. Both curves begin on the horizontal axis and move vertically upward in a straight line. The L R P C sub 1 curve begins about halfway along the horizontal axis, and the L R P C sub 2 curve begins about one fourth of the way along the horizontal axis, parallel to the L R P C sub 1 curve. An arrow points horizontally to the left from the L R P C sub 1 curve to the L R P C sub 2 curve.] Using the graph provided of the long-run Phillips curve (LRPC), which of the following could cause the change from LRPC 1 to LRPC 2 ?",
+      "title": "LRPC shifts left",
+      "options": [
+        {
+          "id": "A",
+          "text": "An increase in the price of natural resources"
+        },
+        {
+          "id": "B",
+          "text": "An increase in government spending"
+        },
+        {
+          "id": "C",
+          "text": "An increase in the central bank’s administered interest rates"
+        },
+        {
+          "id": "D",
+          "text": "A decrease in unemployment insurance benefits"
+        },
+        {
+          "id": "E",
+          "text": "A decrease in net exports"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the fundamental problem that economics attempts to address?",
+      "title": "Fundamental economic problem",
+      "options": [
+        {
+          "id": "A",
+          "text": "Determining the appropriate level of government spending in an economy"
+        },
+        {
+          "id": "B",
+          "text": "How to maintain full employment output"
+        },
+        {
+          "id": "C",
+          "text": "How to fulfill unlimited wants with limited resources"
+        },
+        {
+          "id": "D",
+          "text": "What policies will stimulate the most economic growth"
+        },
+        {
+          "id": "E",
+          "text": "Whether or not to restrict international trade to achieve more favorable terms of trade"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of the following describes the effect of an increase in a government’s budget deficit on the real interest rate and private investment? Real Interest Rate Private Investment A Increase Decrease B Increase Increase C Decrease Decrease D Decrease Increase E Indeterminate Indeterminate",
+      "title": "Increase budget deficit interest rate investment",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Disposable Income Consumption $40,000 $30,000 $50,000 $37,500 $60,000 $45,000 $70,000 $52,500 Based on the information in the table provided, what is the value of the tax multiplier?",
+      "title": "Tax multiplier calculation",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 0 . 25"
+        },
+        {
+          "id": "B",
+          "text": "- 0 . 75"
+        },
+        {
+          "id": "C",
+          "text": "- 3"
+        },
+        {
+          "id": "D",
+          "text": "- 4"
+        },
+        {
+          "id": "E",
+          "text": "- 5"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Why is the unemployment rate an imperfect measure of joblessness?",
+      "title": "Unemployment measure shortcomings",
+      "options": [
+        {
+          "id": "A",
+          "text": "It includes workers who are on strike."
+        },
+        {
+          "id": "B",
+          "text": "It counts discouraged workers."
+        },
+        {
+          "id": "C",
+          "text": "It excludes the frictionally unemployed."
+        },
+        {
+          "id": "D",
+          "text": "It does not include the number of underemployed workers."
+        },
+        {
+          "id": "E",
+          "text": "It overestimates the number of individuals who are self-employed."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is the relationship between the price of previously issued bonds and the prevailing market interest rate?",
+      "title": "Relationship between bonds and interest rates",
+      "options": [
+        {
+          "id": "A",
+          "text": "The price of previously issued bonds is directly related to the prevailing market interest rate."
+        },
+        {
+          "id": "B",
+          "text": "The price of previously issued bonds is unrelated to the prevailing market interest rate."
+        },
+        {
+          "id": "C",
+          "text": "The price of previously issued bonds is inversely related to the prevailing market interest rate."
+        },
+        {
+          "id": "D",
+          "text": "The price of previously issued bonds is equal to the prevailing market interest rate."
+        },
+        {
+          "id": "E",
+          "text": "The price of previously issued bonds is less than the prevailing market interest rate."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "The economy of Country X is experiencing demand-pull inflation as a result of an increase in consumer spending. If the government and central bank of Country X want to reduce inflation and the banking system of Country X has ample reserves, which of the following combinations of fiscal and monetary policy would be most effective to achieve their goal in the short run? Fiscal Policy Action Monetary Policy Action A Decrease government spending Increase administered interest rates B Decrease government spending Decrease administered interest rates C Increase income taxes Decrease administered interest rates D Decrease income taxes Increase administered interest rates E Increase transfer payments Increase administered interest rates",
+      "title": "Country X FP and MP combined",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Wayland and Hytop are countries that trade with each other and have flexible exchange rates. Which of the following groups will benefit if Wayland’s currency depreciates relative to Hytop’s currency in the short run?",
+      "title": "Wayland and Hytop foreign exchange",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exporters in Hytop and importers in Hytop"
+        },
+        {
+          "id": "B",
+          "text": "Exporters in Hytop and importers in Wayland"
+        },
+        {
+          "id": "C",
+          "text": "Exporters in Hytop and exporters in Wayland"
+        },
+        {
+          "id": "D",
+          "text": "Importers in Hytop and importers in Wayland"
+        },
+        {
+          "id": "E",
+          "text": "Importers in Hytop and exporters in Wayland"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "The monetary base includes which of the following?",
+      "title": "What is included in monetary base",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mutual funds in retirement portfolios"
+        },
+        {
+          "id": "B",
+          "text": "Savings accounts"
+        },
+        {
+          "id": "C",
+          "text": "Currency in circulation"
+        },
+        {
+          "id": "D",
+          "text": "Credit cards"
+        },
+        {
+          "id": "E",
+          "text": "Outstanding mortgage balances"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Assume an economy is in long-run equilibrium. If there is an increase in short-run aggregate supply, how will it be demonstrated in the Phillips curve model?",
+      "title": "SRPC and SRAS relationship",
+      "options": [
+        {
+          "id": "A",
+          "text": "A movement along the short-run Phillips curve to the left of long-run equilibrium"
+        },
+        {
+          "id": "B",
+          "text": "A movement along the short-run Phillips curve to the right of long-run equilibrium"
+        },
+        {
+          "id": "C",
+          "text": "A shift of the short-run Phillips curve to the left"
+        },
+        {
+          "id": "D",
+          "text": "A shift of the short-run Phillips curve to the right"
+        },
+        {
+          "id": "E",
+          "text": "A shift of the long-run Phillips curve to the right"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "In what way is the GDP deflator similar to the consumer price index?",
+      "title": "Similarity of CPI and GDP deflator",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both can be used to adjust nominal values to real values."
+        },
+        {
+          "id": "B",
+          "text": "Both use select market baskets of goods and services to measure changes in the price level."
+        },
+        {
+          "id": "C",
+          "text": "Both measure only the change in prices of domestically produced goods and services."
+        },
+        {
+          "id": "D",
+          "text": "Both measure the potential output of an economy."
+        },
+        {
+          "id": "E",
+          "text": "Both increase as the unemployment rate increases."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "In the country of Zeta, which of the following will cause aggregate demand to increase?",
+      "title": "Zeta increase aggregate demand",
+      "options": [
+        {
+          "id": "A",
+          "text": "The price of oil, a key productive resource in Zeta, increases."
+        },
+        {
+          "id": "B",
+          "text": "Zeta’s government increases regulations on businesses."
+        },
+        {
+          "id": "C",
+          "text": "The aggregate price level in Zeta decreases."
+        },
+        {
+          "id": "D",
+          "text": "Zeta’s government increases spending."
+        },
+        {
+          "id": "E",
+          "text": "A large number of firms in Zeta adopt a new production technology."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which of the following will increase physical capital formation in an economy in the long run?",
+      "title": "Reason for increase in physical capital formation",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decrease in financial capital inflows"
+        },
+        {
+          "id": "B",
+          "text": "A decrease in frictional unemployment"
+        },
+        {
+          "id": "C",
+          "text": "An increase in unemployment benefits"
+        },
+        {
+          "id": "D",
+          "text": "An increase in interest rates"
+        },
+        {
+          "id": "E",
+          "text": "An increase in total savings"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Year Nominal Gross Domestic Product (GDP) GDP Deflator 2019 $4,000 100 2020 $5,000 125 Based on the data provided in the table, which of the following conclusions can be drawn for the period 2019 to 2020?",
+      "title": "Use GDP deflator to find Real GDP",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nominal GDP increased by 40%."
+        },
+        {
+          "id": "B",
+          "text": "Nominal GDP increased by 20%."
+        },
+        {
+          "id": "C",
+          "text": "Real GDP increased by 25%."
+        },
+        {
+          "id": "D",
+          "text": "Real GDP did not change."
+        },
+        {
+          "id": "E",
+          "text": "The inflation rate was 20%."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "The United States and the Eurozone are trading partners with flexible exchange rates, and the United States has a capital and financial account surplus. If Europeans reduce their demand for United States financial assets, which of the following will occur?",
+      "title": "US and Eurozone current and capital accounts",
+      "options": [
+        {
+          "id": "A",
+          "text": "The natural rate of unemployment in the United States will decrease."
+        },
+        {
+          "id": "B",
+          "text": "United States imports from Europe will increase."
+        },
+        {
+          "id": "C",
+          "text": "The United States current account will move toward surplus."
+        },
+        {
+          "id": "D",
+          "text": "The United States capital and financial account surplus will increase."
+        },
+        {
+          "id": "E",
+          "text": "United States exports to Europe will decrease."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "How is long-run economic growth demonstrated in the aggregate demand–aggregate supply model?",
+      "title": "Economic growth on AS AD model",
+      "options": [
+        {
+          "id": "A",
+          "text": "A rightward shift in the short-run aggregate supply curve"
+        },
+        {
+          "id": "B",
+          "text": "A leftward shift in the long-run aggregate supply curve"
+        },
+        {
+          "id": "C",
+          "text": "A rightward shift in the long-run aggregate supply curve"
+        },
+        {
+          "id": "D",
+          "text": "A rightward shift in the aggregate demand curve"
+        },
+        {
+          "id": "E",
+          "text": "A leftward shift in the aggregate demand curve"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "If an economy is currently experiencing a decrease in the price level and the banking system has limited reserves, which of the following monetary policy actions can be implemented to reverse the change in the price level in the short run?",
+      "title": "Limited reserves monetary policy incr price level",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing the required reserve ratio"
+        },
+        {
+          "id": "B",
+          "text": "Increasing the policy rate"
+        },
+        {
+          "id": "C",
+          "text": "Increasing government spending"
+        },
+        {
+          "id": "D",
+          "text": "Selling bonds on the open market"
+        },
+        {
+          "id": "E",
+          "text": "Buying bonds on the open market"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "According to the law of supply, which of the following is true as the price of a good or service decreases?",
+      "title": "Law of supply and producer behavior",
+      "options": [
+        {
+          "id": "A",
+          "text": "Producers are willing and able to sell more so they increase their sales."
+        },
+        {
+          "id": "B",
+          "text": "Producers are willing and able to sell less because their production costs increase."
+        },
+        {
+          "id": "C",
+          "text": "Producers are willing and able to sell less because their profits decrease."
+        },
+        {
+          "id": "D",
+          "text": "Consumers are willing and able to buy more because they will switch from more expensive goods."
+        },
+        {
+          "id": "E",
+          "text": "Consumers are willing and able to buy more because they will be able to afford a greater quantity."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "After a fixed-rate loan is repaid, the borrower’s financial position will have improved if",
+      "title": "Interest rates and fixed rate loans",
+      "options": [
+        {
+          "id": "A",
+          "text": "the inflation rate was higher than expected"
+        },
+        {
+          "id": "B",
+          "text": "nominal interest rates increased"
+        },
+        {
+          "id": "C",
+          "text": "real interest rates increased"
+        },
+        {
+          "id": "D",
+          "text": "financial capital outflow increased"
+        },
+        {
+          "id": "E",
+          "text": "the money supply decreased"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "If a government decides to implement an expansionary fiscal policy, what is most likely to happen to the price level and the unemployment rate in the short run if there is no crowding out? Price Level Unemployment Rate A Increase Increase B Increase Remain the same C Increase Decrease D Decrease Increase E Decrease Decrease",
+      "title": "Expansionary FP effect on PL and UE rate",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Assume an open economy has a balanced budget and a balanced capital and financial account (CFA). Which of the following independently occurring changes in the country’s budget and CFA will have the largest positive effect on its long-run economic growth rate? Change in the Budget Change in the CFA A Move into deficit Move into deficit B Move into deficit Move into surplus C Move into surplus Move into deficit D Move into surplus No change E Move into surplus Move into surplus",
+      "title": "Changes in budget and capital financial account",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of four curves in a coordinate plane. The horizontal axis is labeled “Unemployment Rate.” The vertical axis is labeled “Inflation Rate.” No numbers are indicated on either axis. The curves on the graph are labeled L R P C, S R P C sub 1, S R P C sub 2, and S R P C sub 3. Five points on the graph are labeled A, B, C, D, and E. The L R P C curve begins on and about halfway along the horizontal axis and moves vertically upward through the coordinate plane. The S R P C sub 1 curve begins slightly to the right of the horizontal axis, near the top of the graph, and moves downward and to the right in a straight line. It intersects the L R P C curve at point A, about three fourths of the way up the vertical axis. It continues downward and to the right and passes through point B just over halfway up the vertical axis near the end of the horizontal axis. The S R P C sub 2 curve begins between the horizontal axis and where the S R P C sub 1 curve begins, and moves downward and to the right in a straight line, parallel to the S R P C sub 1 curve. The S R P C sub 2 curve passes through point D about one fourth of the way along the horizontal axis and just less than three fourths of the way up the vertical axis. It continues downward, intersects the L R P C curve at point C about halfway up the vertical axis, and ends just to the left of where the S R P C sub 1 curve ends, about one fifth of the way up the vertical axis. The S R P C sub 3 curve begins almost directly below where the S R P C sub 2 curve begins, about halfway up the vertical axis. It moves downward and to the right in a straight line, parallel to the S R P C sub 2 curve, and intersects the L R P C curve at point E about one fourth of the way up the vertical axis. It ends above the horizontal axis, below and to the left of where the S R P C sub 2 curve ends.] Assume the economy is initially in long-run equilibrium. Which of the following describes how the short-run effect of an increase in personal income taxes would be depicted in the Phillips curve model provided?",
+      "title": "SRPC and change in taxes",
+      "options": [
+        {
+          "id": "A",
+          "text": "A movement along SRPC 1 from point A to point B"
+        },
+        {
+          "id": "B",
+          "text": "A movement along SRPC 2 from point C to point D"
+        },
+        {
+          "id": "C",
+          "text": "A movement along LRPC from point C to point E"
+        },
+        {
+          "id": "D",
+          "text": "A shift from SRPC 2 to SRPC 3"
+        },
+        {
+          "id": "E",
+          "text": "A shift from SRPC 3 to SRPC 2"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which of the following explains why firms choose to produce more output in the short run as the price level increases?",
+      "title": "Why SRAS upward sloping",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flexible input prices"
+        },
+        {
+          "id": "B",
+          "text": "Improved technology"
+        },
+        {
+          "id": "C",
+          "text": "Decreased subsidies"
+        },
+        {
+          "id": "D",
+          "text": "Sticky nominal wages"
+        },
+        {
+          "id": "E",
+          "text": "Increased purchasing power"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the opportunity cost of keeping cash at home?",
+      "title": "Opportunity cost of holding cash",
+      "options": [
+        {
+          "id": "A",
+          "text": "The ability to make purchases quickly"
+        },
+        {
+          "id": "B",
+          "text": "The growth in the real value of the money that occurs during inflationary periods"
+        },
+        {
+          "id": "C",
+          "text": "The lost income from a zero-interest savings account at the bank"
+        },
+        {
+          "id": "D",
+          "text": "The lost income from not investing the money in an interest-bearing financial asset"
+        },
+        {
+          "id": "E",
+          "text": "The increased risk of losing the money in an economic downturn"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which of the following describes the impact of an automatic stabilizer during an economic contraction?",
+      "title": "Automatic stabilizer example",
+      "options": [
+        {
+          "id": "A",
+          "text": "As incomes rise, more individuals move up to higher income tax brackets, causing an automatic tax increase and reducing consumption."
+        },
+        {
+          "id": "B",
+          "text": "As prices fall, workers accept lower wages, causing short-run aggregate supply to increase."
+        },
+        {
+          "id": "C",
+          "text": "As unemployment falls, fewer individuals receive unemployment benefits, reducing consumption."
+        },
+        {
+          "id": "D",
+          "text": "As unemployment rises, the government implements a tax decrease, stimulating consumption."
+        },
+        {
+          "id": "E",
+          "text": "As unemployment rises, more individuals receive unemployment benefits, stimulating consumption."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What will be the short-run effect of a reduction in business regulations on real output and the price level? Real Output Price Level A Increase No change B Increase Decrease C Decrease Increase D Decrease Decrease E No change Decrease",
+      "title": "Business regulations effect on PL and output",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "The nation of Newland has a flexible exchange rate and an open economy. The government of Newland has decided to increase income taxes. Based solely on the effect of the increase in income taxes on Newland’s real output, what will happen to Newland’s net exports and how will the change in Newland’s net exports affect the value of its currency in the short run? Net Exports Value of Newland’s Currency A Increase Appreciate B Increase Depreciate C Increase Will not change D Decrease Appreciate E Decrease Depreciate",
+      "title": "Newland income tax change foreign exchange",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Assume the base year is 2000. If the consumer price index in 2014 was 125, it can be concluded that a typical market basket of goods in 2014 cost",
+      "title": "CPI interpretation",
+      "options": [
+        {
+          "id": "A",
+          "text": "125 percent more than the same basket bought in the base year"
+        },
+        {
+          "id": "B",
+          "text": "125 percent more than the same basket bought in 2013"
+        },
+        {
+          "id": "C",
+          "text": "25 percent less than the same basket bought in the base year"
+        },
+        {
+          "id": "D",
+          "text": "25 percent more than the same basket bought in 2013"
+        },
+        {
+          "id": "E",
+          "text": "25 percent more than the same basket bought in the base year"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which of the following transactions would be counted as investment spending in the calculation of a nation’s gross domestic product?",
+      "title": "Example of investment spending",
+      "options": [
+        {
+          "id": "A",
+          "text": "Robert buys 100 shares of stock in an energy company."
+        },
+        {
+          "id": "B",
+          "text": "Ming purchases a new delivery truck for her bakery business."
+        },
+        {
+          "id": "C",
+          "text": "Latasha pays a mechanic to repair her personal car."
+        },
+        {
+          "id": "D",
+          "text": "Sam earns interest on Canadian government bonds."
+        },
+        {
+          "id": "E",
+          "text": "Taylor receives unemployment benefits when he loses his job."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Assume that Country S has an open economy and a flexible exchange rate. How will an increase in borrowing in Country S affect its real interest rate, and what will be the resulting effect on the value of Country S’s currency in foreign exchange markets? Real Interest Rate Currency Value A Increase Appreciate B Increase Depreciate C No change No change D Decrease Appreciate E Decrease Depreciate",
+      "title": "Country S borrowing effect on RIR and currency",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Assume that a banking system has limited reserves and the required reserve ratio is 0.25. If an individual deposits $1,000 cash into a checking account, what is the immediate effect on the M1 measure of the money supply and the maximum possible change in the M1 measure of the money supply? Immediate Effect on M1 Maximum Possible Change in M1 A No change $1,000 increase B No change $3,000 increase C No change $4,000 increase D $1,000 increase $3,000 increase E $1,000 increase $4,000 increase",
+      "title": "Immediate and max change on M1",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which of the following would explain an increase in the price level and a decrease in real GDP in the short run?",
+      "title": "Reason for increase PL and decrease RGDP",
+      "options": [
+        {
+          "id": "A",
+          "text": "Workers successfully negotiated for higher wages."
+        },
+        {
+          "id": "B",
+          "text": "Consumers decreased their spending."
+        },
+        {
+          "id": "C",
+          "text": "The government decreased corporate taxes."
+        },
+        {
+          "id": "D",
+          "text": "The government decreased business regulations."
+        },
+        {
+          "id": "E",
+          "text": "Firms increased their investment spending."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of a curve in a coordinate plane. The horizontal axis is labeled “Number of Pools Cleaned,” and the number 3 is indicated. The vertical axis is labeled “Number of Lawns Mowed,” and the number 6 is indicated. The curve begins on the vertical axis at 6, moves downward and to the right in a straight line, and ends on the horizontal axis at 3.] Peter runs a small business mowing lawns and cleaning pools. The production possibilities curve provided shows the combinations of lawns mowed and/or pools cleaned that Peter can complete in a day. Which of the following is true concerning Peter’s production possibilities curve?",
+      "title": "Opportunity cost lawns and pools",
+      "options": [
+        {
+          "id": "A",
+          "text": "Peter can mow more than 6 lawns if he doesn’t clean any pools that day."
+        },
+        {
+          "id": "B",
+          "text": "Peter’s opportunity cost of mowing 1 lawn is 1 2 of a pool cleaned."
+        },
+        {
+          "id": "C",
+          "text": "Peter’s opportunity cost of cleaning 1 pool is 1 2 of a lawn mowed."
+        },
+        {
+          "id": "D",
+          "text": "Peter experiences increasing opportunity costs in cleaning pools."
+        },
+        {
+          "id": "E",
+          "text": "Peter experiences increasing opportunity costs in mowing lawns."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of two curves in a coordinate plane, with the origin labeled 0. The horizontal axis is labeled “Quantity of Clinkers,” and the numbers 1 through 5, in increments of 1, are indicated. The vertical axis is labeled “Price, in dollars,” and the numbers 5 through 25, in increments of 5, are indicated. The curves in the graph are labeled Demand and Supply. The Demand curve begins at the point with approximate coordinates 1 comma 25, and moves downward and to the right in a straight line. It passes through the points with coordinates 2 comma 20, 3 comma 15, and 4 comma 10, and it ends at the point with approximate coordinates 5 comma 5. The Supply curve begins at the point with approximate coordinates 1 comma 5, and moves upward and to the right in a straight line. It passes through the point with coordinates 2 comma 10, intersects the Demand curve at the point with coordinates 3 comma 15, and passes through the point with coordinates 4 comma 20. The Supply curve ends at the point with approximate coordinates 5 comma 25.] Based on the provided graph of the market for clinkers, which of the following statements is true if the current price in the market for clinkers is $20?",
+      "title": "Market for clinkers at specific price",
+      "options": [
+        {
+          "id": "A",
+          "text": "There is a shortage of 2 clinkers."
+        },
+        {
+          "id": "B",
+          "text": "There is a surplus of 2 clinkers."
+        },
+        {
+          "id": "C",
+          "text": "The market is in equilibrium."
+        },
+        {
+          "id": "D",
+          "text": "The demand for clinkers will decrease."
+        },
+        {
+          "id": "E",
+          "text": "The supply of clinkers will increase."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which of the following is the best example of a policy action that will increase the rate of long-run economic growth?",
+      "title": "Policy to increase rate of economic growth",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing unemployment benefits"
+        },
+        {
+          "id": "B",
+          "text": "Increasing investment in energy-efficient technologies"
+        },
+        {
+          "id": "C",
+          "text": "Increasing subsidies to consumers for spending on nondurable goods"
+        },
+        {
+          "id": "D",
+          "text": "Decreasing personal income tax rates"
+        },
+        {
+          "id": "E",
+          "text": "Decreasing spending on early childhood education"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Suppose the country of Stalia is currently experiencing a recession, and in response, the central bank carries out expansionary monetary policy. As a result, what will happen to its natural rate of unemployment in the short run?",
+      "title": "Stalia expansionary MP SR effect on nat unemp rate",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will increase as frictional unemployment increases."
+        },
+        {
+          "id": "B",
+          "text": "It will increase as structural unemployment decreases."
+        },
+        {
+          "id": "C",
+          "text": "It will decrease as cyclical unemployment increases."
+        },
+        {
+          "id": "D",
+          "text": "It will decrease as structural and cyclical unemployment decrease."
+        },
+        {
+          "id": "E",
+          "text": "It will remain the same as cyclical unemployment decreases."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Assume that the country of Alpha has a balanced budget. If the government and central bank of Alpha implement expansionary fiscal and monetary policies in order to address a recession, what effect would these policies have in the short run on the government budget and interest rates? Government Budget Interest Rates A Move toward deficit Increase B Move toward deficit Indeterminate C Remain in balance Decrease D Move toward surplus Decrease E Move toward surplus Indeterminate",
+      "title": "Alpha expansionary MP and FP",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Without any policy interventions, the country of Myto has automatically returned to long-run equilibrium after experiencing a recessionary gap. Which of the following conditions must have existed for this self-adjustment to long-run equilibrium to occur?",
+      "title": "Myto self-adjustment",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trade unions were strengthened, providing more income for their members."
+        },
+        {
+          "id": "B",
+          "text": "Industrial investment increased, which increased stock prices."
+        },
+        {
+          "id": "C",
+          "text": "Nominal wages decreased as workers accepted cuts in their earnings."
+        },
+        {
+          "id": "D",
+          "text": "The central bank added to its portfolio by purchasing bonds on the open market."
+        },
+        {
+          "id": "E",
+          "text": "Wages and prices were sticky at levels of output less than full employment."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "If the money supply is $40,000, consumer spending is $30,000, and nominal output is $50,000, what is the velocity of money according to the quantity theory of money?",
+      "title": "Calculate velocity",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.6"
+        },
+        {
+          "id": "B",
+          "text": "0.75"
+        },
+        {
+          "id": "C",
+          "text": "0.8"
+        },
+        {
+          "id": "D",
+          "text": "1.25"
+        },
+        {
+          "id": "E",
+          "text": "1.67"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Suppose the marginal propensity to consume is 0.8. If government spending increases by $15 million and personal income taxes increase by $20 million, what will be the maximum possible change in aggregate demand in the short run?",
+      "title": "Expenditure and tax multipliers and AD",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decrease of $5 million"
+        },
+        {
+          "id": "B",
+          "text": "An increase of $5 million"
+        },
+        {
+          "id": "C",
+          "text": "A decrease of $15 million"
+        },
+        {
+          "id": "D",
+          "text": "An increase of $15 million"
+        },
+        {
+          "id": "E",
+          "text": "A decrease of $20 million"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Assume the banking system in Nation K has limited reserves. Which of the following would most likely lead to a decrease in nominal interest rates in Nation K?",
+      "title": "Nation K cause of decreased nominal interest rates",
+      "options": [
+        {
+          "id": "A",
+          "text": "The central bank in Nation K buys government securities."
+        },
+        {
+          "id": "B",
+          "text": "The central bank in Nation K increases the required reserve ratio."
+        },
+        {
+          "id": "C",
+          "text": "The government of Nation K decreases income taxes."
+        },
+        {
+          "id": "D",
+          "text": "The government of Nation K increases unemployment benefits."
+        },
+        {
+          "id": "E",
+          "text": "The government of Nation K increases spending."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of three curves in a coordinate plane. The horizontal axis is labeled “Quantity of Dollars.” No numbers are indicated on the horizontal axis. The vertical axis is labeled “M X N slash U S D,” and the values e sub 1 and e sub 2 are indicated from top to bottom on the axis. The value e sub 1 is located about halfway up the vertical axis, and the value e sub 2 is located about one third of the way up the vertical axis. The curves on the graph are labeled D sub U S D 1, S sub U S D 1, and S sub U S D 2. The D sub U S D 1 curve begins to the right of and about five sixths of the way up the vertical axis, and moves downward and to the right in a straight line. It ends slightly above and about four fifths of the way along the horizontal axis. The S sub U S D 1 curve begins below e sub 2, about one sixth of the way along the horizontal axis, and moves upward and to the right in a straight line. It intersects the D sub U S D 1 curve at e sub 1, and ends about three fourths of the way along the horizontal axis, at about the same height as where the D sub U S D 1 curve begins. The S sub U S D 2 curve begins below and to the right of where the S sub U S D 1 curve begins, and moves upward and to the right in a straight line, parallel to the S sub U S D 1 curve. The S sub U S D 2 curve intersects the D sub U S D 1 curve at e sub 2, and ends just to the right of where the D sub U S D 1 curves ends, slightly below where the S sub U S D 1 curve ends.] The currency of the United States is the United States dollar (USD), and the currency of Mexico is the Mexican peso (MXN). The United States and Mexico are trading partners with flexible exchange rate systems. The graph provided shows the market for the United States dollar. Which of the following events would cause the shift in the supply of dollars from S USD 1 to S USD 2 shown in the graph?",
+      "title": "Cause for increase in supply of dollar",
+      "options": [
+        {
+          "id": "A",
+          "text": "Americans increase their demand for vacations in Mexico."
+        },
+        {
+          "id": "B",
+          "text": "Mexicans increase their demand for vacations in the United States."
+        },
+        {
+          "id": "C",
+          "text": "The United States increases its exports of electronic goods to Mexico."
+        },
+        {
+          "id": "D",
+          "text": "Real income in Mexico increases."
+        },
+        {
+          "id": "E",
+          "text": "The price level in the United States decreases."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "A change in which of the following best measures economic growth?",
+      "title": "Measure of economic growth",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nominal gross domestic product per capita"
+        },
+        {
+          "id": "B",
+          "text": "Real gross domestic product per capita"
+        },
+        {
+          "id": "C",
+          "text": "Government spending per capita"
+        },
+        {
+          "id": "D",
+          "text": "Private-sector spending per capita"
+        },
+        {
+          "id": "E",
+          "text": "Bond purchases per capita"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "If the expected inflation rate is 6%, the nominal interest rate is 2%, and the actual inflation rate is 4%, what is the actual real interest rate?",
+      "title": "Calculate real interest rate",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 4 %"
+        },
+        {
+          "id": "B",
+          "text": "- 2 %"
+        },
+        {
+          "id": "C",
+          "text": "2%"
+        },
+        {
+          "id": "D",
+          "text": "4%"
+        },
+        {
+          "id": "E",
+          "text": "6%"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which of the following statements best describes the long-run aggregate supply curve?",
+      "title": "Describe LRAS",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is vertical because wages and input prices are fixed in the long run."
+        },
+        {
+          "id": "B",
+          "text": "It is vertical because wages and input prices are fully flexible in the long run."
+        },
+        {
+          "id": "C",
+          "text": "It is vertical because potential output is determined by a country’s central bank."
+        },
+        {
+          "id": "D",
+          "text": "It is upward sloping because wages and input prices are fixed in the long run."
+        },
+        {
+          "id": "E",
+          "text": "It is upward sloping because savings increase as interest rates rise."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Shaunland Long Run EQ",
+      "title": "Shaunland Long Run EQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "US Japan fiscal policy foreign exchange",
+      "title": "US Japan fiscal policy foreign exchange",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Liang Island GDP",
+      "title": "Liang Island GDP",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}

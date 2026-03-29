@@ -1,0 +1,2042 @@
+{
+  "examId": "psychology-2025-sample2",
+  "subject": "psychology",
+  "examName": "AP 心理 2025年样题2",
+  "year": "2025-sample2",
+  "totalQuestions": 84,
+  "mcqCount": 84,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Hannah, a first grade student, got out of her classroom seat many times without permission. Her teacher raised her eyebrows before taking Hannah to the principal’s office. The next day another student, Sarah, started to get out of her seat without permission. As soon as the teacher raised her eyebrows, Sarah quickly returned to her seat and the rest of the class sat quietly. Which of the following concepts best applies to the behavior of the class?",
+      "title": "Observational learning - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Superordinate goals"
+        },
+        {
+          "id": "B",
+          "text": "Observational learning"
+        },
+        {
+          "id": "C",
+          "text": "Cognitive dissonance"
+        },
+        {
+          "id": "D",
+          "text": "Latent learning"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Craig walks from outside on a bright sunny day into a dark movie theater. Which of the following types of cells are initially responsible for his adaptation to the darker space?",
+      "title": "Rods adapt to dark - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glial cells, which are responsible for the process of light adaptation"
+        },
+        {
+          "id": "B",
+          "text": "Ganglion cells, which are responsible for processing visual information and transmitting it to the brain"
+        },
+        {
+          "id": "C",
+          "text": "Rods, which are responsible for adaptation to different light levels"
+        },
+        {
+          "id": "D",
+          "text": "Interneurons, which are responsible for processing perceptual information in the brain"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Justina believed that she would never become addicted to smoking cigarettes because her parents taught her that it was wrong. Six months ago, she started smoking with her friends on weekends. Now she smokes throughout the week and believes that smoking is no worse than drinking coffee. Which of the following factors would best explain Justina’s current belief about smoking?",
+      "title": "Cognitive dissonance - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Her highly authoritative parents likely contributed to her current belief."
+        },
+        {
+          "id": "B",
+          "text": "Her growth mindset has led to a change in her beliefs about smoking."
+        },
+        {
+          "id": "C",
+          "text": "Cognitive dissonance led to her current belief."
+        },
+        {
+          "id": "D",
+          "text": "The sunk-cost fallacy influenced her current belief."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Melissa is a math teacher who teaches her students to solve certain types of problems by applying a formula in a systematic, step-by-step process. If a student skips steps in the process, they are more likely to solve the problem incorrectly. Which of the following strategies best reflects Melissa’s approach?",
+      "title": "Algorithm - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Priming"
+        },
+        {
+          "id": "B",
+          "text": "An algorithm"
+        },
+        {
+          "id": "C",
+          "text": "The spacing effect"
+        },
+        {
+          "id": "D",
+          "text": "The availability heuristic"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Kori is a psychologist who works at a care center for older residents. She teaches classes on managing chronic pain using mindfulness and meditation. Kori also evaluates the eating habits, emotions, and relationships of residents to improve their quality of life and reduce their discomfort. Which of the following fields of psychology is best reflected in Kori’s work practices?",
+      "title": "Health psychologist and mindfulness - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Industrial-organizational psychology"
+        },
+        {
+          "id": "B",
+          "text": "Experimental psychology"
+        },
+        {
+          "id": "C",
+          "text": "Evolutionary psychology"
+        },
+        {
+          "id": "D",
+          "text": "Health psychology"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Jenna used treats to train a pig to put a wooden coin into a toy machine. She began by giving a treat whenever the pig got close to the coin. Then, she only gave the pig a treat when it touched the coin with its snout. After that, she only gave the pig a treat when it picked up the coin with its teeth. Eventually, Jenna only gave the pig a treat when it picked up the coin and put it into the toy machine. Which of the following approaches did Jenna use?",
+      "title": "Shaping behavior - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classical conditioning"
+        },
+        {
+          "id": "B",
+          "text": "Observational learning"
+        },
+        {
+          "id": "C",
+          "text": "Change blindness"
+        },
+        {
+          "id": "D",
+          "text": "Shaping"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "After experiencing a recent stroke, Walter has difficulty moving his mouth when trying to speak. The figure shows the lobes of the brain. [图: A side view of a human brain with labels. Refer to long description.] The diagram is labeled as follows: A: frontal lobe B: temporal lobe C: parietal lobe D: occipital lobe Which of the following lobes of the brain as shown in the figure was likely damaged by the stroke?",
+      "title": "Frontal lobe - identifying concept from diagram",
+      "options": [
+        {
+          "id": "A",
+          "text": "A: frontal lobe"
+        },
+        {
+          "id": "B",
+          "text": "B: temporal lobe"
+        },
+        {
+          "id": "C",
+          "text": "C: parietal lobe"
+        },
+        {
+          "id": "D",
+          "text": "D: occipital lobe"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which of the following theories predicts that someone who experiences too much anxiety will likely be diagnosed with an anxiety disorder?",
+      "title": "Arousal theory and anxiety disorder - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation synthesis"
+        },
+        {
+          "id": "B",
+          "text": "Arousal theory"
+        },
+        {
+          "id": "C",
+          "text": "Drive-reduction theory"
+        },
+        {
+          "id": "D",
+          "text": "Opponent-process theory"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Derek is in seventh grade. Derek’s friends and family have noticed that Derek’s voice is getting deeper, and he has more facial hair. Which of the following is most likely developing to cause these changes in Derek’s voice and appearance?",
+      "title": "Secondary sex characteristics - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Primary sex characteristics"
+        },
+        {
+          "id": "B",
+          "text": "Egocentrism"
+        },
+        {
+          "id": "C",
+          "text": "Animism"
+        },
+        {
+          "id": "D",
+          "text": "Secondary sex characteristics"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Researchers conducted a study to examine a new treatment for bipolar disorder. Researchers randomly assigned participants diagnosed with bipolar disorder to either Group 1, which received the new treatment, or Group 2, which received the standard treatment. The study focused on how the treatment affected the overall mood stability of participants compared with those who received the standard treatment. Participants self-reported mood stability scores based on a scale ranging from 1 (least stable) to 10 (most stable), with higher scores indicating greater stability and fewer bipolar symptoms. The data are shown in the tables. Table 1: Group 1 Mood Stability Scores Participant Mood Stability Scores A 6 B 8 C 6 D 5 E 9 F 7 G 8 H 6 I 9 J 6 Table 2: Group 2 Mood Stability Scores Participant Mood Stability Scores A 5 B 6 C 4 D 7 E 3 F 5 G 6 H 4 I 5 J 5 Which of the following scores is the median mood stability score for participants in Group 1?",
+      "title": "Table of mood scores set - median",
+      "options": [
+        {
+          "id": "A",
+          "text": "4.0"
+        },
+        {
+          "id": "B",
+          "text": "6.0"
+        },
+        {
+          "id": "C",
+          "text": "6.5"
+        },
+        {
+          "id": "D",
+          "text": "7.0"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Researchers conducted a study to examine a new treatment for bipolar disorder. Researchers randomly assigned participants diagnosed with bipolar disorder to either Group 1, which received the new treatment, or Group 2, which received the standard treatment. The study focused on how the treatment affected the overall mood stability of participants compared with those who received the standard treatment. Participants self-reported mood stability scores based on a scale ranging from 1 (least stable) to 10 (most stable), with higher scores indicating greater stability and fewer bipolar symptoms. The data are shown in the tables. Table 1: Group 1 Mood Stability Scores Participant Mood Stability Scores A 6 B 8 C 6 D 5 E 9 F 7 G 8 H 6 I 9 J 6 Table 2: Group 2 Mood Stability Scores Participant Mood Stability Scores A 5 B 6 C 4 D 7 E 3 F 5 G 6 H 4 I 5 J 5 Which of the following features indicate that this study is an experiment?",
+      "title": "Table of mood scores set - research method",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using random sampling"
+        },
+        {
+          "id": "B",
+          "text": "Utilizing a cross-sectional design to study participants at a single point in time"
+        },
+        {
+          "id": "C",
+          "text": "Manipulating an independent variable"
+        },
+        {
+          "id": "D",
+          "text": "Employing a case study approach to investigate individual experiences"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Researchers conducted a study to examine a new treatment for bipolar disorder. Researchers randomly assigned participants diagnosed with bipolar disorder to either Group 1, which received the new treatment, or Group 2, which received the standard treatment. The study focused on how the treatment affected the overall mood stability of participants compared with those who received the standard treatment. Participants self-reported mood stability scores based on a scale ranging from 1 (least stable) to 10 (most stable), with higher scores indicating greater stability and fewer bipolar symptoms. The data are shown in the tables. Table 1: Group 1 Mood Stability Scores Participant Mood Stability Scores A 6 B 8 C 6 D 5 E 9 F 7 G 8 H 6 I 9 J 6 Table 2: Group 2 Mood Stability Scores Participant Mood Stability Scores A 5 B 6 C 4 D 7 E 3 F 5 G 6 H 4 I 5 J 5 What is the independent variable in this study?",
+      "title": "Table of mood scores set - independent variable",
+      "options": [
+        {
+          "id": "A",
+          "text": "How participants are sampled from the population"
+        },
+        {
+          "id": "B",
+          "text": "Standard treatment or receiving the new treatment"
+        },
+        {
+          "id": "C",
+          "text": "Participants diagnosed with bipolar disorder"
+        },
+        {
+          "id": "D",
+          "text": "The self-reported mood stability scores"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "The members of Devlin’s new soccer team wear ribbons in their hair on game days that match their team’s colors. After witnessing this behavior for the first two games, Devlin arrives at the third game with ribbons in her hair that match the team’s colors. Which of the following has occurred to influence Devlin’s behavior?",
+      "title": "Normative social influence - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normative social influence"
+        },
+        {
+          "id": "B",
+          "text": "Obedience"
+        },
+        {
+          "id": "C",
+          "text": "Social facilitation"
+        },
+        {
+          "id": "D",
+          "text": "Groupthink"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Holly was injured in a car accident. Her doctor prescribed a medication that increases the action of endorphins to decrease pain. Which of the following statements best describes this medication?",
+      "title": "Agonist - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "It functions as an agonist."
+        },
+        {
+          "id": "B",
+          "text": "It produces aphasia."
+        },
+        {
+          "id": "C",
+          "text": "It accelerates sensory interaction."
+        },
+        {
+          "id": "D",
+          "text": "It acts as an antagonist."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "In his psychology class, Keenan was learning about the various ways people respond to and cope with stressful life events. While he believed that both men and women dealt with stress in the same way, his teacher explained that women are much more likely than men to reach out to friends to both give and receive support. Upon learning this, Keenan told a classmate this finding was totally predictable and obvious because women are typically more nurturing than men. Keenan’s thinking is most clearly an example of which of the following concepts?",
+      "title": "Hindsight bias and tend and befriend - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overconfidence"
+        },
+        {
+          "id": "B",
+          "text": "Hindsight bias"
+        },
+        {
+          "id": "C",
+          "text": "Confirmation bias"
+        },
+        {
+          "id": "D",
+          "text": "Convergent thinking"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "When Rowan was six years old, his father took him to see a tennis match. Rowan enjoyed learning the rules of the game and watching the players hit the ball back and forth across the net with their tennis racquets. Five months later, Rowan’s aunt took him to a park to play pickleball, a game similar to tennis. He had a great afternoon learning to hit the ball back and forth with the pickleball paddle instead of a tennis racquet. That night, Rowan told his parents that he had a great time playing “tennis” with his aunt. Which of the following concepts relates to Rowan’s schema in this scenario?",
+      "title": "Assimilation - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accommodation"
+        },
+        {
+          "id": "B",
+          "text": "Altruism"
+        },
+        {
+          "id": "C",
+          "text": "Algorithms"
+        },
+        {
+          "id": "D",
+          "text": "Assimilation"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "When Simon opens a new coffee shop, he offers to give each customer a free cup of coffee on their birthday. He hopes this will make people more likely to buy coffee at his shop in the future. Which of the following principles underlies Simon’s strategy?",
+      "title": "Social reciprocity norm - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupthink"
+        },
+        {
+          "id": "B",
+          "text": "The social reciprocity norm"
+        },
+        {
+          "id": "C",
+          "text": "The door-in-the-face phenomenon"
+        },
+        {
+          "id": "D",
+          "text": "Conformity"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Dr. Courlas conducts sleep research and studies the amount of time participants spend in different stages of sleep. The data are shown in the table. Time Spent in Different Stages of Sleep Participant Minutes in Stages 1 and 2 Minutes in Stage 3 Minutes in REM Sleep A 208 87 105 B 220 84 108 C 214 89 111 D 228 92 116 E 227 90 119 Which of the following most accurately describes the data in the table?",
+      "title": "Stages of sleep table - range",
+      "options": [
+        {
+          "id": "A",
+          "text": "The median time spent in stages 1 and 2 is 214 minutes."
+        },
+        {
+          "id": "B",
+          "text": "The mode time spent in REM sleep is 111 minutes."
+        },
+        {
+          "id": "C",
+          "text": "The range of time spent in stages 1 and 2 is 20 minutes."
+        },
+        {
+          "id": "D",
+          "text": "The mean time spent in stage 3 is 9 minutes."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Researchers examined infants’ depth perception in what is known as the visual cliff experiment. Which of the following statements might be an ethical concern related to using a visual cliff with infants?",
+      "title": "Visual cliff study - ethics guidelines",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infants could have experienced distress when they looked at the visual drop or were encouraged by their mothers to cross it."
+        },
+        {
+          "id": "B",
+          "text": "The researchers did not obtain informed consent from the infants participating in the study."
+        },
+        {
+          "id": "C",
+          "text": "Infants’ depth perception could have been fundamentally altered by the study, putting the children at risk."
+        },
+        {
+          "id": "D",
+          "text": "It is always unethical to study how children develop fears, such as a fear of heights."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Three-year-old Antra avoids eye contact, lacks facial expressions, and struggles to show empathy for others who are upset. Which of the following disorders is most consistent with these symptoms?",
+      "title": "Autism spectrum disorder - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Major depressive disorder"
+        },
+        {
+          "id": "B",
+          "text": "ADHD"
+        },
+        {
+          "id": "C",
+          "text": "Antisocial personality disorder"
+        },
+        {
+          "id": "D",
+          "text": "Autism spectrum disorder"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Researchers randomly selected 300 adults whom they interviewed about their perception of crime rates from 2002 to 2016. These perceived crime rates were then compared to actual crime rates, and the results of this comparison over that period are depicted in the graph. [图: A line graph titled Changes in Actual Crime Versus Perceived Crime. The horizontal axis is labeled Year. It ranges from 2002 to 2016 in increments of 2. The vertical axis is labeled Percentage Change. It ranges from negative 12 to 6 in increments of 2. Refer to long description.] Changes in Actual Crime Versus Perceived Crime All values are approximate. The following 2 lines are shown: Real crime Perceived crime The Real crime line: Begins at 2002: negative 6.5% Falls to 2004: negative 10.8% Rises to 2008: negative 5% Remains level to 2010: negative 5% Rises to 2012: negative 0.1% Falls to 2014: negative 8.3% Rises to 2016: negative 2.3% The Perceived crime line: Begins at 2002: negative 0.7% Rises to 2004: 0% Rises to 2006: 1.9% Falls to 2008: 1% Rises to 2010: 2.1% Falls to 2012: negative 2.8% Rises to 2014: negative 0.7% Rises to 2016: 4% Which of the following conclusions is correct based on the overall results of this study?",
+      "title": "Qualitative set crime rates - conclusions of study",
+      "options": [
+        {
+          "id": "A",
+          "text": "Participants expected the actual crime rate to remain relatively stable over the length of the study."
+        },
+        {
+          "id": "B",
+          "text": "Participants mostly perceived the crime rate to be higher than it was."
+        },
+        {
+          "id": "C",
+          "text": "Participants’ predictions accurately tracked the actual crime rate."
+        },
+        {
+          "id": "D",
+          "text": "Participants believed that the crime rate decreased slowly over the length of the study."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Researchers randomly selected 300 adults whom they interviewed about their perception of crime rates from 2002 to 2016. These perceived crime rates were then compared to actual crime rates, and the results of this comparison over that period are depicted in the graph. [图: A line graph titled Changes in Actual Crime Versus Perceived Crime. The horizontal axis is labeled Year. It ranges from 2002 to 2016 in increments of 2. The vertical axis is labeled Percentage Change. It ranges from negative 12 to 6 in increments of 2. Refer to long description.] Changes in Actual Crime Versus Perceived Crime All values are approximate. The following 2 lines are shown: Real crime Perceived crime The Real crime line: Begins at 2002: negative 6.5% Falls to 2004: negative 10.8% Rises to 2008: negative 5% Remains level to 2010: negative 5% Rises to 2012: negative 0.1% Falls to 2014: negative 8.3% Rises to 2016: negative 2.3% The Perceived crime line: Begins at 2002: negative 0.7% Rises to 2004: 0% Rises to 2006: 1.9% Falls to 2008: 1% Rises to 2010: 2.1% Falls to 2012: negative 2.8% Rises to 2014: negative 0.7% Rises to 2016: 4% Because violent crimes often become the lead story in news headlines, which of the following psychological concepts best explains why participants may have overestimated the crime rate for each year from 2002 to 2016?",
+      "title": "Qualitative set crime rates - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Algorithm"
+        },
+        {
+          "id": "B",
+          "text": "Accommodation"
+        },
+        {
+          "id": "C",
+          "text": "Availability heuristic"
+        },
+        {
+          "id": "D",
+          "text": "Prototype"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Researchers randomly selected 300 adults whom they interviewed about their perception of crime rates from 2002 to 2016. These perceived crime rates were then compared to actual crime rates, and the results of this comparison over that period are depicted in the graph. [图: A line graph titled Changes in Actual Crime Versus Perceived Crime. The horizontal axis is labeled Year. It ranges from 2002 to 2016 in increments of 2. The vertical axis is labeled Percentage Change. It ranges from negative 12 to 6 in increments of 2. Refer to long description.] Changes in Actual Crime Versus Perceived Crime All values are approximate. The following 2 lines are shown: Real crime Perceived crime The Real crime line: Begins at 2002: negative 6.5% Falls to 2004: negative 10.8% Rises to 2008: negative 5% Remains level to 2010: negative 5% Rises to 2012: negative 0.1% Falls to 2014: negative 8.3% Rises to 2016: negative 2.3% The Perceived crime line: Begins at 2002: negative 0.7% Rises to 2004: 0% Rises to 2006: 1.9% Falls to 2008: 1% Rises to 2010: 2.1% Falls to 2012: negative 2.8% Rises to 2014: negative 0.7% Rises to 2016: 4% In a subsequent study, researchers randomly assigned participants to one of two groups to determine whether viewing a video on actual crime rates enabled participants to make more accurate predictions. One group watched a video about the actual crime rates in recent years, and the other group watched an unrelated video. What is the independent variable in this study?",
+      "title": "Qualitative set crime rates - independent variable",
+      "options": [
+        {
+          "id": "A",
+          "text": "The participants’ estimates of the crime rate after watching either the video about actual crime rates or the unrelated video"
+        },
+        {
+          "id": "B",
+          "text": "The participants’ predictions of the crime rate before watching the video"
+        },
+        {
+          "id": "C",
+          "text": "The amount of information participants already had regarding the crime rate before the study"
+        },
+        {
+          "id": "D",
+          "text": "The video that the participants watched"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of the following ethical considerations is typically raised by research on conformity?",
+      "title": "Conformity research - ethical guidelines",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is typically not possible to debrief participants in this type of study."
+        },
+        {
+          "id": "B",
+          "text": "Participants often cannot be told the true purpose at the start of the study."
+        },
+        {
+          "id": "C",
+          "text": "Institutional Review Boards will not approve research that studies conformity."
+        },
+        {
+          "id": "D",
+          "text": "Confidentiality of data from individual participants cannot be ensured with this type of study."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which of the following scenarios is the best example of discrimination in operant conditioning?",
+      "title": "Operant conditioning discrimination - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "A dog runs to its owner when the owner opens the drawer containing the dog’s treats but the dog does not react when its owner opens other drawers."
+        },
+        {
+          "id": "B",
+          "text": "A property owner refuses to rent to families with children, individuals with disabilities, and individuals over the age of 65."
+        },
+        {
+          "id": "C",
+          "text": "A dog salivates to the sound of a bell but does not salivate to other, similar sounds."
+        },
+        {
+          "id": "D",
+          "text": "A student consistently earns high scores on tests with only multiple-choice questions but struggles on tests with only essay questions."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Dr. Diamond collects data from employee evaluations at Company ABC, which is investigating why accidents occur in the workplace. She groups the evaluators’ comments into two categories and determines that the evaluators used either a situational or a dispositional attribution in their evaluations. Her findings are represented in the graph. [图: Bar graph titled Evaluators’ Attributions. The horizontal axis is labeled Type of Comment. 2 bars are shown. The vertical axis is labeled Number of Evaluator Comments. It ranges from 0 to 10 in increments of 1. Refer to long description.] Evaluators’ Attributions The Number of Evaluator Comments data for the 2 bars are as follows: Situational Attributions: 2 Dispositional Attributions: 10 Based on the graph, which of the following concepts is being demonstrated by the evaluators?",
+      "title": "Graph of attributions - concept identification",
+      "options": [
+        {
+          "id": "A",
+          "text": "Self-serving bias"
+        },
+        {
+          "id": "B",
+          "text": "Availability heuristic"
+        },
+        {
+          "id": "C",
+          "text": "Fundamental attribution error"
+        },
+        {
+          "id": "D",
+          "text": "Self-fulfilling prophecy"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "A research team plans to study the correlation between genetic predisposition to and incidence of schizophrenia. Which of the following variables would be of most direct interest to this research team as they study this correlation?",
+      "title": "Schizophrenia study - variable identification",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environmental exposure to biological relatives and the number of symptoms of schizophrenia displayed"
+        },
+        {
+          "id": "B",
+          "text": "The number of siblings a person has"
+        },
+        {
+          "id": "C",
+          "text": "The severity of the illness and the number of environmental stressors"
+        },
+        {
+          "id": "D",
+          "text": "Similarity rates of diagnosis in family members and how much genetic material they share"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Dr. Xiang examined a 21-year-old patient who had fallen and hit their head. After a brain scan was conducted, Dr. Xiang discovered that the patient was missing their cerebellum. Dr. Xiang extensively interviewed the patient and their family and learned that the patient had a long history of balance and coordination problems. Based on this patient, Dr. Xiang tells her colleague that anyone who is missing their cerebellum will always experience balance and coordination problems. Which of the following responses from Dr. Xiang’s colleague would be the most appropriate?",
+      "title": "Cerebellum damage study - research method",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Xiang cannot generalize her findings to the larger population because she used a single case study."
+        },
+        {
+          "id": "B",
+          "text": "Dr. Xiang cannot make causal inferences because she conducted a naturalistic observation."
+        },
+        {
+          "id": "C",
+          "text": "Dr. Xiang can generalize her findings to the larger population because she had a representative sample."
+        },
+        {
+          "id": "D",
+          "text": "Dr. Xiang can make causal inferences because she conducted a longitudinal study."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Wyatt can hold a bottle between his fingers and palm at age six months, yet he is unable to grasp a piece of cereal between his thumb and index finger until age nine months. Which of the following descriptions best represents the developmental perspective regarding these milestones in physical development?",
+      "title": "Infant physical development - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "The age at which each grasping technique develops is dependent on the frequency of practice and modeling."
+        },
+        {
+          "id": "B",
+          "text": "The exact age at which each grasping technique develops varies from infant to infant, but the order in which these physical stages occur is the same."
+        },
+        {
+          "id": "C",
+          "text": "Most infants learn the finger-to-palm grasp more quickly than the thumb-to-index-finger grasp because of early bottle feeding."
+        },
+        {
+          "id": "D",
+          "text": "Grasping an object between the index finger and thumb requires a level of adrenaline in the prefrontal cortex not present at age six months."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which of the following scenarios is an example of the gambler’s fallacy?",
+      "title": "Gamblers fallacy - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anita’s friend refused her request to donate $200 to a charity, but then her friend agreed to donate $20 to the charity."
+        },
+        {
+          "id": "B",
+          "text": "Marie was so focused on picking a card from the cards laid out on a table that she did not notice when the magician exchanged places with his assistant."
+        },
+        {
+          "id": "C",
+          "text": "After his favorite team lost three games in a row, Doug was certain that they would win the next one, so he bought an expensive ticket to attend the next game."
+        },
+        {
+          "id": "D",
+          "text": "After spending over two hours negotiating at the car dealership, Sean decided that he should purchase a car, even though he was not getting his target purchase price."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Ken had a very challenging interaction with one of his closest friends in which hurtful words were exchanged. After considering possible solutions, Ken decided that while it might be uncomfortable at first, the best solution was to confront his friend directly to discuss what happened and work toward a solution. Which of the following approaches to alleviating a stressful situation is most consistent with Ken’s strategy?",
+      "title": "Problem-focused coping - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Problem-focused coping"
+        },
+        {
+          "id": "B",
+          "text": "Emotion-focused coping"
+        },
+        {
+          "id": "C",
+          "text": "An approach-approach conflict"
+        },
+        {
+          "id": "D",
+          "text": "An external locus of control"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Dr. Costa sampled a group of 500 middle-aged men to study the relationship between self-reported levels of church attendance and scores on a self-actualization scale. Which of the following research methods is Dr. Costa using to investigate these variables?",
+      "title": "Self-actualizing tendency study - research method",
+      "options": [
+        {
+          "id": "A",
+          "text": "An experiment"
+        },
+        {
+          "id": "B",
+          "text": "A naturalistic observation"
+        },
+        {
+          "id": "C",
+          "text": "A correlational study"
+        },
+        {
+          "id": "D",
+          "text": "A case study"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Researchers at an advertising agency conducted a study to determine whether classical conditioning principles could influence consumers' preferences for a particular product. They randomly assigned 100 college students from a nearby university to one of two groups. Both groups watched a commercial for the same brand of shoes. One group watched a commercial that did not feature a celebrity endorsement, while the second group watched a commercial that featured a celebrity endorsement from a physically attractive celebrity. The participants were exposed to these ads multiple times a day for two weeks. At the end of the two weeks, the participants were asked to rate, on a scale of 1 to 10, how likely they were to purchase the brand of shoes advertised in the commercial they watched. Which of the following statements most accurately describes why this study is an experiment?",
+      "title": "Classical conditioning study set - research method",
+      "options": [
+        {
+          "id": "A",
+          "text": "The researchers operationally defined the variables."
+        },
+        {
+          "id": "B",
+          "text": "The participants were randomly assigned to one of two groups."
+        },
+        {
+          "id": "C",
+          "text": "The sample was representative of the population being observed."
+        },
+        {
+          "id": "D",
+          "text": "The researchers proposed a hypothesis."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Researchers at an advertising agency conducted a study to determine whether classical conditioning principles could influence consumers' preferences for a particular product. They randomly assigned 100 college students from a nearby university to one of two groups. Both groups watched a commercial for the same brand of shoes. One group watched a commercial that did not feature a celebrity endorsement, while the second group watched a commercial that featured a celebrity endorsement from a physically attractive celebrity. The participants were exposed to these ads multiple times a day for two weeks. At the end of the two weeks, the participants were asked to rate, on a scale of 1 to 10, how likely they were to purchase the brand of shoes advertised in the commercial they watched. Which of the following best describes the experimental group in this research design?",
+      "title": "Classical conditioning study set - research groups",
+      "options": [
+        {
+          "id": "A",
+          "text": "All 100 participants in the study were part of the experimental group."
+        },
+        {
+          "id": "B",
+          "text": "The group that watched a commercial for the shoes that did not include a celebrity endorsement was the experimental group."
+        },
+        {
+          "id": "C",
+          "text": "The group that watched a commercial for the shoes featuring a physically attractive celebrity was the experimental group."
+        },
+        {
+          "id": "D",
+          "text": "This research did not involve an experimental group because there was no independent variable."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Researchers at an advertising agency conducted a study to determine whether classical conditioning principles could influence consumers' preferences for a particular product. They randomly assigned 100 college students from a nearby university to one of two groups. Both groups watched a commercial for the same brand of shoes. One group watched a commercial that did not feature a celebrity endorsement, while the second group watched a commercial that featured a celebrity endorsement from a physically attractive celebrity. The participants were exposed to these ads multiple times a day for two weeks. At the end of the two weeks, the participants were asked to rate, on a scale of 1 to 10, how likely they were to purchase the brand of shoes advertised in the commercial they watched. Which of the following psychological perspectives is linked most closely to the research presented in the study?",
+      "title": "Classical conditioning study set - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Humanistic"
+        },
+        {
+          "id": "B",
+          "text": "Biological"
+        },
+        {
+          "id": "C",
+          "text": "Psychodynamic"
+        },
+        {
+          "id": "D",
+          "text": "Behavioral"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Danny has an intense fear of snakes. At the sight of a snake, he experiences a powerful fight-flight-freeze response. He avoids all places where he thinks snakes might be. Danny is most likely to be diagnosed with which of the following anxiety disorders?",
+      "title": "Specific phobia - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agoraphobia"
+        },
+        {
+          "id": "B",
+          "text": "Social anxiety disorder"
+        },
+        {
+          "id": "C",
+          "text": "Generalized anxiety disorder"
+        },
+        {
+          "id": "D",
+          "text": "A specific phobia"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Dr. Robles conducted a study to investigate the influence of emotion on problem-solving ability. She randomly assigned 100 participants to two groups of 50. One group was shown a series of 15 highly emotional video clips and then categorized a list of 60 words using 10 different concepts. The other group categorized the list of words using the 10 concepts without watching any video clips. Dr. Robles calculated each participant’s score based on categorizing words under the correct concepts. The more words participants categorized correctly, the higher their score. What is the operational definition of the dependent variable in this study?",
+      "title": "Emotion study - dependent variable",
+      "options": [
+        {
+          "id": "A",
+          "text": "The exposure to 15 highly emotional video clips"
+        },
+        {
+          "id": "B",
+          "text": "The group that categorized the list of words without watching any video clips"
+        },
+        {
+          "id": "C",
+          "text": "The score given for accurately categorizing words under the concepts"
+        },
+        {
+          "id": "D",
+          "text": "The 100 participants being randomly assigned to two groups of 50"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Mr. Berndt is teaching his AP Psychology class about the nervous system. Which of the following statements would best help students accurately differentiate between the primary roles of glial cells and neurons?",
+      "title": "Glial cells - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glial cells release chemicals known as neurotransmitters into the synapses, while neurons provide structural support."
+        },
+        {
+          "id": "B",
+          "text": "Glial cells provide support, insulation, and waste removal functions for neurons, while neurons create and transmit electrical impulses between cells."
+        },
+        {
+          "id": "C",
+          "text": "Glial cells and neurons are both involved in processing sensory information, while primarily glial cells receive and process sensory input from the external environment."
+        },
+        {
+          "id": "D",
+          "text": "Glial cells are found in both the peripheral and central nervous systems, while neurons are only found in the central nervous system."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Dr. Altman is a psychologist who wants to learn more about the recycling behaviors of students on college campuses. He speaks with students and records their answers about how many students support recycling but do not always engage in recycling behaviors and feel guilty about their lack of action. Which of the following measurement tools is Dr. Altman using?",
+      "title": "Attitudes about recycling - research procedures",
+      "options": [
+        {
+          "id": "A",
+          "text": "An interview"
+        },
+        {
+          "id": "B",
+          "text": "A projective test"
+        },
+        {
+          "id": "C",
+          "text": "A factor analysis"
+        },
+        {
+          "id": "D",
+          "text": "A Likert scale"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Four-year-old Ethan and his mother have the following conversation: MOTHER: Ethan, do you have a brother? ETHAN: Yes. MOTHER: What’s his name? ETHAN: My brother’s name is Anthony. MOTHER: Does Anthony have a brother? ETHAN: No. Which of the following concepts does this conversation illustrate?",
+      "title": "Egocentrism in children - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conservation"
+        },
+        {
+          "id": "B",
+          "text": "Animism"
+        },
+        {
+          "id": "C",
+          "text": "Object permanence"
+        },
+        {
+          "id": "D",
+          "text": "Egocentrism"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of the following scenarios best describes a person experiencing an approach-avoidance conflict?",
+      "title": "Approach-avoidance - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jorge has been accepted by his top two choices for college, both of which offer great programs and opportunities. He is struggling to choose one before the final deadline."
+        },
+        {
+          "id": "B",
+          "text": "Zephyr is offered admission and a scholarship to a great college. They would like to accept, but the college is 200 miles from their home and the scholarship does not include the high cost of housing."
+        },
+        {
+          "id": "C",
+          "text": "Dayane is thirteen years old and has started to question authority, including rebelling against her parents. She has started to take risks, role-play ways of behaving, and consider her future career plans."
+        },
+        {
+          "id": "D",
+          "text": "Mayra has always said that she would never disobey her parents. However, one night she sneaks home late after curfew. She feels discomfort about her actions and decides never to do this again."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Students enrolled in an introductory psychology course want to examine the bystander effect on their campus. The students devise a study in which one of them will pretend to fall while riding a scooter. The students choose a confederate from among the group to ride the scooter. The confederate will fall at the same location when many students are present. Then, the next day, the confederate will fall at the same location when fewer students are present. After each fall, the confederate will record whether they are helped. Which of the following best represents the description of an independent variable in this study?",
+      "title": "Bystander effect - independent variable",
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of people at the location when the confederate fell"
+        },
+        {
+          "id": "B",
+          "text": "The level of experience of the scooter rider"
+        },
+        {
+          "id": "C",
+          "text": "The location on the campus where the confederate fell"
+        },
+        {
+          "id": "D",
+          "text": "The students on campus who watched the confederate fall off the scooter"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Abby and Jordan are doing a presentation for their AP Psychology class about the role oxytocin plays in the body. Which of the following statements would be best to include in their description of oxytocin?",
+      "title": "Oxytocin - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "It regulates appetite by signaling fullness and by helping to control food intake."
+        },
+        {
+          "id": "B",
+          "text": "It increases mental alertness, concentration, and focus."
+        },
+        {
+          "id": "C",
+          "text": "It promotes parent and infant bonding."
+        },
+        {
+          "id": "D",
+          "text": "It influences the sleep/wake cycle by managing the body’s internal clock."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "For more than a year, Demyana has experienced consistently high levels of distress. She has experienced distress in her school life, work life, and relationships with her peers. Which of the following statements is most likely true of Demyana?",
+      "title": "Immune system distress - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "She has experienced immune suppression due to the prolonged high level of distress."
+        },
+        {
+          "id": "B",
+          "text": "She has been using emotion-focused coping to successfully relieve her distress."
+        },
+        {
+          "id": "C",
+          "text": "She has experienced fewer symptoms of anxiety and depression."
+        },
+        {
+          "id": "D",
+          "text": "She has experienced instinctive drift through these many challenges."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "While walking home, Leo saw his girlfriend hugging someone. His heart began to race, he began to sweat, and he felt tears in his eyes beginning to form. In response to those physical reactions, Leo thought, “I am feeling sad.” As he got closer to them, Leo recognized the person his girlfriend had been hugging as her brother. As his heart continued to pound, Leo felt happiness and he thought, “She still loves me.” Which of the following concepts best explains Leo’s interpretation of his physical responses in this scenario?",
+      "title": "Cognitive appraisal of emotion - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "The facial-feedback hypothesis"
+        },
+        {
+          "id": "B",
+          "text": "Parasympathetic nervous system activity"
+        },
+        {
+          "id": "C",
+          "text": "Display rules"
+        },
+        {
+          "id": "D",
+          "text": "Cognitive appraisal"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Clara has test anxiety. Her teacher taps his pen while students are taking a test. After several test days, Clara experiences anxiety when she hears this tapping, even on days when there is no test. Which of the following statements is true about this scenario?",
+      "title": "Classical conditioning response - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Her fear of the test is the conditioned response (CR)."
+        },
+        {
+          "id": "B",
+          "text": "The tapping of the pen is the unconditioned stimulus (UCS)."
+        },
+        {
+          "id": "C",
+          "text": "Her fear when she hears the tapping when there is no test is the conditioned response (CR)."
+        },
+        {
+          "id": "D",
+          "text": "A test in this class is the conditioned stimulus (CS)."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Dr. Sperry records a video of Jim, a participant in split-brain research, and then plays it in class to teach students about hemispheric differences. Which of the following procedures should Dr. Sperry use to show the video in class?",
+      "title": "Split-brain study - ethical guidelines",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obtain Jim’s permission to use the video."
+        },
+        {
+          "id": "B",
+          "text": "Use only Jim’s first name."
+        },
+        {
+          "id": "C",
+          "text": "Debrief Jim after the research session."
+        },
+        {
+          "id": "D",
+          "text": "Demonstrate the educational value of the video to Jim."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "A recent study aimed to investigate the relationship between attribution and high school grade point average (GPA). As part of this study, high school students were asked to complete an attribution inventory that assessed their beliefs about the factors that determine their high school GPA. These factors included whether students believed their GPA was due to their intelligence and determination or luck. The researchers focused on students who attributed their high school GPA to luck and compared their attribution inventory score with their actual high school GPA, which is shown in the graph. Higher scores indicate a more external attribution for GPA. [图: A scatterplot titled Attribution Inventory Score and Grade Point Average. The horizontal axis is labeled Grade Point Average. It ranges from 0 to 4. The vertical axis is labeled Attribution Inventory Score. It ranges from 0 to 10. Refer to long description.] Attribution Inventory Score and Grade Point Average The scatterplot has 14 data points. The data points are in a linear pattern trending down from left to right. The data points have the following approximate (Grade Point Average comma Attribution Inventory Score) coordinates: (2 comma 10) (2 comma 9) (2 comma 8) (2 comma 7) (2.3 comma 6) (2.6 comma 8) (2.6 comma 5) (3 comma 6) (3.1 comma 7) (3.2 comma 8) (3.7 comma 3) (3.8 comma 4) (3.8 comma 1) (4 comma 0) A line of best fit is shown: The line of best fit slants down from left to right. The line of best fit passes through the following approximate (Grade Point Average comma Attribution Inventory Score) coordinates: (2 comma 9) (3 comma 5) Which of the following is a correct interpretation of the results given in the graph?",
+      "title": "Attributions and GPA - graph interpretation",
+      "options": [
+        {
+          "id": "A",
+          "text": "The students’ belief in luck and its effect on GPA regresses towards the mean, and is thus important for students to understand."
+        },
+        {
+          "id": "B",
+          "text": "If students believe that luck makes a difference in their grades, it causes them to earn lower GPAs."
+        },
+        {
+          "id": "C",
+          "text": "The less students believe that luck plays a significant role in their GPA, the lower their GPAs are."
+        },
+        {
+          "id": "D",
+          "text": "The more students believe that luck plays a significant role in their GPA, the lower their GPAs are."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "A recent study aimed to investigate the relationship between attribution and high school grade point average (GPA). As part of this study, high school students were asked to complete an attribution inventory that assessed their beliefs about the factors that determine their high school GPA. These factors included whether students believed their GPA was due to their intelligence and determination or luck. The researchers focused on students who attributed their high school GPA to luck and compared their attribution inventory score with their actual high school GPA, which is shown in the graph. Higher scores indicate a more external attribution for GPA. [图: A scatterplot titled Attribution Inventory Score and Grade Point Average. The horizontal axis is labeled Grade Point Average. It ranges from 0 to 4. The vertical axis is labeled Attribution Inventory Score. It ranges from 0 to 10. Refer to long description.] Attribution Inventory Score and Grade Point Average The scatterplot has 14 data points. The data points are in a linear pattern trending down from left to right. The data points have the following approximate (Grade Point Average comma Attribution Inventory Score) coordinates: (2 comma 10) (2 comma 9) (2 comma 8) (2 comma 7) (2.3 comma 6) (2.6 comma 8) (2.6 comma 5) (3 comma 6) (3.1 comma 7) (3.2 comma 8) (3.7 comma 3) (3.8 comma 4) (3.8 comma 1) (4 comma 0) A line of best fit is shown: The line of best fit slants down from left to right. The line of best fit passes through the following approximate (Grade Point Average comma Attribution Inventory Score) coordinates: (2 comma 9) (3 comma 5) Which of the following correlation coefficients best represents the relationship between attribution inventory scores and high school GPAs?",
+      "title": "Attributions and GPA - correlation coefficients",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.85"
+        },
+        {
+          "id": "B",
+          "text": "- 0.75"
+        },
+        {
+          "id": "C",
+          "text": "- 0.02"
+        },
+        {
+          "id": "D",
+          "text": "0.49"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "A recent study aimed to investigate the relationship between attribution and high school grade point average (GPA). As part of this study, high school students were asked to complete an attribution inventory that assessed their beliefs about the factors that determine their high school GPA. These factors included whether students believed their GPA was due to their intelligence and determination or luck. The researchers focused on students who attributed their high school GPA to luck and compared their attribution inventory score with their actual high school GPA, which is shown in the graph. Higher scores indicate a more external attribution for GPA. [图: A scatterplot titled Attribution Inventory Score and Grade Point Average. The horizontal axis is labeled Grade Point Average. It ranges from 0 to 4. The vertical axis is labeled Attribution Inventory Score. It ranges from 0 to 10. Refer to long description.] Attribution Inventory Score and Grade Point Average The scatterplot has 14 data points. The data points are in a linear pattern trending down from left to right. The data points have the following approximate (Grade Point Average comma Attribution Inventory Score) coordinates: (2 comma 10) (2 comma 9) (2 comma 8) (2 comma 7) (2.3 comma 6) (2.6 comma 8) (2.6 comma 5) (3 comma 6) (3.1 comma 7) (3.2 comma 8) (3.7 comma 3) (3.8 comma 4) (3.8 comma 1) (4 comma 0) A line of best fit is shown: The line of best fit slants down from left to right. The line of best fit passes through the following approximate (Grade Point Average comma Attribution Inventory Score) coordinates: (2 comma 9) (3 comma 5) In the study, students who believe that their GPA is based on their intellect and determination are demonstrating which of the following concepts?",
+      "title": "Attributions and GPA - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relative deprivation"
+        },
+        {
+          "id": "B",
+          "text": "Situational attribution"
+        },
+        {
+          "id": "C",
+          "text": "Dispositional attribution"
+        },
+        {
+          "id": "D",
+          "text": "External locus of control"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "A memory researcher conducted a study to determine whether words are easier or harder to recall based on when they are presented in a sequence of words. She read a list of words to participants for 60 seconds at a constant rate. Each word was read once, and no words were repeated. The participants were tested on their recall of the words. The results are given in the graph. Number of Words Recalled as a Function of When Read [图: Bar graph titled Number of Words Recalled as a Function of When Read. The horizontal axis has no label. 3 bars are shown. The vertical axis is labeled Number of Words Recalled. It ranges from 0 to 20 in increments of 2. Refer to long description.] The Number of Words Recalled data for the 3 bars are as follows: First 20 Seconds: 16 Second 20 Seconds: 8 Third 20 Seconds: 18 Which of the following concepts is consistent with these findings?",
+      "title": "Serial position effect graph - identify concept",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proactive interference"
+        },
+        {
+          "id": "B",
+          "text": "Retrograde amnesia"
+        },
+        {
+          "id": "C",
+          "text": "Serial position effect"
+        },
+        {
+          "id": "D",
+          "text": "Forgetting curve"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which of the following is the best example of a behavior reinforced on a variable-interval schedule?",
+      "title": "Variable interval schedule - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tae sends an important text message to her boss to ask if she can miss work to attend a game. She keeps checking her phone to see if her boss has responded because she does not know how long it will take for them to respond."
+        },
+        {
+          "id": "B",
+          "text": "Ximena responds to surveys on a website because the site offers occasional cash rewards for completing surveys. She responds to a large number of surveys on the site because she does not know how many she must complete to earn the cash rewards."
+        },
+        {
+          "id": "C",
+          "text": "Cody sells cell phones and monthly home internet subscriptions, earning $50 for every three phones sold and $100 for every five subscriptions sold."
+        },
+        {
+          "id": "D",
+          "text": "Alexander arrives at the train station at 7:00 a.m. every day because his train arrives at 7:05 a.m."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Each night before bed, Raymond enjoys drinking a cup of tea. He enjoys the scent of fragrant teas because the scent enhances the flavor of the tea. During a recent bad cold, Raymond lost his enjoyment for drinking tea. Which of the following concepts best explains why Raymond lost his enjoyment for drinking tea during his cold?",
+      "title": "Sensory interaction - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sensory interaction"
+        },
+        {
+          "id": "B",
+          "text": "Accommodation"
+        },
+        {
+          "id": "C",
+          "text": "Prosopagnosia"
+        },
+        {
+          "id": "D",
+          "text": "Synesthesia"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "When examining case studies of individuals diagnosed with dissociative disorders, which of the following have researchers found to be true?",
+      "title": "Dissociative disorders - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excessive amounts of dopamine in the brain lead to symptoms associated with dissociative disorders."
+        },
+        {
+          "id": "B",
+          "text": "Dissociative disorders develop as a way for individuals to cope with trauma."
+        },
+        {
+          "id": "C",
+          "text": "Personality traits appear to be unrelated to the development of dissociative disorders."
+        },
+        {
+          "id": "D",
+          "text": "Individuals diagnosed with dissociative disorders have more vivid episodic memories than those not diagnosed with dissociative disorders."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "As part of the selection process for program placement and apprenticeship opportunities, a college requires that applicants take a standardized intelligence test. Which of the following actions must the college take for this practice to be ethical?",
+      "title": "Standardized testing study - ethical guidelines",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ensure the confidentiality of the applicants"
+        },
+        {
+          "id": "B",
+          "text": "Assign half of the applicants to take a math test to serve as a control group"
+        },
+        {
+          "id": "C",
+          "text": "Explain to the applicants that the test has predictive validity"
+        },
+        {
+          "id": "D",
+          "text": "Refrain from explaining to the applicants why they are taking the standardized intelligence test"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "When Declan first meets his civics teacher, he thinks she is too loud and demanding. Over the following weeks, he grows to like that she is funny and sets high standards. Which of the following concepts is most likely responsible for Declan’s change in opinion?",
+      "title": "Mere exposure effect - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Actor/observer bias"
+        },
+        {
+          "id": "B",
+          "text": "Mere exposure effect"
+        },
+        {
+          "id": "C",
+          "text": "Self-serving bias"
+        },
+        {
+          "id": "D",
+          "text": "Just-world phenomenon"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Monica has just left a biology class in which she learned about animals that live in forests. When she overhears a conversation among some students about “bare necessities,” she thinks they are discussing the types of food that bears need to survive, rather than things that humans need. Which of the following concepts best explains Monica’s perception?",
+      "title": "Top-down processing - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cultural norms"
+        },
+        {
+          "id": "B",
+          "text": "Top-down processing"
+        },
+        {
+          "id": "C",
+          "text": "Change blindness"
+        },
+        {
+          "id": "D",
+          "text": "Belief perseverance"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "After accidentally touching a hot pan with his hand, Benedict immediately withdraws his hand without thinking. Which of the following processes best describes this example of a spinal reflex arc?",
+      "title": "Reflex arc - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "The sensation of heat is sent to Benedict’s brain for processing. The brain then sends a message to the peripheral nervous system, causing him to remove his hand from the hot pan."
+        },
+        {
+          "id": "B",
+          "text": "Benedict’s peripheral nervous system immediately detects the heat, processes the response, and causes Benedict to remove his hand from the hot pan. The central nervous system is not involved."
+        },
+        {
+          "id": "C",
+          "text": "Benedict’s peripheral and central nervous systems work independently in this situation, with the peripheral nervous system moving his hand and the central nervous system perceiving the heat."
+        },
+        {
+          "id": "D",
+          "text": "Sensory neurons in Benedict’s peripheral nervous system detect the heat and send a rapid signal to an interneuron in the spinal cord, which then directs a motor neuron to move his hand."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Dr. Jones, who was trained in the behavioral approach to therapy, is working with a client who has an irrational fear of dogs. The client’s fear has gotten so debilitating that she will not visit a park where she might encounter a dog. Dr. Jones is most likely to employ which of the following techniques in her treatment?",
+      "title": "Systematic desensitization - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systematic desensitization"
+        },
+        {
+          "id": "B",
+          "text": "Free association"
+        },
+        {
+          "id": "C",
+          "text": "Psychotropic medication therapy"
+        },
+        {
+          "id": "D",
+          "text": "Unconditional positive regard"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which of the following hypotheses would a psychologist interested in the forgetting curve most likely investigate?",
+      "title": "Forgetting curve - hypothesis identification",
+      "options": [
+        {
+          "id": "A",
+          "text": "Students will remember more information if they engage in elaborative rehearsal than if they engage in maintenance rehearsal."
+        },
+        {
+          "id": "B",
+          "text": "Students will remember information they learned at the start and end of the semester better than information they learned in the middle of the semester."
+        },
+        {
+          "id": "C",
+          "text": "Students will remember lecture information 15 minutes after the lecture ends better than students will remember that information 60 minutes after the lecture ends."
+        },
+        {
+          "id": "D",
+          "text": "Students will remember more information if they are in the same environmental space than if they are in the same mood."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Myketa is a first-year college student who recently forgot to turn in three assignments. When she realized, Myketa complained to her roommate that professors never remind students about upcoming deadlines. She said that professors really want to make students fail their courses. Which defense mechanism is most consistent with Myketa’s behavior?",
+      "title": "Rationalization - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Displacement"
+        },
+        {
+          "id": "B",
+          "text": "Reaction formation"
+        },
+        {
+          "id": "C",
+          "text": "Sublimation"
+        },
+        {
+          "id": "D",
+          "text": "Rationalization"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Dr. Smith, who is a proponent of operant conditioning to improve behavior, attends a conference where he hears researchers present findings from their research on various reinforcement schedules. Whenever the results are not what he expects, Dr. Smith views the study designs as flawed and maintains his current beliefs about operant conditioning. Which of the following concepts illustrates Dr. Smith’s outlook?",
+      "title": "Reinforcement schedules - confirmation bias",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmation bias"
+        },
+        {
+          "id": "B",
+          "text": "Fundamental attribution error"
+        },
+        {
+          "id": "C",
+          "text": "Halo effect"
+        },
+        {
+          "id": "D",
+          "text": "Mere exposure effect"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Dr. Hart is a cognitive neuroscientist studying how sleep deprivation affects memory consolidation. Participants are given 5 minutes to memorize 30 unrelated words. Then Dr. Hart randomly assigns the participants to one of two groups. In Group 1, participants are not allowed to sleep uninterrupted. Instead, they are awakened each time their EEG shows they are in the REM sleep phase. In Group 2, participants are allowed to sleep for up to 8 uninterrupted hours. The next day, the participants are asked to recall as many unrelated words as possible. The mean score for Group 1 is 7 words. The mean score for Group 2 is 12 words. Dr. Hart finds that the differences are statistically significant. Which of the following research methods is Dr. Hart using?",
+      "title": "Memory consolidation study - research method",
+      "options": [
+        {
+          "id": "A",
+          "text": "A case study"
+        },
+        {
+          "id": "B",
+          "text": "A naturalistic observation"
+        },
+        {
+          "id": "C",
+          "text": "A meta-analysis"
+        },
+        {
+          "id": "D",
+          "text": "An experiment"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Dr. Hart is a cognitive neuroscientist studying how sleep deprivation affects memory consolidation. Participants are given 5 minutes to memorize 30 unrelated words. Then Dr. Hart randomly assigns the participants to one of two groups. In Group 1, participants are not allowed to sleep uninterrupted. Instead, they are awakened each time their EEG shows they are in the REM sleep phase. In Group 2, participants are allowed to sleep for up to 8 uninterrupted hours. The next day, the participants are asked to recall as many unrelated words as possible. The mean score for Group 1 is 7 words. The mean score for Group 2 is 12 words. Dr. Hart finds that the differences are statistically significant. How is Dr. Hart operationally defining sleep deprivation?",
+      "title": "Memory consolidation study - variable definition",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 hours of uninterrupted sleep"
+        },
+        {
+          "id": "B",
+          "text": "Monitoring participants each time their EEG indicates they are in NREM sleep"
+        },
+        {
+          "id": "C",
+          "text": "Awakening participants each time their EEG indicates REM sleep"
+        },
+        {
+          "id": "D",
+          "text": "The number of unrelated words remembered after the observed night of sleep"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Dr. Hart is a cognitive neuroscientist studying how sleep deprivation affects memory consolidation. Participants are given 5 minutes to memorize 30 unrelated words. Then Dr. Hart randomly assigns the participants to one of two groups. In Group 1, participants are not allowed to sleep uninterrupted. Instead, they are awakened each time their EEG shows they are in the REM sleep phase. In Group 2, participants are allowed to sleep for up to 8 uninterrupted hours. The next day, the participants are asked to recall as many unrelated words as possible. The mean score for Group 1 is 7 words. The mean score for Group 2 is 12 words. Dr. Hart finds that the differences are statistically significant. Which of the following theories does this research support regarding the importance of uninterrupted sleep?",
+      "title": "Memory consolidation study - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eight hours of uninterrupted sleep is the best way for the body to conserve resources."
+        },
+        {
+          "id": "B",
+          "text": "Uninterrupted sleep enhances memory consolidation."
+        },
+        {
+          "id": "C",
+          "text": "REM sleep typically occurs more frequently as the sleep cycle progresses."
+        },
+        {
+          "id": "D",
+          "text": "Uninterrupted sleep improves overall well-being."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Using the intelligence quotient formula to determine IQ, which of the following individuals would have the highest IQ?",
+      "title": "Intelligence quotient - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sam, who has a mental age of 5 and a chronological age of 5"
+        },
+        {
+          "id": "B",
+          "text": "Dianne, who has a mental age of 5 and a chronological age of 6"
+        },
+        {
+          "id": "C",
+          "text": "Woody, who has a mental age of 6 and a chronological age of 5"
+        },
+        {
+          "id": "D",
+          "text": "Carla, who has a mental age of 7 and a chronological age of 5"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "A therapist is helping Marco, who is depressed, think more realistically about events in his life. Which of the following approaches to therapy is most consistent with this scenario?",
+      "title": "Major depressive disorder - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sociocultural"
+        },
+        {
+          "id": "B",
+          "text": "Behavioral"
+        },
+        {
+          "id": "C",
+          "text": "Cognitive"
+        },
+        {
+          "id": "D",
+          "text": "Psychodynamic"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "A psychologist is writing a textbook chapter on the interaction of nature and nurture on human behavior. Which of the following examples should she include to emphasize the role that nurture plays on behavior?",
+      "title": "Nature and nurture - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pari’s parents read to her in infancy, so she easily and quickly learns to read when she starts school at age five."
+        },
+        {
+          "id": "B",
+          "text": "Sammi is six inches taller than his parents and siblings in his adoptive family."
+        },
+        {
+          "id": "C",
+          "text": "Linda is a supertaster and intensely experiences the bitterness in certain foods."
+        },
+        {
+          "id": "D",
+          "text": "Rosie has dichromatism and has difficulty distinguishing between red and green."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Daniel is a psychology and art double major in college. He created a painting similar to the one in the image to produce a visual illusion for the audience. [图: A painting. Refer to long description.] Visual Illusion The painting consists of 2 large adjoining squares. The large squares are different shades of gray. Each large square has a small square inside it. The small squares are the same shade of gray but appear visually to be different shades. Which of the following concepts did Daniel use to create this work of art?",
+      "title": "Perceptual constancies diagram - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perceptual constancies"
+        },
+        {
+          "id": "B",
+          "text": "Apparent movement"
+        },
+        {
+          "id": "C",
+          "text": "Opponent process theory"
+        },
+        {
+          "id": "D",
+          "text": "Sensory interaction"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Researchers tested the short-term memory capacity of 12 participants. The number of items that each participant was able to hold in their short-term memory is presented in the table. Memory Capacity Participant Number of Items in Short-Term Memory A 3 B 9 C 11 D 8 E 7 F 5 G 8 H 8 I 5 J 6 K 13 L 4 What is the median number of items held in participants’ short-term memory?",
+      "title": "Short term memory table - median",
+      "options": [
+        {
+          "id": "A",
+          "text": "6.5"
+        },
+        {
+          "id": "B",
+          "text": "7.5"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Lily believes all young men are reckless drivers. Which of the following concepts best represents Lily’s belief?",
+      "title": "Stereotyping - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pessimistic explanatory style"
+        },
+        {
+          "id": "B",
+          "text": "Discrimination"
+        },
+        {
+          "id": "C",
+          "text": "Situational attribution"
+        },
+        {
+          "id": "D",
+          "text": "Stereotype"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Marcus is typing his notes from class. Which of the following is primarily helping Marcus move his fingers as he types?",
+      "title": "Peripheral nervous system - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Peripheral nervous system"
+        },
+        {
+          "id": "B",
+          "text": "Temporal lobe"
+        },
+        {
+          "id": "C",
+          "text": "Autonomic nervous system"
+        },
+        {
+          "id": "D",
+          "text": "Hippocampus"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which of the following scenarios is an example of instinctive drift?",
+      "title": "Instinctive drift - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rats more easily learn to pair pain in the form of shocks with bitter tastes than sweet tastes. This may result from an innate predisposition to avoid poisonous substances, which are often bitter."
+        },
+        {
+          "id": "B",
+          "text": "In a study, chimpanzees stacked crates to grab a banana that was out of reach, demonstrating problem-solving through a sudden realization of a solution rather than through trial and error."
+        },
+        {
+          "id": "C",
+          "text": "Several types of birds can learn to copy the calls of other types of birds and other animals such as frogs or dogs."
+        },
+        {
+          "id": "D",
+          "text": "A dog learns to return a ball while playing fetch for the reward of praise. Eventually, the dog starts to chew and play with the ball, which is an innate tendency, instead of returning it, which is learned."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Researchers were interested in studying cultural differences in emotional expression. The researchers conducted a study in which all American and Japanese participants watched films of surgery both alone and in the presence of a researcher. When both American and Japanese participants were alone, they showed the same facial expressions, namely disgust and fear. However, when in the presence of the researcher, the American participants continued to show their negative emotions, while the Japanese participants masked their negative emotions with a smile. Which of the following concepts best explains this research finding?",
+      "title": "Display rules study - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Display rules"
+        },
+        {
+          "id": "B",
+          "text": "Self-actualizing tendency"
+        },
+        {
+          "id": "C",
+          "text": "Projection"
+        },
+        {
+          "id": "D",
+          "text": "Algorithms"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Diedre took a yearlong psychology course in which brain structures were discussed in multiple units. At first, she had a hard time remembering the various functions of each brain structure. After learning about them and reviewing them in several different contexts, she can quickly and easily retrieve the function of each brain structure even months later. Which of the following concepts most likely accounts for this change in memory?",
+      "title": "Long-term potentiation - application",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implicit priming of memory"
+        },
+        {
+          "id": "B",
+          "text": "Long-term potentiation"
+        },
+        {
+          "id": "C",
+          "text": "Recency effect"
+        },
+        {
+          "id": "D",
+          "text": "State-dependent memory"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Cell phones and parenting AAQ",
+      "title": "Cell phones and parenting AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Cell phones and parenting AAQ",
+      "title": "Cell phones and parenting AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Cell phones and parenting AAQ",
+      "title": "Cell phones and parenting AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Cell phones and parenting AAQ",
+      "title": "Cell phones and parenting AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Cell phones and parenting AAQ",
+      "title": "Cell phones and parenting AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Cell phones and parenting AAQ",
+      "title": "Cell phones and parenting AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Reducing adolescent burnout EBQ",
+      "title": "Reducing adolescent burnout EBQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Reducing adolescent burnout EBQ",
+      "title": "Reducing adolescent burnout EBQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Reducing adolescent burnout EBQ",
+      "title": "Reducing adolescent burnout EBQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}

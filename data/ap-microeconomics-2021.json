@@ -1,0 +1,1838 @@
+{
+  "examId": "microeconomics-2021",
+  "subject": "microeconomics",
+  "examName": "AP 微观经济 2021年国际卷",
+  "year": "2021",
+  "totalQuestions": 63,
+  "mcqCount": 63,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Raheem is currently working as a financial analyst earning $75,000 a year and is considering quitting his current job to start an art gallery. The estimated annual revenue from the art gallery is $175,000 . The annual cost of labor, advertising, and acquiring the art inventory is $125,000 . What are Raheem’s accounting and economic profits if he opens the art gallery?",
+      "title": "Accounting and economic profits for Raheem",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accounting profit is – $ 25 , 000 , and economic profit is $ 50 , 000 ."
+        },
+        {
+          "id": "B",
+          "text": "Accounting profit is $ 100 , 000 , and economic profit is $ 50 , 000 ."
+        },
+        {
+          "id": "C",
+          "text": "Accounting profit is $ 50 , 000 , and economic profit is – $ 25 , 000 ."
+        },
+        {
+          "id": "D",
+          "text": "Accounting profit is $ 100 , 000 , and economic profit is – $ 25 , 000 ."
+        },
+        {
+          "id": "E",
+          "text": "Accounting profit is $ 50 , 000 , and economic profit is $ 100 , 000 ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Suppose a firm’s production process exhibits diseconomies of scale. How and why will costs change if the firm reduces its output?",
+      "title": "ATC and Diseconomies of Scale",
+      "options": [
+        {
+          "id": "A",
+          "text": "Long-run average total cost will increase because it becomes more difficult for the firm to manage its workforce."
+        },
+        {
+          "id": "B",
+          "text": "Long-run average fixed costs will increase because the firm produces fewer units of output."
+        },
+        {
+          "id": "C",
+          "text": "Long-run average total cost will decrease because it becomes easier for the firm to manage its workforce."
+        },
+        {
+          "id": "D",
+          "text": "Long-run average fixed costs will decrease because the firm produces fewer units of output."
+        },
+        {
+          "id": "E",
+          "text": "Long-run average total cost will decrease because it becomes more difficult for the firm to manage its workforce."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What does the minimum efficient scale measure?",
+      "title": "ATC and Minimum Efficient Scale",
+      "options": [
+        {
+          "id": "A",
+          "text": "The smallest output level at which short-run average total cost is minimized."
+        },
+        {
+          "id": "B",
+          "text": "The smallest output level at which short-run total cost is minimized."
+        },
+        {
+          "id": "C",
+          "text": "The smallest output level at which long-run average total cost is minimized."
+        },
+        {
+          "id": "D",
+          "text": "The largest output level at which long-run average total cost is minimized."
+        },
+        {
+          "id": "E",
+          "text": "The largest output level at which long-run total cost is minimized."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "If a binding minimum wage increases in a perfectly competitive labor market, then which of the following will likely occur in the labor market?",
+      "title": "Binding minimum wage",
+      "options": [
+        {
+          "id": "A",
+          "text": "The supply of workers will increase."
+        },
+        {
+          "id": "B",
+          "text": "The supply of workers will decrease."
+        },
+        {
+          "id": "C",
+          "text": "The demand for workers will increase."
+        },
+        {
+          "id": "D",
+          "text": "The demand for workers will decrease."
+        },
+        {
+          "id": "E",
+          "text": "The quantity of workers supplied will increase."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Assume that the government imposes a binding price ceiling on a market for an inferior good. Which of the following is most likely to occur in the market if consumers’ incomes increase?",
+      "title": "Binding Price Ceiling and Inferior Goods",
+      "options": [
+        {
+          "id": "A",
+          "text": "The market demand will shift to the right."
+        },
+        {
+          "id": "B",
+          "text": "The market supply will shift to the right."
+        },
+        {
+          "id": "C",
+          "text": "The shortage in the market will decrease."
+        },
+        {
+          "id": "D",
+          "text": "The surplus in the market will increase."
+        },
+        {
+          "id": "E",
+          "text": "The market price will increase."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "The table provided shows the number of labor hours required to produce a cell phone or a unit of lumber in Estonia and in Finland. Cell Phone Unit of Lumber Estonia 20 hours 5 hours Finland 20 hours 4 hours Based on the information in the table, which of the following is true?",
+      "title": "Cell phones and lumber production",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estonia has a comparative advantage in producing lumber."
+        },
+        {
+          "id": "B",
+          "text": "Finland has a comparative advantage in producing cell phones."
+        },
+        {
+          "id": "C",
+          "text": "Finland has an absolute advantage in producing lumber."
+        },
+        {
+          "id": "D",
+          "text": "Estonia has both the absolute and comparative advantages in producing lumber."
+        },
+        {
+          "id": "E",
+          "text": "Neither country has a comparative advantage in producing cell phones."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which of the following will shift the demand curve for a factor of production to the left?",
+      "title": "Change in demand for inputs",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decrease in the price of the factor of production"
+        },
+        {
+          "id": "B",
+          "text": "A decrease in the price of a substitute factor of production"
+        },
+        {
+          "id": "C",
+          "text": "An increase in the price of the product produced by the factor"
+        },
+        {
+          "id": "D",
+          "text": "An increase in the marginal product of the factor"
+        },
+        {
+          "id": "E",
+          "text": "An improvement in technology used by the factor of production"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Suppose the market for health-care workers is perfectly competitive. Which of the following will happen in the market for health-care workers in the short run if the demand for health care increases?",
+      "title": "Changes in demand for health care",
+      "options": [
+        {
+          "id": "A",
+          "text": "The supply curve of health-care workers will shift to the right."
+        },
+        {
+          "id": "B",
+          "text": "The supply curve of health-care workers will shift to the left."
+        },
+        {
+          "id": "C",
+          "text": "The demand curve for health-care workers will shift to the right."
+        },
+        {
+          "id": "D",
+          "text": "The demand curve for health-care workers will shift to the left."
+        },
+        {
+          "id": "E",
+          "text": "Neither the demand curve nor the supply curve of health-care workers will shift."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "If the supply of fish increases, there will be",
+      "title": "Changes in supply of fish",
+      "options": [
+        {
+          "id": "A",
+          "text": "an increase in the demand for chicken, a substitute good"
+        },
+        {
+          "id": "B",
+          "text": "an increase in the demand for fish"
+        },
+        {
+          "id": "C",
+          "text": "an increase in the price of fish tacos"
+        },
+        {
+          "id": "D",
+          "text": "a decrease in the price of fish"
+        },
+        {
+          "id": "E",
+          "text": "a decrease in the supply of potatoes, a complementary good"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What will happen to the price and quantity of footballs as a result of an increase in the price of leather used to make footballs?",
+      "title": "Changes in supply of footballs",
+      "options": [
+        {
+          "id": "A",
+          "text": "Price will increase, and quantity will increase."
+        },
+        {
+          "id": "B",
+          "text": "Price will increase, and quantity will decrease."
+        },
+        {
+          "id": "C",
+          "text": "Price will decrease, and quantity will increase."
+        },
+        {
+          "id": "D",
+          "text": "Price will decrease, and quantity will decrease."
+        },
+        {
+          "id": "E",
+          "text": "Price will not change, and quantity will not change."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Suppose hot dogs and hamburgers are substitutes in consumption. If the supply of hot dogs decreases, which of the following will happen in the market for hamburgers?",
+      "title": "Changes in the markets of hotdogs and hamburgers",
+      "options": [
+        {
+          "id": "A",
+          "text": "The supply curve for hamburgers will shift to the right."
+        },
+        {
+          "id": "B",
+          "text": "The supply curve for hamburgers will shift to the left."
+        },
+        {
+          "id": "C",
+          "text": "The demand curve for hamburgers will shift to the right."
+        },
+        {
+          "id": "D",
+          "text": "The demand curve for hamburgers will shift to the left."
+        },
+        {
+          "id": "E",
+          "text": "Both the demand curve and supply curve for hamburgers will shift to the left."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Mary manages a manufacturing plant. Two inputs are used to produce the product. To minimize the costs of production, Mary should continue to hire inputs up to the level at which the",
+      "title": "Cost minimization for Mary",
+      "options": [
+        {
+          "id": "A",
+          "text": "price of each input is equal"
+        },
+        {
+          "id": "B",
+          "text": "marginal product of each input is equal"
+        },
+        {
+          "id": "C",
+          "text": "(marginal product × price) of each input is equal"
+        },
+        {
+          "id": "D",
+          "text": "(marginal product ÷ price) of each input is equal"
+        },
+        {
+          "id": "E",
+          "text": "(marginal product − price) of each input is equal"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Pickleco, a pickle-producing firm, hires labor and capital in perfectly competitive factor markets. The firm is minimizing its costs at the current production level. The marginal product of labor is 100 units and the marginal product of capital is 60 units. If the rental price of capital is $ 12 , what is the wage Pickleco is paying its workers?",
+      "title": "Cost minimization for Pickleco",
+      "options": [
+        {
+          "id": "A",
+          "text": "$ 5 . 00"
+        },
+        {
+          "id": "B",
+          "text": "$ 8 .33"
+        },
+        {
+          "id": "C",
+          "text": "$ 12 . 00"
+        },
+        {
+          "id": "D",
+          "text": "$ 20 . 00"
+        },
+        {
+          "id": "E",
+          "text": "$ 40 . 00"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "At a given quantity of output of a firm, if the marginal product of capital equals the marginal product of labor and the wage rate equals the rental rate of capital, then",
+      "title": "Cost Minimization of Labor and Capital",
+      "options": [
+        {
+          "id": "A",
+          "text": "the firm is producing that quantity at the lowest cost"
+        },
+        {
+          "id": "B",
+          "text": "the firm should use more capital and less labor to minimize cost"
+        },
+        {
+          "id": "C",
+          "text": "the firm should use less capital and more labor to minimize cost"
+        },
+        {
+          "id": "D",
+          "text": "the firm should use more of both inputs to increase quantity"
+        },
+        {
+          "id": "E",
+          "text": "the firm should use less of both inputs to increase quantity"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Hours at the Library Total Benefit Total Cost 1 12 10 2 20 13 3 26 18 4 31 25 5 33 33 6 35 42 The table provided shows the total benefits and costs of studying at the library. If the student is rational, the optimal number of hours to spend at the library is",
+      "title": "Cost-Benefit Analysis of Studying",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        },
+        {
+          "id": "E",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "In relation to tacos, the cross-price elasticity of demand for Good X is negative. What would be the result if the price of tacos increases?",
+      "title": "Cross-price elasticity of demand -Good X and tacos",
+      "options": [
+        {
+          "id": "A",
+          "text": "There will be a movement up the demand curve for Good X because it is a complement to tacos."
+        },
+        {
+          "id": "B",
+          "text": "There will be a movement down the demand curve for Good X because it is a complement to tacos."
+        },
+        {
+          "id": "C",
+          "text": "The demand for Good X will increase because it is a substitute for tacos."
+        },
+        {
+          "id": "D",
+          "text": "The demand for Good X will decrease because it is a complement to tacos."
+        },
+        {
+          "id": "E",
+          "text": "The demand for Good X will increase because tacos and Good X are normal goods."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Which of the following is true for a perfectly competitive, decreasing-cost industry?",
+      "title": "Decreasing-cost industry",
+      "options": [
+        {
+          "id": "A",
+          "text": "The price of inputs will decrease as the number of firms in the industry decreases."
+        },
+        {
+          "id": "B",
+          "text": "The long-run market supply curve will be downward sloping."
+        },
+        {
+          "id": "C",
+          "text": "Firms earn positive economic profit in the long run."
+        },
+        {
+          "id": "D",
+          "text": "Firms do not have a shutdown condition."
+        },
+        {
+          "id": "E",
+          "text": "There are no economies of scale."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "A monopsonistic labor market has a",
+      "title": "Definition of Monopsonistic Markets",
+      "options": [
+        {
+          "id": "A",
+          "text": "single employer of labor"
+        },
+        {
+          "id": "B",
+          "text": "horizontal labor supply curve"
+        },
+        {
+          "id": "C",
+          "text": "labor force of identically skilled workers"
+        },
+        {
+          "id": "D",
+          "text": "backward bending labor supply curve"
+        },
+        {
+          "id": "E",
+          "text": "demand curve for labor that is perfectly elastic"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "With capital held constant, when Zane employs one additional worker, the marginal product of labor decreases by 5 units. Which economic concept best characterizes Zane’s production process?",
+      "title": "Diminishing marginal returns and Zane",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminishing marginal returns"
+        },
+        {
+          "id": "B",
+          "text": "Increasing marginal returns"
+        },
+        {
+          "id": "C",
+          "text": "Constant returns to scale"
+        },
+        {
+          "id": "D",
+          "text": "Economies of scale"
+        },
+        {
+          "id": "E",
+          "text": "Diseconomies of scale"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Downtown Tech Company and Uptown Tech Company compete in the gaming console market. Downtown Tech Company is deciding whether to charge a high price or a low price for its product. Uptown Tech Company is deciding whether to invest in research and development or advertising. Each company’s profit depends on the actions taken by the other firm, which are listed in the payoff matrix provided. The first entry in the matrix is Downtown Tech Company’s profit, and the second is Uptown Tech Company’s profit. Each firm independently and simultaneously selects an action. Each firm knows all of the information about the payoffs associated with the strategies each firm can choose. Uptown Tech Company Research and Development Advertising Downtown Tech Company High Price $ 500 , $ 250 $ 100 , $ 700 Low Price $ 200 , $ 400 $ 600 , $ 350 The Nash equilibrium to this game, if one exists, is which of the following?",
+      "title": "Downtown and Uptown payoff matrix",
+      "options": [
+        {
+          "id": "A",
+          "text": "High Price, Research and Development"
+        },
+        {
+          "id": "B",
+          "text": "Low Price, Advertising"
+        },
+        {
+          "id": "C",
+          "text": "High Price, Advertising"
+        },
+        {
+          "id": "D",
+          "text": "Low Price, Research and Development"
+        },
+        {
+          "id": "E",
+          "text": "None of the strategy pairs represents a Nash equilibrium."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "In a command economy, the quantity of computers produced would be determined by",
+      "title": "Economic systems and what to produce",
+      "options": [
+        {
+          "id": "A",
+          "text": "factory owners"
+        },
+        {
+          "id": "B",
+          "text": "the government"
+        },
+        {
+          "id": "C",
+          "text": "consumers and producers"
+        },
+        {
+          "id": "D",
+          "text": "international trade"
+        },
+        {
+          "id": "E",
+          "text": "the wealthy"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "If a firm experiences economies of scale over the entire range of output, the long-run average cost curve will be",
+      "title": "Economies of scale and LRATC",
+      "options": [
+        {
+          "id": "A",
+          "text": "U-shaped"
+        },
+        {
+          "id": "B",
+          "text": "upward sloping"
+        },
+        {
+          "id": "C",
+          "text": "downward sloping"
+        },
+        {
+          "id": "D",
+          "text": "horizontal"
+        },
+        {
+          "id": "E",
+          "text": "below the marginal cost curve"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which of the following is always true about a negative externality?",
+      "title": "Effect of Negative Externalities on Market Output",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can be corrected by the government subsidizing the good or activity that creates the externality."
+        },
+        {
+          "id": "B",
+          "text": "It results in a market output that is smaller than the socially optimal output."
+        },
+        {
+          "id": "C",
+          "text": "It results in a market output that is greater than the socially optimal output."
+        },
+        {
+          "id": "D",
+          "text": "It results in a larger deadweight loss than a positive externality does."
+        },
+        {
+          "id": "E",
+          "text": "It results in a smaller deadweight loss than a positive externality does."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Where on a graph of a production possibilities curve would a point showing that an economy is using its resources efficiently be located?",
+      "title": "Efficiency and PPC",
+      "options": [
+        {
+          "id": "A",
+          "text": "On the production possibilities curve"
+        },
+        {
+          "id": "B",
+          "text": "Inside the production possibilities curve"
+        },
+        {
+          "id": "C",
+          "text": "Beyond the production possibilities curve"
+        },
+        {
+          "id": "D",
+          "text": "On the y -axis and below the production possibilities curve"
+        },
+        {
+          "id": "E",
+          "text": "On the x -axis and below the production possibilities curve"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "If the imposition of a per-unit tax on a good reduces the total consumer surplus by more than the reduction of total producer surplus in a competitive market, then which of the following must be true?",
+      "title": "Government Intervention and Economic Surplus",
+      "options": [
+        {
+          "id": "A",
+          "text": "The price sellers receive decreases by more than the amount of the tax."
+        },
+        {
+          "id": "B",
+          "text": "The price buyers pay increases by more than the amount of the tax."
+        },
+        {
+          "id": "C",
+          "text": "Demand is less elastic than supply."
+        },
+        {
+          "id": "D",
+          "text": "Demand is more elastic than supply."
+        },
+        {
+          "id": "E",
+          "text": "Demand and supply are both unit elastic."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "A 10 percent increase in Sandra’s income causes Sandra’s consumption of milk to decrease from 10 cartons to 6 cartons. Sandra’s income elasticity of demand for milk is",
+      "title": "Income elasticity of demand for Sandra",
+      "options": [
+        {
+          "id": "A",
+          "text": "greater than zero and therefore milk is a necessity"
+        },
+        {
+          "id": "B",
+          "text": "greater than zero and therefore milk is a normal good"
+        },
+        {
+          "id": "C",
+          "text": "less than zero and therefore milk is a normal good"
+        },
+        {
+          "id": "D",
+          "text": "less than zero and therefore milk is an inferior good"
+        },
+        {
+          "id": "E",
+          "text": "greater than one and therefore milk is a necessity"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which of the following is NOT an effective way to manage the inefficiency resulting from a negative externality?",
+      "title": "Managing inefficiency from Externalities",
+      "options": [
+        {
+          "id": "A",
+          "text": "Government intervention in the form of obligatory controls"
+        },
+        {
+          "id": "B",
+          "text": "Per-unit taxes"
+        },
+        {
+          "id": "C",
+          "text": "Assignment of property rights"
+        },
+        {
+          "id": "D",
+          "text": "Lump-sum taxes"
+        },
+        {
+          "id": "E",
+          "text": "Private negotiations among affected parties"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "A firm’s short-run production function uses capital and labor as inputs. Assume the quantity of capital is fixed in the short run. The marginal product of labor will decrease as more labor is used in the short run because each unit of labor will have",
+      "title": "Marginal Product of Labor with Fixed Capital",
+      "options": [
+        {
+          "id": "A",
+          "text": "zero units of capital to work with"
+        },
+        {
+          "id": "B",
+          "text": "fewer units of capital to work with"
+        },
+        {
+          "id": "C",
+          "text": "an increase in the capital-to-labor ratio"
+        },
+        {
+          "id": "D",
+          "text": "more units of capital to work with"
+        },
+        {
+          "id": "E",
+          "text": "an infinite number of units of capital to work with"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Price Quantity Demanded (units) Quantity Supplied (units) $ 1 500 100 $ 2 400 200 $ 3 300 300 $ 4 200 300 $ 5 100 500 The table provided shows the market demand and supply schedules for wheat. Which of the following is true?",
+      "title": "Market Disequilibrium in the market for wheat",
+      "options": [
+        {
+          "id": "A",
+          "text": "At a price of $ 1 , there is excess supply of wheat and the price will decrease."
+        },
+        {
+          "id": "B",
+          "text": "At a price of $ 2 , there is excess demand for wheat and the price will decrease."
+        },
+        {
+          "id": "C",
+          "text": "At a price of $ 3 , there is excess demand for wheat and the price will increase."
+        },
+        {
+          "id": "D",
+          "text": "At a price of $ 4 , there is excess supply of wheat and the price will decrease."
+        },
+        {
+          "id": "E",
+          "text": "At a price of $ 5 , there is excess demand for wheat and the price will increase."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of three curves in the first quadrant of a coordinate plane. The horizontal axis is labeled “Quantity,” and the vertical axis is labeled “Price comma Cost.” The quantities Q sub 1 and Q sub 2 are indicated from left to right on the horizontal axis. Q sub 1 is located about one third of the way along the horizontal axis. Q sub 2 is located about halfway along the horizontal axis. The three curves are labeled M P B, M S B, and M S C equals M P C. All three curves begin to the left of Q sub 1 at approximately the same distance, but at different heights. Curve M P B begins just over halfway up the vertical axis, moves downward and to the right in a straight line until it ends at a point that is to the right of Q sub 2 and just above the horizontal axis. Curve M S B begins almost directly above the point where curve M P B begins, near the top of the vertical axis, and moves downward and to the right in a straight line. Curve M S B is parallel to curve M P B, and ends above and to the right of the end point of curve M P B. Curve M S C equals M P C begins almost directly below the starting point of line M P B, about one fourth of the way up the vertical axis. It moves upward and to the right in a straight line, intersects curve M P B at Q sub 1, then intersects curve M S B at Q sub 2, and ends to the right of Q sub 2, high above the end point of curve M S B. A vertical grid line is drawn upward from the horizontal axis at Q sub 1, which passes through the intersection of curves M P B and M S C equals M P C, and ends at a point on curve M S B. Another vertical grid line is drawn upward from the horizontal axis at Q sub 2, which passes through curve M P B, and ends at the intersection of curves M S B and M S C equals M P C. Three regions are located between the two vertical grid lines and are created by the three graphed curves passing through the grid lines. From top to bottom, the regions are labeled A, B, and C. Region A is a triangle, which is located between the vertical grid lines at Q sub 1 and Q sub 2, below curve M S B, and above curve M S C equals M P C. Region B is a triangle, which is located between the vertical grid lines at Q sub 1 and Q sub 2, below curve M S C equals M P C, and above curve M P B. Region C is a trapezoid, which is located between the vertical grid lines at Q sub 1 and Q sub 2, below curve M P B, and above the horizontal axis.] The diagram provided illustrates the marginal private benefit ( MPB ) , marginal social benefit ( MSB ) , marginal private cost ( MPC ) , and marginal social cost ( MSC ) measured in dollars for a competitive market. Assume that the goal of the government is to increase efficiency in the market. The cost of a government intervention that increases market output from Q 1 to Q 2 is $1.2 million. The intervention will definitely improve market efficiency if the area of",
+      "title": "Market efficiency and government intervention",
+      "options": [
+        {
+          "id": "A",
+          "text": "A is greater than $1.2 million"
+        },
+        {
+          "id": "B",
+          "text": "B is less than $1.2 million"
+        },
+        {
+          "id": "C",
+          "text": "C is less than $1.2 million"
+        },
+        {
+          "id": "D",
+          "text": "A+B is greater than or equal to $1.2 million"
+        },
+        {
+          "id": "E",
+          "text": "B+C is greater than or equal to $1.2 million"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Assume that Larry spends his entire allowance on the purchase of pretzels and ice-cream cones. The price of a bag of pretzels is $ 1 , and the price of an ice-cream cone is $ 2 . At his current consumption combination, the marginal utility of pretzels is 20 and of ice-cream cones is 60 . To maximize his utility, Larry should",
+      "title": "Maximizing utility - pretzels and ice-cream cones",
+      "options": [
+        {
+          "id": "A",
+          "text": "buy more of both goods"
+        },
+        {
+          "id": "B",
+          "text": "buy less of both goods"
+        },
+        {
+          "id": "C",
+          "text": "buy more pretzels and fewer ice-cream cones"
+        },
+        {
+          "id": "D",
+          "text": "buy fewer pretzels and more ice-cream cones"
+        },
+        {
+          "id": "E",
+          "text": "maintain his current consumption level"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "As the quantity of a good increases, which of the following is true in the elastic region of a monopolist's demand curve?",
+      "title": "Monopolist demand and elasticity",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marginal revenue and total revenue are negative."
+        },
+        {
+          "id": "B",
+          "text": "Marginal revenue is increasing, and total revenue is positive."
+        },
+        {
+          "id": "C",
+          "text": "Marginal revenue is decreasing, and total revenue is negative."
+        },
+        {
+          "id": "D",
+          "text": "Marginal revenue is positive, and total revenue is increasing."
+        },
+        {
+          "id": "E",
+          "text": "Marginal revenue is negative, and average revenue is decreasing."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which of the following is true of the marginal revenue curve for a monopolistically competitive firm?",
+      "title": "Monopolistic competition and marginal revenue",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the same as the demand curve because there are many firms in the market."
+        },
+        {
+          "id": "B",
+          "text": "It is the same as the demand curve because marginal revenue is always equal to price."
+        },
+        {
+          "id": "C",
+          "text": "It is upward sloping because total revenue increases as the quantity sold increases."
+        },
+        {
+          "id": "D",
+          "text": "It lies below the demand curve because the firm must lower its price for all units in order to increase sales."
+        },
+        {
+          "id": "E",
+          "text": "It lies below the demand curve because marginal revenue increases when price decreases."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which of the following is true about price ( P ) , marginal cost ( MC ) , marginal revenue ( MR ) , and economic profit of a monopolistically competitive firm in long-run equilibrium?",
+      "title": "Monopolistic competition in the long run",
+      "options": [
+        {
+          "id": "A",
+          "text": "P > MC ; Marginal revenue is below demand; Economic profit is zero"
+        },
+        {
+          "id": "B",
+          "text": "P < MC ; Marginal revenue is below demand; Economic profit is positive"
+        },
+        {
+          "id": "C",
+          "text": "P > MC ; Marginal revenue is above demand; Economic profit is positive"
+        },
+        {
+          "id": "D",
+          "text": "P = MR = MC ; Marginal revenue is equal to demand; Economic profit is zero"
+        },
+        {
+          "id": "E",
+          "text": "P = MR = MC ; Marginal revenue is above demand; Economic profit is positive"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "A monopoly is producing the allocatively efficient output if, for the last unit produced,",
+      "title": "Monopoly and allocative efficiency",
+      "options": [
+        {
+          "id": "A",
+          "text": "price equals minimum average total cost"
+        },
+        {
+          "id": "B",
+          "text": "price equals marginal cost"
+        },
+        {
+          "id": "C",
+          "text": "marginal cost equals marginal revenue"
+        },
+        {
+          "id": "D",
+          "text": "marginal cost equals average variable cost"
+        },
+        {
+          "id": "E",
+          "text": "marginal revenue equals average variable cost"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which of the following is always true for a firm with monopsony power?",
+      "title": "Monopsony power",
+      "options": [
+        {
+          "id": "A",
+          "text": "The marginal revenue product curve is upward-sloping."
+        },
+        {
+          "id": "B",
+          "text": "The marginal revenue product curve lies above the input demand curve."
+        },
+        {
+          "id": "C",
+          "text": "The marginal factor cost curve lies above the input supply curve."
+        },
+        {
+          "id": "D",
+          "text": "The marginal factor cost curve lies above the input demand curve."
+        },
+        {
+          "id": "E",
+          "text": "The input demand curve lies above the marginal factor cost curve."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "National defense is generally provided by the public sector for which of the following reasons?",
+      "title": "National Defense and the Public Sector",
+      "options": [
+        {
+          "id": "A",
+          "text": "The opportunity cost of privately providing national defense is too high."
+        },
+        {
+          "id": "B",
+          "text": "The government always provides the socially optimal quantity."
+        },
+        {
+          "id": "C",
+          "text": "National defense is a natural monopoly."
+        },
+        {
+          "id": "D",
+          "text": "National defense is subject to negative externalities."
+        },
+        {
+          "id": "E",
+          "text": "The benefits of national defense are mostly nonrival and nonexcludable."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of four curves in the first quadrant of a coordinate plane. The horizontal axis is labeled “Quantity” and the vertical axis is labeled “Price comma Cost.” The quantities Q sub 1, Q sub 2, Q sub 3, and Q sub 4 are indicated from left to right on the horizontal axis. Q sub 1 is located about one third of the way along the horizontal axis. The distance from Q sub 2 to Q sub 1 is about one fourth of the distance from Q sub 1 to the origin. The distance from Q sub 3 to Q sub 2 is slightly greater than the distance from Q sub 2 to Q sub 1. The distance from Q sub 4 to Q sub 3 is about the same as the distance from Q sub 3 to Q sub 1. The prices P sub 1, P sub 2, P sub 3, P sub 4, and P sub 5 are indicated from bottom to top on the vertical axis. P sub 1 is located slightly above the origin. P sub 5 is located about halfway up the vertical axis. The distance from P sub 2 to P sub 1 is about one third of the distance from P sub 5 to P sub 1. P sub 3 is located slightly above P sub 2. P sub 4 lies about halfway between P sub 5 and P sub 3, but slightly closer to P sub 5. The four curves are labeled D for demand, M R for marginal revenue, M C for marginal cost, and A T C for average total cost. Curve D begins on the vertical axis at a point high above P sub 5, and moves downward and to the right in a straight line. It passes through the points with coordinates Q sub 1 comma P sub 5, Q sub 2 comma P sub 4, Q sub 3 comma P sub 3, and Q sub 4 comma P sub 1. Curve D ends just above the horizontal axis, and slightly to the right of Q sub 4. Curve M R begins on the vertical axis at the same point as curve D, and moves steeply downward and to the right in a straight line. It passes through the point with coordinates Q sub 1 comma P sub 2, and ends on the horizontal axis at Q sub 2. Curve M C begins between P sub 3 and P sub 4, just over halfway between the vertical axis and Q sub 1. It moves downward and to the right and intersects curve M R at the point with coordinates Q sub 1 comma P sub 2. Curve M C continues downward and to the right, begins to level out, passes through the point with coordinates Q sub 3 comma P sub 1, and reaches its lowest point just above the horizontal axis, between Q sub 3 and Q sub 4. From this point, curve M C moves gradually upward and to the right, intersects curve D at the point with coordinates Q sub 4 comma P sub 1, and continues for a short distance until it ends slightly to the right of Q sub 4 and slightly above P sub 1. Curve A T C begins above P sub 5, and slightly less than halfway between the vertical axis and Q sub 1. It moves downward and to the right, steeply at first and then more slowly, and intersects curve D at a point to the left of Q sub 1 and above P sub 5. Curve A T C continues on a trajectory between curves M R and D, passes through the point with coordinates Q sub 1 comma P sub 4, continues to level out, and then intersects curve D for a second time at the point with coordinates Q sub 3 comma P sub 3. Curve A T C continues to move downward and to the right and ends to the right of Q sub 4, between P sub 2 and P sub 3.] The graph provided shows the demand ( D ), marginal revenue ( MR ), marginal cost ( MC ), and average total cost ( ATC ) curves for a monopolist. If a regulatory agency requires that the monopolist set a price that earns the monopolist a normal profit, what price will the monopolist set?",
+      "title": "Natural monopoly with normal profit",
+      "options": [
+        {
+          "id": "A",
+          "text": "P 1"
+        },
+        {
+          "id": "B",
+          "text": "P 2"
+        },
+        {
+          "id": "C",
+          "text": "P 3"
+        },
+        {
+          "id": "D",
+          "text": "P 4"
+        },
+        {
+          "id": "E",
+          "text": "P 5"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Combination Houses Grain (in bushels) A 0 1 ,000 ,000 B 1 950 ,000 C 2 850 ,000 D 3 700 ,000 E 4 400 ,000 F 5 0 The table above shows six possible combinations of houses and grain that a country can produce in a year using all currently available resources and technology. The opportunity cost of changing production from combination B to combination C is",
+      "title": "Opportunity cost of houses and grain",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 house"
+        },
+        {
+          "id": "B",
+          "text": "2 houses"
+        },
+        {
+          "id": "C",
+          "text": "100,000 bushels of grain"
+        },
+        {
+          "id": "D",
+          "text": "850,000 bushels of grain"
+        },
+        {
+          "id": "E",
+          "text": "950,000 bushels of grain"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Nature View Bids High Bids Low Evergreen Bids High $ 5 , $ 5 $ 0 , $ 6 Bids Low $ 6 , $ 0 $ 3 , $ 3 Evergreen and Nature View are bidding for a landscaping contract. The payoff matrix provided shows what each firm’s total weekly profit will be for each combination of bids. The first entry in each cell shows the profits of Evergreen, and the second entry shows the profits of Nature View. Evergreen and Nature View act independently and simultaneously, and each firm knows all the information about the payoffs associated with the strategies. Which of the following describes their dominant strategies?",
+      "title": "Payoff Matrix for Evergreen and Nature View",
+      "options": [
+        {
+          "id": "A",
+          "text": "Evergreen does not have a dominant strategy. Nature View’s dominant strategy is to bid high."
+        },
+        {
+          "id": "B",
+          "text": "Evergreen’s dominant strategy is to bid high. Nature View does not have a dominant strategy."
+        },
+        {
+          "id": "C",
+          "text": "Evergreen’s dominant strategy is to bid low. Nature View’s dominant strategy is to bid high."
+        },
+        {
+          "id": "D",
+          "text": "Evergreen’s dominant strategy is to bid high. Nature View’s dominant strategy is to bid high."
+        },
+        {
+          "id": "E",
+          "text": "Evergreen’s dominant strategy is to bid low. Nature View’s dominant strategy is to bid low."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "In the short run, a firm in a perfectly competitive industry will definitely",
+      "title": "Perfect competition in the short run",
+      "options": [
+        {
+          "id": "A",
+          "text": "shut down if total revenue is less than total variable cost"
+        },
+        {
+          "id": "B",
+          "text": "produce the market equilibrium output to maximize profit"
+        },
+        {
+          "id": "C",
+          "text": "earn zero economic profit"
+        },
+        {
+          "id": "D",
+          "text": "cover all of its fixed costs"
+        },
+        {
+          "id": "E",
+          "text": "charge a price lower than its competitors to increase its sales"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of four curves. The horizontal axis is labeled “Quantity,” and the vertical axis is labeled “Price comma Cost.” The quantities Q sub 0, Q sub 1, Q sub 2, Q sub 3, and Q sub 4 are indicated on the horizontal axis. Q sub 0 is located about one fourth of the way along the axis. The distance from Q sub 1 to Q sub 0 is about one third of the distance between the vertical axis is Q sub 0. The distance from Q sub 2 to Q sub 1 is slightly less than the distance from Q sub 1 to Q sub 0. The distance from Q sub 3 to Q sub 2 is slightly less than the distance from Q sub 2 to Q sub 0. Q sub 4 is just to the right of Q sub 3. The curves are labeled D, M R, M C, and A T C. Curve D begins on the vertical axis, high above the origin, and moves downward and to the right in a straight line until it ends on the horizontal axis, far to the right of Q sub 4. Curve M R begins at the same point as curve D high on the vertical axis, and moves steeply downward and to the right in a straight line until it ends on the horizontal axis at Q sub 1. Curve M C begins about one fourth of the way up the vertical axis, and moves upward and to the right. It intersects curve M R at Q sub 0, intersects curve D at Q sub 3, and ends to the right of Q sub 4, about two thirds of the way up the vertical axis. Curve A T C begins just to the right of, and about half way up, the vertical axis. It moves gradually downward and to the right, crosses curve M R to the left of Q sub 0, and reaches its lowest point where it intersects curve M C at Q sub 2. It then moves gradually upward and to the right, intersects curve D at Q sub 4, and ends far to the right of Q sub 4, just under its initial height.] The graph above shows the demand ( D ), marginal revenue ( MR ), marginal cost ( MC ), and average total cost ( ATC ) curves for a monopoly. Based on the information in the graph provided, what is the profit-maximizing quantity for a monopolist that engages in perfect price discrimination?",
+      "title": "Perfect Price Discrimination and Profit Max",
+      "options": [
+        {
+          "id": "A",
+          "text": "Q 0"
+        },
+        {
+          "id": "B",
+          "text": "Q 1"
+        },
+        {
+          "id": "C",
+          "text": "Q 2"
+        },
+        {
+          "id": "D",
+          "text": "Q 3"
+        },
+        {
+          "id": "E",
+          "text": "Q 4"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Price ( $ ) Quantity Demanded 1 9 2 8 3 7 4 6 5 5 6 4 7 3 8 2 9 1 A profit-maximizing monopolist faces the market demand schedule provided and has a constant marginal cost of $ 5 . If the monopolist engages in perfect price discrimination, its total revenue will equal which of the following?",
+      "title": "Perfect Price Discrimination with Constant MC",
+      "options": [
+        {
+          "id": "A",
+          "text": "$ 10"
+        },
+        {
+          "id": "B",
+          "text": "$ 15"
+        },
+        {
+          "id": "C",
+          "text": "$ 25"
+        },
+        {
+          "id": "D",
+          "text": "$ 35"
+        },
+        {
+          "id": "E",
+          "text": "$ 45"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which of the following is NOT an example of physical capital?",
+      "title": "Physical capital example",
+      "options": [
+        {
+          "id": "A",
+          "text": "A delivery truck"
+        },
+        {
+          "id": "B",
+          "text": "A warehouse"
+        },
+        {
+          "id": "C",
+          "text": "Office furniture"
+        },
+        {
+          "id": "D",
+          "text": "Machinery"
+        },
+        {
+          "id": "E",
+          "text": "Land"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "If the absolute value of the price elasticity of demand for Good X is 0.5 , then a 10 percent decrease in the price of Good X will result in which of the following?",
+      "title": "Price Elasticity of Demand for Good X",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 5 % decrease in the quantity demanded of Good X"
+        },
+        {
+          "id": "B",
+          "text": "A 5 % increase in the quantity demanded of Good X"
+        },
+        {
+          "id": "C",
+          "text": "A 5 % increase in revenues from the sale of Good X"
+        },
+        {
+          "id": "D",
+          "text": "A 10 % decrease in revenues from the sale of Good X"
+        },
+        {
+          "id": "E",
+          "text": "A 10 % increase in revenues from the sale of Good X"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of a supply curve in the first quadrant of a coordinate plane, with the origin labeled 0. The horizontal axis is labeled “Quantity,” and the numbers 10 and 15 are indicated. The vertical axis is labeled “Price, in dollars,” and the prices $3 and $4 are indicated. The curve begins on the vertical axis, just above the origin, and moves upward and to the right in a straight line. It passes through the points with coordinates 10 comma $3 and 15 comma $4, and ends high above the horizontal axis, and far to the right of the vertical axis.] What is the price elasticity of supply between $ 3 and $ 4 in the graph above?",
+      "title": "Price Elasticity of Supply between 3 and 4 dollars",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is greater than 1 , and the supply is relatively inelastic."
+        },
+        {
+          "id": "B",
+          "text": "It is greater than 1 , and the supply is relatively elastic."
+        },
+        {
+          "id": "C",
+          "text": "It is equal to 1 , and the supply is unit elastic."
+        },
+        {
+          "id": "D",
+          "text": "It is less than 1 , and the supply is relatively elastic."
+        },
+        {
+          "id": "E",
+          "text": "It is less than 1 , and the supply is relatively inelastic."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of three curves in the first quadrant of a coordinate plane. The horizontal axis is labeled “Quantity in Tons,” and the numbers 0 through 5, in increments of 0.5, are indicated. The vertical axis is labeled “Price comma Cost per Ton, in dollars,” and the numbers 0 through 600, in increments of 100, are indicated. The three curves are labeled A V C, M C, and A T C. The behavior of each curve is as follows. Note that all coordinates are approximate. Curve A V C begins at the point with coordinates 0.1 comma $20 and moves upward and to the right. It passes through the points with coordinates 2 comma $105 and 3.5 comma $160, and ends at the point with coordinates 4.3 comma $250. Curve A T C begins at the point with coordinates 0 comma $20 and moves upward and to the right. It passes through points with coordinates 1 comma $100 and 3 comma $250, and ends at the point with coordinates 4.3 comma $370. Curve M C begins at the point with coordinates 0.1 comma $430 and moves downward and to the right until it reaches its lowest point where it intersects curve A T C at the point with coordinates 1 comma $100. From there, curve M C moves upward and to the right, passes through the point with coordinates 3 comma $340, and ends at the point with coordinates 4.3 comma $580.] The graph above shows the marginal cost ( MC ), average total cost ( ATC ), and average variable cost ( AVC ) curves for a firm. If the market price is $ 100 per ton, the firm will maximize profits or minimize losses by doing which of the following?",
+      "title": "Profit maximization and production levels",
+      "options": [
+        {
+          "id": "A",
+          "text": "Producing 0 tons and shutting down in the short run"
+        },
+        {
+          "id": "B",
+          "text": "Producing 0 tons and exiting the market in the long run"
+        },
+        {
+          "id": "C",
+          "text": "Producing 1 ton and earning zero economic profit"
+        },
+        {
+          "id": "D",
+          "text": "Producing 1 . 5 tons and earning zero economic profit"
+        },
+        {
+          "id": "E",
+          "text": "Producing 2 tons and earning zero economic profit"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of four curves in the first quadrant of a coordinate plane. The horizontal axis is labeled “Quantity” and the vertical axis is labeled “Cost comma Price.” The quantities Q sub 1, Q sub 2, Q sub 3, and Q sub 4 are indicated from left to right on the horizontal axis. Q sub 1 is located about one fifth of the way along the horizontal axis. The distance from Q sub 2 to Q sub 1 is about the same as the distance from Q sub 1 to the origin. The distance from Q sub 3 to Q sub 2 is a little less than the distance from Q sub 2 to Q sub 1. The distance from Q sub 4 to Q sub 3 is about one third of the distance from Q sub 3 to Q sub 2. The value P is indicated on the vertical axis, about halfway up the axis. The four curves are labeled M R equals d, M C, A V C, and A T C. Curve M R equals d begins on the vertical axis at P and moves horizontally to the right until it ends to the right of Q sub 4 at a height of P. Curve M C begins about halfway between the vertical axis and Q sub 1, and slightly below curve M R equals d. Curve M C moves nearly horizontally to the right until it reaches its lowest point at Q sub 1. From this point, curve M C begins to move upward and to the right, gradually at first and then more steeply. It intersects curve M R equals d at the point with coordinates Q sub 2 comma P, continues upward and to the right, and ends to the right of Q sub 4 and high above P. Curve A V C begins about three fourths of the way up the vertical axis and slightly to the right of Q sub 1. It moves downward and to the right, begins to level out, and reaches its lowest point where it intersects curve M C at Q sub 3. Curve A V C then moves upward and to the right, and ends to the right of Q sub 4 and at a similar height to where it began. Curve A T C begins above and to the right of the starting point of curve A V C and to the left of Q sub 2. Curve A T C moves downward and to the right, begins to level out, and reaches its lowest point where it intersects curve M C at Q sub 4. Curve A T C then moves upward and to the right, and ends slightly above the end point of curve A V C.] The graph provided shows the demand ( d ), marginal revenue ( MR ), marginal cost ( MC ), and average total cost ( ATC ) curves for a perfectly competitive firm. In order to maximize short-run profits, this perfectly competitive firm should produce at which of the following quantities of production?",
+      "title": "Profit maximization and shutdown decision",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "Q 1"
+        },
+        {
+          "id": "C",
+          "text": "Q 2"
+        },
+        {
+          "id": "D",
+          "text": "Q 3"
+        },
+        {
+          "id": "E",
+          "text": "Q 4"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "A perfectly competitive firm finds that for the last shirt that it produces and sells, the marginal revenue is $ 20 and the marginal cost is $ 22 . The firm should",
+      "title": "Profit maximization in shirt production",
+      "options": [
+        {
+          "id": "A",
+          "text": "charge $ 22 to maximize profit"
+        },
+        {
+          "id": "B",
+          "text": "produce more shirts to increase profit"
+        },
+        {
+          "id": "C",
+          "text": "produce fewer shirts to increase profit"
+        },
+        {
+          "id": "D",
+          "text": "hire more workers to increase production"
+        },
+        {
+          "id": "E",
+          "text": "shut down if the average variable cost is less than $ 20"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "[图: The figure shows the graph of three curves in the first quadrant of a coordinate plane. The horizontal axis is labeled “Quantity” and the vertical axis is labeled “Cost comma Price.” The quantities Q sub 1, Q sub 2, and Q sub 3 are indicated from left to right on the horizontal axis. Q sub 1 is located about one third of the way along the horizontal axis. The distance from Q sub 2 to Q sub 1 is slightly less than half the distance from Q sub 1 to the origin. The distance from Q sub 3 to Q sub 2 is about the same as the distance from Q sub 2 to Q sub 1. The prices P sub 1, P sub 2, P sub 3, P sub 4, and P sub 5 are indicated on the vertical axis from left to right. P sub 1 is located about one fourth of the way up the vertical axis. The distance from P sub 2 to P sub 1 is about one third of the distance from P sub 1 to the origin. The distance from P sub 3 to P sub 2 is slightly greater than the distance from P sub 2 to P sub 1. The distance from P sub 4 to P sub 3 is about the same as the distance from P sub 2 to P sub 1. The distance from P sub 5 to P sub 4 is about the same as the distance from P sub 4 to P sub 3. The curves in the graph are labeled D, M R, and M C. Curve D begins on the vertical axis at a point high above P sub 5 and moves downward and to the right in a straight line. It passes through points with coordinates Q sub 1 comma P sub 5, Q sub 2 comma P sub 4, and Q sub 3 comma P sub 3. Curve D ends far to the right of Q sub 3 and slightly below P sub 1. Curve M R begins at the same point as curve D high on the vertical axis and moves steeply downward and to the right in a straight line. It passes through the point with coordinates Q sub 1 comma P sub 1, crosses the horizontal axis at Q sub 2, and ends below the horizontal axis between Q sub 2 and Q sub 3. Curve M C begins at the origin and moves upward and to the right in a straight line. It intersects curve M R at the point with coordinates Q sub 1 comma P sub 1, passes through the point with coordinates Q sub 2 comma P sub 2, and then intersects curve D at the point with coordinates Q sub 3 comma P sub 3. Curve M C continues upward and to the right and ends far to the right of Q sub 3 and above P sub 5.] Given the information in the graph provided, what is the monopolist’s profit-maximizing quantity and price combination?",
+      "title": "Profit maximizing P and Q in Monopoly",
+      "options": [
+        {
+          "id": "A",
+          "text": "Q 1 , P 1"
+        },
+        {
+          "id": "B",
+          "text": "Q 3 , P 3"
+        },
+        {
+          "id": "C",
+          "text": "Q 2 , P 2"
+        },
+        {
+          "id": "D",
+          "text": "Q 2 , P 4"
+        },
+        {
+          "id": "E",
+          "text": "Q 1 , P 5"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Public goods are under produced in a competitive market because the free-rider problem causes",
+      "title": "Public goods and free riders",
+      "options": [
+        {
+          "id": "A",
+          "text": "supply to be perfectly elastic"
+        },
+        {
+          "id": "B",
+          "text": "a price ceiling to become binding"
+        },
+        {
+          "id": "C",
+          "text": "consumers to not reveal their true demand"
+        },
+        {
+          "id": "D",
+          "text": "positive externalities to increase"
+        },
+        {
+          "id": "E",
+          "text": "demand to be perfectly inelastic"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which of the following will result in the short run if the government imposes a binding quota?",
+      "title": "Quota",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decrease in the price paid by consumers"
+        },
+        {
+          "id": "B",
+          "text": "A rightward shift in the supply curve"
+        },
+        {
+          "id": "C",
+          "text": "A leftward shift in the demand curve"
+        },
+        {
+          "id": "D",
+          "text": "An increase in consumer surplus"
+        },
+        {
+          "id": "E",
+          "text": "A deadweight loss"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "People must make choices among available options because people",
+      "title": "Scarcity and making choices",
+      "options": [
+        {
+          "id": "A",
+          "text": "are irrational"
+        },
+        {
+          "id": "B",
+          "text": "have limited wants"
+        },
+        {
+          "id": "C",
+          "text": "have limited resources"
+        },
+        {
+          "id": "D",
+          "text": "are not provided goods by the government"
+        },
+        {
+          "id": "E",
+          "text": "do not receive positive benefits from consuming certain goods"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Number of Workers Number of Units of Capital Total Product (Quantity) 0 5 0 1 5 1 2 5 3 3 5 7 4 5 10 5 5 12 Suppose labor and capital can be hired in a competitive market. The wage is $15 per worker and the rental rate of capital is $ 10 per unit. Based on the table, what are the average variable cost ( AVC ) and average total cost ( ATC ) of producing 10 units of output?",
+      "title": "Short-Run Production Costs in PC",
+      "options": [
+        {
+          "id": "A",
+          "text": "AVC is $ 5 and ATC is $ 12"
+        },
+        {
+          "id": "B",
+          "text": "AVC is $ 6 and ATC is $ 11"
+        },
+        {
+          "id": "C",
+          "text": "AVC is $ 15 and ATC is $ 25"
+        },
+        {
+          "id": "D",
+          "text": "AVC is $ 60 and ATC is $ 110"
+        },
+        {
+          "id": "E",
+          "text": "AVC is $ 105 and ATC is $ 175"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "A perfectly competitive market produces the socially efficient level of output when the marginal social benefit of the last unit of output produced is",
+      "title": "Socially efficient quantity in PC",
+      "options": [
+        {
+          "id": "A",
+          "text": "equal to the marginal social cost"
+        },
+        {
+          "id": "B",
+          "text": "less than the marginal social cost"
+        },
+        {
+          "id": "C",
+          "text": "zero"
+        },
+        {
+          "id": "D",
+          "text": "greater than the total producer surplus"
+        },
+        {
+          "id": "E",
+          "text": "equal to the total producer surplus"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "According to the law of demand, which of the following occurs when the price of a good increases?",
+      "title": "The law of demand and price changes",
+      "options": [
+        {
+          "id": "A",
+          "text": "The demand for the good decreases."
+        },
+        {
+          "id": "B",
+          "text": "The quantity demanded of a substitute good decreases."
+        },
+        {
+          "id": "C",
+          "text": "The quantity demanded of a complementary good increases."
+        },
+        {
+          "id": "D",
+          "text": "The quantity demanded of the good increases."
+        },
+        {
+          "id": "E",
+          "text": "The quantity demanded of the good decreases."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "A short-run production function shows the relationship between a firm’s inputs and the output it produces when the firm",
+      "title": "The Short-run Production Function",
+      "options": [
+        {
+          "id": "A",
+          "text": "does not vary any of its inputs"
+        },
+        {
+          "id": "B",
+          "text": "has at least one fixed input"
+        },
+        {
+          "id": "C",
+          "text": "varies all of its inputs"
+        },
+        {
+          "id": "D",
+          "text": "has constant marginal cost"
+        },
+        {
+          "id": "E",
+          "text": "has no fixed costs"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "A market supply curve is more elastic in the long run than in the short run because",
+      "title": "The supply curve in long run",
+      "options": [
+        {
+          "id": "A",
+          "text": "producers’ marginal costs are increasing"
+        },
+        {
+          "id": "B",
+          "text": "the quantity demanded increases at a steady rate"
+        },
+        {
+          "id": "C",
+          "text": "there are no fixed inputs in the long run"
+        },
+        {
+          "id": "D",
+          "text": "of constant returns to scale in production"
+        },
+        {
+          "id": "E",
+          "text": "of diseconomies of scale in production"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "A Lorenz curve can be used to",
+      "title": "The use of Lorenz curve",
+      "options": [
+        {
+          "id": "A",
+          "text": "show the historical pattern of production"
+        },
+        {
+          "id": "B",
+          "text": "forecast production costs"
+        },
+        {
+          "id": "C",
+          "text": "show inequality in the income distribution"
+        },
+        {
+          "id": "D",
+          "text": "show economies and diseconomies of scale"
+        },
+        {
+          "id": "E",
+          "text": "show the shape of the long-run supply curve"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Josephine is buying candy and gum. If she is maximizing her utility for the combination of candy and gum she buys, which of the following must hold?",
+      "title": "Utility maximization of candy and gum",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marginal utility of candy ÷ price of candy = marginal utility of gum ÷ price of gum"
+        },
+        {
+          "id": "B",
+          "text": "Total utility of candy ÷ price of candy = total utility of gum ÷ price of gum"
+        },
+        {
+          "id": "C",
+          "text": "Marginal utility of candy ÷ total utility of candy = marginal utility of gum ÷ total utility of gum"
+        },
+        {
+          "id": "D",
+          "text": "Marginal utility of candy × price of candy = marginal utility of gum × price of gum"
+        },
+        {
+          "id": "E",
+          "text": "Total utility of candy × price of candy = total utility of gum × price of gum"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Tariffs and Quotas in Anconia",
+      "title": "Tariffs and Quotas in Anconia",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Internalizing consumption externality",
+      "title": "Internalizing consumption externality",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Wrightway Monopoly and Government Intervention",
+      "title": "Wrightway Monopoly and Government Intervention",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}

@@ -1,0 +1,1400 @@
+{
+  "examId": "statistics-2021",
+  "subject": "statistics",
+  "examName": "AP 统计 2021年国际卷",
+  "year": "2021",
+  "totalQuestions": 61,
+  "mcqCount": 61,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "0 5 1 4 5 6 6 8 2 3 3 3 4 3 2 4 4 9 4 2 4 5 6 5 0 4 4 9 6 4 5 6 7 4 7 Key: 7 | 4 = 74 % In 2011, the Gallup polling organization selected random samples of residents from each of the 27 countries in the European Union and found the percentage of residents in each country who consider themselves to be thriving. The 27 percentages are shown in the stemplot. What is the interquartile range for this data set?",
+      "title": "Thriving Residents",
+      "options": [
+        {
+          "id": "A",
+          "text": "27"
+        },
+        {
+          "id": "B",
+          "text": "31"
+        },
+        {
+          "id": "C",
+          "text": "39"
+        },
+        {
+          "id": "D",
+          "text": "41"
+        },
+        {
+          "id": "E",
+          "text": "72"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "The final scores for 309 participants in a national golf tournament are summarized in the following table. N Mean SE Mean St Dev Min Q1 Median Q3 Max 309 149.35 0.37 6.42 131 145 150 153.5 168 Which of the following is closest to the z -score of the minimum golf score?",
+      "title": "Golf Tournament",
+      "options": [
+        {
+          "id": "A",
+          "text": "− 2.16"
+        },
+        {
+          "id": "B",
+          "text": "− 2.86"
+        },
+        {
+          "id": "C",
+          "text": "− 2.96"
+        },
+        {
+          "id": "D",
+          "text": "− 18.40"
+        },
+        {
+          "id": "E",
+          "text": "− 278.10"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "A random sample of middle school students from District 1 and a random sample of middle school students from District 2 were selected with an even number of students in each sample. The number of minutes each student spent playing a certain mobile game application in a typical day was recorded. The data are summarized in the following table. Min Q1 Med Q3 Max District 1 112 120 130 137 145 District 2 112 128 130 145 152 If no two students within each district spent the same amount of time playing the mobile game application, which statement must be true?",
+      "title": "Mobile Game Play",
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of students in the sample from District 1 was less than the number of students in the sample from District 2."
+        },
+        {
+          "id": "B",
+          "text": "The percentage of students in both samples who spent less than 130 minutes playing the game is equal."
+        },
+        {
+          "id": "C",
+          "text": "No students in either district spent 115 minutes playing the game."
+        },
+        {
+          "id": "D",
+          "text": "The range of the number of minutes spent playing the game was greater for the District 1 sample than for the District 2 sample."
+        },
+        {
+          "id": "E",
+          "text": "The interquartile range of the number of minutes spent playing the game was less for the District 1 sample than for the District 2 sample."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "The boxplot shown summarizes the 100 highest salaries for municipal employees in a large city. [图: The figure shows a boxplot along a vertical axis labeled “Salary, in dollars,” and the numbers 90,000 through 110,000, in increments of 5,000, are indicated. The data represented in the boxplot are as follows. Note that all values are approximate. The bottom whisker extends from 92,500 to 95,000. The box extends from 95,000 to 102,500 with a horizontal line segment at 98,000 that divides the box into two parts. The top whisker extends from 102,500 to 108,500.] A new municipal employee was hired and was told that the salary would be within the middle 50 percent of the current 100 highest salaries. Based on the boxplot, which of the following is closest to the width of the interval in which the new employee’s salary will fall?",
+      "title": "Municipal Salaries",
+      "options": [
+        {
+          "id": "A",
+          "text": "$ 1 ,000"
+        },
+        {
+          "id": "B",
+          "text": "$ 3 ,000"
+        },
+        {
+          "id": "C",
+          "text": "$ 7 ,000"
+        },
+        {
+          "id": "D",
+          "text": "$ 10 ,000"
+        },
+        {
+          "id": "E",
+          "text": "$ 15 , 000"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Students in a physics class designed an experiment to investigate the effect of blade width on flight time for paper helicopters. A histogram of the flight times, in seconds, and a scatterplot of flight time versus blade width, in centimeters ( cm ), are shown for 25 helicopters. [图: The figure shows a histogram with 8 bars of data and a scatterplot of 25 data points. The horizontal axis of the histogram is labeled “Time, in seconds,” and the numbers 1.5 through 3.5, in increments of 0.5, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 12, in increments of 1, are indicated. The data represented by the bars are as follows. Note that all values are approximate. Time, 1.5 seconds through 1.74 seconds; frequency, 1. Time, 1.75 seconds through 1.99 seconds; frequency, 1. Time, 2.0 seconds through 2.24 seconds; frequency, 2. Time, 2.25 seconds through 2.49 seconds; frequency, 1. Time, 2.5 seconds through 2.74 seconds, 0. Time, 2.75 seconds through 2.99 seconds; frequency, 1. Time, 3.0 seconds through 3.24 seconds; frequency, 3. Time, 3.25 seconds through 3.49 seconds; frequency, 11. Time, 3.5 seconds through 3.74 seconds; frequency, 5. The data represented by the scatterplot are as follows. The horizontal axis is labeled “Width, in centimeters,” and the numbers 1.5 through 3.5, in increments of 0.5, are indicated. The vertical axis is labeled “Time, in seconds,” and the numbers 1.5 through 3.5, in increments of 0.5, are indicated. At a width of 1.5 centimeters, 5 data points are loosely clustered in a vertical line from 1.6 seconds through 2.4 seconds. At a width of 2.0 centimeters, 5 data points are loosely clustered in a vertical line from 2.8 seconds through 3.3 seconds. At a width of 2.5 centimeters, 5 data points are somewhat closely clustered in a vertical line from 3.3 seconds through 3.7 seconds. At a width of 3.0 centimeters, 5 data points are tightly clustered in a vertical line from 3.2 seconds through 3.6 seconds. At a width of 3.5 centimeters, 5 data points are loosely clustered in a vertical line from 2.9 seconds through 3.7 seconds.] Which of the following best describes the clusters and the gap in the histogram?",
+      "title": "Paper Helicopters",
+      "options": [
+        {
+          "id": "A",
+          "text": "The left cluster displays flight times for blade widths from 1.5 cm to 2.5 cm , and the right cluster displays flight times for the remaining blade widths."
+        },
+        {
+          "id": "B",
+          "text": "The left cluster displays flight times for blade widths of 1.5 cm , and the right cluster displays flight times for the remaining blade widths."
+        },
+        {
+          "id": "C",
+          "text": "The left cluster displays minimum flight times for each of the blade widths, and the right cluster displays the remaining flight times."
+        },
+        {
+          "id": "D",
+          "text": "The clusters are not related to the blade widths because flight time is measured in seconds and blade widths are measured in centimeters."
+        },
+        {
+          "id": "E",
+          "text": "The clusters are not related to the blade widths because the relationship between blade width and flight time is not linear."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "A company conducted a charity drive and recorded the donations made by the employees of two departments, A and B. The back-to-back stemplot below shows the amounts given by the employees from department A and the amounts given by the employees from department B. Department A Department B 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 5 0 0 0 1 0 0 0 0 0 0 0 0 0 5 5 5 5 5 5 5 5 5 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 5 5 5 5 5 5 5 0 3 0 0 0 0 5 5 5 5 5 5 5 5 5 0 0 0 4 0 0 0 5 5 5 0 0 0 0 5 0 0 0 0 5 5 5 6 5 5 5 5 5 7 5 5 5 5 5 8 5 5 5 5 5 5 5 5 5 5 5 0 0 0 0 0 0 0 9 Key: 7 | 5 represents $ 75 Based on the back-to-back stemplot, which of the following is correct?",
+      "title": "Employee Donations",
+      "options": [
+        {
+          "id": "A",
+          "text": "The variability of the donations for the employees from department A is less than the variability of the donations for the employees from department B."
+        },
+        {
+          "id": "B",
+          "text": "The median donation for the employees from department A is greater than the median donation for the employees from department B."
+        },
+        {
+          "id": "C",
+          "text": "The shape of the distribution of donations for each department is skewed left."
+        },
+        {
+          "id": "D",
+          "text": "The number of employees from department A who donated at most $ 35 is greater than the number of employees from department B who donated at most $ 35 ."
+        },
+        {
+          "id": "E",
+          "text": "The number of employees from department A who donated $ 50 is greater than the number of employees from department B who donated $ 50 ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "A realtor collected data from a random sample of 29 houses for sale in a certain town. The scatterplot shows the size of each house, in square feet, and the asking price, in thousands of dollars. The least-squares regression line is also shown. [图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled Size of House, in square feet, and the numbers 0 through 3,000, in increments of 500, are indicated. The vertical axis is labeled Asking Price, in thousands of dollars, and the numbers 0 through 350, in increments of 50, are indicated. A line of best fit is drawn, beginning at the point 500 square feet comma 90 thousand dollars and moves upwards and to the right, ending at the point 3,000 square feet comma 325 thousand dollars. A total of 29 data points are shown: 13 points lie above the line, 1 data point lies on the line, and 15 data points lie below the line.] Based on the recorded data, the realtor created the following regression equation to predict asking price, in thousands of dollars, based on the size, in square feet, of the house. predicted asking price = 35.050 + 0.096 ( size of house ) Which of the following provides the best interpretation of the slope of the regression line?",
+      "title": "Housing Price per Size",
+      "options": [
+        {
+          "id": "A",
+          "text": "For each additional square foot, the predicted asking price of a house in this town increases by $ 96 ."
+        },
+        {
+          "id": "B",
+          "text": "For each additional square foot, the predicted asking price of a house in this town increases by $ 35 ."
+        },
+        {
+          "id": "C",
+          "text": "For each additional square foot, the predicted asking price of a house in this town increases by $ 0.096 ."
+        },
+        {
+          "id": "D",
+          "text": "For each additional $ 1 ,000 of asking price, the predicted size of a house increases by 35 square feet."
+        },
+        {
+          "id": "E",
+          "text": "For each additional $ 1 ,000 of asking price, the predicted size of a house increases by 0.096 square feet."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "[图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Maximum Height, in feet,” and the numbers 0 through 250, in increments of 50, are indicated. The vertical axis is labeled “Maximum Speed, in miles per hour,” and the numbers 0 through 90, in increments of 10, are indicated. There are 13 data points in the scatterplot. A line of best fit is drawn. The line begins at the point representing approximately 30 feet and 32 miles per hours, and moves gradually upward and to the right until it ends at the point representing 225 feet and 75 miles per hour. Of the 13 data points, 4 lie above the line of best fit, 3 lie on the line of best fit, and 6 lie below the line of best fit. Some of the data points in the scatterplot have the following coordinates: 60 comma 39, 105 comma 28, 150 comma 65, 200 comma 72, and 215 comma 68. Note that all values are approximate.] An engineering student collected data on the maximum height, in feet, and maximum speed, in miles per hour, of thirteen roller coasters. A scatterplot of the data and the least-squares regression line are shown. The maximum heights of five of the roller coasters are 60 , 105 , 150 , 200 , and 215 feet. If the least-squares regression line is used to predict the maximum speed for the five roller coasters, for which maximum height, in feet, would the absolute value of the residual be largest?",
+      "title": "Roller Coasters",
+      "options": [
+        {
+          "id": "A",
+          "text": "60"
+        },
+        {
+          "id": "B",
+          "text": "105"
+        },
+        {
+          "id": "C",
+          "text": "150"
+        },
+        {
+          "id": "D",
+          "text": "200"
+        },
+        {
+          "id": "E",
+          "text": "215"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "One condition for inference for slope of a regression line is that the standard deviation of the response variable does not vary with the explanatory variable. Which of the following scatterplots most likely exhibits a violation of that condition?",
+      "title": "Slope Inference Condition",
+      "options": [
+        {
+          "id": "A",
+          "text": "[图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Explanatory variable,” and the numbers 50,000, 100,000, and 150,000 are indicated. The vertical axis is labeled “Response Variable, in thousands,” and the numbers 50, 100, and 150 are indicated. The data points begin at the origin and the relationship between the explanatory variable and response variable is linear, positive and strong.]"
+        },
+        {
+          "id": "B",
+          "text": "[图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Explanatory variable,” and the numbers 50,000, 100,000, and 150,000 are indicated. The vertical axis is labeled “Response Variable, in thousands,” and the numbers 50, 100, and 150 are indicated. The data points begin at the origin and the relationship between the explanatory variable and response variable is not linear, somewhat positive and very weak. As the value of the explanatory variable increases, the variability of the response variability increases.]"
+        },
+        {
+          "id": "C",
+          "text": "[图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Explanatory variable,” and the numbers 50,000, 100,000, and 150,000 are indicated. The vertical axis is labeled “Response variable, in thousands,” and the numbers 50, 100, and 150 are indicated. The data points begin near the origin and the relationship between the explanatory variable and response variable is linear, positive and somewhat strong.]"
+        },
+        {
+          "id": "D",
+          "text": "[图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Explanatory variable,” and the numbers 50,000, 100,000, and 150,000 are indicated. The vertical axis is labeled “Response variable, in thousands,” and the numbers 50, 100, and 150 are indicated. The relationship between the explanatory variable and response variable is linear, negative and weak.]"
+        },
+        {
+          "id": "E",
+          "text": "[图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Explanatory variable,” and the numbers 50,000, 100,000, and 150,000 are indicated. The vertical axis is labeled “Response Variable, in thousands,” and the numbers 50, 100, and 150 are indicated. The data points begin near the origin and the relationship between the explanatory variable and response variable is linear, positive and weak.]"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "A certain state law requires residential properties to receive an appraisal for tax purposes every six years. A random sample of 25 appraised properties was selected. The following scatterplot shows the value of the properties, in thousands of dollars, before and after the appraisal. Also shown is the least-squares regression line and corresponding computer output. [图: The figure shows a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “Old Property Value, in thousands of dollars,” and the numbers 0 through 400, in increments of 50, are indicated. The vertical axis is labeled “New Property Value, in thousands of dollars,” and the numbers 0 through 400, in increments of 50, are indicated. There are 25 data points in the scatterplot. A line of best fit is drawn. The line begins at the point with coordinates 140 comma 135, and moves steadily upward and to the right, and ends at the point with coordinates 360 comma 345. Of the 25 data points, 13 lie above the line of best fit, 4 lie on the line of best fit, and 8 lie below the line of best fit.] Term Coef SE Coef T -Value P -Value Constant − 3.817 1.23 − 0.60 0.5562 Old Property Value 0.95597 0.02634 36.30 < 0.0001 S = 7.53867 R-Sq = 98.28 % R-Sq ( a d j ) = 98.21 % Which of the following is not an appropriate description of the data in the sample?",
+      "title": "Tax Appraisal",
+      "options": [
+        {
+          "id": "A",
+          "text": "New property values tend to be greater than old property values."
+        },
+        {
+          "id": "B",
+          "text": "As old property values increase, new property values tend to increase."
+        },
+        {
+          "id": "C",
+          "text": "The relationship between old and new property value is strong and positive."
+        },
+        {
+          "id": "D",
+          "text": "For each additional $ 1 , 000 in old property value, the new property value increases by $ 955.97 , on average."
+        },
+        {
+          "id": "E",
+          "text": "The observed new property values typically deviate from the predicted new property values by about $ 7 , 539 ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "A medical researcher conducted a study to investigate the effectiveness of two drugs, L and M, designed to reduce the number of seizures that people with epilepsy might have. Each person in a group of 120 adult volunteers who had epilepsy was randomly assigned to one of two groups. Those assigned to one group took drug L for one year, and those assigned to the other group took drug M for one year. Each participant recorded the number of seizures that occurred during the year. To which group is it most reasonable to generalize the results of this study?",
+      "title": "Epilepsy Drugs",
+      "options": [
+        {
+          "id": "A",
+          "text": "All adults"
+        },
+        {
+          "id": "B",
+          "text": "All adults with epilepsy"
+        },
+        {
+          "id": "C",
+          "text": "All adults with epilepsy who take drugs to treat the disease"
+        },
+        {
+          "id": "D",
+          "text": "All adults with epilepsy who are similar to those who volunteered for the study"
+        },
+        {
+          "id": "E",
+          "text": "All adults who experience a reduction in the number of seizures"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Researchers conducted a study to investigate whether watching an outdoor scene while exercising improves health more than exercise alone. Fourteen fifth-grade students participated in two trials of the study. For one trial, the students rode a stationary bicycle for 15 minutes while watching a video of someone cycling through a forest. For the other trial, the students rode a stationary bicycle for 15 minutes without watching a video. Each student completed both trials in a randomized order. The researchers recorded the students’ heart rates after each trial. Which of the following is the best description of the study?",
+      "title": "Exercise Outdoor Scene",
+      "options": [
+        {
+          "id": "A",
+          "text": "A randomized matched-pairs experiment"
+        },
+        {
+          "id": "B",
+          "text": "A randomized placebo-controlled experiment"
+        },
+        {
+          "id": "C",
+          "text": "A completely randomized experiment"
+        },
+        {
+          "id": "D",
+          "text": "A sample survey"
+        },
+        {
+          "id": "E",
+          "text": "An observational study"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "A new laser-guided surgical procedure for removing an inflamed appendix is believed to have a shorter recovery time for patients than an alternative surgical procedure that is not guided by laser has. In an experiment to evaluate recovery time, patients needing the surgery will be randomly assigned to one of two surgical procedures. A surgeon will perform the surgery for one group using lasers and for the other group without the use of lasers. Both types of surgeries are performed with similarly sized incisions and patients are unaware of which procedure is performed. What type of blinding can be accomplished in the experiment?",
+      "title": "Laser Surgery",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both the patient and the surgeon can be blind to the treatment."
+        },
+        {
+          "id": "B",
+          "text": "Neither the patient nor the surgeon can be blind to the treatment."
+        },
+        {
+          "id": "C",
+          "text": "The patient can be blind to the treatment, but not the surgeon."
+        },
+        {
+          "id": "D",
+          "text": "The surgeon can be blind to the treatment, but not the patient."
+        },
+        {
+          "id": "E",
+          "text": "Blinding is not possible because the design has no control group."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "A medical researcher is interested in assessing the effectiveness of a new medication for pain relief. Three hundred volunteers will be randomly assigned to groups. One group will receive the new medication at a low dose, one group will receive the new medication at a high dose, and one group will receive a placebo that looks like the new medication but does not contain any active ingredients. Each person will be asked to rate his or her level of pain at the beginning of the experiment and again two hours after taking the medication or placebo. What is the number of treatments for this experiment?",
+      "title": "New Medication",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        },
+        {
+          "id": "E",
+          "text": "300"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "The height requirement for a certain ride at an amusement park is 48 inches or taller. The distribution of height of six-year-old children is approximately normal with mean 45.2 inches and standard deviation 1.75 inches. Which of the following is closest to the probability that a randomly selected six-year-old child will not meet the height requirement for the ride?",
+      "title": "Amusement Park Ride",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.0401"
+        },
+        {
+          "id": "B",
+          "text": "0.0548"
+        },
+        {
+          "id": "C",
+          "text": "0.9452"
+        },
+        {
+          "id": "D",
+          "text": "0.9599"
+        },
+        {
+          "id": "E",
+          "text": "0.9974"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "A manufacturer of a certain item knows that 1 percent of the items produced on a certain assembly line are defective. Suppose that 100 items produced on that assembly line will be selected at random. Which of the following expressions represents the probability that 3 of the 100 items selected will be defective?",
+      "title": "Assembly Line Defects",
+      "options": [
+        {
+          "id": "A",
+          "text": "( 100 3 ) ( 0.01 ) 3 ( 0.99 ) 97"
+        },
+        {
+          "id": "B",
+          "text": "( 100 97 ) ( 0.01 ) 97 ( 0.99 ) 3"
+        },
+        {
+          "id": "C",
+          "text": "( 97 3 ) ( 0.01 ) 3 ( 0.99 ) 97"
+        },
+        {
+          "id": "D",
+          "text": "( 97 3 ) ( 0.01 ) 97 ( 0.99 ) 3"
+        },
+        {
+          "id": "E",
+          "text": "( 100 3 ) ( 0.01 ) 3 ( 0.99 ) 3"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "The distribution of sale price for a certain model of car is approximately normal with mean $ 22 , 500 and standard deviation $ 600 . Based on the distribution, which statement must be true?",
+      "title": "Car Sales Price",
+      "options": [
+        {
+          "id": "A",
+          "text": "Approximately 99 % of the cars have a sale price less than $ 23 , 700 ."
+        },
+        {
+          "id": "B",
+          "text": "Approximately 84 % of the cars have a sale price greater than $ 21 , 900 ."
+        },
+        {
+          "id": "C",
+          "text": "Approximately 95 % of the cars have a sale price between $ 21 , 900 and $ 23 , 100 ."
+        },
+        {
+          "id": "D",
+          "text": "The interquartile range of the sale prices is approximately $ 600 ."
+        },
+        {
+          "id": "E",
+          "text": "The minimum sale price is $ 20 , 700 ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Number of cookies sold 50 100 200 Probability 0.60 0.35 0.05 The probability distribution of the number of cookies sold by a store each day is shown in the table. The store earns a profit of $ 0.50 per cookie sold. What is the store’s expected daily profit for the sales of the cookies?",
+      "title": "Cookie Profits",
+      "options": [
+        {
+          "id": "A",
+          "text": "$ 37.50"
+        },
+        {
+          "id": "B",
+          "text": "$ 75.00"
+        },
+        {
+          "id": "C",
+          "text": "$ 116.67"
+        },
+        {
+          "id": "D",
+          "text": "$ 150.00"
+        },
+        {
+          "id": "E",
+          "text": "$ 175.00"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "An elevator has a posted weight limit of 4 ,200 pounds and an occupancy limit of 21 people. If the weights of adult males are approximately normally distributed with μ = 190 pounds and σ = 32 pounds, which of the following best approximates the probability that a random sample of 21 adult males will exceed the posted weight limit of the elevator?",
+      "title": "Elevator Weight Limit",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.001"
+        },
+        {
+          "id": "B",
+          "text": "0.076"
+        },
+        {
+          "id": "C",
+          "text": "0.155"
+        },
+        {
+          "id": "D",
+          "text": "0.378"
+        },
+        {
+          "id": "E",
+          "text": "0.500"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Clark drives through two traffic lights on his way to work each day. From experience, he estimates that the probability that the first light will be red when he reaches it is 0.3 . He also estimates that the probability that the second light will be red when he reaches it is 0.45 . The lights are far enough apart that they can be considered to operate independently of each other. Based on Clark’s estimates, what is the probability that at least one of the two lights will be red on a randomly selected drive to work?",
+      "title": "Red Lights",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.135"
+        },
+        {
+          "id": "B",
+          "text": "0.165"
+        },
+        {
+          "id": "C",
+          "text": "0.385"
+        },
+        {
+          "id": "D",
+          "text": "0.615"
+        },
+        {
+          "id": "E",
+          "text": "0.750"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "The driving route between a student’s home and the student’s high school has two traffic lights. The distribution of total time spent driving has mean 5 minutes and standard deviation 1 minute. The distribution of time spent waiting at a light has mean 0.75 minute and standard deviation 0.25 minute. The total time spent driving and the time spent waiting at a light are independent. The total travel time from the student’s home to the student’s high school consists of the total time spent driving and the time spent waiting at two lights. What are the mean and the standard deviation of the total travel time?",
+      "title": "Traffic Lights",
+      "options": [
+        {
+          "id": "A",
+          "text": "The mean is 5.75 minutes and the standard deviation is about 1.03 minutes."
+        },
+        {
+          "id": "B",
+          "text": "The mean is 5.75 minutes and the standard deviation is about 1.06 minutes."
+        },
+        {
+          "id": "C",
+          "text": "The mean is 6.5 minutes and the standard deviation is about 1.06 minutes."
+        },
+        {
+          "id": "D",
+          "text": "The mean is 6.5 minutes and the standard deviation is about 1.12 minutes."
+        },
+        {
+          "id": "E",
+          "text": "The mean is 6.5 minutes and the standard deviation is about 1.5 minutes."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "A six-week training program was developed to help student athletes improve performance on a certain task. To study the effectiveness of the program, researchers randomly selected 50 student athletes. The students were tested before participating in the program. Then, half the athletes were randomly assigned to participate in the program and the other half were allowed to train on their own. At the end of the six weeks, all athletes were tested again. The researchers reported that the athletes who participated in the program increased their scores, on average, by 200 points, whereas those who did not participate raised their scores, on average, by 80 points. After reading the results of the study, Jasmine, a student athlete, decided to enroll in the program. At the end of six weeks, her score had increased by 80 points. Which of the following is an explanation for the difference between Jasmine’s score and the scores that the study reported for student athletes who participated in the program?",
+      "title": "Athlete Training Program",
+      "options": [
+        {
+          "id": "A",
+          "text": "The results of the study were false; there must have been a bias in the sample that was not reported."
+        },
+        {
+          "id": "B",
+          "text": "Jasmine probably did not follow the program correctly; if she had, she would have seen a 200 -point increase in her score."
+        },
+        {
+          "id": "C",
+          "text": "The increase of 200 points reported was an average; some athletes could have increased their scores by more than 200 points, and some by less than 200 points."
+        },
+        {
+          "id": "D",
+          "text": "The sample sizes used in the study were too small for any conclusions about the training to be valid."
+        },
+        {
+          "id": "E",
+          "text": "The study was not a well-designed experiment because causation cannot be attributed to the program."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which of the following statements illustrates the Law of Large Numbers? For n flips of a fair coin with one side heads, the proportion of flips that land heads up approaches 0.5 as n increases. For n tosses of a fair six-sided die with one face labeled 1 , the proportion of tosses that land with the face of 1 up approaches 1 6 as n increases. If each of 10 consecutive tosses of a fair coin resulted in a head, the probability that the next toss of the coin will result in a tail is greater than 0.5 .",
+      "title": "Law of Large Numbers",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "II only"
+        },
+        {
+          "id": "C",
+          "text": "III only"
+        },
+        {
+          "id": "D",
+          "text": "I and II only"
+        },
+        {
+          "id": "E",
+          "text": "I , II , and III"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "A 95 percent confidence interval for the mean weight, in thousands of pounds, of African bush elephants is determined to be ( 12.2 , 14.6 ) . Which of the following is a correct interpretation of the interval?",
+      "title": "African Bush Elephants",
+      "options": [
+        {
+          "id": "A",
+          "text": "We are 95 % confident that 95 % of African bush elephants weigh between 12.2 thousand pounds and 14.6 thousand pounds."
+        },
+        {
+          "id": "B",
+          "text": "The probability is 0.95 that the population mean weight of African bush elephants is between 12.2 thousand pounds and 14.6 thousand pounds."
+        },
+        {
+          "id": "C",
+          "text": "We are 95 % confident that the population mean weight of African bush elephants is between 12.2 thousand pounds and 14.6 thousand pounds."
+        },
+        {
+          "id": "D",
+          "text": "We are 95 % confident that the population mean weight of African bush elephants is 13.4 thousand pounds, which is the midpoint of the interval."
+        },
+        {
+          "id": "E",
+          "text": "We are 95 % confident that the mean weight calculated from a different sample of African bush elephants would be between 12.2 thousand pounds and 14.6 thousand pounds."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Two brands of golf cart batteries, R and S, were tested to investigate whether there is a difference between the proportions of fully charged batteries that could power a golf cart for at least thirty miles. A random sample of 50 brand R batteries was selected and a random sample of 50 brand S batteries was selected. Batteries were randomly assigned to one of 100 different golf carts. Each cart was driven until the battery failed. Of the carts with brand R batteries, 40 traveled over thirty miles, and of the carts with brand S batteries, 35 traveled over thirty miles. Which of the following is a 95 percent confidence interval for the difference in the proportions of fully charged batteries that can power a golf cart for at least thirty miles for the two brands?",
+      "title": "Golf Carts",
+      "options": [
+        {
+          "id": "A",
+          "text": "( 0.8 − 0.7 ) ± 1.645 ( 0.8 ) ( 0.2 ) 50 + ( 0.7 ) ( 0.3 ) 50"
+        },
+        {
+          "id": "B",
+          "text": "( 0.8 − 0.7 ) ± 1.645 ( 0.75 ) ( 0.25 ) ( 1 50 + 1 50 )"
+        },
+        {
+          "id": "C",
+          "text": "( 0.8 − 0.7 ) ± 1.645 ( 0.8 ) ( 0.2 ) 50 − ( 0.7 ) ( 0.3 ) 50"
+        },
+        {
+          "id": "D",
+          "text": "( 0.8 − 0.7 ) ± 1.960 ( 0.8 ) ( 0.2 ) 50 + ( 0.7 ) ( 0.3 ) 50"
+        },
+        {
+          "id": "E",
+          "text": "( 0.8 − 0.7 ) ± 1.960 ( 0.75 ) ( 0.25 ) ( 1 50 + 1 50 )"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "An agriculturalist wants to estimate the average time from germination to ripe fruit for a new type of seedless strawberry. From a random sample of 25 seedless strawberries of the new type, the mean time from germination to ripe fruit is 42.1 days with standard deviation 3.6 days. Assume all conditions for inference were met. Which of the following is a 90 percent confidence interval for the mean time from germination to ripe fruit for the new type of seedless strawberry?",
+      "title": "Seedless Strawberry",
+      "options": [
+        {
+          "id": "A",
+          "text": "42 ± 6.16"
+        },
+        {
+          "id": "B",
+          "text": "42.1 ± 1.49"
+        },
+        {
+          "id": "C",
+          "text": "42.1 ± 1.23"
+        },
+        {
+          "id": "D",
+          "text": "42.1 ± 1.18"
+        },
+        {
+          "id": "E",
+          "text": "42.1 ± 0.25"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Researchers selected a random sample of 100 students from a certain college to investigate whether students from the college who are sleep deprived will have lower reading-comprehension scores, on average, than students from the college who are not sleep deprived. Half the students from the sample were randomly assigned to a treatment group that received sleep restrictions, and the other half were assigned to a control group that received no sleep restrictions. The students were given a reading-comprehension test before the study began and at the end of two days. The mean score of the test for the treatment group was similar to that of the control group before the study. A 95 percent confidence interval constructed from the difference in mean scores (treatment minus control) at the end of two days was ( − 7.3 , − 1.5 ) . Based on the confidence interval, which of the following is an appropriate conclusion?",
+      "title": "Sleep Deprived",
+      "options": [
+        {
+          "id": "A",
+          "text": "The data provide no evidence that the population of sleep-deprived students from the college has a lower mean reading-comprehension score than the population of students from the college who are not sleep deprived."
+        },
+        {
+          "id": "B",
+          "text": "The data provide convincing statistical evidence that the population of sleep-deprived students from the college has a lower mean reading-comprehension score than the population of students from the college who are not sleep deprived."
+        },
+        {
+          "id": "C",
+          "text": "No conclusion can be made because a confidence interval cannot be used to assess statistical evidence."
+        },
+        {
+          "id": "D",
+          "text": "The probability that a student from the college who is sleep deprived will have a lower reading-comprehension score than a student from the college who is not sleep deprived is 0.95 ."
+        },
+        {
+          "id": "E",
+          "text": "More than half the students from the college do worse on a reading-comprehension test after being sleep deprived."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "An engineer wanted to investigate the relationship between total stopping distance required (reaction distance and actual breaking distance) and speed of a car. The engineer completed an experiment measuring the total stopping distance of the car at 5 different speeds, and the resulting regression output is shown below. Predictor Coef SE Coef T P Constant − 284.29 63.032 − 4.51 0.0204 Speed 11.905 1.220 9.76 0.0023 S = 35.56 R-sq = 96.9 % R-sq (adj) = 95.9 % Assume the conditions for inference are met. Which of the following represents a 95 percent confidence interval for the slope of the regression line?",
+      "title": "Stopping Distance",
+      "options": [
+        {
+          "id": "A",
+          "text": "11.905 ± 3.182 ( 1.220 )"
+        },
+        {
+          "id": "B",
+          "text": "11.905 ± 3.182 ( 1.220 5 )"
+        },
+        {
+          "id": "C",
+          "text": "11.905 ± 3.182 ( 1.220 4 )"
+        },
+        {
+          "id": "D",
+          "text": "11.905 ± 2.776 ( 1.220 )"
+        },
+        {
+          "id": "E",
+          "text": "11.905 ± 2.776 ( 1.220 5 )"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "To estimate the proportion of Europeans who walk for exercise at least 10 minutes a week, data were collected from a random sample of 27 ,919 people from Europe. The 95 percent confidence interval created from the data was ( 0.856 , 0.864 ) . Which of the following is an appropriate interpretation of the confidence interval?",
+      "title": "Walking Europeans",
+      "options": [
+        {
+          "id": "A",
+          "text": "The probability that a randomly selected person from Europe walks for exercise at least 10 minutes a week is 0.95 ."
+        },
+        {
+          "id": "B",
+          "text": "The proportion of Europeans who walk between 0.856 and 0.864 minute a week for exercise is 0.95 ."
+        },
+        {
+          "id": "C",
+          "text": "There is a 95 % chance that the sample proportion of Europeans who walk for exercise at least 10 minutes a week is between 0.856 and 0.864 ."
+        },
+        {
+          "id": "D",
+          "text": "Between 85.6 % and 86.4 % of all Europeans walk for exercise at least 10 minutes a week."
+        },
+        {
+          "id": "E",
+          "text": "We can be 95 % confident that the proportion of all Europeans who walk for exercise at least 10 minutes a week is between 0.856 and 0.864 ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "A study was conducted to investigate whether there is a difference in the mean life span of a new brand of battery compared with an older brand of battery. Independent random samples of 9 new-brand batteries and 8 older-brand batteries were selected, and the life span (in hours) of each battery was recorded. Summary statistics obtained from the data are shown in the table below. Assume that the conditions for inference are met. New Brand Older Brand Mean 426.8 355.2 Standard Deviation 49.5 96.7 Which of the following best approximates the p -value for a test of H 0 : μ new − μ older = 0 versus H a : μ new − μ older ≠ 0 , where μ new is the population mean life span of the new brand of battery and μ older is the population mean life span of the older brand of battery?",
+      "title": "Battery Life",
+      "options": [
+        {
+          "id": "A",
+          "text": "P ( t > 426.8 − 355.2 49.5 9 + 96.7 8 )"
+        },
+        {
+          "id": "B",
+          "text": "P ( t > 426.8 − 355.2 49.5 2 9 − 96.7 2 8 )"
+        },
+        {
+          "id": "C",
+          "text": "P ( t > 426.8 − 355.2 49.5 2 9 + 96.7 2 8 )"
+        },
+        {
+          "id": "D",
+          "text": "2 ⋅ P ( t > 426.8 − 355.2 49.5 9 + 96.7 8 )"
+        },
+        {
+          "id": "E",
+          "text": "2 ⋅ P ( t > 426.8 − 355.2 49.5 2 9 + 96.7 2 8 )"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "The campaign manager for a candidate for governor wants to estimate the difference between the percentage of voters who viewed an advertisement and favor the candidate and the percentage of voters who had not viewed the advertisement and favor the candidate. Two independent random samples of 500 voters were selected. One random sample consisted of voters who viewed the advertisement and the other random sample consisted of voters who had not viewed the advertisement. The table shows the frequencies of responses for those surveyed. Have Not Seen Advertisement Have Seen Advertisement In favor 224 283 Not in favor 276 217 Which of the following is the most appropriate method for the campaign manager to use to estimate the difference between the percentages of voters who favor the candidate?",
+      "title": "Candidate Advertisement",
+      "options": [
+        {
+          "id": "A",
+          "text": "A one-sample z -interval for estimating a population proportion"
+        },
+        {
+          "id": "B",
+          "text": "A t -interval for estimating the slope of the least-squares regression line"
+        },
+        {
+          "id": "C",
+          "text": "A matched-pairs t -interval for estimating a mean difference"
+        },
+        {
+          "id": "D",
+          "text": "A two-sample z -interval for estimating a difference between sample proportions"
+        },
+        {
+          "id": "E",
+          "text": "A two-sample z -interval for estimating a difference between population proportions"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "A national newspaper reported that 40 percent of high school students engage in community service activities. A school administrator wondered whether the proportion of high school students at the administrator’s school who engage in community service activities is less than 40 percent. The administrator selected a random sample of 100 students, and 36 responded that they do engage in community service activities. The conditions for inference were met, and an appropriate hypothesis test resulted in a p -value of 0.207 . Which of the following is a correct interpretation of this p -value?",
+      "title": "Community Service",
+      "options": [
+        {
+          "id": "A",
+          "text": "The probability that a randomly selected student at this high school engages in community service activities is 0.207 ."
+        },
+        {
+          "id": "B",
+          "text": "The probability is 0.40 that less than 20.7 percent of students at this high school engage in community service activities."
+        },
+        {
+          "id": "C",
+          "text": "The probability is 0.207 that less than 40 percent of students at this high school engage in community service activities."
+        },
+        {
+          "id": "D",
+          "text": "If the proportion of all students at the school who engage in community service activities is 0.4 , the probability of observing 36 or fewer in a random sample of 100 students who engage in community service activities is 0.207 ."
+        },
+        {
+          "id": "E",
+          "text": "If the proportion of all students at the school who engage in community service activities is 0.36 , the probability of obtaining 40 or fewer in a random sample of 100 who engage in community service activities is 0.207 ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "The editor of a local newspaper wants to know whether readers would be willing to pay an additional $ 1.00 per month for their monthly newspaper subscription in exchange for an extra weekly section featuring stories about local businesses. The editor plans to survey a random sample of readers, and if the editor finds convincing statistical evidence that more than 75 percent of readers support the change, the editor will implement the plan of starting the extra weekly section. In the context of this situation, which of the following describes a consequence of a Type I error?",
+      "title": "Newspaper Section",
+      "options": [
+        {
+          "id": "A",
+          "text": "The editor decides to implement the plan of starting the extra weekly section when the actual percentage of readers who support the change is greater than 75 % ."
+        },
+        {
+          "id": "B",
+          "text": "The editor decides to implement the plan of starting the extra weekly section when the actual percentage of readers who support the change is not greater than 75 % ."
+        },
+        {
+          "id": "C",
+          "text": "The editor decides to implement the plan of starting the extra weekly section when the actual percentage of readers who support the change is less than 50 % ."
+        },
+        {
+          "id": "D",
+          "text": "The editor decides not to implement the plan of starting the extra weekly section when the actual percentage of readers who support the change is greater than 75 % ."
+        },
+        {
+          "id": "E",
+          "text": "The editor decides not to implement the plan of starting the extra weekly section when the actual percentage of readers who support the change is not greater than 75 % ."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which statement about the power of a significance test is true?",
+      "title": "Power of a Test",
+      "options": [
+        {
+          "id": "A",
+          "text": "A test performed at a significance level of α = 0.01 has a higher power than the same test performed at a significance level of α = 0.05 ."
+        },
+        {
+          "id": "B",
+          "text": "If the probability of Type I error is decreased, the power of the test is increased."
+        },
+        {
+          "id": "C",
+          "text": "The power of a test is equal to the probability of making a Type II error."
+        },
+        {
+          "id": "D",
+          "text": "The power of a test is independent of the sample size."
+        },
+        {
+          "id": "E",
+          "text": "The power of a test at a particular parameter value increases as the distance from the hypothesized value to the parameter value increases."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "A researcher in sports medicine is interested in comparing the amount of daily screen time between high school students who are athletes and high school students who are not athletes. A random sample of 100 high school students who are athletes and a random sample of 100 high school students who are not athletes will be selected. Each student will be asked “Do you typically have more than 3 hours of screen time each day?” Which of the following is the most appropriate test for the researcher to use to investigate whether there is a difference in the amounts of daily screen time?",
+      "title": "Screen Time Athletes",
+      "options": [
+        {
+          "id": "A",
+          "text": "A two-sample z -test for a difference between population proportions"
+        },
+        {
+          "id": "B",
+          "text": "A two-sample t -test for a difference between population proportions"
+        },
+        {
+          "id": "C",
+          "text": "A two-sample z -test for a difference between population means"
+        },
+        {
+          "id": "D",
+          "text": "A two-sample t -test for a difference between population means"
+        },
+        {
+          "id": "E",
+          "text": "A chi-square goodness-of-fit test"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Researchers studying the relationship between sleep and memory obtained a sample of 28 adults to participate in an experiment. Half of the participants were randomly assigned to a full night’s sleep, and the other half were awakened every two hours throughout the night. The following day, the participants were given a list of words to memorize and recall after one hour. Researchers recorded the number of words recalled by each participant. The p -value of an appropriate statistical test was 0.29 . Which of the following is a reasonable conclusion?",
+      "title": "Sleep and Memory",
+      "options": [
+        {
+          "id": "A",
+          "text": "The data provide sufficient evidence that memory is related to sleep."
+        },
+        {
+          "id": "B",
+          "text": "The data provide sufficient evidence that memory is not related to sleep."
+        },
+        {
+          "id": "C",
+          "text": "A cause-and-effect relationship between memory and sleep cannot be established. However, the data provide sufficient evidence that there is an association between memory and sleep."
+        },
+        {
+          "id": "D",
+          "text": "The data do not provide convincing evidence that memory is related to sleep."
+        },
+        {
+          "id": "E",
+          "text": "The conditions for inference must not have been satisfied."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "A recent report stated that 30 percent of smartphone users exceed their data limit in a given month. A consumer advocacy group questions the validity of the reported percent. The group obtained a random sample of 100 smartphone users and found that 40 of them exceeded their data limit in a certain month. Of the following sampling distributions, which one should be used to test the hypothesis that the proportion is different than 30 percent?",
+      "title": "Smartphone Data",
+      "options": [
+        {
+          "id": "A",
+          "text": "[图: The figure shows a bell curve along a horizontal axis, labeled p hat. The numbers 0.00 through 0.60, in increments of 0.10, are indicated along the plane. The bell curve begins at the value of 0.23 and moves gradually upwards and to the right until reaching a value of 0.25, after which it moves very steeply upwards and to the right such that the line is nearly vertical, reaching a peak high above the value of 0.30. The line then moves very steeply downwards and to the right until reaching the value of 0.35, after which it curves gradually downwards to the right and ends at the value of 0.37.]"
+        },
+        {
+          "id": "B",
+          "text": "[图: The figure shows a bell curve on a horizontal plane, labeled p hat. The numbers 0.00 through 0.60, in increments of 0.10, are indicated along the plane. The bell curve begins at the value of 0.15 and moves gradually upwards and to the right, moving more steeply upwards and to the right after passing the value of 0.20 and reaches a peak above the value of 0.30. It then moves steeply downwards and to the right until passing the value of 0.40, after which it moves gradually downwards and to the right and ends at the value of 0.45.]"
+        },
+        {
+          "id": "C",
+          "text": "[图: The figure shows a bell curve along a horizontal axis, labeled p hat. The numbers 0.00 through 0.60, in increments of 0.10, are indicated along the plane. The bell curve begins at the value of 0.00 and moves slightly upwards and to the right, moving more steeply upwards and to the right after passing the value of 0.12 and reaches a peak above the value of 0.30. It then moves downwards and to the right until passing the value of 0.52, after which it moves slightly downwards and to the right and ends at the value of 0.60.]"
+        },
+        {
+          "id": "D",
+          "text": "[图: The figure shows a bell curve along a horizontal axis, labeled p hat. The numbers 0.00 through 0.60, in increments of 0.10, are indicated along the plane. The bell curve begins at the value of 0.25 and moves upwards and to the right, moving steeply upwards and to the right after passing the value of 0.30 and reaches a peak above the value of 0.40. It then moves steeply downwards and to the right until passing the value of 0.50, after which it moves downwards and to the right and ends at the value of 0.55.]"
+        },
+        {
+          "id": "E",
+          "text": "[图: The figure shows a bell curve along a horizontal axis, labeled p hat. The numbers 0.00 through 0.60, in increments of 0.10, are indicated along the plane. The bell curve begins at the value of 0.35 and immediately moves very steeply upwards and to the right, reaching a sharp peak high above the value of 0.40, after which it moves very steeply downwards and to the right and ends at a value of 0.45.]"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "A college professor administered a survey to students from three different majors: engineering, nursing, and communications. The students were asked to identify how they prefer to be contacted: e-mail, telephone, or text message. The professor then used the survey data to conduct a chi-square test. Which of the following best describes the null hypothesis for the test?",
+      "title": "Student Contact",
+      "options": [
+        {
+          "id": "A",
+          "text": "There is an association between major and preferred method of communication."
+        },
+        {
+          "id": "B",
+          "text": "There is a positive association between major and preferred method of communication."
+        },
+        {
+          "id": "C",
+          "text": "There is no association between major and preferred method of communication."
+        },
+        {
+          "id": "D",
+          "text": "One-third of all students at the college are engineering majors, one-third are nursing majors, and one-third are communication majors."
+        },
+        {
+          "id": "E",
+          "text": "One-third of all students at the college prefer to be contacted by e-mail, one-third prefer to be contacted by telephone, and one-third prefer to be contacted via text message."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "A random sample of students was selected at each of two high schools to investigate whether the proportions of students who drive themselves to school are different for the two schools. Of the 100 students sampled at one high school, 25 reported driving themselves to school. Of the 200 students sampled at the other high school, 62 reported driving themselves to school. Which of the following is equivalent to the p -value for a test to determine whether there is convincing statistical evidence of a difference between the proportions of students who drive themselves to school for the two schools?",
+      "title": "Students Driving",
+      "options": [
+        {
+          "id": "A",
+          "text": "P ( z > 0.25 − 0.31 ( 0.25 ) ( 0.75 ) 100 + ( 0.31 ) ( 0.69 ) 200 )"
+        },
+        {
+          "id": "B",
+          "text": "P ( z < 0.25 − 0.31 ( 0.25 ) ( 0.75 ) 100 + ( 0.31 ) ( 0.69 ) 200 )"
+        },
+        {
+          "id": "C",
+          "text": "2 ⋅ P ( z < 0.25 − 0.31 ( 0.25 ) ( 0.75 ) 100 + ( 0.31 ) ( 0.69 ) 200 )"
+        },
+        {
+          "id": "D",
+          "text": "P ( z < 0.25 − 0.31 ( 0.29 ) ( 0.71 ) ( 1 100 + 1 200 ) )"
+        },
+        {
+          "id": "E",
+          "text": "2 ⋅ P ( z < 0.25 − 0.31 ( 0.29 ) ( 0.71 ) ( 1 100 + 1 200 ) )"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "A research agency surveyed 2 ,209 residents who live in one of three districts in a county: urban, suburban, or rural. The residents were asked to choose one of four categories that aligned with their opinion on how wireless infrastructure in the county should be paid for: wage tax, sales tax, property tax, or user fee. When investigating whether opinion about how the wireless infrastructure should be paid for is independent of the district in which residents live, which of the following is the correct degrees of freedom for the appropriate chi-square test?",
+      "title": "Wireless Infrastructure",
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        },
+        {
+          "id": "E",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Robotic Claw",
+      "title": "Robotic Claw",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Robotic Claw",
+      "title": "Robotic Claw",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Robotic Claw",
+      "title": "Robotic Claw",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Robotic Claw",
+      "title": "Robotic Claw",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Robotic Claw",
+      "title": "Robotic Claw",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Fitness center",
+      "title": "Fitness center",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Fitness center",
+      "title": "Fitness center",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Corks",
+      "title": "Corks",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Corks",
+      "title": "Corks",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Corks",
+      "title": "Corks",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Corks",
+      "title": "Corks",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Disc golf",
+      "title": "Disc golf",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Prediction interval",
+      "title": "Prediction interval",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Prediction interval",
+      "title": "Prediction interval",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Prediction interval",
+      "title": "Prediction interval",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Prediction interval",
+      "title": "Prediction interval",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Yawning",
+      "title": "Yawning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Yawning",
+      "title": "Yawning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Yawning",
+      "title": "Yawning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Yawning",
+      "title": "Yawning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Yawning",
+      "title": "Yawning",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}

@@ -1,0 +1,2042 @@
+{
+  "examId": "psychology-2025-sample1",
+  "subject": "psychology",
+  "examName": "AP 心理 2025年样题1",
+  "year": "2025-sample1",
+  "totalQuestions": 84,
+  "mcqCount": 84,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Josie was given a password by her teacher. To remember the password, she repeated it in her mind multiple times until she typed it into her login screen a few moments later. Which of the following concepts was at work?",
+      "title": "Phonological loop - repeating password",
+      "options": [
+        {
+          "id": "A",
+          "text": "Divergent thinking"
+        },
+        {
+          "id": "B",
+          "text": "Iconic memory"
+        },
+        {
+          "id": "C",
+          "text": "Phonological loop"
+        },
+        {
+          "id": "D",
+          "text": "Visuospatial sketchpad"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "A study was conducted with fifty-five preteens (ages 9–12) who were not getting the recommended amount of sleep for their age. All preteens agreed to participate in the study. The participants were told they did not have to complete the study and could leave the study at any time. During the study, participants were randomly placed into either a group that gradually moved bedtimes earlier by five minutes each night or a control group that slept on their normal sleep cycle. The study’s purpose was disclosed to participants once the study was over. Which of the following ethical considerations was most problematic for this study?",
+      "title": "Preteen sleep study - ethical guidelines",
+      "options": [
+        {
+          "id": "A",
+          "text": "Participants were not debriefed."
+        },
+        {
+          "id": "B",
+          "text": "The risk to participants was too high."
+        },
+        {
+          "id": "C",
+          "text": "The participants did not have the right to withdraw."
+        },
+        {
+          "id": "D",
+          "text": "Informed consent was not given for the preteens to participate in the study."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which of the following scenarios best describes the monocular depth cue of relative size?",
+      "title": "Relative size monocular depth cue scenario",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abel judges the distance of an object based on the difference between the images processed by the retina in each eye."
+        },
+        {
+          "id": "B",
+          "text": "Yvonne judges the distance of an object based on how large the image is on the retina."
+        },
+        {
+          "id": "C",
+          "text": "Kenzi judges the distance of an object based on whether it is partially blocked by another object."
+        },
+        {
+          "id": "D",
+          "text": "Selah judges the distance of an object based on its location in the visual field compared with other objects in the scene."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Dr. Sanjay conducted a study to determine whether eating breakfast affects academic performance. At the beginning of the week, he gathered survey data from students in his third-grade class about whether they ate breakfast. The next day, Dr. Sanjay showed the students ten new vocabulary words. Three days later, he administered a test to the students to measure their word recall. After analyzing the data, he claimed that eating breakfast improves the ability to recall new words. Which of the following statements best explains why this is a false claim?",
+      "title": "Word recall study - correlation not causation",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Sanjay did not obtain informed consent from the parents or guardians of the students."
+        },
+        {
+          "id": "B",
+          "text": "Dr. Sanjay needed to confirm that the students told the truth about what they ate."
+        },
+        {
+          "id": "C",
+          "text": "Dr. Sanjay cannot make cause-and-effect claims from correlational data."
+        },
+        {
+          "id": "D",
+          "text": "Dr. Sanjay needed to wait more than three days to measure word recall."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which of the following is an example of habituation for a dog?",
+      "title": "Dog habituation scenario",
+      "options": [
+        {
+          "id": "A",
+          "text": "The dog only responded after his owner repeatedly called his name."
+        },
+        {
+          "id": "B",
+          "text": "Although the dog responded the first time his owner called his name, the dog stopped responding when his owner called his name multiple times."
+        },
+        {
+          "id": "C",
+          "text": "After his owner first gave him food, the dog continued to beg for food at the table."
+        },
+        {
+          "id": "D",
+          "text": "The dog stopped begging for food at the table after his owner did not respond with food multiple times."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Dr. Nelson believes that the symptoms of Nellie’s schizophrenia stem from childhood trauma. However, Dr. Khan believes that excess dopamine is causing many of Nellie’s symptoms. Which of the following psychological perspectives is each doctor using to explain Nellie’s symptoms?",
+      "title": "Perspectives explaining schizophrenia",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Nelson is using a psychodynamic perspective, while Dr. Khan is using a biological perspective."
+        },
+        {
+          "id": "B",
+          "text": "Dr. Nelson is using a cognitive perspective, while Dr. Khan is using an evolutionary perspective."
+        },
+        {
+          "id": "C",
+          "text": "Dr. Nelson is using a behavioral perspective, while Dr. Khan is using a sociocultural perspective."
+        },
+        {
+          "id": "D",
+          "text": "Dr. Nelson is using a humanistic perspective, while Dr. Khan is using a psychodynamic perspective."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Participants in a study are randomly shown one of two advertisements for a new dessert brand. In each advertisement, the participants are told about how delicious, satisfying, and healthy the dessert is. In one advertisement, this information is presented by a doctor wearing a lab coat. In the other advertisement, the information is presented by a popular movie actor. Which of the following research questions is this study most likely trying to answer?",
+      "title": "Routes to persuasion - dessert ads",
+      "options": [
+        {
+          "id": "A",
+          "text": "What type of audience is most receptive to an advertisement?"
+        },
+        {
+          "id": "B",
+          "text": "How does psychological state affect physical health?"
+        },
+        {
+          "id": "C",
+          "text": "How does the source of information affect how persuasive the information is?"
+        },
+        {
+          "id": "D",
+          "text": "How does personality affect decision-making?"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Tim decided he needed to lose some weight. He started dieting, but he was experiencing uncomfortable feelings of hunger when he fasted for several hours. He then began eating several small meals over the course of a day and stopped experiencing feelings of hunger. Which of the following concepts best explains why Tim was not able to maintain fasting as a part of his diet strategy?",
+      "title": "Homeostasis for regulating hunger pangs",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yerkes-Dodson Law"
+        },
+        {
+          "id": "B",
+          "text": "Homeostasis"
+        },
+        {
+          "id": "C",
+          "text": "Reaction formation"
+        },
+        {
+          "id": "D",
+          "text": "Instincts"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Ms. Fox conducted a study to see if there was a relationship between the Big Five trait of conscientiousness and final grades in her class. She randomly sampled data from seven students, whose conscientiousness scores and final grades are indicated in the table. Conscientious Score and Final Grade Student Conscientiousness Score Final Grade (%) A 10 92 B 6 69 C 9 84 D 4 63 E 3 55 F 5 72 G 4 81 Which of the following research methods is Ms. Fox using in her study?",
+      "title": "Quantitative Set Unit 4 - methodology",
+      "options": [
+        {
+          "id": "A",
+          "text": "A correlational study"
+        },
+        {
+          "id": "B",
+          "text": "An experiment"
+        },
+        {
+          "id": "C",
+          "text": "A naturalistic observation"
+        },
+        {
+          "id": "D",
+          "text": "A case study"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Ms. Fox conducted a study to see if there was a relationship between the Big Five trait of conscientiousness and final grades in her class. She randomly sampled data from seven students, whose conscientiousness scores and final grades are indicated in the table. Conscientious Score and Final Grade Student Conscientiousness Score Final Grade (%) A 10 92 B 6 69 C 9 84 D 4 63 E 3 55 F 5 72 G 4 81 Which of the following graphs best depicts the results of Ms. Fox’s study?",
+      "title": "Quantitative Set Unit 4 - graph identification",
+      "options": [
+        {
+          "id": "A",
+          "text": "[图: A scatterplot. The horizontal axis is labeled Conscientiousness Score. It ranges from 0 to 10 in increments of 2. The vertical axis is labeled Final grade (%). It ranges from 0 to 100 in increments of 20. Refer to long description.] The scatterplot has 7 data points. The values are approximate. The data points are as follows: Conscientiousness Score 4, Final grade 95% Conscientiousness Score 4, Final grade 82% Conscientiousness Score 4, Final grade 81% Conscientiousness Score 5, Final grade 71% Conscientiousness Score 6, Final grade 70% Conscientiousness Score 9, Final grade 61% Conscientiousness Score 10, Final grade 58% The line of best fit extends from the top left corner to the right midpoint of the scatterplot."
+        },
+        {
+          "id": "B",
+          "text": "[图: A scatterplot. The horizontal axis is labeled Conscientiousness Score. It ranges from 0 to 10 in increments of 2. The vertical axis is labeled Final grade (%). It ranges from 0 to 100 in increments of 20. Refer to long description.] The scatterplot has 7 data points. The values are approximate. The data points are as follows: Conscientiousness Score 2, Final grade 35% Conscientiousness Score 3, Final grade 40% Conscientiousness Score 5, Final grade 35% Conscientiousness Score 6, Final grade 45% Conscientiousness Score 7, Final grade 40% Conscientiousness Score 8, Final grade 40% Conscientiousness Score 10, Final grade 35% The line of best fit extends from the left midpoint to the right midpoint of the scatterplot."
+        },
+        {
+          "id": "C",
+          "text": "[图: A scatterplot. The horizontal axis is labeled Conscientiousness Score. It ranges from 0 to 10 in increments of 2. The vertical axis is labeled Final grade (%). It ranges from 0 to 100 in increments of 20. Refer to long description.] The scatterplot has 7 data points. The values are approximate. The data points are as follows: Conscientiousness Score 2, Final grade 98% Conscientiousness Score 3, Final grade 90% Conscientiousness Score 4, Final grade 70% Conscientiousness Score 5, Final grade 50% Conscientiousness Score 6, Final grade 40% Conscientiousness Score 9, Final grade 20% Conscientiousness Score 10, Final grade 10% The line of best fit extends from near the top left corner to near the bottom right corner of the scatterplot."
+        },
+        {
+          "id": "D",
+          "text": "[图: A scatterplot. The horizontal axis is labeled Conscientiousness Score. It ranges from 0 to 10 in increments of 2. The vertical axis is labeled Final grade (%). It ranges from 0 to 100 in increments of 20. Refer to long description.] The scatterplot has 7 data points. The values are approximate. The data points are as follows: Conscientiousness Score 3, Final grade 55% Conscientiousness Score 4, Final grade 81% Conscientiousness Score 4, Final grade 63% Conscientiousness Score 5, Final grade 72% Conscientiousness Score 6, Final grade 69% Conscientiousness Score 9, Final grade 84% Conscientiousness Score 10, Final grade 92% The line of best fit extends from the left midpoint to the top right corner of the scatterplot."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Ms. Fox conducted a study to see if there was a relationship between the Big Five trait of conscientiousness and final grades in her class. She randomly sampled data from seven students, whose conscientiousness scores and final grades are indicated in the table. Conscientious Score and Final Grade Student Conscientiousness Score Final Grade (%) A 10 92 B 6 69 C 9 84 D 4 63 E 3 55 F 5 72 G 4 81 Which of the following statements by one of Ms. Fox’s students best demonstrates a high level of conscientiousness?",
+      "title": "Quantitative Set Unit 4 - trait application",
+      "options": [
+        {
+          "id": "A",
+          "text": "I am typically nervous in situations where I am meeting new people."
+        },
+        {
+          "id": "B",
+          "text": "I am always happy to work with a diverse group of people."
+        },
+        {
+          "id": "C",
+          "text": "I enjoy eating new foods or going to places I have never been before."
+        },
+        {
+          "id": "D",
+          "text": "I like to keep my study notes organized."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which of the following statements best explains a common criticism of the Diagnostic and Statistical Manual of Mental Disorders ( DSM )?",
+      "title": "Common criticism of DSM",
+      "options": [
+        {
+          "id": "A",
+          "text": "The DSM recommends pharmaceutical treatments for psychological disorders that may not be appropriate for all people."
+        },
+        {
+          "id": "B",
+          "text": "The DSM organizes symptoms of different disorders so they can be diagnosed effectively."
+        },
+        {
+          "id": "C",
+          "text": "The DSM features only the cognitive perspective and ignores other important psychological viewpoints."
+        },
+        {
+          "id": "D",
+          "text": "The DSM uses labels that can create lasting stigma for the person diagnosed."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Dr. Patel conducts a survey of his local community and finds that people who regularly attend a religious service are happier than those who do not. Dr. Patel concludes that attending religious services regularly causes happiness. Which of the following factors makes his conclusion faulty?",
+      "title": "Happiness study correlation not causation",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Patel did not debrief his survey participants after the study was completed."
+        },
+        {
+          "id": "B",
+          "text": "Dr. Patel used a case study method instead of an experiment to investigate the relationship."
+        },
+        {
+          "id": "C",
+          "text": "Dr. Patel assumed a causal relationship using data from a nonexperimental method."
+        },
+        {
+          "id": "D",
+          "text": "Dr. Patel did not use naturalistic observation to verify the survey results."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "A researcher conducted a study to investigate whether women in the first trimester of pregnancy score higher on levels of disgust than women who are in a later stage of pregnancy. The researcher believes that being more selective about food choices helps pregnant women avoid diseases that could harm their fetuses. A researcher from which of the following psychological perspectives would most likely be interested in examining this relationship?",
+      "title": "Evolutionary perspective - harm to fetus",
+      "options": [
+        {
+          "id": "A",
+          "text": "Psychodynamic"
+        },
+        {
+          "id": "B",
+          "text": "Cognitive"
+        },
+        {
+          "id": "C",
+          "text": "Evolutionary"
+        },
+        {
+          "id": "D",
+          "text": "Sociocultural"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "[图: An illustration of the side view of the cerebral cortex of a human brain with the spinal cord attached. Refer to long description.] Which of the following is a primary function of the nervous system depicted in the figure?",
+      "title": "Function of CNS in image",
+      "options": [
+        {
+          "id": "A",
+          "text": "Breaking down food to process into energy"
+        },
+        {
+          "id": "B",
+          "text": "Sending and receiving sensory and motor signals"
+        },
+        {
+          "id": "C",
+          "text": "Receiving chemical signals from the outside world"
+        },
+        {
+          "id": "D",
+          "text": "Secreting hormones that regulate body temperature"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Professor Jain conducted a study investigating the impact of sleep deprivation on reaction time. After giving consent, 12 adult participants who typically slept 8 hours per night were randomly assigned to one of two groups. One group maintained their typical amount of sleep of 8 hours. The other group reduced their typical amount of sleep to 4 hours. After waking from sleep, participants were given a reaction time test. The average reaction time, in seconds, for each participant is displayed in the table. Average Reaction Time 8-Hours-of-Sleep Group 4-Hours-of-Sleep Group 4 4 1 2 2 8 3 7 3 3 5 6 What is the mean reaction time for the group that slept 8 hours?",
+      "title": "Sleep study reaction time from table",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 seconds"
+        },
+        {
+          "id": "B",
+          "text": "4 seconds"
+        },
+        {
+          "id": "C",
+          "text": "5 seconds"
+        },
+        {
+          "id": "D",
+          "text": "6 seconds"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Alice saved money from her job to attend a sports camp that she was really excited to attend. At the camp, she endured challenging morning runs and grueling physical activity that she disliked. She thought that the food was terrible and that her bed was uncomfortable. After she returned home, she was asked if she enjoyed the camp. She replied, \"It was the best experience of my life.” Which of the following concepts best explains Alice’s final attitude about the camp?",
+      "title": "Cognitive dissonance about summer camp",
+      "options": [
+        {
+          "id": "A",
+          "text": "Principles of operant conditioning"
+        },
+        {
+          "id": "B",
+          "text": "Principles of classical conditioning"
+        },
+        {
+          "id": "C",
+          "text": "Reciprocal determinism"
+        },
+        {
+          "id": "D",
+          "text": "Cognitive dissonance"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Asano is the expert for English literature on his school’s trivia team. He knows the authors and main characters of many famous novels. Which of the following describes Asano’s knowledge of these types of facts?",
+      "title": "Semantic memory for facts",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implicit memory"
+        },
+        {
+          "id": "B",
+          "text": "Semantic memory"
+        },
+        {
+          "id": "C",
+          "text": "Prospective memory"
+        },
+        {
+          "id": "D",
+          "text": "Sensory memory"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which of the following statements best describes the differences between internal locus of control and external locus of control for health and well-being?",
+      "title": "Internal vs external locus of control",
+      "options": [
+        {
+          "id": "A",
+          "text": "Individuals with an internal locus of control tend to be less depressed than individuals who have an external locus of control."
+        },
+        {
+          "id": "B",
+          "text": "Individuals with an external locus of control thrive when they work independently compared to individuals who have an internal locus of control."
+        },
+        {
+          "id": "C",
+          "text": "Individuals with an internal locus of control live longer than those with an external locus of control."
+        },
+        {
+          "id": "D",
+          "text": "Individuals with an internal locus of control are more likely than individuals who have an external locus of control to experience learned helplessness."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Dr. Keith conducted a study to investigate whether caffeine improves focus and attention. He selected a random sample of students from his college class and then randomly assigned each of them to drink a cup of coffee or a cup of water before class. At the end of class, he administered a test on their knowledge of class material presented that day. Which of the following is the operational definition of the dependent variable?",
+      "title": "Research scenario set Unit 1 - DV",
+      "options": [
+        {
+          "id": "A",
+          "text": "A cup of coffee"
+        },
+        {
+          "id": "B",
+          "text": "A cup of water"
+        },
+        {
+          "id": "C",
+          "text": "Test scores on the class material"
+        },
+        {
+          "id": "D",
+          "text": "Focus and attention"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Dr. Keith conducted a study to investigate whether caffeine improves focus and attention. He selected a random sample of students from his college class and then randomly assigned each of them to drink a cup of coffee or a cup of water before class. At the end of class, he administered a test on their knowledge of class material presented that day. Which of the following elements of Dr. Keith’s research would most strengthen Dr. Keith’s ability to infer a causal relationship between caffeine intake and improved focus and attention?",
+      "title": "Research scenario set Unit 1 - inferring cause",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Keith selects a random sample of students in the class."
+        },
+        {
+          "id": "B",
+          "text": "Dr. Keith gains approval from an Institutional Review Board."
+        },
+        {
+          "id": "C",
+          "text": "Dr. Keith keeps conditions the same between the two groups except for the independent variable."
+        },
+        {
+          "id": "D",
+          "text": "Dr. Keith debriefs the students at the end of the study."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Dr. Keith conducted a study to investigate whether caffeine improves focus and attention. He selected a random sample of students from his college class and then randomly assigned each of them to drink a cup of coffee or a cup of water before class. At the end of class, he administered a test on their knowledge of class material presented that day. Dr. Keith found that students who drink coffee demonstrate less focus and attention, as evidenced by lower test scores, and then claimed that he expected that result all along. Based on this description, which of the following is Dr. Keith displaying?",
+      "title": "Research scenario set Unit 1 - hindsight bias",
+      "options": [
+        {
+          "id": "A",
+          "text": "Availability heuristic"
+        },
+        {
+          "id": "B",
+          "text": "Hindsight bias"
+        },
+        {
+          "id": "C",
+          "text": "Actor/observer bias"
+        },
+        {
+          "id": "D",
+          "text": "Fundamental attribution error"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Maksym’s parents set moderate expectations about discipline, exhibit high levels of warmth, and have open lines of communication. Which of the following best describes the parenting style of Maksym’s parents?",
+      "title": "Authoritative parenting style",
+      "options": [
+        {
+          "id": "A",
+          "text": "Authoritarian"
+        },
+        {
+          "id": "B",
+          "text": "Permissive"
+        },
+        {
+          "id": "C",
+          "text": "Authoritative"
+        },
+        {
+          "id": "D",
+          "text": "Scaffolding"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of the following statements is most representative of the principles of the Law of Effect?",
+      "title": "Law of Effect scenarios",
+      "options": [
+        {
+          "id": "A",
+          "text": "A person is able to notice a change in a stimulus if it is a large enough proportion of change from the original stimulus."
+        },
+        {
+          "id": "B",
+          "text": "A person is more likely to engage in a behavior if they feel personal satisfaction from doing it rather than receiving external rewards for doing it."
+        },
+        {
+          "id": "C",
+          "text": "A person is more likely to engage in a behavior more frequently when the behavior is followed by a positive result."
+        },
+        {
+          "id": "D",
+          "text": "Identical twins raised in separate households are more similar in IQ and personality than fraternal twins raised in the same household."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Dr. Stonington argues that children’s cognitive abilities develop in clear, distinct stages that are universal. Which of the following views is most consistent with Dr. Stonington’s beliefs?",
+      "title": "Discontinuous view of cognitive development",
+      "options": [
+        {
+          "id": "A",
+          "text": "The continuous view of development"
+        },
+        {
+          "id": "B",
+          "text": "The discontinuous view of development"
+        },
+        {
+          "id": "C",
+          "text": "The epigenetics view of development"
+        },
+        {
+          "id": "D",
+          "text": "The nurture view of development"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Mr. Harding teaches two classes. His early afternoon class consists of mostly boys, while his late afternoon class consists of mostly girls. He believes that girls tend to be calmer than boys, so he expects that his late afternoon class will be easier than his early afternoon class. Mr. Harding’s belief is an example of which of the following?",
+      "title": "Stereotype of girls and boys in class",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cognitive dissonance"
+        },
+        {
+          "id": "B",
+          "text": "A stereotype"
+        },
+        {
+          "id": "C",
+          "text": "In-group bias"
+        },
+        {
+          "id": "D",
+          "text": "Reciprocal determinism"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "According to the psychodynamic perspective, which of the following processes best explains why people use defense mechanisms?",
+      "title": "Function of defense mechanisms",
+      "options": [
+        {
+          "id": "A",
+          "text": "To protect the ego"
+        },
+        {
+          "id": "B",
+          "text": "To self-actualize"
+        },
+        {
+          "id": "C",
+          "text": "To overcome latent learning"
+        },
+        {
+          "id": "D",
+          "text": "To delay moratorium"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Reginald is conducting a case study on a group of self-identified extroverts. Reginald is a trait theorist who believes that people act the same regardless of the situation. He lists all the situations in which the group is more talkative and outgoing. However, he ignores the instances in which the group acts more reserved or interacts with only a few people. Which of the following may Reginald be experiencing?",
+      "title": "Confirmation bias with extraversion",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hindsight bias"
+        },
+        {
+          "id": "B",
+          "text": "Self-serving bias"
+        },
+        {
+          "id": "C",
+          "text": "Spotlight effect"
+        },
+        {
+          "id": "D",
+          "text": "Confirmation bias"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Markum is taking a class on positive psychology. His instructor encourages class members to recognize, reflect on, and appreciate the moments in their lives when they have had positive feelings or have been influenced in ways that had positive outcomes. Which of the following terms best corresponds to what Markum’s instructor is trying to help them feel?",
+      "title": "Gratitude instruction in class",
+      "options": [
+        {
+          "id": "A",
+          "text": "Self-efficacy"
+        },
+        {
+          "id": "B",
+          "text": "Locus of control"
+        },
+        {
+          "id": "C",
+          "text": "Gratitude"
+        },
+        {
+          "id": "D",
+          "text": "Eustress"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Dr. Meerdink wants to know if creativity varies throughout the day. In a morning class, she asks her college students to list as many uses as possible for a stick. On the same day 12 hours later, she asks students in an evening class to list as many uses as possible for a stick. Which of the following factors is the dependent variable?",
+      "title": "Creativity study - time of day as DV",
+      "options": [
+        {
+          "id": "A",
+          "text": "Morning"
+        },
+        {
+          "id": "B",
+          "text": "Evening"
+        },
+        {
+          "id": "C",
+          "text": "Creativity"
+        },
+        {
+          "id": "D",
+          "text": "College students"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Psychologists have found that the rates of depression in the countries of the world vary greatly. Which of the following statements best explains the difficulty in determining how common a disorder may be globally?",
+      "title": "Rates of depression worldwide",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because other countries never allow studies conducted on people, this type of research is difficult to conduct."
+        },
+        {
+          "id": "B",
+          "text": "Because human genetics vary widely it is difficult to accurately measure how common a disorder may be in a specific culture."
+        },
+        {
+          "id": "C",
+          "text": "Because psychologists from different cultures are competitive, they often do not share research results, which makes it difficult to measure diagnostic differences across cultures."
+        },
+        {
+          "id": "D",
+          "text": "Because cultures deviate widely in their social norms, making consistent and reliable diagnoses across cultures is difficult."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Darrin is watching a horror movie. When the evil main character makes a surprise appearance, Darrin jumps out of his seat, his heart rate accelerates, and he screams. Which of the following pathways most directly contributes to his ability to calm down after this startle response?",
+      "title": "Parasympathetic nervous system function",
+      "options": [
+        {
+          "id": "A",
+          "text": "The reflex arc"
+        },
+        {
+          "id": "B",
+          "text": "The somatic nervous system"
+        },
+        {
+          "id": "C",
+          "text": "The sympathetic nervous system"
+        },
+        {
+          "id": "D",
+          "text": "The parasympathetic nervous system"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Sleep researchers conducted a study to determine if wearing a continuous positive airway pressure (CPAP) machine helps individuals who are experiencing symptoms of sleep apnea to increase their levels of REM sleep compared to those not using a CPAP device. Twenty participants with sleep apnea who did not previously wear a CPAP device were randomly placed into one of two groups. Group 1 slept without wearing a CPAP device, and researchers measured the percentage of total sleep time each participant spent in REM. Participants in Group 2 were given a CPAP device to wear while sleeping and researchers measured the percentage of total sleep time each participant spent in REM. The results are given in the graph. REM Sleep and CPAP Machines [图: A bar graph titled REM Sleep and C P A P Machines. The horizontal axis has no label. Two bars are shown. The vertical axis is labeled REM Sleep as a Percentage of Total Sleep Time. It ranges from 0 to 35 in increments of 5. Refer to long description.] The REM Sleep as a Percentage of Total Sleep Time data for the 2 bars are as follows: Group 1 - Without C P A P: 10% Group 2 - With C P A P: 30% What is the independent variable in this study?",
+      "title": "Research Scenario set Unit 1 - IV",
+      "options": [
+        {
+          "id": "A",
+          "text": "The use or nonuse of the CPAP device by participants"
+        },
+        {
+          "id": "B",
+          "text": "The percentage of total sleep time that participants spent in REM sleep"
+        },
+        {
+          "id": "C",
+          "text": "The severity of sleep apnea symptoms for each participant"
+        },
+        {
+          "id": "D",
+          "text": "The number of participants in each group"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Sleep researchers conducted a study to determine if wearing a continuous positive airway pressure (CPAP) machine helps individuals who are experiencing symptoms of sleep apnea to increase their levels of REM sleep compared to those not using a CPAP device. Twenty participants with sleep apnea who did not previously wear a CPAP device were randomly placed into one of two groups. Group 1 slept without wearing a CPAP device, and researchers measured the percentage of total sleep time each participant spent in REM. Participants in Group 2 were given a CPAP device to wear while sleeping and researchers measured the percentage of total sleep time each participant spent in REM. The results are given in the graph. REM Sleep and CPAP Machines [图: A bar graph titled REM Sleep and C P A P Machines. The horizontal axis has no label. Two bars are shown. The vertical axis is labeled REM Sleep as a Percentage of Total Sleep Time. It ranges from 0 to 35 in increments of 5. Refer to long description.] The REM Sleep as a Percentage of Total Sleep Time data for the 2 bars are as follows: Group 1 - Without C P A P: 10% Group 2 - With C P A P: 30% Why is it necessary in this study to have at least one experimental condition and one control condition?",
+      "title": "Research Scenario set Unit 1 - experimental groups",
+      "options": [
+        {
+          "id": "A",
+          "text": "Without the experimental condition, there would not be enough participants in the study."
+        },
+        {
+          "id": "B",
+          "text": "It is necessary to determine if the placebo effect played a role in the outcome of the study."
+        },
+        {
+          "id": "C",
+          "text": "The control condition provides a comparison to the experimental condition."
+        },
+        {
+          "id": "D",
+          "text": "The inclusion of an experimental condition eliminates the possibility of confounding variables."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Sleep researchers conducted a study to determine if wearing a continuous positive airway pressure (CPAP) machine helps individuals who are experiencing symptoms of sleep apnea to increase their levels of REM sleep compared to those not using a CPAP device. Twenty participants with sleep apnea who did not previously wear a CPAP device were randomly placed into one of two groups. Group 1 slept without wearing a CPAP device, and researchers measured the percentage of total sleep time each participant spent in REM. Participants in Group 2 were given a CPAP device to wear while sleeping and researchers measured the percentage of total sleep time each participant spent in REM. The results are given in the graph. REM Sleep and CPAP Machines [图: A bar graph titled REM Sleep and C P A P Machines. The horizontal axis has no label. Two bars are shown. The vertical axis is labeled REM Sleep as a Percentage of Total Sleep Time. It ranges from 0 to 35 in increments of 5. Refer to long description.] The REM Sleep as a Percentage of Total Sleep Time data for the 2 bars are as follows: Group 1 - Without C P A P: 10% Group 2 - With C P A P: 30% Which of the following psychological perspectives would best support a researcher’s belief that the dreams that occur in REM sleep are a result of random neural firing in the brain stem?",
+      "title": "Research Scenario set Unit 1 - perspectives",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cognitive"
+        },
+        {
+          "id": "B",
+          "text": "Sociocultural"
+        },
+        {
+          "id": "C",
+          "text": "Psychodynamic"
+        },
+        {
+          "id": "D",
+          "text": "Biological"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which of the following disorders is classified as an anxiety disorder?",
+      "title": "Anxiety disorders identification",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dissociative identity disorder"
+        },
+        {
+          "id": "B",
+          "text": "ADHD"
+        },
+        {
+          "id": "C",
+          "text": "Bipolar disorder"
+        },
+        {
+          "id": "D",
+          "text": "Panic disorder"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Johanna, a high school senior, starts experiencing disruptions in her movement when she cannot contract certain muscles. Which of the following neurotransmitters is most likely involved in this disruption of the muscle contraction?",
+      "title": "Acetylcholine and muscle movement",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acetylcholine"
+        },
+        {
+          "id": "B",
+          "text": "GABA"
+        },
+        {
+          "id": "C",
+          "text": "Serotonin"
+        },
+        {
+          "id": "D",
+          "text": "Endorphins"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Robyn finds a computer repair service online. She silently repeats the phone number in her mind until she locates her phone to call the repair service. Which memory system is most useful for Robyn in this scenario?",
+      "title": "Working memory system function",
+      "options": [
+        {
+          "id": "A",
+          "text": "Superior autobiographical memory"
+        },
+        {
+          "id": "B",
+          "text": "Working memory"
+        },
+        {
+          "id": "C",
+          "text": "Sensory memory"
+        },
+        {
+          "id": "D",
+          "text": "Long-term memory"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "At lunch with his colleagues, Carlo is discussing the stories told by the participants in his research on the effectiveness of cognitive behavioral therapy for participants diagnosed with a phobic disorder. Which of the following ethical principles is Carlo most likely violating?",
+      "title": "Researcher violating confidentiality",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confidentiality"
+        },
+        {
+          "id": "B",
+          "text": "Approval by an Institutional Review Board"
+        },
+        {
+          "id": "C",
+          "text": "Protection from harm"
+        },
+        {
+          "id": "D",
+          "text": "Debriefing"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Sarah is the mother of an eight-month-old boy named Connor. Connor has been struggling to sit up on his own without assistance. While visiting a friend, Sarah noticed that her friend’s five-month-old daughter was sitting up with ease. Which of the following explanations would a developmental psychologist generally offer to Sarah?",
+      "title": "Physical milestone infant development",
+      "options": [
+        {
+          "id": "A",
+          "text": "Positive punishment can encourage Connor to sit up."
+        },
+        {
+          "id": "B",
+          "text": "Although sitting upright with no assistance is a major milestone, many babies will develop within a range of ages."
+        },
+        {
+          "id": "C",
+          "text": "It is likely that Connor has a genetic disorder that needs to be treated immediately."
+        },
+        {
+          "id": "D",
+          "text": "Connor needs physical therapy to help him coordinate his muscle movements better."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of the following examples best illustrates latent learning?",
+      "title": "Latent learning examples",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every time a rat presses a lever it receives food, which increases its lever-pressing behavior."
+        },
+        {
+          "id": "B",
+          "text": "After imitating how his father shaves for many years, Simon can hold the razor correctly."
+        },
+        {
+          "id": "C",
+          "text": "A rat allowed to wander a maze for a few days can run it more quickly after a reward is later introduced."
+        },
+        {
+          "id": "D",
+          "text": "Every time Raysa ties her shoes correctly, her mother gives her a sticker, so Raysa improves at tying her shoes."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "When teaching an introductory Spanish class, Jermaine first introduces students to individual words and then helps students string the words together into sentences. This is an example of which of the following?",
+      "title": "Scaffolding Spanish vocabularly words",
+      "options": [
+        {
+          "id": "A",
+          "text": "Attachment"
+        },
+        {
+          "id": "B",
+          "text": "Theory of mind"
+        },
+        {
+          "id": "C",
+          "text": "Conservation"
+        },
+        {
+          "id": "D",
+          "text": "Scaffolding"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Lisa admires a musician that she has not met but believes is physically attractive. Because of the musician’s appearance, Lisa assumes they must also be intelligent and kind. Which of the following concepts best explains Lisa’s perception?",
+      "title": "Halo effect scenario",
+      "options": [
+        {
+          "id": "A",
+          "text": "The halo effect"
+        },
+        {
+          "id": "B",
+          "text": "Social comparison"
+        },
+        {
+          "id": "C",
+          "text": "Overconfidence"
+        },
+        {
+          "id": "D",
+          "text": "Self-serving bias"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Dr. Cruickshank conducted a study to examine whether cerebral cortex activity in the brain would be higher during memory retrieval for a test or during the initial learning process. She conducted brain scans on 10 volunteers while they were learning a new set of vocabulary words and while they were given a test on the same vocabulary words. In which lobes of the brain should Dr. Cruickshank expect to see activity when subjects process the sounds of the vocabulary words?",
+      "title": "Temporal lobes processing sound",
+      "options": [
+        {
+          "id": "A",
+          "text": "Occipital lobes"
+        },
+        {
+          "id": "B",
+          "text": "Temporal lobes"
+        },
+        {
+          "id": "C",
+          "text": "Parietal lobes"
+        },
+        {
+          "id": "D",
+          "text": "Frontal lobes"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "A study was conducted with first-year students in a high-stress honors program at a university. At the beginning of the semester, two hundred students in the program were selected at random and asked to complete two surveys. The first survey measured their stress levels related to school, and the second was a health questionnaire measuring recent illnesses. Participants again completed both surveys during exam week at the end of the semester. The results of the study showed that as school-related stress levels increased, the number of illnesses also increased. The researchers concluded that school stress causes students to experience more illness. Which of the following research methods was used in the university study?",
+      "title": "Research scenario set Unit 5 - method",
+      "options": [
+        {
+          "id": "A",
+          "text": "An experiment"
+        },
+        {
+          "id": "B",
+          "text": "A case study"
+        },
+        {
+          "id": "C",
+          "text": "A correlational study"
+        },
+        {
+          "id": "D",
+          "text": "A naturalistic observation"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "A study was conducted with first-year students in a high-stress honors program at a university. At the beginning of the semester, two hundred students in the program were selected at random and asked to complete two surveys. The first survey measured their stress levels related to school, and the second was a health questionnaire measuring recent illnesses. Participants again completed both surveys during exam week at the end of the semester. The results of the study showed that as school-related stress levels increased, the number of illnesses also increased. The researchers concluded that school stress causes students to experience more illness. Which of the following best explains why the research method in the scenario was chosen?",
+      "title": "Research scenario Unit 5 - ethics of experiments",
+      "options": [
+        {
+          "id": "A",
+          "text": "Studies involving students can interfere with academic performance and should only be done at specific universities."
+        },
+        {
+          "id": "B",
+          "text": "It is unethical to intentionally cause stress to people that might result in illness, and thus surveys and questionnaires are more ethical."
+        },
+        {
+          "id": "C",
+          "text": "Asking health questions on a survey would invade people’s privacy to the point where it is unethical."
+        },
+        {
+          "id": "D",
+          "text": "The researchers must not interact with participants so they do not influence their behaviors."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "A study was conducted with first-year students in a high-stress honors program at a university. At the beginning of the semester, two hundred students in the program were selected at random and asked to complete two surveys. The first survey measured their stress levels related to school, and the second was a health questionnaire measuring recent illnesses. Participants again completed both surveys during exam week at the end of the semester. The results of the study showed that as school-related stress levels increased, the number of illnesses also increased. The researchers concluded that school stress causes students to experience more illness. If the researchers graphed the results of the stress survey, which of the following statements would be the best prediction about the distribution of scores?",
+      "title": "Research scenario set Unit 5 - score distribution",
+      "options": [
+        {
+          "id": "A",
+          "text": "The distribution of scores would likely appear as a normal distribution."
+        },
+        {
+          "id": "B",
+          "text": "The distribution of scores would likely be skewed toward high stress."
+        },
+        {
+          "id": "C",
+          "text": "The distribution of scores would be skewed toward low levels of stress."
+        },
+        {
+          "id": "D",
+          "text": "The distribution of scores would be negative."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Dr. Rickman is a mental health professional who believes that the diathesis-stress model best explains how psychological disorders develop. Which of the following statements best describes Dr. Rickman’s beliefs about the causes of psychological disorders?",
+      "title": "Diathesis-stress model",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Rickman assumes that psychological disorders derive primarily from genetic factors."
+        },
+        {
+          "id": "B",
+          "text": "Dr. Rickman emphasizes the importance of cultural practices as the dominant cause of psychological disorders."
+        },
+        {
+          "id": "C",
+          "text": "Dr. Rickman believes that disorders develop from genetic vulnerability aggravated by adverse life experiences."
+        },
+        {
+          "id": "D",
+          "text": "Dr. Rickman would argue that the environment is the only important contributor to psychological disorders."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "An online advertisement uses data and logical arguments to convince consumers to try a new skincare product. Which of the following methods best represents this persuasive approach?",
+      "title": "Routes to persuasion - central",
+      "options": [
+        {
+          "id": "A",
+          "text": "The door-in-the-face technique"
+        },
+        {
+          "id": "B",
+          "text": "The foot-in-the-door technique"
+        },
+        {
+          "id": "C",
+          "text": "The central route to persuasion"
+        },
+        {
+          "id": "D",
+          "text": "The peripheral route to persuasion"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Betty was just diagnosed with multiple sclerosis. Which of the following effects is she most likely to experience?",
+      "title": "Effects of multiple sclerosis",
+      "options": [
+        {
+          "id": "A",
+          "text": "The neurons in her body will not be able to reach threshold, leading to fatigue."
+        },
+        {
+          "id": "B",
+          "text": "Depolarization in her neurons will not occur, causing sensory impairment."
+        },
+        {
+          "id": "C",
+          "text": "Neurotransmitters will remain in the synapse for an extended period, causing memory loss."
+        },
+        {
+          "id": "D",
+          "text": "Neural messages will travel slowly down the axon, leading to motor impairment."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Relationship of Driving Test Scores and Family Income [图: A line graph. The horizontal axis is labeled Family Income. It ranges from Less than $20,000 to More than $200,000 and is divided into 9 intervals. The vertical axis is labeled Test Score. It ranges from 100 to 180 in increments of 10. Refer to long description.] A researcher gave a group of college students a driving test and then collected data about their household income. Using the information in the graph, which of the following statements is most accurate?",
+      "title": "Positive correlation from graph",
+      "options": [
+        {
+          "id": "A",
+          "text": "Having a higher driving test score causes students to have a higher family income."
+        },
+        {
+          "id": "B",
+          "text": "There is a positive correlation between family income and driving test scores."
+        },
+        {
+          "id": "C",
+          "text": "Having a higher family income causes students to have higher driving test scores."
+        },
+        {
+          "id": "D",
+          "text": "There is a negative correlation between family income and driving test scores."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which of the following examples best illustrates Piaget’s concept of conservation?",
+      "title": "Conservation examples",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seven-year-old William understands that when water is poured from a short, wide glass into a taller, thinner glass, the amount of water is the same."
+        },
+        {
+          "id": "B",
+          "text": "Six-month-old Aubrey cries when her toy is covered by a blanket."
+        },
+        {
+          "id": "C",
+          "text": "Three-year-old Wen says “No” when asked if her sister has a sister."
+        },
+        {
+          "id": "D",
+          "text": "Seven-year-old Patrice sorts trading cards into groups by the type of superhero power the character possesses."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Emily was scratched several times by the family’s cat when visiting her friend’s house. She reflexively pulled back in pain and surprise when it happened. Now, when she visits that house, she backs away at the sight of the cat, even if it is in another room far from her. In this scenario, Emily’s behavior when she was first scratched is best labeled as which of the following?",
+      "title": "UCS after cat scratch incident",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unconditioned stimulus (UCS)"
+        },
+        {
+          "id": "B",
+          "text": "Conditioned stimulus (CS)"
+        },
+        {
+          "id": "C",
+          "text": "Unconditioned response (UCR)"
+        },
+        {
+          "id": "D",
+          "text": "Conditioned response (CR)"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Annette begins staring at the red, white, and blue colors of the flag hanging at the front of her classroom. When she shifts her gaze to the white wall, she perceives a green, black, and yellow afterimage of this flag. Which of the following theories best explains Annette’s experience?",
+      "title": "Opponent-process theory afterimages",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opponent-process"
+        },
+        {
+          "id": "B",
+          "text": "Frequency"
+        },
+        {
+          "id": "C",
+          "text": "Trichromatic"
+        },
+        {
+          "id": "D",
+          "text": "Place"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "After years of watching their mother drive a car, Rowan knows how to start the car when sitting in the driver’s seat for the first time. Which of the following types of learning best explains how Rowan acquired this new behavior?",
+      "title": "Observational learning for driving",
+      "options": [
+        {
+          "id": "A",
+          "text": "Operant conditioning"
+        },
+        {
+          "id": "B",
+          "text": "Observational learning"
+        },
+        {
+          "id": "C",
+          "text": "Classical conditioning"
+        },
+        {
+          "id": "D",
+          "text": "Insight learning"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Researchers tested infants whose first language was either English or Hindi. The researchers assessed the ability of these infants to distinguish between the /ta/ versus /Ta/ sounds in Hindi at various ages. The difference in these sounds is indistinguishable to adults who speak English only. The results of this study suggest that the ability to distinguish sounds in a language other than a person’s first language decreases with age. Percent of Infants Able to Distinguish Sounds by Age in Months [图: A bar graph. The horizontal axis is unlabeled. 3 data categories are shown. The vertical axis is labeled Percent of Infants Able to Distinguish Sounds. It ranges from 0 to 100 in increments of 20. Refer to long description.] For each data category, the following bars are shown: English-speaking infants. Hindi-speaking infants. All values are approximate. The data for the 3 categories are as follows: 6 to 8 months: English-speaking infants: 90% Hindi-speaking infants: 100% 8 to 10 months: English-speaking infants: 70% Hindi-speaking infants: 100% 10 to 12 months: English-speaking infants: 25% Hindi-speaking infants: 100% Which of the following concepts best describes the formal language acquisition stage of the six-to-eight–month-old infants in the study?",
+      "title": "Research scenario set Unit 3 - language stage",
+      "options": [
+        {
+          "id": "A",
+          "text": "Babbling"
+        },
+        {
+          "id": "B",
+          "text": "Telegraphic speech"
+        },
+        {
+          "id": "C",
+          "text": "Formal operational"
+        },
+        {
+          "id": "D",
+          "text": "Overgeneralization"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Researchers tested infants whose first language was either English or Hindi. The researchers assessed the ability of these infants to distinguish between the /ta/ versus /Ta/ sounds in Hindi at various ages. The difference in these sounds is indistinguishable to adults who speak English only. The results of this study suggest that the ability to distinguish sounds in a language other than a person’s first language decreases with age. Percent of Infants Able to Distinguish Sounds by Age in Months [图: A bar graph. The horizontal axis is unlabeled. 3 data categories are shown. The vertical axis is labeled Percent of Infants Able to Distinguish Sounds. It ranges from 0 to 100 in increments of 20. Refer to long description.] For each data category, the following bars are shown: English-speaking infants. Hindi-speaking infants. All values are approximate. The data for the 3 categories are as follows: 6 to 8 months: English-speaking infants: 90% Hindi-speaking infants: 100% 8 to 10 months: English-speaking infants: 70% Hindi-speaking infants: 100% 10 to 12 months: English-speaking infants: 25% Hindi-speaking infants: 100% Which of the following outcomes is possible because researchers utilized the random selection process?",
+      "title": "Research scenario set Unit 3 - generalizability",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confounding of variables"
+        },
+        {
+          "id": "B",
+          "text": "Replication"
+        },
+        {
+          "id": "C",
+          "text": "Causal conclusions"
+        },
+        {
+          "id": "D",
+          "text": "Generalization"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Researchers tested infants whose first language was either English or Hindi. The researchers assessed the ability of these infants to distinguish between the /ta/ versus /Ta/ sounds in Hindi at various ages. The difference in these sounds is indistinguishable to adults who speak English only. The results of this study suggest that the ability to distinguish sounds in a language other than a person’s first language decreases with age. Percent of Infants Able to Distinguish Sounds by Age in Months [图: A bar graph. The horizontal axis is unlabeled. 3 data categories are shown. The vertical axis is labeled Percent of Infants Able to Distinguish Sounds. It ranges from 0 to 100 in increments of 20. Refer to long description.] For each data category, the following bars are shown: English-speaking infants. Hindi-speaking infants. All values are approximate. The data for the 3 categories are as follows: 6 to 8 months: English-speaking infants: 90% Hindi-speaking infants: 100% 8 to 10 months: English-speaking infants: 70% Hindi-speaking infants: 100% 10 to 12 months: English-speaking infants: 25% Hindi-speaking infants: 100% Which of the following factors best represents an operational definition of the dependent variable?",
+      "title": "Research scenario set Unit 3 - DV",
+      "options": [
+        {
+          "id": "A",
+          "text": "The age in months of the infants being tested"
+        },
+        {
+          "id": "B",
+          "text": "The infants whose first language is English"
+        },
+        {
+          "id": "C",
+          "text": "The /ta/ versus /Ta/ sounds presented to the infants"
+        },
+        {
+          "id": "D",
+          "text": "The percentage of infants capable of distinguishing between the /ta/ and /Ta/ sounds"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "A devoted young father reads a news report that claims many people believe men are not as intelligent in how to properly care for their children. The young father has plans to care for his child that day. Which of the following can be predicted about his performance as a caretaker based on the concept of stereotype threat?",
+      "title": "Stereotype threat about childcare duties",
+      "options": [
+        {
+          "id": "A",
+          "text": "The father will ignore the news reports because they do not apply to him."
+        },
+        {
+          "id": "B",
+          "text": "The father will experience increased resentment toward childcare."
+        },
+        {
+          "id": "C",
+          "text": "The father will experience increased anxiety and make mistakes as a caretaker."
+        },
+        {
+          "id": "D",
+          "text": "The father will develop an insecure attachment with his child."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Two weeks ago, Jaymes was full of energy, talking quickly, and staying up all night creating art. Now, Jaymes has no appetite, feels sad, and has difficulty concentrating. Which of the following psychological disorders would Jaymes most likely be diagnosed with?",
+      "title": "Bipolar disorder symptoms",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dissociative identity disorder"
+        },
+        {
+          "id": "B",
+          "text": "Schizophrenia"
+        },
+        {
+          "id": "C",
+          "text": "Post-traumatic stress disorder"
+        },
+        {
+          "id": "D",
+          "text": "Bipolar disorder"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Researchers investigating well-being conducted a study that compared participants’ overall health with their self-reported levels of happiness. Medical doctors measured each participant’s vital signs and gave them a score from 1 to 50, with 1 indicating extremely poor health and 50 indicating near-perfect health. Participants then took a survey that assessed their overall happiness on a scale of 1 to 10, with 10 being the highest level of happiness. The results are shown in the table. Participant Health Scores and Happiness Ratings Participant Health Score (out of 50) Happiness Rating (out of 10) A 42 7 B 10 1 C 23 3 D 48 8 E 48 9 F 26 1 G 38 6 H 39 7 I 19 2 J 13 2 K 46 10 L 29 4 Which of the following statements most accurately describes these data?",
+      "title": "Happiness survey data interpretation",
+      "options": [
+        {
+          "id": "A",
+          "text": "There is a strong positive correlation between health scores and overall happiness ratings."
+        },
+        {
+          "id": "B",
+          "text": "Health scores have no relationship to overall happiness ratings."
+        },
+        {
+          "id": "C",
+          "text": "Having better health causes people to experience more happiness."
+        },
+        {
+          "id": "D",
+          "text": "There is a negative correlation between one’s health score and overall happiness rating."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Carolyn is favored to win a long-distance foot race in the state finals. Shortly before reaching the finish line of the race, the competitor in front of Carolyn trips on accident, causing Carolyn to fall and no longer be in contention to win the race. Carolyn is convinced the competitor who caused her fall is untrustworthy and will do anything to win. Carolyn’s explanation for her competitor’s behavior is most consistent with which of the following concepts?",
+      "title": "Fundamental attribution error identification",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opponent-process theory"
+        },
+        {
+          "id": "B",
+          "text": "Fundamental attribution error"
+        },
+        {
+          "id": "C",
+          "text": "Just-world phenomenon"
+        },
+        {
+          "id": "D",
+          "text": "Mere-exposure effect"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Cognitive psychologist Dr. Leary designed a study to investigate perception. They asked the participants in Group 1 to read a story about a rabbit and a turtle. Participants in Group 2 did not read the story. Next, participants looked at a series of ambiguous drawings and identified what they saw. Their observations were recorded and categorized. The results are depicted in the graph. Participant Observations by Group [图: A bar graph. The horizontal axis has no label. 2 data categories are shown. The vertical axis is labeled Average Number of Participants Who Identified Each Category. It ranges from 0 to 6 in increments of 1. Refer to long description.] Which of the following concepts best applies to the results of Group 1?",
+      "title": "Priming study with ambiguous figures",
+      "options": [
+        {
+          "id": "A",
+          "text": "Self-fulfilling prophecy"
+        },
+        {
+          "id": "B",
+          "text": "Belief perseverance"
+        },
+        {
+          "id": "C",
+          "text": "Priming"
+        },
+        {
+          "id": "D",
+          "text": "Inattentional blindness"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Throughout January and the beginning of February, the first two months of a calendar year, Allison writes the previous year as the date on all her assignments instead of the current year. Allison’s tendency to write the wrong year on her assignments is most likely due to which of the following?",
+      "title": "Proactive interference with writing dates",
+      "options": [
+        {
+          "id": "A",
+          "text": "Retroactive interference"
+        },
+        {
+          "id": "B",
+          "text": "Anterograde amnesia"
+        },
+        {
+          "id": "C",
+          "text": "Proactive interference"
+        },
+        {
+          "id": "D",
+          "text": "Retrograde amnesia"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Which of the following examples best illustrates the role of the medulla in regulating behavior?",
+      "title": "Medulla role in behavior",
+      "options": [
+        {
+          "id": "A",
+          "text": "As Shericka starts to run, her heart and breathing rates increase."
+        },
+        {
+          "id": "B",
+          "text": "Ludwig hears his favorite instrument as the musicians begin to play."
+        },
+        {
+          "id": "C",
+          "text": "After touching the hot stove, Julia reflexively pulls her hand away."
+        },
+        {
+          "id": "D",
+          "text": "When playing chess, Judit reaches out to move one of her pieces on the game board."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "At six months of age, Byrne underwent the surgical removal of the entire left hemisphere of her brain. Which of the following concepts explains the recovery of her primary functions following such surgery?",
+      "title": "Hemispherectomy and brain plasticity",
+      "options": [
+        {
+          "id": "A",
+          "text": "Brain plasticity"
+        },
+        {
+          "id": "B",
+          "text": "Contralateral function"
+        },
+        {
+          "id": "C",
+          "text": "Motor neurons"
+        },
+        {
+          "id": "D",
+          "text": "Activation-synthesis"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "A therapist who uses applied behavioral analysis would be most focused on which of the following?",
+      "title": "Goal of applied behavioral analysis",
+      "options": [
+        {
+          "id": "A",
+          "text": "How a person’s repressed memories affect their current experiences"
+        },
+        {
+          "id": "B",
+          "text": "How affirming a person’s perspectives promotes that person’s wellness and well-being"
+        },
+        {
+          "id": "C",
+          "text": "How a person’s relationships with the people closest to them impact their mental health and well-being"
+        },
+        {
+          "id": "D",
+          "text": "How conditioning influences current mental processes and actions"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "Since 1938, researchers have examined the lives of 268 male college graduates to learn more about the secret of living a good life. Every two years participants complete questionnaires concerning many aspects of their lives, including their current physical and mental health. Which of the following methods is being used by these researchers?",
+      "title": "Longitudinal study of secrets of the good life",
+      "options": [
+        {
+          "id": "A",
+          "text": "Experiment"
+        },
+        {
+          "id": "B",
+          "text": "Naturalistic observation"
+        },
+        {
+          "id": "C",
+          "text": "Longitudinal study"
+        },
+        {
+          "id": "D",
+          "text": "Case study"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Breonna and Peyton have been dating for six months. Breonna invited Peyton to attend her family’s annual picnic. Throughout the day, Breonna’s many family members were talking loudly, laughing, and teasing each other. At the end of the day, Peyton asked Breonna why many of the family members seemed angry at each other. Breonna was surprised by Peyton’s question and thought everyone enjoyed the day. Which of the following concepts best explains why Peyton and Breonna had very different observations at the picnic?",
+      "title": "Perceptual set influence on picnic experience",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perceptual set"
+        },
+        {
+          "id": "B",
+          "text": "Kinesthesis"
+        },
+        {
+          "id": "C",
+          "text": "Monochromatism"
+        },
+        {
+          "id": "D",
+          "text": "Difference threshold"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Fluid Intelligence and Crystallized Intelligence Across the Life Span [图: A line graph titled Fluid Intelligence and Crystallized Intelligence Across the Life Span. The horizontal axis is labeled Years. It ranges from Birth to 70 in increments of 10 years. The vertical axis is labeled Intelligence Levels. No values are indicated. Refer to long description.] Researchers conducted a study comparing intelligence levels of people across their life spans, as shown in the graph. Which of the following conclusions can be drawn from the data comparing fluid intelligence and crystallized intelligence over the life span of a person?",
+      "title": "Crystallized intelligence graph interpretation",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fluid intelligence tends to be stable over the life span."
+        },
+        {
+          "id": "B",
+          "text": "Crystallized intelligence is at its highest level in early childhood."
+        },
+        {
+          "id": "C",
+          "text": "Crystallized intelligence and fluid intelligence begin to diverge around 30 years of age."
+        },
+        {
+          "id": "D",
+          "text": "Fluid intelligence is more developed than crystallized intelligence until puberty."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Cesar is participating in a memory competition. He must memorize a long, novel string of numbers in 60 seconds, then try to recall them immediately without missing or misplacing any numbers. Which strategy should Cesar use?",
+      "title": "Chunking strategy for memorizing numbers",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixed mindset"
+        },
+        {
+          "id": "B",
+          "text": "Chunking"
+        },
+        {
+          "id": "C",
+          "text": "Spacing"
+        },
+        {
+          "id": "D",
+          "text": "Tip-of-the-tongue phenomenon"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Nayanika is 50 years old and finds her career meaningful and impactful. She enjoys mentoring new employees, which gives her a sense of purpose. Which of the following best represents Nayanika’s current stage of psychosocial development?",
+      "title": "Psychosocial stage of generativity with work",
+      "options": [
+        {
+          "id": "A",
+          "text": "Generativity"
+        },
+        {
+          "id": "B",
+          "text": "Industry"
+        },
+        {
+          "id": "C",
+          "text": "Identity"
+        },
+        {
+          "id": "D",
+          "text": "Initiative"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Dr. Yang is conducting a study in which the researcher instructs participants to act cruelly or dishonestly toward another study participant. She hopes that the study will help her to understand better how different factors affect whether people obey a person who has authority. To meet ethical guidelines, what must Dr. Yang include in this study?",
+      "title": "Debriefing for bullying study",
+      "options": [
+        {
+          "id": "A",
+          "text": "A debriefing session to explain the study purpose to the participants"
+        },
+        {
+          "id": "B",
+          "text": "A thorough breakdown of the study costs"
+        },
+        {
+          "id": "C",
+          "text": "A meta-analysis of all relevant literature on the topic"
+        },
+        {
+          "id": "D",
+          "text": "A higher level of participant compensation"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Dr. Britt is interested in pain perception while participants are practicing meditation. She asked participants to report their pain on a scale from 1 to 10, where a higher number indicates more pain. The scores for Dr. Britt’s study were 1, 10, 4, 3, 3, 4, 6, 7, 3, and 9. Which of the following is the median for these reported study scores?",
+      "title": "Median score in pain perception study",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Schizophrenia Diagnosis by Income [图: A bar graph titled Schizophrenia Diagnosis by Income. The horizontal axis has no label. 2 bars are shown. The vertical axis is labeled Percent of People Diagnosed with Schizophrenia. It ranges from 0.0 to 2.5 in increments of 0.5. Refer to long description.] The graph shows a comparison of the percent of members of the lowest and highest income groups in the United States who are diagnosed with schizophrenia. Psychologists from which of the following psychological perspectives would be most interested in this potential link to developing schizophrenia?",
+      "title": "Schizophrenia incidence rates graph interpretation",
+      "options": [
+        {
+          "id": "A",
+          "text": "Psychodynamic"
+        },
+        {
+          "id": "B",
+          "text": "Humanistic"
+        },
+        {
+          "id": "C",
+          "text": "Sociocultural"
+        },
+        {
+          "id": "D",
+          "text": "Behavioral"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Sleep quality AAQ",
+      "title": "Sleep quality AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Sleep quality AAQ",
+      "title": "Sleep quality AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Sleep quality AAQ",
+      "title": "Sleep quality AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Sleep quality AAQ",
+      "title": "Sleep quality AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Sleep quality AAQ",
+      "title": "Sleep quality AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Sleep quality AAQ",
+      "title": "Sleep quality AAQ",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "School start times EBQ Part A",
+      "title": "School start times EBQ Part A",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "School start times EBQ Part B",
+      "title": "School start times EBQ Part B",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "School start times EBQ Part C",
+      "title": "School start times EBQ Part C",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}
