@@ -1,0 +1,1283 @@
+{
+  "examId": "csa-2020",
+  "subject": "csa",
+  "examName": "AP CSA 2020年样题",
+  "year": "2020",
+  "totalQuestions": 48,
+  "mcqCount": 48,
+  "frqCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Consider the following code segment. int a = 3 + 2 * 3; int b = 4 + 3 / 2; int c = 7 % 4 + 3; double d = a + b + c; What is the value of d after the code segment is executed?",
+      "title": "operator precedence",
+      "options": [
+        {
+          "id": "A",
+          "text": "14.0"
+        },
+        {
+          "id": "B",
+          "text": "18.0"
+        },
+        {
+          "id": "C",
+          "text": "20.0"
+        },
+        {
+          "id": "D",
+          "text": "20.5"
+        },
+        {
+          "id": "E",
+          "text": "26.0"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Consider the following code segment. Assume num is a properly declared and initialized int variable. if (num > 0) { if (num % 2 == 0) { System.out.println(\"A\"); } else { System.out.println(\"B\"); } } Which of the following best describes the result of executing the code segment?",
+      "title": "print A or B",
+      "options": [
+        {
+          "id": "A",
+          "text": "When num is a negative odd integer, \"B\" is printed; otherwise, \"A\" is printed."
+        },
+        {
+          "id": "B",
+          "text": "When num is a negative even integer, \"B\" is printed; otherwise, nothing is printed."
+        },
+        {
+          "id": "C",
+          "text": "When num is a positive even integer, \"A\" is printed; otherwise, \"B\" is printed."
+        },
+        {
+          "id": "D",
+          "text": "When num is a positive even integer, \"A\" is printed; when num is a positive odd integer, \"B\" is printed; otherwise, nothing is printed."
+        },
+        {
+          "id": "E",
+          "text": "When num is a positive odd integer, \"A\" is printed; when num is a positive even integer, \"B\" is printed; otherwise, nothing is printed."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Consider the method getHours , which is intended to calculate the number of hours that a vehicle takes to travel between two mile markers on a highway if the vehicle travels at a constant speed of 60 miles per hour. A mile marker is a sign showing the number of miles along a road between some fixed location (for example, the beginning of a highway) and the current location. The following table shows two examples of the intended behavior of getHours , based on the int parameters marker1 and marker2 . marker1 marker2 Return Value 100 220 2.0 100 70 0.5 Consider the following implementation of getHours . public static double getHours(int marker1, int marker2) { /* missing statement */ return hours; } Which of the following statements can replace /* missing statement */ so getHours works as intended?",
+      "title": "hours to travel",
+      "options": [
+        {
+          "id": "A",
+          "text": "double hours = (Math.abs(marker1) - Math.abs(marker2)) / 60.0;"
+        },
+        {
+          "id": "B",
+          "text": "double hours = Math.abs(marker1 - marker2 / 60.0);"
+        },
+        {
+          "id": "C",
+          "text": "double hours = Math.abs(marker1 - marker2) / 60.0;"
+        },
+        {
+          "id": "D",
+          "text": "double hours = Math.abs((marker1 - marker2) / 60);"
+        },
+        {
+          "id": "E",
+          "text": "double hours = (double) (Math.abs(marker1 - marker2) / 60);"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Consider the following method. public static void message(int a, int b, int c) { if (a < 10) { if (b < 10) { System.out.print(\"X\"); } System.out.print(\"Y\"); } if (c < 10) { if (b > 10) { System.out.print(\"Y\"); } else { System.out.print(\"Z\"); } } } What is printed as a result of the call message(5, 15, 5) ?",
+      "title": "print X Y Z",
+      "options": [
+        {
+          "id": "A",
+          "text": "XY"
+        },
+        {
+          "id": "B",
+          "text": "XYZ"
+        },
+        {
+          "id": "C",
+          "text": "Y"
+        },
+        {
+          "id": "D",
+          "text": "YY"
+        },
+        {
+          "id": "E",
+          "text": "Z"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Consider the following class definition. public class Bird { private String species; private String color; private boolean canFly; public Bird(String str, String col, boolean cf) { species = str; color = col; canFly = cf; } } Which of the following constructors, if added to the Bird class, will cause a compilation error?",
+      "title": "new Bird constructors",
+      "options": [
+        {
+          "id": "A",
+          "text": "public Bird() { species = \"unknown\"; color = \"unknown\"; canFly = false; }"
+        },
+        {
+          "id": "B",
+          "text": "public Bird(boolean cf) { species = \"unknown\"; color = \"unknown\"; canFly = cf; }"
+        },
+        {
+          "id": "C",
+          "text": "public Bird(String col, String str) { species = str; color = col; canFly = false; }"
+        },
+        {
+          "id": "D",
+          "text": "public Bird(boolean cf, String str, String col) { species = str; color = col; canFly = cf; }"
+        },
+        {
+          "id": "E",
+          "text": "public Bird(String col, String str, boolean cf) { species = str; color = col; canFly = cf; }"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which of the following expressions evaluate to 3.5 ? (double) 2 / 4 + 3 (double) (2 / 4) + 3 (double) (2 / 4 + 3)",
+      "title": "cast to double",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "III only"
+        },
+        {
+          "id": "C",
+          "text": "I and II only"
+        },
+        {
+          "id": "D",
+          "text": "II and III only"
+        },
+        {
+          "id": "E",
+          "text": "I, II, and III"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Consider the following code segment. int num = /* initial value not shown */; boolean b1 = true; if (num > 0) { if (num >= 100) { b1 = false; } } else { if (num >= -100) { b1 = false; } } Which of the following statements assigns the same value to b2 as the code segment assigns to b1 for all values of num ?",
+      "title": "if and compound boolean equivalence",
+      "options": [
+        {
+          "id": "A",
+          "text": "boolean b2 = (num > -100) && (num < 100);"
+        },
+        {
+          "id": "B",
+          "text": "boolean b2 = (num > -100) || (num < 100);"
+        },
+        {
+          "id": "C",
+          "text": "boolean b2 = (num < -100) || (num > 100);"
+        },
+        {
+          "id": "D",
+          "text": "boolean b2 = (num < -100) && (num > 0 || num < 100);"
+        },
+        {
+          "id": "E",
+          "text": "boolean b2 = (num < -100) || (num > 0 && num < 100);"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Consider the following class definition. public class Points { private double num1; private double num2; public Points(int n1, int n2) // Line 6 { num1 = n1; // Line 8 num2 = n2; // Line 9 } public void incrementPoints(int value) // Line 12 { n1 += value; // Line 14 n2 += value; // Line 15 } } The class does not compile. Which of the following identifies the error in the class definition?",
+      "title": "Points class",
+      "options": [
+        {
+          "id": "A",
+          "text": "In line 6, the Points constructor must have a void return type."
+        },
+        {
+          "id": "B",
+          "text": "In lines 8 and 9, int values cannot be assigned to double variables."
+        },
+        {
+          "id": "C",
+          "text": "In line 12, the incrementPoints method must have a non- void return type."
+        },
+        {
+          "id": "D",
+          "text": "In lines 14 and 15, the variables n1 and n2 are not defined."
+        },
+        {
+          "id": "E",
+          "text": "In lines 14 and 15, the variable value is not defined."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Consider the following code segment. ArrayList<Integer> numList = new ArrayList<Integer>(); numList.add(3); numList.add(2); numList.add(1); numList.add(1, 0); numList.set(0, 2); System.out.print(numList); What is printed by the code segment?",
+      "title": "add and revise ArrayList elements",
+      "options": [
+        {
+          "id": "A",
+          "text": "[1, 3, 0, 1]"
+        },
+        {
+          "id": "B",
+          "text": "[2, 0, 2, 1]"
+        },
+        {
+          "id": "C",
+          "text": "[2, 0, 2, 3]"
+        },
+        {
+          "id": "D",
+          "text": "[2, 3, 2, 1]"
+        },
+        {
+          "id": "E",
+          "text": "[3, 0, 0, 1]"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Consider the following method. public static void printSome(int num1, int num2) { for (int i = 0; i < num1; i++) { if (i % num2 == 0 && i % 2 == 0) { System.out.print(i + \" \"); } } } Which of the following method calls will cause \"0 10 \" to be printed?",
+      "title": "printSome method",
+      "options": [
+        {
+          "id": "A",
+          "text": "printSome(0, 20)"
+        },
+        {
+          "id": "B",
+          "text": "printSome(5, 10)"
+        },
+        {
+          "id": "C",
+          "text": "printSome(10, 5)"
+        },
+        {
+          "id": "D",
+          "text": "printSome(20, 5)"
+        },
+        {
+          "id": "E",
+          "text": "printSome(25, 5)"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which of the following code segments produces the output \"987654321\" ?",
+      "title": "code to print 987654321",
+      "options": [
+        {
+          "id": "A",
+          "text": "int num = 10; while (num > 0) { System.out.print(num); num--; }"
+        },
+        {
+          "id": "B",
+          "text": "int num = 10; while (num >= 0) { System.out.print(num); num--; }"
+        },
+        {
+          "id": "C",
+          "text": "int num = 10; while (num > 1) { num--; System.out.print(num); }"
+        },
+        {
+          "id": "D",
+          "text": "int num = 10; while (num >= 1) { num--; System.out.print(num); }"
+        },
+        {
+          "id": "E",
+          "text": "int num = 0; while (num <= 9) { System.out.print(10 - num); num++; }"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Consider the following class definitions. public class Person { private String name; public String getName() { return name; } } public class Book { private String author; private String title; private Person borrower; public Book(String a, String t) { author = a; title = t; borrower = null; } public void printDetails() { System.out.print(\"Author: \" + author + \" Title: \" + title); if ( /* missing condition */ ) { System.out.println(\" Borrower: \" + borrower.getName()); } } public void setBorrower(Person b) { borrower = b; } } Which of the following can replace /* missing condition */ so that the printDetails method CANNOT cause a run-time error? !borrower.equals(null) borrower != null borrower.getName() != null",
+      "title": "Book class",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "II only"
+        },
+        {
+          "id": "C",
+          "text": "III only"
+        },
+        {
+          "id": "D",
+          "text": "I and II"
+        },
+        {
+          "id": "E",
+          "text": "II and III"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Assume that a , b , and c are boolean variables that have been properly declared and initialized. Which of the following boolean expressions is equivalent to !(a && b) || c ?",
+      "title": "Boolean expression with a, b, and c",
+      "options": [
+        {
+          "id": "A",
+          "text": "a && b && c"
+        },
+        {
+          "id": "B",
+          "text": "a || b || c"
+        },
+        {
+          "id": "C",
+          "text": "!a && !b || c"
+        },
+        {
+          "id": "D",
+          "text": "!a && !b && c"
+        },
+        {
+          "id": "E",
+          "text": "!a || !b || c"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "The following categories are used by some researchers to categorize zip codes as urban, suburban, or rural based on population density. An urban zip code is a zip code with more than 3,000 people per square mile. A suburban zip code is a zip code with between 1,000 and 3,000 people, inclusive, per square mile. A rural zip code is a zip code with fewer than 1,000 people per square mile. Consider the following method, which is intended to categorize a zip code as urban, suburban, or rural based on the population density of the area included in the zip code. public static String getCategory(int density) { /* missing code */ } Which of the following code segments can replace /* missing code */ so the getCategory method works as intended? String cat; if (density > 3000) { cat = \"urban\"; } else if (density > 999) { cat = \"suburban\"; } else { cat = \"rural\"; } return cat; String cat; if (density > 3000) { cat = \"urban\"; } if (density > 999) { cat = \"suburban\"; } cat = \"rural\"; return cat; if (density > 3000) { return \"urban\"; } if (density > 999) { return \"suburban\"; } return \"rural\";",
+      "title": "zip code categories",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "III only"
+        },
+        {
+          "id": "C",
+          "text": "I and II only"
+        },
+        {
+          "id": "D",
+          "text": "I and III only"
+        },
+        {
+          "id": "E",
+          "text": "I, II, and III"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Consider the following code segment. Assume that a is greater than zero. int a = /* value not shown */; int b = a + (int) (Math.random() * a); Which of the following best describes the value assigned to b when the code segment is executed?",
+      "title": "random number generated from a",
+      "options": [
+        {
+          "id": "A",
+          "text": "a"
+        },
+        {
+          "id": "B",
+          "text": "2 * a"
+        },
+        {
+          "id": "C",
+          "text": "A random integer between 0 and a - 1 , inclusive"
+        },
+        {
+          "id": "D",
+          "text": "A random integer between a and 2 * a , inclusive"
+        },
+        {
+          "id": "E",
+          "text": "A random integer between a and 2 * a - 1 , inclusive"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Consider the following recursive method. public static void stars(int num) { if (num == 1) { return; } stars(num - 1); for (int i = 0; i < num; i++) { System.out.print(\"*\"); } System.out.println(); } What is printed as a result of the method call stars(5) ?",
+      "title": "print stars",
+      "options": [
+        {
+          "id": "A",
+          "text": "*****"
+        },
+        {
+          "id": "B",
+          "text": "** *** **** *****"
+        },
+        {
+          "id": "C",
+          "text": "* ** *** **** *****"
+        },
+        {
+          "id": "D",
+          "text": "***** **** *** **"
+        },
+        {
+          "id": "E",
+          "text": "***** **** *** ** *"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Consider the following class definitions. public class Hero { private String name; private int power; public Hero(String n, int p) { name = n; power = p; } public void powerUp(int p) { power += p; } public int showPower() { return power; } } public class SuperHero extends Hero { public SuperHero(String n, int p) { super(n, p); } public void powerUp(int p) { super.powerUp(p * 2); } } The following code segment appears in a class other than Hero and SuperHero . Hero j = new SuperHero(\"JavaHero\", 50); j.powerUp(10); System.out.println(j.showPower()); What is printed as a result of executing the code segment?",
+      "title": "SuperHero class",
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "70"
+        },
+        {
+          "id": "E",
+          "text": "100"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Consider the following method, which is intended to return the number of local maximum values in an array. Local maximum values are array elements that are greater than both adjacent array elements. The first and last elements of an array have only a single adjacent element, so neither the first nor the last array element is counted by this method. For example, an array containing the values {3, 9, 7, 4, 10, 12, 3, 8} has two local maximum values: 9 and 12 . public static int countPeaks(int[] data) { int numPeaks = 0; for ( /* missing loop header */ ) { if (data[p - 1] < data[p] && data[p] > data[p + 1]) { numPeaks++; } } return numPeaks; } Which of the following can replace /* missing loop header */ so the method countPeaks works as intended?",
+      "title": "countPeaks method",
+      "options": [
+        {
+          "id": "A",
+          "text": "int p = data.length - 1; p > 0; p--"
+        },
+        {
+          "id": "B",
+          "text": "int p = 0; p < data.length; p++"
+        },
+        {
+          "id": "C",
+          "text": "int p = 0; p < data.length - 1; p++"
+        },
+        {
+          "id": "D",
+          "text": "int p = 1; p < data.length; p++"
+        },
+        {
+          "id": "E",
+          "text": "int p = 1; p < data.length - 1; p++"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Consider the following code segment. int[][] values = {{1, 2, 3}, {4, 5, 6}}; int x = 0; for (int j = 0; j < values.length; j++) { for (int k = 0; k < values[0].length; k++) { if (k == 0) { values[j][k] *= 2; } x += values[j][k]; } } What is the value of x after the code segment is executed?",
+      "title": "sum array elements",
+      "options": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "17"
+        },
+        {
+          "id": "C",
+          "text": "21"
+        },
+        {
+          "id": "D",
+          "text": "26"
+        },
+        {
+          "id": "E",
+          "text": "27"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Consider the following class definition. public class Book { private int pages; public int getPages() { return pages; } // There may be instance variables, constructors, and methods not shown. } The following code segment is intended to store in maxPages the greatest number of pages found in any Book object in the array bookArr . Book[] bookArr = { /* initial values not shown */ }; int maxPages = bookArr[0].getPages(); for (Book b : bookArr) { /* missing code */ } Which of the following can replace /* missing code */ so the code segment works as intended?",
+      "title": "max pages in a Book",
+      "options": [
+        {
+          "id": "A",
+          "text": "if (b.pages > maxPages) { maxPages = b.pages; }"
+        },
+        {
+          "id": "B",
+          "text": "if (b.getPages() > maxPages) { maxPages = b.getPages(); }"
+        },
+        {
+          "id": "C",
+          "text": "if (Book[b].pages > maxPages) { maxPages = Book[b].pages; }"
+        },
+        {
+          "id": "D",
+          "text": "if (bookArr[b].pages > maxPages) { maxPages = bookArr[b].pages; }"
+        },
+        {
+          "id": "E",
+          "text": "if (bookArr[b].getPages() > maxPages) { maxPages = bookArr[b].getPages(); }"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Consider the following method. public static String[] strArrMethod(String[] arr) { String[] result = new String[arr.length]; for (int j = 0; j < arr.length; j++) { String sm = arr[j]; for (int k = j + 1; k < arr.length; k++) { if (arr[k].length() < sm.length()) { sm = arr[k]; // Line 12 } } result[j] = sm; } return result; } Consider the following code segment. String[] testOne = {\"first\", \"day\", \"of\", \"spring\"}; String[] resultOne = strArrMethod(testOne); What are the contents of resultOne when the code segment has been executed?",
+      "title": "strArrMethod - first day of spring",
+      "options": [
+        {
+          "id": "A",
+          "text": "{\"day\", \"first\", \"of\", \"spring\"}"
+        },
+        {
+          "id": "B",
+          "text": "{\"of\", \"day\", \"first\", \"spring\"}"
+        },
+        {
+          "id": "C",
+          "text": "{\"of\", \"day\", \"of\", \"spring\"}"
+        },
+        {
+          "id": "D",
+          "text": "{\"of\", \"of\", \"of\", \"spring\"}"
+        },
+        {
+          "id": "E",
+          "text": "{\"spring\", \"first\", \"day\", \"of\"}"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Consider the following method. public static String[] strArrMethod(String[] arr) { String[] result = new String[arr.length]; for (int j = 0; j < arr.length; j++) { String sm = arr[j]; for (int k = j + 1; k < arr.length; k++) { if (arr[k].length() < sm.length()) { sm = arr[k]; // Line 12 } } result[j] = sm; } return result; } Consider the following code segment. String[] testTwo = {\"last\", \"day\", \"of\", \"the\", \"school\", \"year\"}; String[] resultTwo = strArrMethod(testTwo); How many times is the line labeled // Line 12 in the strArrMethod executed as a result of executing the code segment?",
+      "title": "strArrMethod - last day of the school year",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 times"
+        },
+        {
+          "id": "B",
+          "text": "5 times"
+        },
+        {
+          "id": "C",
+          "text": "6 times"
+        },
+        {
+          "id": "D",
+          "text": "15 times"
+        },
+        {
+          "id": "E",
+          "text": "30 times"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Consider the following method, which is intended to print the values in its two-dimensional integer array parameter in row-major order. public static void rowMajor(int[][] arr) { /* missing code */ } As an example, consider the following code segment. int[][] theArray = {{1, 2}, {3, 4}, {5, 6}, {7, 8}}; rowMajor(theArray); When executed, the code segment should produce the following output. 1 2 3 4 5 6 7 8 Which of the following code segments can replace /* missing code */ so that the rowMajor method works as intended?",
+      "title": "print in row major order",
+      "options": [
+        {
+          "id": "A",
+          "text": "for (int j : arr) { for (int k : j) { System.out.print(j + \" \"); } }"
+        },
+        {
+          "id": "B",
+          "text": "for (int j : arr) { for (int k : j) { System.out.print(k + \" \"); } }"
+        },
+        {
+          "id": "C",
+          "text": "for (int[] j : arr) { for (int k : j) { System.out.print(j + \" \"); } }"
+        },
+        {
+          "id": "D",
+          "text": "for (int[] j : arr) { for (int k : j) { System.out.print(k + \" \"); } }"
+        },
+        {
+          "id": "E",
+          "text": "for (int[] j : arr) { for (int k : j) { System.out.print(arr[k] + \" \"); } }"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Consider the following class definition. public class SomeClass { private int x = 0; private static int y = 0; public SomeClass(int pX) { x = pX; y++; } public void incrementY() { y++; } public void incrementY(int inc) { y += inc; } public int getY() { return y; } } The following code segment appears in a class other than SomeClass . SomeClass first = new SomeClass(10); SomeClass second = new SomeClass(20); SomeClass third = new SomeClass(30); first.incrementY(); second.incrementY(10); System.out.println(third.getY()); What is printed as a result of executing the code segment if the code segment is the first use of a SomeClass object?",
+      "title": "increment value in SomeClass",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "11"
+        },
+        {
+          "id": "D",
+          "text": "14"
+        },
+        {
+          "id": "E",
+          "text": "30"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Consider the following method. public static String rearrange(String str) { String temp = \"\"; for (int i = str.length() - 1; i > 0; i--) { temp += str.substring(i - 1, i); } return temp; } What, if anything, is returned by the method call rearrange(\"apple\") ?",
+      "title": "rearrange letters in apple",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"appl\""
+        },
+        {
+          "id": "B",
+          "text": "\"apple\""
+        },
+        {
+          "id": "C",
+          "text": "\"elppa\""
+        },
+        {
+          "id": "D",
+          "text": "\"lppa\""
+        },
+        {
+          "id": "E",
+          "text": "Nothing is returned due to a run-time error."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Consider the following two code segments. Assume that the int variables m and n have been properly declared and initialized and are both greater than 0 . for (int i = 0; i < m * n; i++) { System.out.print(\"A\"); } for (int j = 1; j <= m; j++) { for (int k = 1; k < n; k++) { System.out.print(\"B\"); } } Assume that the initial values of m and n are the same in code segment I as they are in code segment II. Which of the following correctly compares the number of times that \"A\" and \"B\" are printed when each code segment is executed?",
+      "title": "2 code segments print A and B",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"A\" is printed m fewer times than \"B\" ."
+        },
+        {
+          "id": "B",
+          "text": "\"A\" is printed n fewer times than \"B\" ."
+        },
+        {
+          "id": "C",
+          "text": "\"A\" is printed m more times than \"B\" ."
+        },
+        {
+          "id": "D",
+          "text": "\"A\" is printed n more times than \"B\" ."
+        },
+        {
+          "id": "E",
+          "text": "\"A\" and \"B\" are printed the same number of times."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Consider the following statement. Assume that a and b are properly declared and initialized boolean variables. boolean c = (a && b) || (!a && b); Under which of the following conditions will c be assigned the value false ?",
+      "title": "conditions for Boolean expression",
+      "options": [
+        {
+          "id": "A",
+          "text": "Always"
+        },
+        {
+          "id": "B",
+          "text": "Never"
+        },
+        {
+          "id": "C",
+          "text": "When a and b have the same value"
+        },
+        {
+          "id": "D",
+          "text": "When a has the value false"
+        },
+        {
+          "id": "E",
+          "text": "When b has the value false"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Consider the following method. public static String abMethod(String a, String b) { int x = a.indexOf(b); while (x >= 0) { a = a.substring(0, x) + a.substring(x + b.length()); x = a.indexOf(b); } return a; } What, if anything, is returned by the method call abMethod(\"sing the song\", \"ng\") ?",
+      "title": "sing the song",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"si\""
+        },
+        {
+          "id": "B",
+          "text": "\"si the so\""
+        },
+        {
+          "id": "C",
+          "text": "\"si the song\""
+        },
+        {
+          "id": "D",
+          "text": "\"sig the sog\""
+        },
+        {
+          "id": "E",
+          "text": "Nothing is returned because a StringIndexOutOfBoundsException is thrown."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Consider the following method. public static int calcMethod(int num) { if (num == 0) { return 10; } return num + calcMethod(num / 2); } What value is returned by the method call calcMethod(16) ?",
+      "title": "calcMethod",
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "26"
+        },
+        {
+          "id": "C",
+          "text": "31"
+        },
+        {
+          "id": "D",
+          "text": "38"
+        },
+        {
+          "id": "E",
+          "text": "41"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Consider the following class definitions. public class Rectangle { private int height; private int width; public Rectangle() { height = 1; width = 1; } public Rectangle(int x) { height = x; width = x; } public Rectangle(int h, int w) { height = h; width = w; } // There may be methods that are not shown. } public class Square extends Rectangle { public Square(int x) { /* missing code */ } } Which of the following code segments can replace /* missing code */ so that the Square class constructor initializes the Rectangle class instance variables height and width to x ?",
+      "title": "Rectangle and Square classes",
+      "options": [
+        {
+          "id": "A",
+          "text": "super();"
+        },
+        {
+          "id": "B",
+          "text": "super(x);"
+        },
+        {
+          "id": "C",
+          "text": "Rectangle(x);"
+        },
+        {
+          "id": "D",
+          "text": "Square(x, x);"
+        },
+        {
+          "id": "E",
+          "text": "height = x; width = x;"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Consider an integer array nums , which has been properly declared and initialized with one or more values. Which of the following code segments counts the number of negative values found in nums and stores the count in counter ? int counter = 0; int i = -1; while (i <= nums.length - 2) { i++; if (nums[i] < 0) { counter++; } } int counter = 0; for (int i = 1; i < nums.length; i++) { if (nums[i] < 0) { counter++; } } int counter = 0; for (int i : nums) { if (nums[i] < 0) { counter++; } }",
+      "title": "count negative values",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "II only"
+        },
+        {
+          "id": "C",
+          "text": "I and II only"
+        },
+        {
+          "id": "D",
+          "text": "I and III only"
+        },
+        {
+          "id": "E",
+          "text": "I, II, and III"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Consider the following class definitions. public class ClassA { public String getValue() { return \"A\"; } public void showValue() { System.out.print(getValue()); } } public class ClassB extends ClassA { public String getValue() { return \"B\"; } } The following code segment appears in a class other than ClassA or ClassB . ClassA obj = new ClassB(); obj.showValue(); What, if anything, is printed when the code segment is executed?",
+      "title": "ClassA and ClassB",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "AB"
+        },
+        {
+          "id": "D",
+          "text": "BA"
+        },
+        {
+          "id": "E",
+          "text": "Nothing is printed because the code does not compile."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Consider the following code segment. String[][] letters = {{\"A\", \"B\", \"C\", \"D\"}, {\"E\", \"F\", \"G\", \"H\"}, {\"I\", \"J\", \"K\", \"L\"}}; for (int col = 1; col < letters[0].length; col++) { for (int row = 1; row < letters.length; row++) { System.out.print(letters[row][col] + \" \"); } System.out.println(); } What is printed as a result of executing this code segment?",
+      "title": "array with A through L",
+      "options": [
+        {
+          "id": "A",
+          "text": "A E I F J K"
+        },
+        {
+          "id": "B",
+          "text": "B F J C G K D H L"
+        },
+        {
+          "id": "C",
+          "text": "E I F J G K H L"
+        },
+        {
+          "id": "D",
+          "text": "F G H J K L"
+        },
+        {
+          "id": "E",
+          "text": "F J G K H L"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The following method is intended to remove all elements of an ArrayList of integers that are divisible by key and add the removed elements to a new ArrayList , which the method returns. public static ArrayList<Integer> match(ArrayList<Integer> numList, int key) { ArrayList<Integer> returnList = new ArrayList<Integer>(); int i = 0; while (i < numList.size()) { int num = numList.get(i); if (num % key == 0) { numList.remove(i); returnList.add(num); } i++; } return returnList; } As an example, if the method is called with an ArrayList containing the values [5, 2, 10, 20, 16] and the parameter key has the value 5 , then numList should contain [2, 16] at the end of the method and an ArrayList containing [5, 10, 20] should be returned. Which of the following best explains why the method does not always work as intended?",
+      "title": "remove some ArrayList elements",
+      "options": [
+        {
+          "id": "A",
+          "text": "The method attempts to add an element to returnList after that element has already been removed from numList ."
+        },
+        {
+          "id": "B",
+          "text": "The method causes a NullPointerException to be thrown when no matches are found."
+        },
+        {
+          "id": "C",
+          "text": "The method causes an IndexOutOfBoundsException to be thrown."
+        },
+        {
+          "id": "D",
+          "text": "The method fails to correctly determine whether an element of numList is divisible by key ."
+        },
+        {
+          "id": "E",
+          "text": "The method skips some elements of numList during the traversal."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Consider the mode method, which is intended to return the most frequently occurring value (mode) in its int[] parameter arr . For example, if the parameter of the mode method has the contents {6, 5, 1, 5, 2, 6, 5} , then the method is intended to return 5 . /** Precondition: arr.length >= 1 */ public static int mode(int[] arr) { int modeCount = 1; int mode = arr[0]; for (int j = 0; j < arr.length; j++) { int valCount = 0; for (int k = 0; k < arr.length; k++) { if ( /* missing condition 1 */ ) { valCount++; } } if ( /* missing condition 2 */ ) { modeCount = valCount; mode = arr[j]; } } return mode; } Which of the following can replace /* missing condition 1 */ and /* missing condition 2 */ so the code segment works as intended?",
+      "title": "find mode",
+      "options": [
+        {
+          "id": "A",
+          "text": "/* missing condition 1 */ /* missing condition 2 */ arr[j] == arr[k] valCount > modeCount"
+        },
+        {
+          "id": "B",
+          "text": "/* missing condition 1 */ /* missing condition 2 */ arr[j] == arr[k] modeCount > valCount"
+        },
+        {
+          "id": "C",
+          "text": "/* missing condition 1 */ /* missing condition 2 */ arr[j] != arr[k] ﻿ valCount > modeCount"
+        },
+        {
+          "id": "D",
+          "text": "/* missing condition 1 */ /* missing condition 2 */ arr[j] != arr[k] modeCount > valCount"
+        },
+        {
+          "id": "E",
+          "text": "/* missing condition 1 */ /* missing condition 2 */ arr[j] != arr[k] modeCount != valCount"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Consider the following methods. /** Precondition: a > 0 and b > 0 */ public static int methodOne(int a, int b) { int loopCount = 0; for (int i = 0; i < a / b; i++) { loopCount++; } return loopCount; } /** Precondition: a > 0 and b > 0 */ public static int methodTwo(int a, int b) { int loopCount = 0; int i = 0; while (i < a) { loopCount++; i += b; } return loopCount; } Which of the following best describes the conditions under which methodOne and methodTwo return the same value?",
+      "title": "compare looping methods",
+      "options": [
+        {
+          "id": "A",
+          "text": "When a and b are both even"
+        },
+        {
+          "id": "B",
+          "text": "When a and b are both odd"
+        },
+        {
+          "id": "C",
+          "text": "When a is even and b is odd"
+        },
+        {
+          "id": "D",
+          "text": "When a % b is equal to zero"
+        },
+        {
+          "id": "E",
+          "text": "When a % b is equal to one"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Consider the following code segment. Assume that num3 > num2 > 0 . int num1 = 0; int num2 = /* initial value not shown */; int num3 = /* initial value not shown */; while (num2 < num3) { num1 += num2; num2++; } Which of the following best describes the contents of num1 as a result of executing the code segment?",
+      "title": "loop with num1 num2 num3",
+      "options": [
+        {
+          "id": "A",
+          "text": "The product of num2 and num3"
+        },
+        {
+          "id": "B",
+          "text": "The product of num2 and num3 - 1"
+        },
+        {
+          "id": "C",
+          "text": "The sum of num2 and num3"
+        },
+        {
+          "id": "D",
+          "text": "The sum of all integers from num2 to num3 , inclusive"
+        },
+        {
+          "id": "E",
+          "text": "The sum of all integers from num2 to num3 - 1 , inclusive"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Consider the following class definition. public class Value { private int num; public int getNum() { return num; } // There may be instance variables, constructors, and methods not shown. } The following method appears in a class other than Value . It is intended to sum all the num instance variables of the Value objects in its ArrayList parameter. /** Precondition: valueList is not null */ public static int getTotal(ArrayList<Value> valueList) { int total = 0; /* missing code */ return total; } Which of the following code segments can replace /* missing code */ so the getTotal method works as intended? for (int x = 0; x < valueList.size(); x++) { total += valueList.get(x).getNum(); } for (Value v : valueList) { total += v.getNum(); } for (Value v : valueList) { total += getNum(v); }",
+      "title": "sum of ArrayList values",
+      "options": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "II only"
+        },
+        {
+          "id": "C",
+          "text": "III only"
+        },
+        {
+          "id": "D",
+          "text": "I and II"
+        },
+        {
+          "id": "E",
+          "text": "I and III"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Consider the following recursive method. public static boolean recurMethod(String str) { if (str.length() <= 1) { return true; } else if (str.substring(0, 1).compareTo(str.substring(1, 2)) > 0) { return recurMethod(str.substring(1)); } else { return false; } } Which of the following method calls will return true ?",
+      "title": "recursive String method",
+      "options": [
+        {
+          "id": "A",
+          "text": "recurMethod(\"abcba\")"
+        },
+        {
+          "id": "B",
+          "text": "recurMethod(\"abcde\")"
+        },
+        {
+          "id": "C",
+          "text": "recurMethod(\"bcdab\")"
+        },
+        {
+          "id": "D",
+          "text": "recurMethod(\"edcba\")"
+        },
+        {
+          "id": "E",
+          "text": "recurMethod(\"edcde\")"
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Consider the following class definitions. public class A { public String message(int i) { return \"A\" + i; } } public class B extends A { public String message(int i) { return \"B\" + i; } } The following code segment appears in a class other than A or B . A obj1 = new B(); // Line 1 B obj2 = new B(); // Line 2 System.out.println(obj1.message(3)); // Line 3 System.out.println(obj2.message(2)); // Line 4 Which of the following best explains the difference, if any, in the behavior of the code segment that will result from removing the message method from class A ?",
+      "title": "remove a method",
+      "options": [
+        {
+          "id": "A",
+          "text": "The statement in line 3 will cause a compiler error because the message method for obj1 cannot be found."
+        },
+        {
+          "id": "B",
+          "text": "The statement in line 4 will cause a compiler error because the message method for obj2 cannot be found."
+        },
+        {
+          "id": "C",
+          "text": "As a result of the method call in line 3, the message method in class B will be executed instead of the message method in class A ."
+        },
+        {
+          "id": "D",
+          "text": "As a result of the method call in line 4, the message method in class B will be executed instead of the message method in class A ."
+        },
+        {
+          "id": "E",
+          "text": "The behavior of the code segment will remain unchanged."
+        }
+      ],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Hailstone",
+      "title": "Hailstone",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Hailstone",
+      "title": "Hailstone",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Hailstone",
+      "title": "Hailstone",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Game Spinner",
+      "title": "Game Spinner",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Review Collector",
+      "title": "Review Collector",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Review Collector",
+      "title": "Review Collector",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Theater",
+      "title": "Theater",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Theater",
+      "title": "Theater",
+      "options": [],
+      "correctAnswer": "",
+      "unit": ""
+    }
+  ]
+}
