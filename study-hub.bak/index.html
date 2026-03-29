@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Hub — AP Practice Website</title>
+  <link rel="stylesheet" href="../components/global-nav.css">
+  <link rel="stylesheet" href="css/study-hub.css">
+  <link rel="stylesheet" href="../components/settings-modal.css">
+</head>
+<body>
+
+<!-- Top Nav -->
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="../exam/index.html" class="brand">
+      <span class="brand-mark">AP</span>
+      <span class="brand-title">Practice Website</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../exam/index.html">Mock</a>
+      <a href="../training/index.html">Training</a>
+      <a href="../dashboard/v2/index.html">Dashboard</a>
+      <a class="active" href="#">Study Hub</a>
+      <a href="../ai-tutor/index.html">AI Tutor</a>
+    </nav>
+    <div style="display:flex; gap:12px; align-items:center;">
+      <button class="settings-trigger" onclick="openSettings()" title="模型配置">⚙️</button>
+      <div class="user-avatar"><span class="avatar-text">OC</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- Study Hub — 可分割视图 -->
+<main class="study-hub" id="studyHub">
+
+  <!-- Left: Learning Material (支持 PDF 原生渲染) -->
+  <section class="material-panel" id="materialPanel">
+    <div class="material-header">
+      <h2>📚 学习材料</h2>
+      <div class="material-status" id="material-status">未加载</div>
+    </div>
+
+    <!-- Upload Area -->
+    <div class="upload-area" id="upload-area">
+      <div class="upload-icon">📄</div>
+      <div class="upload-text">
+        <strong>拖拽或点击上传</strong>
+        <span>支持图片 (PNG/JPG) 和 PDF</span>
+      </div>
+      <input type="file" id="file-input" accept="image/*,.pdf" style="display:none">
+    </div>
+
+    <!-- Image Preview Area -->
+    <div class="preview-area" id="preview-area" style="display:none;">
+      <img id="preview-image" class="preview-image" src="" alt="学习材料">
+      <div class="preview-controls">
+        <button class="preview-btn" id="zoom-in">🔍+</button>
+        <button class="preview-btn" id="zoom-out">🔍-</button>
+        <button class="preview-btn" id="clear-material">🗑️ 清除</button>
+      </div>
+    </div>
+
+    <!-- PDF Preview Area (原生渲染) -->
+    <div class="pdf-area" id="pdf-area" style="display:none;">
+      <embed id="pdf-embed" type="application/pdf" width="100%" height="100%">
+      <div class="pdf-controls">
+        <button class="preview-btn" id="clear-pdf">🗑️ 清除</button>
+      </div>
+    </div>
+
+    <!-- Context Indicator -->
+    <div class="context-indicator" id="context-indicator" style="display:none;">
+      <span class="context-dot"></span>
+      <span class="context-text">AI 已阅读此材料</span>
+    </div>
+  </section>
+
+  <!-- 拖拽分割线 -->
+  <div class="resizer" id="resizer">
+    <div class="resizer-grip"><span></span><span></span><span></span></div>
+  </div>
+
+  <!-- Right: AI Chat -->
+  <section class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div class="tutor-avatar">
+        <div class="tutor-face">👩‍🏫</div>
+        <div class="tutor-emotion" id="tutor-emotion">😐 中立</div>
+      </div>
+      <div class="tutor-info">
+        <div class="tutor-name">明日香</div>
+        <div class="tutor-role">你的伴读导师</div>
+      </div>
+      <div class="header-actions">
+        <div class="deep-logic-score">
+          <div class="score-label">理解深度</div>
+          <div class="score-value" id="deep-logic-score">0</div>
+        </div>
+        <button class="btn-float-toggle" title="切换为悬浮模式" onclick="enterFloatMode()">
+          ↗️
+        </button>
+      </div>
+    </div>
+
+    <!-- Chat History -->
+    <div class="chat-history" id="chat-history">
+      <div class="system-welcome">
+        <p>👋 欢迎来到多模态伴读学习舱！</p>
+        <p>上传学习材料后，我可以帮你：</p>
+        <ul>
+          <li>👁️ 静默阅读材料内容</li>
+          <li>💬 回答你对材料的疑问</li>
+          <li>🎯 根据材料出题考你</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-bar">
+      <button class="action-btn silent-read" id="silent-read-btn" disabled>
+        👀 让导师看这页
+      </button>
+      <button class="action-btn test-me" id="test-me-btn" disabled>
+        🎯 考考我
+      </button>
+    </div>
+
+    <!-- Input -->
+    <div class="input-panel">
+      <button class="btn-mic" id="btn-mic" title="语音输入">
+        🎤
+      </button>
+      <input type="text" class="chat-input" id="chat-input" placeholder="输入你的问题..." disabled>
+      <button class="send-btn" id="send-btn" disabled>发送 →</button>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== 全局浮动聊天窗口 ===== -->
+<div class="floating-widget" id="floatingWidget">
+  <div class="float-header" id="floatHeader">
+    <div class="tutor-avatar" style="flex-direction:row;gap:8px;align-items:center;">
+      <div class="tutor-face" style="width:32px;height:32px;font-size:1rem;border-width:2px;">👩‍🏫</div>
+      <span class="tutor-name" style="font-size:0.9rem;">明日香</span>
+    </div>
+    <div class="float-controls">
+      <button class="float-ctrl-btn" title="嵌回页面" onclick="exitFloatMode()">↙️</button>
+      <button class="float-ctrl-btn" title="最小化" onclick="minimizeFloat()">—</button>
+    </div>
+  </div>
+  <div class="float-body">
+    <div class="chat-history float-messages" id="float-chat-history"></div>
+    <div class="action-bar">
+      <button class="action-btn silent-read" id="float-silent-read-btn" disabled>👀 让导师看这页</button>
+      <button class="action-btn test-me" id="float-test-me-btn" disabled>🎯 考考我</button>
+    </div>
+    <div class="input-panel">
+      <button class="btn-mic" id="float-btn-mic" title="语音输入">🎤</button>
+      <input type="text" class="chat-input" id="float-chat-input" placeholder="输入你的问题..." disabled>
+      <button class="send-btn" id="float-send-btn" disabled>发送 →</button>
+    </div>
+  </div>
+</div>
+
+<!-- 悬浮球开关 -->
+<button class="floating-ball" id="floatingBall" title="唤醒伴读导师">👩‍🏫</button>
+
+<!-- Settings Modal -->
+<div class="settings-overlay" id="settings-overlay" style="display:none;">
+  <div class="settings-modal">
+    <div class="settings-header">
+      <h2>⚙️ 模型配置</h2>
+      <button class="settings-close" id="settings-close">✕</button>
+    </div>
+    <div class="settings-body">
+      <div class="settings-group">
+        <label>Base URL</label>
+        <input type="text" id="config-base-url" placeholder="https://api.openai.com/v1" spellcheck="false">
+      </div>
+      <div class="settings-group">
+        <label>API Key</label>
+        <div class="key-input-wrapper">
+          <input type="password" id="config-api-key" placeholder="sk-..." spellcheck="false">
+          <button class="key-toggle" id="key-toggle">👁</button>
+        </div>
+      </div>
+      <div class="settings-group">
+        <label>Model ID</label>
+        <input type="text" id="config-model-id" placeholder="gpt-4o / claude-3-5-sonnet / gemini-pro">
+      </div>
+      <div class="settings-group">
+        <label>System Prompt</label>
+        <textarea id="config-system-prompt" rows="4"></textarea>
+      </div>
+      <div class="settings-group">
+        <label>快捷预设</label>
+        <div class="preset-buttons">
+          <button class="preset-btn" data-preset="gemini">🟢 Gemini</button>
+          <button class="preset-btn" data-preset="openai">🔵 OpenAI</button>
+          <button class="preset-btn" data-preset="claude">🟠 Claude</button>
+          <button class="preset-btn" data-preset="deepseek">🟣 DeepSeek</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-footer">
+      <button class="settings-btn secondary" id="settings-reset">恢复默认</button>
+      <button class="settings-btn primary" id="settings-save">💾 保存</button>
+    </div>
+    <div class="settings-status" id="settings-status"></div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="../js/api-config.js"></script>
+<script src="../components/settings-modal.js"></script>
+<script src="js/study-hub.js"></script>
+<script src="../components/global-nav.js"></script>
+</body>
+</html>
